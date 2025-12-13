@@ -1,0 +1,599 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "kitchen-tech-insider",
+  "codename": "KitchenTechChef",
+  "url": "https://kitchentechinsider.com",
+  "niche": "Kitchen Technology",
+  "sub_niche": "Smart Kitchen Appliances & Cooking Technology",
+  "status": "Specialized tech vertical",
+  
+  "archetype": {
+    "primary": "Creator",
+    "secondary": "Sage",
+    "archetype_expression": "The home chef who geeks out about kitchen technology. Equally excited about a perfect sear and the smart thermometer that made it possible. Tests everything in a real kitchen, not a lab. Bridges the gap between food lovers and tech enthusiasts."
+  },
+  
+  "soul": {
+    "one_sentence": "Where culinary passion meets kitchen innovation—technology that makes you a better cook.",
+    "expanded": "Kitchen technology isn't about replacing cooking skill—it's about enhancing it. We're home cooks who happen to love tech, not tech reviewers who occasionally cook. Every review is tested with real recipes. Every guide is written by someone who actually uses these tools to feed their family.",
+    "what_we_are": "Practical kitchen tech education from actual cooks. Reviews tested with real food. Guides that improve your cooking, not just your gadget collection.",
+    "what_we_are_not": "Not spec-sheet reviewers who don't cook. Not gadget collectors. Not pushing expensive tools as necessities. Not forgetting that food comes first."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Culinary excitement",
+    "secondary_emotion": "Practical confidence",
+    "tertiary_emotion": "Discovery joy",
+    "emotional_range": ["excited", "confident", "curious", "satisfied", "capable", "inspired", "practical"],
+    "forbidden_emotions": ["overwhelm", "inadequacy", "FOMO", "buyer's remorse", "confusion"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 40-year-old home cook who started as a food lover and became a kitchen tech enthusiast. Has strong opinions about both knife skills AND smart ovens. Their kitchen is a mix of grandmother's cast iron and the latest smart gadgets—whatever makes great food.",
+    "place": "A well-used home kitchen that's both modern and lived-in. Quality tools (not all expensive). Evidence of actual cooking. Good lighting. The smell of something delicious.",
+    "time_of_day": "Sunday morning—time for a real cooking project, coffee in hand.",
+    "season": "Fall—harvest abundance, comfort food season, time to cook.",
+    "sound": "Sizzling pans, timer beeps, the satisfying chop of a sharp knife.",
+    "texture": "Warm food, cool stainless steel, well-seasoned cast iron.",
+    "smell": "Cooking food—garlic, herbs, roasting meat, fresh bread.",
+    "taste": "The result of good technique enhanced by good tools.",
+    "temperature": "Warm kitchen on a cool day—the heart of the home.",
+    "weather": "Cool enough to want to cook, to make the kitchen the warm center.",
+    "music_genre": "Upbeat but unobtrusive—something to cook to.",
+    "movie": "Chef meets a cooking competition show—passion for food meets technical precision.",
+    "book": "A cookbook that explains both the why and the how, with equipment recommendations that actually matter."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Home Cook Hannah",
+      "age_range": "30-55",
+      "description": "An enthusiastic home cook considering upgrading their kitchen with smart tools. Loves to cook, curious about technology, wants tools that actually improve results—not just gadgets.",
+      "mindset": "Food-first thinker. Skeptical of gimmicks but open to tools that genuinely help. Values quality over quantity.",
+      "goals": ["Cook better food", "Save time on repetitive tasks", "Learn new techniques", "Make informed purchases", "Not waste money on gimmicks"],
+      "pain_points": ["Too many gadgets, unclear which matter", "Reviews by non-cooks", "Expensive tools that don't deliver", "Tech that complicates rather than helps"],
+      "objections": ["Do I really need this?", "Will I actually use it?", "Is this reviewer a real cook?"],
+      "trigger_phrases": ["best smart kitchen", "sous vide for beginners", "smart oven review", "is [gadget] worth it", "kitchen tech guide"]
+    },
+    "secondary_persona": {
+      "name": "Tech-Forward Tom",
+      "description": "Smart home enthusiast extending automation to the kitchen. Knows tech, learning to cook better. Wants integration and efficiency.",
+      "how_they_differ": "Needs integration info, smart home connectivity, automation possibilities"
+    },
+    "tertiary_persona": {
+      "name": "Gift-Giver Grace",
+      "description": "Shopping for a cook in their life. Needs guidance on what's actually useful vs. what will collect dust.",
+      "how_they_differ": "Needs gift guides, price points, 'will they actually use this' guidance"
+    },
+    "anti_persona": {
+      "description": "Someone who wants gadgets for gadget's sake. Those who think tech replaces cooking skill. People who won't actually cook.",
+      "why_not": "We're about better cooking, not more stuff. Technology enhances skill, doesn't replace it."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Clean, appetizing, modern kitchen—where tech and food coexist beautifully",
+    
+    "density": {
+      "description": "Organized like a well-designed kitchen—everything has its place",
+      "content_to_whitespace_ratio": "50% content, 50% space",
+      "section_breathing": "Clear sections, easy scanning, room to breathe",
+      "never": "Never cluttered. Never overwhelming. Never sterile."
+    },
+    
+    "contrast": {
+      "description": "Clean and appetizing. Light mode with warm accents.",
+      "approach": "High readability, food photography pops, tech feels approachable",
+      "drama_level": "Medium—engaging but not overwhelming",
+      "never": "Never dark/moody (food needs to look good). Never clinical."
+    },
+    
+    "motion": {
+      "description": "Quick, functional, responsive—like a well-run kitchen",
+      "speed": "Fast—0.2s-0.3s transitions",
+      "style": "Smooth, efficient, purposeful",
+      "frequency": "Functional only",
+      "purpose": "To indicate interaction, not to decorate",
+      "never": "Never slow. Never bouncy. Never distracting from content."
+    },
+    
+    "texture": {
+      "description": "Clean surfaces with subtle warmth",
+      "elements": ["Subtle shadows", "Clean surfaces", "Warm undertones"],
+      "intensity": "Minimal—let food and products shine",
+      "never": "Never grungy. Never cold. Never competing with imagery."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean rectangles, modern but warm",
+      "border_radius_philosophy": "8-12px—modern, approachable, not harsh",
+      "line_weight": "Medium—clear but not heavy",
+      "never": "Never sharp/harsh. Never overly rounded."
+    },
+    
+    "depth": {
+      "approach": "Subtle elevation for cards and products",
+      "shadow_style": "Soft, warm-tinted shadows",
+      "elevation_levels": "2-3 levels for clear hierarchy",
+      "never": "Never flat. Never extreme depth."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Appetizing hero—food + tech together",
+        "Featured reviews—what's worth buying",
+        "Categories—find what you need",
+        "Latest content—fresh reviews and guides",
+        "Newsletter—cooking tips + tech updates"
+      ],
+      "forbidden_flow": [
+        "Tech-only hero without food",
+        "Spec-heavy presentation",
+        "Aggressive affiliate pushing"
+      ],
+      "hero_requirements": {
+        "type": "Appetizing, tech-forward, inviting",
+        "content_placement": "Clear value prop, food imagery prominent",
+        "cta_style": "Helpful: 'Find Your Next Tool', 'Browse Reviews', 'Cooking Guides'",
+        "forbidden": ["Stock tech imagery", "No food visible", "Aggressive sales"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Organized grid with featured picks",
+      "featured_treatment": "Editor's picks highlighted",
+      "pagination_style": "Load more or numbered",
+      "forbidden": ["No organization", "Specs-only presentation", "No food context"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column with clear sections",
+      "max_width": "800px",
+      "sidebar_usage": "Sticky quick specs for reviews, none for guides",
+      "related_content_style": "Related tools, complementary guides",
+      "forbidden": ["Spec dumps without context", "No cooking application", "Affiliate overload"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 on wide screens",
+      "preferred_columns": "3 columns for products",
+      "asymmetry_level": "Low—organized and easy to scan",
+      "grid_breaking": "Featured reviews can span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "48px - 80px between major sections",
+      "element_spacing_scale": "4/8/12/16/24/32/48",
+      "rhythm_style": "Organized, appetizing",
+      "breathing_rule": "Room to appreciate both tech and food imagery"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Essential for kitchen use—clean, touch-friendly",
+      "tablet_approach": "Great for recipe following",
+      "breakpoint_behavior": "Smooth transitions"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Efficient organization—find tools and guides quickly",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["Reviews", "Best Of", "Guides", "Smart Kitchen", "Recipes", "About"],
+      "item_naming_style": "Clear, action-oriented",
+      "dropdown_behavior": "Organized dropdowns by category"
+    },
+    "mobile_nav": {
+      "style": "Slide-out drawer",
+      "full_screen": false,
+      "maintains_atmosphere": "Quick access while cooking"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All categories, about, contact"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Clear: Home > Smart Ovens > June Oven Review"
+    },
+    "search": {
+      "prominence": "Prominent",
+      "style": "Search tools, guides, recipes..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "DM Sans",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Modern, friendly, approachable",
+      "weight_range": "500-700",
+      "letter_spacing": "Normal to slight negative",
+      "text_transform": "None"
+    },
+    "body": {
+      "primary_font": "DM Sans",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clear, readable, friendly",
+      "weight": "400, 500 for emphasis",
+      "line_height": "1.6-1.7",
+      "paragraph_spacing": "1.25em"
+    },
+    "accent": {
+      "font": "None—keep it clean",
+      "usage": "N/A",
+      "restraint_rule": "Typography consistency"
+    },
+    "type_scale": {
+      "base_size": "17px",
+      "scale_ratio": "1.25",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem"
+      }
+    },
+    "forbidden_fonts": ["Decorative fonts", "Script fonts", "Cold technical fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light-first (food needs to look appetizing)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#E85D04",
+        "name": "Flame Orange",
+        "usage": "Primary accents, CTAs, highlights",
+        "emotion": "Warmth, cooking, energy, appetite"
+      },
+      "secondary": {
+        "hex": "#2D6A4F",
+        "name": "Herb Green",
+        "usage": "Secondary accents, freshness",
+        "emotion": "Fresh, natural, quality ingredients"
+      },
+      "accent": {
+        "hex": "#1B4332",
+        "name": "Deep Forest",
+        "usage": "Tertiary depth",
+        "max_usage": "Supporting only"
+      },
+      "background_primary": {
+        "hex": "#FFFEF9",
+        "name": "Cream White"
+      },
+      "background_secondary": {
+        "hex": "#F8F6F0",
+        "name": "Warm Gray"
+      },
+      "background_tertiary": {
+        "hex": "#EDE9E0",
+        "name": "Kitchen Counter"
+      },
+      "text_primary": {
+        "hex": "#1A1A1A",
+        "name": "Rich Black",
+        "contrast_ratio": "18:1 against Cream White"
+      },
+      "text_secondary": {
+        "hex": "#4A4A4A",
+        "name": "Charcoal"
+      },
+      "text_muted": {
+        "hex": "#6B6B6B",
+        "name": "Warm Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#2D6A4F",
+      "warning": "#E8A82E",
+      "error": "#C44536",
+      "info": "#3A86A8"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None—clean and appetizing",
+      "forbidden_gradients": ["All gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Cool blues (unappetizing)",
+      "Neon colors",
+      "Harsh clinical white"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Bright, natural, appetizing",
+      "color_treatment": "Warm, vibrant, true-to-life food colors",
+      "mood": "Appetizing, inviting, real kitchen feel",
+      "subjects": ["Food made with the tech", "Tools in use", "Real kitchens", "Cooking process", "Results and dishes"],
+      "forbidden_subjects": ["Tech without food context", "Clinical lab settings", "Stock food imagery", "Empty product shots only"]
+    },
+    "illustration_style": {
+      "approach": "Clean diagrams for how things work",
+      "line_weight": "Medium, clear",
+      "color_usage": "Brand colors",
+      "style_reference": "Recipe illustration style"
+    },
+    "iconography": {
+      "style": "Friendly line icons",
+      "stroke_weight": "2px",
+      "custom_required": false,
+      "icon_library": "Phosphor or Lucide",
+      "forbidden": ["Cold technical icons", "Generic clip art"]
+    },
+    "image_treatment": {
+      "overlays": "None—let food look good",
+      "borders": "Subtle rounded borders",
+      "shapes": "Rounded rectangles",
+      "hover_effects": "Subtle warmth increase"
+    },
+    "sources": {
+      "preferred": ["Original photography with food", "Product in use shots", "Recipe results"],
+      "acceptable": ["Quality food/kitchen stock"],
+      "forbidden": ["Tech-only shots", "Clinical product photos", "No food context"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Cook's Verdict",
+        "description": "Assessment from actual cooking use, not just specs",
+        "usage": "All reviews",
+        "frequency": "Every review"
+      },
+      {
+        "element": "Best For Tag",
+        "description": "Who this tool is actually best for",
+        "usage": "Reviews and comparisons",
+        "frequency": "All product content"
+      },
+      {
+        "element": "Tested Recipes",
+        "description": "What we actually cooked to test this",
+        "usage": "Reviews",
+        "frequency": "All reviews"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Recipe integration",
+        "when_to_use": "When relevant recipes exist"
+      },
+      {
+        "element": "Comparison tables",
+        "when_to_use": "Comparison content"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "Functional elements as needed",
+      "placement": "Where helpful for decisions",
+      "restraint_philosophy": "Help cooks decide, don't overwhelm"
+    },
+    "custom_ui_elements": {
+      "buttons": "Warm, inviting, clear",
+      "cards": "Appetizing imagery prominent, clean info",
+      "dividers": "Subtle, warm",
+      "loading_states": "Simple, unobtrusive",
+      "empty_states": "Helpful suggestions"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Enthusiastic", "Practical", "Food-focused", "Honest", "Helpful", "Experienced"],
+    "tone_spectrum": {
+      "formal_casual": "4/10 - Friendly, conversational",
+      "serious_playful": "4/10 - Enthusiastic but practical",
+      "technical_accessible": "4/10 - Accessible, tech explained simply"
+    },
+    "writing_style": {
+      "sentence_length": "Clear and engaging",
+      "paragraph_length": "Short, scannable",
+      "vocabulary_level": "Cooking terms used naturally, tech explained"
+    },
+    "perspective": "First person (I tested, we recommend) for authenticity",
+    "forbidden_phrases": [
+      "Revolutionary kitchen gadget",
+      "Every home cook needs",
+      "Game-changing technology",
+      "You can't cook without"
+    ],
+    "encouraged_phrases": [
+      "In my testing",
+      "What I actually cooked",
+      "Worth it if you",
+      "Skip this if you",
+      "The honest truth"
+    ],
+    "cta_voice": {
+      "style": "Helpful and clear",
+      "examples": ["See Full Review", "Check Current Price", "View Comparison", "Get the Recipe", "Browse More"],
+      "forbidden_ctas": ["Buy Now!", "Don't Miss Out", "Limited Time"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Tech-only presentation",
+      "No food context",
+      "Spec-dump format",
+      "Aggressive affiliate styling"
+    ],
+    "visual_forbidden": [
+      "Cold, clinical imagery",
+      "Tech without food",
+      "Unappetizing colors",
+      "Stock product photos only"
+    ],
+    "typography_forbidden": [
+      "Cold technical fonts",
+      "Hard to read styles"
+    ],
+    "content_forbidden": [
+      "Reviews without cooking",
+      "Spec sheets without context",
+      "Pushing expensive unnecessarily",
+      "Ignoring cooking application"
+    ],
+    "imagery_forbidden": [
+      "Empty product shots",
+      "Clinical settings",
+      "No food visible",
+      "Unappetizing presentation"
+    ],
+    "interaction_forbidden": [
+      "Aggressive popups",
+      "Misleading affiliate links",
+      "Price manipulation tactics"
+    ],
+    "this_site_specific_forbidden": [
+      "Forgetting food comes first",
+      "Tech for tech's sake",
+      "Reviews by non-cooks",
+      "Ignoring practical cooking use"
+    ],
+    "immediate_rejection_triggers": [
+      "No food in imagery",
+      "Clinical tech presentation",
+      "Obvious non-cook reviewer",
+      "Specs without cooking context"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Product photos only, no food",
+      "Spec sheets without cooking context",
+      "Reviews by people who don't cook",
+      "Aggressive affiliate pushing"
+    ],
+    "what_acceptable_looks_like": [
+      "Food and tech together",
+      "Real cooking tests",
+      "Honest assessments",
+      "But generic presentation"
+    ],
+    "what_perfect_looks_like": [
+      "Makes you hungry AND informed",
+      "Clearly tested by real cooks",
+      "Helps make confident purchase decisions",
+      "Actually improves cooking",
+      "Food always looks appetizing"
+    ],
+    "tests": {
+      "screenshot_test": "Does this make you want to cook?",
+      "swap_test": "Could this be a generic tech review site? (Must fail)",
+      "memory_test": "Did the reader learn what to buy AND how to use it?",
+      "ten_second_test": "Is it clear this is about better cooking?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Serious Eats equipment", "America's Test Kitchen reviews", "Wirecutter kitchen"],
+      "how_we_differ": "More tech-focused while maintaining food-first approach",
+      "what_they_do_wrong": "Either too food-focused or too tech-focused, rarely both",
+      "what_we_do_better": "Bridge between cooking enthusiasm and tech enthusiasm"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "WP Recipe Maker",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">80",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.5s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["smart kitchen", "kitchen gadgets", "sous vide guide", "smart oven review", "kitchen technology"],
+    "secondary_keywords": ["[product] review", "best [kitchen tool]", "is [gadget] worth it", "smart kitchen setup"],
+    "content_pillars": ["Smart Cooking", "Kitchen Appliances", "Cooking Tech", "Buyer's Guides", "How-To Guides"],
+    "schema_types": ["Article", "Product", "Review", "HowTo", "Recipe"],
+    "internal_linking_strategy": "Reviews link to guides. Guides link to best products. Recipes link to tools used.",
+    "content_depth_target": "Complete guides: 2500+, Reviews: 1500+, Quick comparisons: 1000+"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-13",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add recipe integration",
+      "Build kitchen setup planner",
+      "Create comparison tool",
+      "Add video reviews"
+    ],
+    "experiments_to_try": [
+      "Recipe cards for tested products",
+      "Kitchen setup calculator",
+      "Video cooking tests",
+      "Community reviews"
+    ]
+  }
+}
