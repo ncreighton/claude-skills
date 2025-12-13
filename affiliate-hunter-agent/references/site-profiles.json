@@ -1,0 +1,338 @@
+{
+  "owner": {
+    "name": "Nick Creighton",
+    "email": "[UPDATE_EMAIL]",
+    "business_name": "[UPDATE_BUSINESS_NAME]",
+    "tax_id": "[UPDATE_IF_NEEDED]",
+    "payment_email": "[UPDATE_PAYPAL_EMAIL]",
+    "address": {
+      "street": "[UPDATE]",
+      "city": "[UPDATE]",
+      "state": "[UPDATE]",
+      "zip": "[UPDATE]",
+      "country": "United States"
+    },
+    "phone": "[UPDATE]",
+    "social_profiles": {
+      "twitter": "[UPDATE]",
+      "pinterest": "[UPDATE]",
+      "youtube": "[UPDATE]",
+      "instagram": "[UPDATE]"
+    }
+  },
+  "sites": [
+    {
+      "site_id": "witchcraft-beginners",
+      "domain": "witchcraftforbeginners.com",
+      "niche": "witchcraft/spirituality",
+      "niche_keywords": ["witchcraft", "spells", "tarot", "crystals", "pagan", "wicca", "magic", "occult", "divination", "rituals"],
+      "status": "flagship",
+      "estimated_monthly_traffic": "10,000-50,000",
+      "primary_topics": ["beginner spells", "tarot reading", "crystal meanings", "sabbats", "altar setup", "moon phases"],
+      "content_types": ["educational guides", "how-to articles", "product reviews", "spiritual advice"],
+      "monetization_current": ["display ads"],
+      "application_data": {
+        "site_name": "Witchcraft For Beginners",
+        "site_url": "https://witchcraftforbeginners.com",
+        "site_description": "Comprehensive educational resource helping beginners explore witchcraft, spellwork, tarot, and spiritual practices with ethical, grounded guidance. We provide in-depth guides, product recommendations, and community support for those new to the craft.",
+        "primary_category": "Religion & Spirituality",
+        "secondary_category": "Lifestyle",
+        "promotion_methods": ["Content/Blog/Media", "Social Media", "Email Newsletter", "Pinterest"],
+        "traffic_sources": ["Organic Search (70%)", "Pinterest (15%)", "Direct (10%)", "Social (5%)"],
+        "content_frequency": "Weekly",
+        "audience_description": "Women 25-55 interested in spirituality, self-improvement, and alternative practices"
+      },
+      "target_affiliates": {
+        "priority_high": ["crystal suppliers", "tarot deck retailers", "candle makers", "herb suppliers", "spiritual book publishers"],
+        "priority_medium": ["jewelry (spiritual)", "home decor (mystical)", "subscription boxes (witchy)"],
+        "networks_to_target": ["ShareASale", "Amazon Associates", "Etsy Affiliate", "Direct brand partnerships"]
+      }
+    },
+    {
+      "site_id": "smart-home-wizards",
+      "domain": "smarthomewizards.com",
+      "niche": "smart-home/technology",
+      "niche_keywords": ["smart home", "home automation", "IoT", "smart speakers", "security cameras", "smart lighting", "voice assistants"],
+      "status": "active",
+      "estimated_monthly_traffic": "5,000-20,000",
+      "primary_topics": ["smart home setup", "device reviews", "automation guides", "security systems", "voice assistant tips"],
+      "content_types": ["product reviews", "comparison guides", "setup tutorials", "troubleshooting"],
+      "monetization_current": ["display ads"],
+      "application_data": {
+        "site_name": "Smart Home Wizards",
+        "site_url": "https://smarthomewizards.com",
+        "site_description": "Expert guides and reviews for smart home technology, helping homeowners transform their living spaces with the latest home automation devices, security systems, and IoT solutions. We provide unbiased product comparisons and step-by-step setup tutorials.",
+        "primary_category": "Technology & Computing",
+        "secondary_category": "Home & Garden",
+        "promotion_methods": ["Content/Blog/Media", "YouTube", "Email Newsletter"],
+        "traffic_sources": ["Organic Search (75%)", "YouTube (10%)", "Direct (10%)", "Social (5%)"],
+        "content_frequency": "Weekly",
+        "audience_description": "Tech-savvy homeowners 30-55 looking to automate and secure their homes"
+      },
+      "target_affiliates": {
+        "priority_high": ["Amazon (Echo, Ring, smart devices)", "Best Buy", "Home Depot", "Lowes"],
+        "priority_medium": ["individual brand programs (Philips Hue, Nest, Ecobee, Wyze)"],
+        "networks_to_target": ["Amazon Associates", "CJ Affiliate", "ShareASale", "Impact"]
+      }
+    },
+    {
+      "site_id": "ai-action-hub",
+      "domain": "aiinactionhub.com",
+      "niche": "artificial-intelligence/technology",
+      "niche_keywords": ["AI tools", "artificial intelligence", "ChatGPT", "machine learning", "automation", "AI writing", "generative AI"],
+      "status": "active",
+      "estimated_monthly_traffic": "1,000-10,000",
+      "primary_topics": ["AI tool reviews", "prompt engineering", "AI for business", "automation workflows", "AI news"],
+      "content_types": ["tool reviews", "tutorials", "industry analysis", "how-to guides"],
+      "monetization_current": ["display ads"],
+      "application_data": {
+        "site_name": "AI in Action Hub",
+        "site_url": "https://aiinactionhub.com",
+        "site_description": "Practical guides and reviews for AI tools and artificial intelligence applications. We help professionals and businesses leverage AI technology for productivity, content creation, and automation with hands-on tutorials and unbiased tool comparisons.",
+        "primary_category": "Technology & Computing",
+        "secondary_category": "Business",
+        "promotion_methods": ["Content/Blog/Media", "LinkedIn", "Email Newsletter", "Twitter/X"],
+        "traffic_sources": ["Organic Search (65%)", "Social Media (20%)", "Direct (10%)", "Referral (5%)"],
+        "content_frequency": "2-3x Weekly",
+        "audience_description": "Professionals, entrepreneurs, and tech enthusiasts exploring AI tools and applications"
+      },
+      "target_affiliates": {
+        "priority_high": ["AI writing tools (Jasper, Copy.ai, Writesonic)", "ChatGPT Plus", "Midjourney", "automation tools (Zapier, Make)"],
+        "priority_medium": ["hosting providers", "online courses", "productivity SaaS"],
+        "networks_to_target": ["PartnerStack", "Impact", "Direct SaaS programs", "ShareASale"]
+      }
+    },
+    {
+      "site_id": "mythical-archives",
+      "domain": "mythicalarchives.com",
+      "niche": "mythology/education",
+      "niche_keywords": ["mythology", "Greek myths", "Norse mythology", "legends", "folklore", "ancient history", "mythological creatures"],
+      "status": "active",
+      "estimated_monthly_traffic": "5,000-15,000",
+      "primary_topics": ["Greek mythology", "Norse gods", "mythological creatures", "cultural legends", "ancient religions"],
+      "content_types": ["educational articles", "character profiles", "story retellings", "comparative mythology"],
+      "monetization_current": ["display ads"],
+      "application_data": {
+        "site_name": "Mythical Archives",
+        "site_url": "https://mythicalarchives.com",
+        "site_description": "Scholarly yet accessible exploration of world mythology, folklore, and ancient legends. We provide comprehensive guides to mythological figures, stories, and cultural traditions from civilizations around the globe, serving students, educators, and mythology enthusiasts.",
+        "primary_category": "Education",
+        "secondary_category": "Arts & Entertainment",
+        "promotion_methods": ["Content/Blog/Media", "Pinterest", "Email Newsletter"],
+        "traffic_sources": ["Organic Search (80%)", "Pinterest (10%)", "Direct (7%)", "Social (3%)"],
+        "content_frequency": "Weekly",
+        "audience_description": "Students, educators, writers, and mythology enthusiasts of all ages"
+      },
+      "target_affiliates": {
+        "priority_high": ["book retailers (Amazon, Bookshop.org)", "educational platforms", "mythology merchandise"],
+        "priority_medium": ["collectibles", "art prints", "games with mythological themes"],
+        "networks_to_target": ["Amazon Associates", "Bookshop.org Affiliate", "ShareASale", "Etsy"]
+      }
+    },
+    {
+      "site_id": "family-flourish",
+      "domain": "family-flourish.com",
+      "niche": "family/parenting/wellness",
+      "niche_keywords": ["family wellness", "parenting", "children's health", "family activities", "parent tips", "child development"],
+      "status": "active",
+      "estimated_monthly_traffic": "1,000-5,000",
+      "primary_topics": ["parenting advice", "family activities", "child development", "family health", "relationship tips"],
+      "content_types": ["parenting guides", "activity ideas", "product recommendations", "wellness tips"],
+      "monetization_current": ["display ads"],
+      "application_data": {
+        "site_name": "Family Flourish",
+        "site_url": "https://family-flourish.com",
+        "site_description": "Nurturing resource for modern families seeking practical parenting advice, wellness tips, and meaningful family activities. We support parents in raising healthy, happy children while maintaining strong family bonds and personal wellbeing.",
+        "primary_category": "Family & Parenting",
+        "secondary_category": "Health & Wellness",
+        "promotion_methods": ["Content/Blog/Media", "Pinterest", "Facebook", "Email Newsletter"],
+        "traffic_sources": ["Organic Search (60%)", "Pinterest (25%)", "Social (10%)", "Direct (5%)"],
+        "content_frequency": "Weekly",
+        "audience_description": "Parents (primarily mothers) 25-45 with children ages 0-12"
+      },
+      "target_affiliates": {
+        "priority_high": ["baby/kids products (Amazon)", "educational toys", "family subscription boxes", "parenting books"],
+        "priority_medium": ["family travel", "organic/natural products", "meal delivery services"],
+        "networks_to_target": ["Amazon Associates", "ShareASale", "CJ Affiliate", "Direct brand partnerships"]
+      }
+    },
+    {
+      "site_id": "bullet-journals",
+      "domain": "bulletjournals.net",
+      "niche": "productivity/stationery",
+      "niche_keywords": ["bullet journal", "bujo", "journaling", "planner", "productivity", "organization", "stationery"],
+      "status": "active",
+      "estimated_monthly_traffic": "2,000-8,000",
+      "primary_topics": ["bullet journal setup", "spread ideas", "supplies reviews", "productivity systems", "creative journaling"],
+      "content_types": ["tutorials", "inspiration galleries", "supply reviews", "printables"],
+      "monetization_current": ["display ads"],
+      "application_data": {
+        "site_name": "Bullet Journals",
+        "site_url": "https://bulletjournals.net",
+        "site_description": "Complete resource for bullet journal enthusiasts featuring setup guides, spread inspiration, supply reviews, and productivity tips. We help journalers at all skill levels create beautiful, functional planning systems that boost organization and creativity.",
+        "primary_category": "Arts & Crafts",
+        "secondary_category": "Lifestyle",
+        "promotion_methods": ["Content/Blog/Media", "Pinterest", "Instagram", "Email Newsletter"],
+        "traffic_sources": ["Pinterest (40%)", "Organic Search (40%)", "Instagram (10%)", "Direct (10%)"],
+        "content_frequency": "Weekly",
+        "audience_description": "Creative individuals 18-45 interested in journaling, planning, and organization"
+      },
+      "target_affiliates": {
+        "priority_high": ["stationery brands (Leuchtturm, Archer & Olive)", "pen manufacturers", "Amazon (journals, supplies)", "craft stores"],
+        "priority_medium": ["digital planning apps", "online courses", "subscription boxes (stationery)"],
+        "networks_to_target": ["Amazon Associates", "ShareASale", "Rakuten", "Direct brand partnerships"]
+      }
+    },
+    {
+      "site_id": "site-7",
+      "domain": "[SITE_7_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE - 2-3 sentences describing the site]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-8",
+      "domain": "[SITE_8_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-9",
+      "domain": "[SITE_9_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-10",
+      "domain": "[SITE_10_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-11",
+      "domain": "[SITE_11_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-12",
+      "domain": "[SITE_12_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-13",
+      "domain": "[SITE_13_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-14",
+      "domain": "[SITE_14_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-15",
+      "domain": "[SITE_15_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-16",
+      "domain": "[SITE_16_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    },
+    {
+      "site_id": "site-17",
+      "domain": "[SITE_17_DOMAIN]",
+      "niche": "[NICHE]",
+      "status": "active",
+      "application_data": {
+        "site_name": "[UPDATE]",
+        "site_url": "[UPDATE]",
+        "site_description": "[UPDATE]",
+        "primary_category": "[UPDATE]",
+        "secondary_category": "[UPDATE]"
+      }
+    }
+  ],
+  "common_form_field_mappings": {
+    "website_url_fields": ["Website URL", "Site URL", "Your Website", "Blog URL", "URL", "Web Address"],
+    "website_name_fields": ["Website Name", "Site Name", "Blog Name", "Company Name", "Business Name"],
+    "description_fields": ["Website Description", "Site Description", "About Your Site", "Description", "Tell us about your website"],
+    "category_fields": ["Category", "Niche", "Primary Category", "Website Category", "Content Type"],
+    "traffic_fields": ["Monthly Traffic", "Monthly Visitors", "Page Views", "Unique Visitors", "Traffic Volume"],
+    "promotion_fields": ["Promotion Methods", "How will you promote", "Marketing Channels", "Traffic Sources"]
+  }
+}
