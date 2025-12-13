@@ -1,0 +1,637 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "manifest-and-align",
+  "codename": "ManifestLight",
+  "url": "https://manifestandalign.com",
+  "niche": "Modern Spirituality",
+  "sub_niche": "Manifestation, Law of Attraction & Mindful Living",
+  "status": "Spirituality vertical (distinct from Witchcraft)",
+  
+  "archetype": {
+    "primary": "Magician",
+    "secondary": "Caregiver",
+    "archetype_expression": "The grounded spiritual guide who bridges ancient wisdom and modern life. Not woo-woo fluff—practical spiritual tools that create real change. Believes in manifestation but also in action. Warm, accessible, and firmly rooted in helping people create better lives."
+  },
+  
+  "soul": {
+    "one_sentence": "Where spiritual practice meets practical action—manifestation that actually works in your real life.",
+    "expanded": "Spirituality isn't about escaping reality—it's about enhancing it. We combine time-tested practices with modern understanding to help you align your inner world with your outer goals. No magical thinking without action. No shame about wanting abundance. Just practical spiritual tools for people who want to create meaningful change.",
+    "what_we_are": "Practical spirituality for modern seekers. Grounded manifestation techniques. Psychology-informed practices. Real results, not just good vibes.",
+    "what_we_are_not": "Not toxic positivity. Not magical thinking without action. Not shaming material desires. Not cultish or guru-worshipping. Not 'law of attraction' as excuse to blame victims."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Hopeful empowerment",
+    "secondary_emotion": "Grounded calm",
+    "tertiary_emotion": "Expansive possibility",
+    "emotional_range": ["hopeful", "empowered", "calm", "centered", "inspired", "capable", "aligned", "abundant"],
+    "forbidden_emotions": ["shame", "inadequacy", "spiritual bypassing", "guilt about desires", "fear-based urgency"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 42-year-old life coach with both business success and deep spiritual practice. Meditates daily and also reads financial statements. Quotes both Buddha and Brené Brown. Warm, grounded, and genuinely wants to see you succeed on YOUR terms.",
+    "place": "A light-filled modern meditation room with clean lines and natural materials. Fresh plants, quality cushions, morning light. Neither sterile minimalism nor cluttered new-age shop. Calm, elevated, intentional.",
+    "time_of_day": "Sunrise—new beginnings, fresh energy, quiet potential.",
+    "season": "Spring—renewal, growth, aligned with nature's expansion.",
+    "sound": "Gentle ambient music, wind chimes in the distance, peaceful silence.",
+    "texture": "Smooth crystals, soft natural fabrics, warm wood, cool water.",
+    "smell": "Light sage (not overwhelming), fresh air, subtle florals, clean space.",
+    "taste": "Herbal tea, clean water, nourishing simplicity.",
+    "temperature": "Perfectly comfortable—warm enough to relax, cool enough to stay alert.",
+    "weather": "Clear morning with soft light—perfect for setting intentions.",
+    "music_genre": "Ambient meditation music, nature sounds, gentle acoustic.",
+    "movie": "The Secret meets a grounded wellness documentary—inspiration with substance.",
+    "book": "A practical spirituality guide that combines ancient wisdom with modern psychology and actionable steps."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Seeking Sarah",
+      "age_range": "28-50",
+      "description": "A professional woman interested in personal development who's curious about spirituality but skeptical of woo-woo content. Wants practical tools, not just good vibes. Interested in manifestation but needs it grounded in action.",
+      "mindset": "Open but discerning. Wants results, not just rituals. Values both inner work and outer action. Probably has tried meditation apps.",
+      "goals": ["Create positive life changes", "Develop spiritual practice", "Manifest specific goals", "Find inner peace AND outer success", "Integrate spirituality into busy life"],
+      "pain_points": ["Too much woo-woo content", "Spiritual bypassing everywhere", "Can't find grounded guidance", "Guilt about wanting material success", "Practices that don't fit real life"],
+      "objections": ["Is this just wishful thinking?", "Do I have to give up my ambitions?", "Is this cultural appropriation?", "Will this actually change anything?"],
+      "trigger_phrases": ["how to manifest", "law of attraction", "morning routine spiritual", "meditation for beginners", "journaling prompts", "vision board"]
+    },
+    "secondary_persona": {
+      "name": "Deepening Diana",
+      "description": "Someone already on a spiritual path looking to go deeper. Wants advanced practices, different perspectives, and continued growth.",
+      "how_they_differ": "Needs depth over basics, integration over introduction"
+    },
+    "tertiary_persona": {
+      "name": "Skeptical Sam",
+      "description": "Curious but very skeptical. Needs evidence, psychology backing, and practical framing. Open to trying things that make logical sense.",
+      "how_they_differ": "Needs science/psychology framing, practical benefits emphasized"
+    },
+    "anti_persona": {
+      "description": "Toxic positivity promoters. Those who want to blame victims for their circumstances. People seeking to bypass real emotional work. Guru-seekers looking for someone to follow blindly.",
+      "why_not": "We don't enable spiritual bypassing. We encourage critical thinking. We're guides, not gurus."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Light, elevated, modern—spirituality for the contemporary seeker",
+    
+    "density": {
+      "description": "Spacious like a clear mind. Breathing room everywhere.",
+      "content_to_whitespace_ratio": "35% content, 65% space",
+      "section_breathing": "Very generous gaps, calm pacing",
+      "never": "Never cluttered. Never busy. Never overwhelming."
+    },
+    
+    "contrast": {
+      "description": "Soft, luminous, elevated. Light mode with gentle warmth.",
+      "approach": "Light backgrounds, soft contrast, easy on eyes",
+      "drama_level": "Low—peaceful, not dramatic",
+      "never": "Never harsh. Never dark/moody. Never stark."
+    },
+    
+    "motion": {
+      "description": "Slow, gentle, flowing—like breath",
+      "speed": "Slow—0.5s-0.8s transitions. Meditative pace.",
+      "style": "Soft fades, gentle reveals, flowing",
+      "frequency": "Rare and meaningful",
+      "purpose": "To create peaceful experience",
+      "never": "Never fast. Never bouncy. Never attention-grabbing."
+    },
+    
+    "texture": {
+      "description": "Soft, natural, minimal",
+      "elements": ["Subtle gradients", "Soft shadows", "Natural warmth"],
+      "intensity": "Very subtle—felt not seen",
+      "never": "Never busy. Never harsh. Never competing with calm."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Soft, rounded, organic",
+      "border_radius_philosophy": "12-20px—soft, welcoming, gentle",
+      "line_weight": "Thin, delicate",
+      "never": "Never sharp. Never aggressive geometry."
+    },
+    
+    "depth": {
+      "approach": "Subtle, floating, ethereal",
+      "shadow_style": "Very soft, barely there, warm-tinted",
+      "elevation_levels": "2 levels: base, elevated",
+      "never": "Never harsh shadows. Never heavy."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Peaceful hero—invitation to transformation",
+        "Featured practices—start your journey",
+        "Content categories—find what you need",
+        "Free resources—immediate value",
+        "Newsletter—weekly guidance"
+      ],
+      "forbidden_flow": [
+        "Aggressive sales",
+        "Guru worship imagery",
+        "Fear-based messaging"
+      ],
+      "hero_requirements": {
+        "type": "Peaceful, inviting, light-filled",
+        "content_placement": "Centered, spacious, simple",
+        "cta_style": "Gentle invitation: 'Begin Your Practice', 'Explore Guidance', 'Start Here'",
+        "forbidden": ["Urgent messaging", "Guru imagery", "Fear tactics"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Spacious grid, easy browsing",
+      "featured_treatment": "Gentle highlighting",
+      "pagination_style": "Load more, gentle",
+      "forbidden": ["Dense grids", "Overwhelming options", "Aggressive sales"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column, very spacious",
+      "max_width": "680px—intimate reading",
+      "sidebar_usage": "None—focused reading",
+      "related_content_style": "Gentle suggestions, 2-3 max",
+      "forbidden": ["Dense content", "Aggressive CTAs", "Interruptions"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "3 on wide screens",
+      "preferred_columns": "2 columns for spacious feel",
+      "asymmetry_level": "Low—balanced, harmonious",
+      "grid_breaking": "Featured content can center"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "80px - 140px between sections",
+      "element_spacing_scale": "8/16/24/32/48/64/96/128",
+      "rhythm_style": "Generous, peaceful",
+      "breathing_rule": "When in doubt, add more space"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Equally spacious, calm experience",
+      "tablet_approach": "Maintain spaciousness",
+      "breakpoint_behavior": "Gentle, smooth transitions"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Simple, clear—find peace quickly",
+    "primary_nav": {
+      "max_items": 5,
+      "required_items": ["Practices", "Manifestation", "Meditation", "Journal", "About"],
+      "item_naming_style": "Simple, inviting",
+      "dropdown_behavior": "Simple dropdowns, not overwhelming"
+    },
+    "mobile_nav": {
+      "style": "Full-screen overlay, peaceful",
+      "full_screen": true,
+      "maintains_atmosphere": "Peaceful, intentional"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All categories, resources, about"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Subtle: Home > Meditation > Morning Practice"
+    },
+    "search": {
+      "prominence": "Present but subtle",
+      "style": "Search practices, guidance..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Cormorant Garamond",
+      "fallback_stack": "Georgia, 'Times New Roman', serif",
+      "personality": "Elegant, timeless, elevated",
+      "weight_range": "400-600",
+      "letter_spacing": "0.02em - slightly expanded",
+      "text_transform": "None"
+    },
+    "body": {
+      "primary_font": "Nunito Sans",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Warm, readable, friendly",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.8—very readable",
+      "paragraph_spacing": "1.5em between paragraphs"
+    },
+    "accent": {
+      "font": "Cormorant Garamond Italic",
+      "usage": "Pull quotes, affirmations, special emphasis",
+      "restraint_rule": "Meaningful moments only"
+    },
+    "type_scale": {
+      "base_size": "18px",
+      "scale_ratio": "1.25",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (18px)",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem",
+        "4xl": "3.052rem"
+      }
+    },
+    "forbidden_fonts": ["Heavy sans-serif", "Cold technical fonts", "Overly decorative fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light (airy, elevated)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#C9A87C",
+        "name": "Golden Light",
+        "usage": "Primary accents, warmth",
+        "emotion": "Abundance, warmth, light, possibility"
+      },
+      "secondary": {
+        "hex": "#8B9A8B",
+        "name": "Sage Green",
+        "usage": "Balance, grounding, secondary",
+        "emotion": "Growth, nature, balance, peace"
+      },
+      "accent": {
+        "hex": "#D4A5A5",
+        "name": "Soft Rose",
+        "usage": "Gentle highlight, love/heart elements",
+        "max_usage": "Sparse—special emphasis"
+      },
+      "background_primary": {
+        "hex": "#FDFBF7",
+        "name": "Soft Cream"
+      },
+      "background_secondary": {
+        "hex": "#F8F5F0",
+        "name": "Warm White"
+      },
+      "background_tertiary": {
+        "hex": "#EDE9E1",
+        "name": "Light Sand"
+      },
+      "text_primary": {
+        "hex": "#3D3D3D",
+        "name": "Soft Black",
+        "contrast_ratio": "10:1 against Soft Cream"
+      },
+      "text_secondary": {
+        "hex": "#5C5C5C",
+        "name": "Warm Gray"
+      },
+      "text_muted": {
+        "hex": "#8A8A8A",
+        "name": "Soft Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#8B9A8B",
+      "warning": "#D4A87C",
+      "error": "#C48B8B",
+      "info": "#8BA8C4"
+    },
+    
+    "gradient_rules": {
+      "allowed": true,
+      "type": "Very subtle, luminous",
+      "subtlety": "Barely perceptible",
+      "approved_gradients": [
+        "Soft radial glow",
+        "Subtle warm to warmer"
+      ],
+      "forbidden_gradients": ["Any obvious gradient", "Cool gradients", "Dark gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Dark/moody colors",
+      "Neon colors",
+      "Cold blues",
+      "Harsh contrast colors"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Soft, natural, luminous",
+      "color_treatment": "Light, airy, warm",
+      "mood": "Peaceful, aspirational, real",
+      "subjects": ["Meditation moments", "Nature light", "Journaling hands", "Peaceful spaces", "Diverse spiritual practice"],
+      "forbidden_subjects": ["Guru worship", "Cultural appropriation", "Perfect people only", "Unattainable lifestyles", "Stock spiritual clichés"]
+    },
+    "illustration_style": {
+      "approach": "Delicate line drawings, minimal",
+      "line_weight": "Thin, gentle",
+      "color_usage": "Soft, minimal",
+      "style_reference": "Modern spiritual illustration, botanical"
+    },
+    "iconography": {
+      "style": "Soft, minimal line icons",
+      "stroke_weight": "1.5px, delicate",
+      "custom_required": false,
+      "icon_library": "Soft/rounded style",
+      "forbidden": ["Heavy icons", "Complex icons", "New-age cliché icons"]
+    },
+    "image_treatment": {
+      "overlays": "Soft light overlay if needed",
+      "borders": "None or very subtle",
+      "shapes": "Soft rounded shapes",
+      "hover_effects": "Very subtle brightness"
+    },
+    "sources": {
+      "preferred": ["Authentic spiritual practice photography", "Diverse representation", "Natural light"],
+      "acceptable": ["Quality ethereal stock"],
+      "forbidden": ["Appropriative imagery", "Guru worship", "Inauthentic spirituality"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Practice Time Indicator",
+        "description": "How long the practice takes",
+        "usage": "All practice content",
+        "frequency": "Every practice"
+      },
+      {
+        "element": "Journal Prompts",
+        "description": "Reflective questions for deeper work",
+        "usage": "Most content",
+        "frequency": "Where appropriate"
+      },
+      {
+        "element": "Affirmation Callout",
+        "description": "Beautifully styled affirmation/mantra",
+        "usage": "Throughout content",
+        "frequency": "Thoughtfully placed"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Meditation audio",
+        "when_to_use": "Guided meditations"
+      },
+      {
+        "element": "Printable worksheets",
+        "when_to_use": "Journaling practices"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": 2-3,
+      "placement": "Where they enhance, not interrupt",
+      "restraint_philosophy": "Peace over busyness"
+    },
+    "custom_ui_elements": {
+      "buttons": "Soft, inviting, rounded",
+      "cards": "Light, airy, spacious",
+      "dividers": "Delicate lines or gentle space",
+      "loading_states": "Breathing animation, peaceful",
+      "empty_states": "Encouraging, peaceful"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Warm", "Grounded", "Empowering", "Inclusive", "Practical", "Hopeful"],
+    "tone_spectrum": {
+      "formal_casual": "4/10 - Warm, conversational",
+      "serious_playful": "5/10 - Sincere with lightness",
+      "technical_accessible": "3/10 - Always accessible"
+    },
+    "writing_style": {
+      "sentence_length": "Varied, often short for peace",
+      "paragraph_length": "Short, breathing",
+      "vocabulary_level": "Accessible, spiritual terms explained"
+    },
+    "perspective": "Second person (you) and first person plural (we're all on this journey)",
+    "forbidden_phrases": [
+      "You attracted that to yourself",
+      "Just think positive",
+      "Raise your vibration or else",
+      "High-vibe only",
+      "The universe will provide (without action)"
+    ],
+    "encouraged_phrases": [
+      "Consider this",
+      "What if you",
+      "Practice noticing",
+      "It's okay to",
+      "Both/and (not either/or)"
+    ],
+    "cta_voice": {
+      "style": "Gentle invitation",
+      "examples": ["Begin This Practice", "Explore Deeper", "Download the Guide", "Start Your Morning Ritual"],
+      "forbidden_ctas": ["Transform NOW", "Don't Stay Stuck", "Limited Spots"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Busy, cluttered layouts",
+      "Aggressive sales funnels",
+      "Guru worship imagery",
+      "Dark/moody aesthetics"
+    ],
+    "visual_forbidden": [
+      "Dark themes",
+      "Harsh colors",
+      "New-age clichés",
+      "Culturally appropriative imagery"
+    ],
+    "typography_forbidden": [
+      "Heavy/aggressive fonts",
+      "Cold technical fonts",
+      "New-age script overuse"
+    ],
+    "content_forbidden": [
+      "Victim blaming",
+      "Toxic positivity",
+      "Fear-based urgency",
+      "Guru worship",
+      "Spiritual bypassing"
+    ],
+    "imagery_forbidden": [
+      "Cultural appropriation",
+      "Guru worship",
+      "Unattainable perfection",
+      "Stock spiritual clichés"
+    ],
+    "interaction_forbidden": [
+      "Aggressive popups",
+      "Fear-based CTAs",
+      "Scarcity manipulation"
+    ],
+    "this_site_specific_forbidden": [
+      "Blaming people for their struggles",
+      "Magical thinking without action",
+      "Shaming material desires",
+      "Appropriating closed practices",
+      "Creating guru dependency"
+    ],
+    "immediate_rejection_triggers": [
+      "Toxic positivity messaging",
+      "Guru worship imagery",
+      "Fear-based urgency",
+      "Cultural appropriation",
+      "Victim blaming language"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Toxic positivity everywhere",
+      "Appropriative imagery",
+      "Guru worship",
+      "Fear-based manipulation",
+      "New-age visual clichés"
+    ],
+    "what_acceptable_looks_like": [
+      "Peaceful aesthetic",
+      "Grounded content",
+      "Respectful approach",
+      "But generic spiritual site feel"
+    ],
+    "what_perfect_looks_like": [
+      "Visitor feels immediately calm",
+      "Content is grounded AND inspiring",
+      "Practical tools, not just vibes",
+      "Diverse and inclusive",
+      "Would recommend to skeptical friend"
+    ],
+    "tests": {
+      "screenshot_test": "Does this feel peaceful AND credible?",
+      "swap_test": "Could this be confused with toxic positivity sites? (Must fail)",
+      "memory_test": "Did reader receive practical, actionable guidance?",
+      "ten_second_test": "Is it clear this is grounded, not woo-woo?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Gabby Bernstein", "The Daily Shine", "Generic manifestation sites"],
+      "how_we_differ": "More grounded, action-inclusive, psychology-informed",
+      "what_they_do_wrong": "Too woo-woo, toxic positivity, magical thinking",
+      "what_we_do_better": "Practical + spiritual, inclusive, no bypassing"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["manifestation", "law of attraction", "morning routine", "meditation for beginners", "journaling prompts"],
+    "secondary_keywords": ["how to manifest", "affirmations", "vision board", "spiritual practice", "mindfulness"],
+    "content_pillars": ["Manifestation", "Meditation", "Journaling", "Morning Routines", "Mindful Living"],
+    "schema_types": ["Article", "HowTo", "FAQPage"],
+    "internal_linking_strategy": "Practices link to deeper resources. Routines link to individual practices. Everything builds on foundations.",
+    "content_depth_target": "Complete guides: 2500+, Practices: 1200+, Prompts/tools: 800+"
+  },
+  
+  "═══ CRITICAL DIFFERENTIATION ═══": "────────────────────────────────────────",
+  
+  "differentiation_from_witchcraft": {
+    "manifest_align_is": [
+      "Light aesthetic (vs Witchcraft's dark)",
+      "Modern/contemporary (vs ancient/traditional)",
+      "Psychology-informed (vs practice-based)",
+      "Non-religious spiritual (vs craft tradition)",
+      "Manifestation focused (vs spell/ritual focused)"
+    ],
+    "visual_differences": [
+      "Light/airy backgrounds (vs dark/moody)",
+      "Soft gold/sage colors (vs deep purple/gold)",
+      "Sans-serif friendly body (vs serif mystical)",
+      "Minimal texture (vs parchment/aged)",
+      "Modern photography (vs candlelit/mystical)"
+    ],
+    "content_differences": [
+      "Journaling over spell-casting",
+      "Affirmations over incantations",
+      "Mindfulness over ritual",
+      "Psychology backing over tradition",
+      "Modern language over craft terminology"
+    ]
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-13",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add guided meditation audio",
+      "Create printable journal worksheets",
+      "Build morning routine generator",
+      "Develop email course series"
+    ],
+    "experiments_to_try": [
+      "Audio meditations embedded",
+      "Interactive journal prompts",
+      "Community shares",
+      "Vision board tool"
+    ]
+  }
+}
