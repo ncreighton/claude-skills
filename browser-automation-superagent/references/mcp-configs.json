@@ -1,0 +1,279 @@
+{
+  "configurations": {
+    "browserbase_standard": {
+      "description": "Cloud browser automation with Browserbase and Stagehand",
+      "recommended_for": ["production", "stealth_mode", "session_persistence"],
+      "config": {
+        "mcpServers": {
+          "browserbase": {
+            "command": "npx",
+            "args": ["@browserbasehq/mcp-server-browserbase"],
+            "env": {
+              "BROWSERBASE_API_KEY": "${BROWSERBASE_API_KEY}",
+              "BROWSERBASE_PROJECT_ID": "${BROWSERBASE_PROJECT_ID}"
+            }
+          }
+        }
+      },
+      "setup_steps": [
+        "1. Sign up at https://browserbase.com",
+        "2. Get API key from dashboard",
+        "3. Create a project and get project ID",
+        "4. Set environment variables"
+      ]
+    },
+    
+    "browserbase_with_claude": {
+      "description": "Browserbase with Claude as the AI model for Stagehand",
+      "recommended_for": ["complex_navigation", "natural_language_commands"],
+      "config": {
+        "mcpServers": {
+          "browserbase": {
+            "command": "npx",
+            "args": [
+              "@browserbasehq/mcp-server-browserbase",
+              "--modelName", "anthropic/claude-sonnet-4.5",
+              "--modelApiKey", "${ANTHROPIC_API_KEY}"
+            ],
+            "env": {
+              "BROWSERBASE_API_KEY": "${BROWSERBASE_API_KEY}",
+              "BROWSERBASE_PROJECT_ID": "${BROWSERBASE_PROJECT_ID}"
+            }
+          }
+        }
+      }
+    },
+    
+    "browserbase_stealth": {
+      "description": "Maximum stealth mode for bot-protected sites",
+      "recommended_for": ["scraping", "bot_detection_bypass"],
+      "config": {
+        "mcpServers": {
+          "browserbase": {
+            "command": "npx",
+            "args": [
+              "@browserbasehq/mcp-server-browserbase",
+              "--proxies",
+              "--advancedStealth"
+            ],
+            "env": {
+              "BROWSERBASE_API_KEY": "${BROWSERBASE_API_KEY}",
+              "BROWSERBASE_PROJECT_ID": "${BROWSERBASE_PROJECT_ID}"
+            }
+          }
+        }
+      }
+    },
+    
+    "browserbase_persistent": {
+      "description": "Persistent sessions across automation runs",
+      "recommended_for": ["login_persistence", "multi_day_workflows"],
+      "config": {
+        "mcpServers": {
+          "browserbase": {
+            "command": "npx",
+            "args": [
+              "@browserbasehq/mcp-server-browserbase",
+              "--persist",
+              "--contextId", "${CONTEXT_ID}"
+            ],
+            "env": {
+              "BROWSERBASE_API_KEY": "${BROWSERBASE_API_KEY}",
+              "BROWSERBASE_PROJECT_ID": "${BROWSERBASE_PROJECT_ID}"
+            }
+          }
+        }
+      }
+    },
+    
+    "browser_mcp_local": {
+      "description": "Local browser automation using existing Chrome profile",
+      "recommended_for": ["personal_automation", "existing_logins", "fast_execution"],
+      "config": {
+        "mcpServers": {
+          "browser-mcp": {
+            "command": "npx",
+            "args": ["@anthropic/browser-mcp"]
+          }
+        }
+      },
+      "notes": [
+        "Uses your existing Chrome installation",
+        "All existing logins are preserved",
+        "Your real browser fingerprint (avoids detection)",
+        "Requires Chrome to be installed"
+      ]
+    },
+    
+    "playwright_standard": {
+      "description": "Full Playwright automation for testing and development",
+      "recommended_for": ["testing", "development", "scripted_automation"],
+      "config": {
+        "mcpServers": {
+          "playwright": {
+            "command": "npx",
+            "args": ["@anthropic/mcp-server-playwright"]
+          }
+        }
+      },
+      "notes": [
+        "Clean browser sessions",
+        "Full Playwright API access",
+        "Multiple browser engines available"
+      ]
+    },
+    
+    "playwright_headed": {
+      "description": "Playwright with visible browser window",
+      "recommended_for": ["debugging", "visual_verification"],
+      "config": {
+        "mcpServers": {
+          "playwright": {
+            "command": "npx",
+            "args": [
+              "@anthropic/mcp-server-playwright",
+              "--headless=false"
+            ]
+          }
+        }
+      }
+    },
+    
+    "skyvern_ai_vision": {
+      "description": "AI-vision based automation for complex sites",
+      "recommended_for": ["captchas", "dynamic_layouts", "complex_forms"],
+      "config": {
+        "mcpServers": {
+          "skyvern": {
+            "command": "npx",
+            "args": ["skyvern-mcp"],
+            "env": {
+              "SKYVERN_API_KEY": "${SKYVERN_API_KEY}"
+            }
+          }
+        }
+      },
+      "notes": [
+        "Uses computer vision + LLM understanding",
+        "No selectors needed",
+        "Adapts to changing layouts",
+        "CAPTCHA solving support"
+      ]
+    },
+    
+    "multi_browser_combined": {
+      "description": "Multiple browser automation servers for different use cases",
+      "recommended_for": ["complex_workflows", "fallback_strategies"],
+      "config": {
+        "mcpServers": {
+          "browserbase": {
+            "command": "npx",
+            "args": ["@browserbasehq/mcp-server-browserbase"],
+            "env": {
+              "BROWSERBASE_API_KEY": "${BROWSERBASE_API_KEY}",
+              "BROWSERBASE_PROJECT_ID": "${BROWSERBASE_PROJECT_ID}"
+            }
+          },
+          "browser-mcp": {
+            "command": "npx",
+            "args": ["@anthropic/browser-mcp"]
+          },
+          "playwright": {
+            "command": "npx",
+            "args": ["@anthropic/mcp-server-playwright"]
+          }
+        }
+      },
+      "strategy": {
+        "primary": "browser-mcp (for authenticated tasks with existing logins)",
+        "secondary": "browserbase (for stealth/cloud operations)",
+        "fallback": "playwright (for testing/development)"
+      }
+    }
+  },
+  
+  "environment_variables": {
+    "BROWSERBASE_API_KEY": {
+      "description": "API key from Browserbase dashboard",
+      "required_for": ["browserbase_*"],
+      "get_from": "https://browserbase.com/dashboard"
+    },
+    "BROWSERBASE_PROJECT_ID": {
+      "description": "Project ID from Browserbase",
+      "required_for": ["browserbase_*"],
+      "get_from": "https://browserbase.com/dashboard/projects"
+    },
+    "ANTHROPIC_API_KEY": {
+      "description": "Anthropic API key for Claude-powered navigation",
+      "required_for": ["browserbase_with_claude"],
+      "get_from": "https://console.anthropic.com/"
+    },
+    "SKYVERN_API_KEY": {
+      "description": "API key for Skyvern AI-vision automation",
+      "required_for": ["skyvern_*"],
+      "get_from": "https://skyvern.com"
+    },
+    "CONTEXT_ID": {
+      "description": "Browserbase context ID for persistent sessions",
+      "required_for": ["browserbase_persistent"],
+      "notes": "Create via Browserbase API or dashboard"
+    }
+  },
+  
+  "tool_reference": {
+    "browserbase": {
+      "navigation": [
+        "browserbase_navigate(url)",
+        "browserbase_go_back()",
+        "browserbase_go_forward()",
+        "browserbase_refresh()"
+      ],
+      "interaction": [
+        "browserbase_click(element_description)",
+        "browserbase_fill(element_description, value)",
+        "browserbase_select(element_description, option)",
+        "browserbase_hover(element_description)",
+        "browserbase_scroll(direction, amount)"
+      ],
+      "extraction": [
+        "browserbase_extract(schema)",
+        "browserbase_get_text(selector)",
+        "browserbase_get_html()",
+        "browserbase_screenshot()"
+      ],
+      "session": [
+        "browserbase_create_session(options)",
+        "browserbase_close_session()",
+        "browserbase_list_sessions()"
+      ]
+    },
+    "playwright": {
+      "navigation": [
+        "playwright_navigate(url)",
+        "playwright_go_back()",
+        "playwright_go_forward()"
+      ],
+      "interaction": [
+        "playwright_click(selector)",
+        "playwright_fill(selector, value)",
+        "playwright_type(selector, text)",
+        "playwright_press(key)"
+      ],
+      "extraction": [
+        "playwright_screenshot()",
+        "playwright_get_text(selector)",
+        "playwright_evaluate(js_code)"
+      ]
+    }
+  },
+  
+  "selection_guide": {
+    "need_existing_logins": "browser_mcp_local",
+    "need_stealth_mode": "browserbase_stealth",
+    "need_session_persistence": "browserbase_persistent",
+    "need_captcha_solving": "skyvern_ai_vision",
+    "need_testing_development": "playwright_standard",
+    "need_natural_language": "browserbase_with_claude",
+    "need_maximum_flexibility": "multi_browser_combined"
+  }
+}
