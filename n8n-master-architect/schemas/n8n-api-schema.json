@@ -1,0 +1,358 @@
+{
+  "version": "1.0.0",
+  "description": "n8n REST API schema reference for programmatic workflow management",
+  "baseUrl": "/api/v1",
+  "authentication": {
+    "type": "API Key",
+    "header": "X-N8N-API-KEY",
+    "note": "Generate API key from n8n Settings → API"
+  },
+  
+  "endpoints": {
+    "workflows": {
+      "list": {
+        "method": "GET",
+        "path": "/workflows",
+        "description": "List all workflows",
+        "queryParams": {
+          "active": {"type": "boolean", "description": "Filter by active status"},
+          "tags": {"type": "string", "description": "Filter by tags (comma-separated)"},
+          "name": {"type": "string", "description": "Filter by workflow name"},
+          "cursor": {"type": "string", "description": "Pagination cursor"}
+        },
+        "response": {
+          "data": "array of workflow objects",
+          "nextCursor": "string for pagination"
+        }
+      },
+      "create": {
+        "method": "POST",
+        "path": "/workflows",
+        "description": "Create a new workflow",
+        "requestBody": {
+          "name": {"type": "string", "required": true},
+          "nodes": {"type": "array", "required": true, "description": "Array of node objects"},
+          "connections": {"type": "object", "required": true, "description": "Node connections"},
+          "settings": {"type": "object", "required": false}
+        },
+        "response": {
+          "id": "string",
+          "name": "string",
+          "active": "boolean",
+          "createdAt": "ISO timestamp",
+          "updatedAt": "ISO timestamp",
+          "nodes": "array",
+          "connections": "object",
+          "settings": "object"
+        }
+      },
+      "get": {
+        "method": "GET",
+        "path": "/workflows/{id}",
+        "description": "Get a specific workflow",
+        "pathParams": {
+          "id": {"type": "string", "required": true}
+        }
+      },
+      "update": {
+        "method": "PUT",
+        "path": "/workflows/{id}",
+        "description": "Update an existing workflow",
+        "pathParams": {
+          "id": {"type": "string", "required": true}
+        },
+        "requestBody": "Same as create"
+      },
+      "delete": {
+        "method": "DELETE",
+        "path": "/workflows/{id}",
+        "description": "Delete a workflow",
+        "pathParams": {
+          "id": {"type": "string", "required": true}
+        }
+      },
+      "activate": {
+        "method": "POST",
+        "path": "/workflows/{id}/activate",
+        "description": "Activate a workflow",
+        "pathParams": {
+          "id": {"type": "string", "required": true}
+        }
+      },
+      "deactivate": {
+        "method": "POST",
+        "path": "/workflows/{id}/deactivate",
+        "description": "Deactivate a workflow",
+        "pathParams": {
+          "id": {"type": "string", "required": true}
+        }
+      }
+    },
+    
+    "executions": {
+      "list": {
+        "method": "GET",
+        "path": "/executions",
+        "description": "List workflow executions",
+        "queryParams": {
+          "workflowId": {"type": "string", "description": "Filter by workflow"},
+          "status": {"type": "string", "enum": ["error", "success", "waiting"]},
+          "cursor": {"type": "string"}
+        }
+      },
+      "get": {
+        "method": "GET",
+        "path": "/executions/{id}",
+        "description": "Get execution details"
+      },
+      "delete": {
+        "method": "DELETE",
+        "path": "/executions/{id}",
+        "description": "Delete an execution"
+      },
+      "run": {
+        "method": "POST",
+        "path": "/workflows/{id}/run",
+        "description": "Execute a workflow",
+        "requestBody": {
+          "data": {"type": "object", "description": "Input data for the workflow"}
+        }
+      }
+    },
+    
+    "credentials": {
+      "list": {
+        "method": "GET",
+        "path": "/credentials",
+        "description": "List all credentials"
+      },
+      "get": {
+        "method": "GET",
+        "path": "/credentials/{id}",
+        "description": "Get credential details (without secrets)"
+      },
+      "create": {
+        "method": "POST",
+        "path": "/credentials",
+        "description": "Create new credentials",
+        "requestBody": {
+          "name": {"type": "string", "required": true},
+          "type": {"type": "string", "required": true, "description": "Credential type name"},
+          "data": {"type": "object", "required": true, "description": "Credential values"}
+        }
+      },
+      "update": {
+        "method": "PATCH",
+        "path": "/credentials/{id}",
+        "description": "Update credentials"
+      },
+      "delete": {
+        "method": "DELETE",
+        "path": "/credentials/{id}",
+        "description": "Delete credentials"
+      }
+    },
+    
+    "tags": {
+      "list": {
+        "method": "GET",
+        "path": "/tags",
+        "description": "List all tags"
+      },
+      "create": {
+        "method": "POST",
+        "path": "/tags",
+        "description": "Create a new tag",
+        "requestBody": {
+          "name": {"type": "string", "required": true}
+        }
+      },
+      "update": {
+        "method": "PATCH",
+        "path": "/tags/{id}",
+        "description": "Update a tag"
+      },
+      "delete": {
+        "method": "DELETE",
+        "path": "/tags/{id}",
+        "description": "Delete a tag"
+      }
+    },
+    
+    "sourceControl": {
+      "pull": {
+        "method": "POST",
+        "path": "/source-control/pull",
+        "description": "Pull changes from connected Git repository"
+      },
+      "push": {
+        "method": "POST",
+        "path": "/source-control/push",
+        "description": "Push changes to connected Git repository"
+      }
+    },
+    
+    "users": {
+      "list": {
+        "method": "GET",
+        "path": "/users",
+        "description": "List all users (admin only)"
+      },
+      "get": {
+        "method": "GET",
+        "path": "/users/{id}",
+        "description": "Get user details"
+      }
+    }
+  },
+  
+  "workflowSchema": {
+    "description": "Complete workflow object structure",
+    "schema": {
+      "id": {
+        "type": "string",
+        "description": "Unique workflow identifier (assigned by n8n)"
+      },
+      "name": {
+        "type": "string",
+        "required": true,
+        "description": "Workflow display name"
+      },
+      "active": {
+        "type": "boolean",
+        "default": false,
+        "description": "Whether workflow is active"
+      },
+      "nodes": {
+        "type": "array",
+        "required": true,
+        "description": "Array of node objects",
+        "items": {
+          "id": {
+            "type": "string",
+            "required": true,
+            "description": "Unique node ID within workflow"
+          },
+          "name": {
+            "type": "string",
+            "required": true,
+            "description": "Node display name"
+          },
+          "type": {
+            "type": "string",
+            "required": true,
+            "description": "Node type (e.g., n8n-nodes-base.webhook)"
+          },
+          "typeVersion": {
+            "type": "number",
+            "required": true,
+            "description": "Version of the node type"
+          },
+          "position": {
+            "type": "array",
+            "items": "number",
+            "description": "[x, y] position on canvas"
+          },
+          "parameters": {
+            "type": "object",
+            "description": "Node-specific configuration"
+          },
+          "credentials": {
+            "type": "object",
+            "description": "Credential references"
+          },
+          "webhookId": {
+            "type": "string",
+            "description": "For webhook nodes only"
+          }
+        }
+      },
+      "connections": {
+        "type": "object",
+        "required": true,
+        "description": "Node connection mappings",
+        "structure": {
+          "[sourceNodeName]": {
+            "main": [
+              [
+                {
+                  "node": "targetNodeName",
+                  "type": "main",
+                  "index": 0
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "settings": {
+        "type": "object",
+        "properties": {
+          "saveExecutionProgress": {
+            "type": "boolean",
+            "default": true
+          },
+          "saveManualExecutions": {
+            "type": "boolean",
+            "default": true
+          },
+          "saveDataErrorExecution": {
+            "type": "string",
+            "enum": ["all", "none"],
+            "default": "all"
+          },
+          "saveDataSuccessExecution": {
+            "type": "string",
+            "enum": ["all", "none"],
+            "default": "all"
+          },
+          "executionTimeout": {
+            "type": "number",
+            "description": "Timeout in seconds"
+          },
+          "errorWorkflow": {
+            "type": "string",
+            "description": "ID of error handler workflow"
+          },
+          "timezone": {
+            "type": "string",
+            "description": "Timezone for scheduled triggers"
+          }
+        }
+      },
+      "staticData": {
+        "type": "object",
+        "description": "Persistent data between executions"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "id": "string",
+          "name": "string"
+        }
+      }
+    }
+  },
+  
+  "codeExamples": {
+    "javascript": {
+      "createWorkflow": "const response = await fetch(`${N8N_HOST}/api/v1/workflows`, {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json',\n    'X-N8N-API-KEY': API_KEY\n  },\n  body: JSON.stringify({\n    name: 'My Workflow',\n    nodes: [...],\n    connections: {...},\n    settings: {\n      saveExecutionProgress: true\n    }\n  })\n});\nconst workflow = await response.json();",
+      
+      "activateWorkflow": "await fetch(`${N8N_HOST}/api/v1/workflows/${workflowId}/activate`, {\n  method: 'POST',\n  headers: {\n    'X-N8N-API-KEY': API_KEY\n  }\n});",
+      
+      "executeWorkflow": "const response = await fetch(`${N8N_HOST}/api/v1/workflows/${workflowId}/run`, {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json',\n    'X-N8N-API-KEY': API_KEY\n  },\n  body: JSON.stringify({\n    data: { input: 'value' }\n  })\n});"
+    },
+    
+    "python": {
+      "createWorkflow": "import requests\n\nresponse = requests.post(\n    f'{N8N_HOST}/api/v1/workflows',\n    headers={\n        'Content-Type': 'application/json',\n        'X-N8N-API-KEY': API_KEY\n    },\n    json={\n        'name': 'My Workflow',\n        'nodes': [...],\n        'connections': {...},\n        'settings': {\n            'saveExecutionProgress': True\n        }\n    }\n)\nworkflow = response.json()"
+    },
+    
+    "curl": {
+      "listWorkflows": "curl -X GET 'https://your-n8n.com/api/v1/workflows' \\\n  -H 'X-N8N-API-KEY: your-api-key'",
+      
+      "createWorkflow": "curl -X POST 'https://your-n8n.com/api/v1/workflows' \\\n  -H 'Content-Type: application/json' \\\n  -H 'X-N8N-API-KEY: your-api-key' \\\n  -d '{\"name\": \"My Workflow\", \"nodes\": [...], \"connections\": {...}}'",
+      
+      "activateWorkflow": "curl -X POST 'https://your-n8n.com/api/v1/workflows/{id}/activate' \\\n  -H 'X-N8N-API-KEY: your-api-key'"
+    }
+  }
+}
