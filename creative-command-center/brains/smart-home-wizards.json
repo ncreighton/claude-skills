@@ -1,0 +1,628 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "smart-home-wizards",
+  "codename": "SmartHomeGuru",
+  "url": "https://smarthomewizards.com",
+  "niche": "Smart Home Technology",
+  "sub_niche": "Smart Home Setup & Integration Guides",
+  "status": "Primary tech authority site",
+  
+  "archetype": {
+    "primary": "Sage",
+    "secondary": "Ruler",
+    "archetype_expression": "The knowledgeable expert who makes complex technology feel approachable. Commands respect through expertise but never condescends. Organized, thorough, and genuinely helpful. The friend who works in tech and actually explains things clearly."
+  },
+  
+  "soul": {
+    "one_sentence": "Your trusted tech-savvy friend who makes smart home complexity feel like common sense.",
+    "expanded": "We cut through the confusion of smart home technology. No jargon without explanation, no affiliate-driven recommendations, no assumption that you already know what you're doing. Every guide is written by someone who's actually set these things up and knows where the gotchas hide.",
+    "what_we_are": "The expert friend everyone wishes they had. Clear explanations of complex topics. Honest recommendations. Practical guides that actually work.",
+    "what_we_are_not": "Not a spec sheet database. Not a paid review site. Not assuming you're an IT professional. Not condescending to beginners."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Confident clarity",
+    "secondary_emotion": "Helpful expertise",
+    "tertiary_emotion": "Quiet enthusiasm",
+    "emotional_range": ["confidence", "clarity", "helpfulness", "enthusiasm", "trust", "accomplishment", "empowerment"],
+    "forbidden_emotions": ["confusion", "overwhelm", "intimidation", "FOMO", "anxiety", "urgency", "condescension"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 35-year-old senior engineer who genuinely enjoys helping people. Probably has a home lab, definitely has opinions about WiFi mesh systems. Wears comfortable clothes, drinks good coffee, and can explain quantum computing to your grandmother if needed. Patient but efficient.",
+    "place": "A clean, well-organized home office with multiple monitors, smart devices visible but not cluttered. Good lighting, ergonomic setup. The kind of space where things work properly because someone took the time to set them up right.",
+    "time_of_day": "Mid-morning on a Saturday—energized, focused, productive time. Coffee in hand, ready to tackle projects.",
+    "season": "Spring—fresh start energy, time to upgrade and improve.",
+    "sound": "Mechanical keyboard clicks. A home assistant occasionally responding. The hum of well-maintained equipment. No chaos, no noise.",
+    "texture": "Smooth aluminum devices. Clean glass screens. Quality plastics. The satisfying click of well-designed buttons.",
+    "smell": "Fresh coffee. Clean electronics. Perhaps a hint of the outdoors through an automatically-opened window.",
+    "taste": "Quality coffee. Clean water from a filtered smart faucet. Nothing complicated.",
+    "temperature": "Perfectly climate-controlled. Comfortable. Automated.",
+    "weather": "Clear and connected—good signal, no interference.",
+    "music_genre": "Lo-fi productivity beats or ambient electronic. Unobtrusive, focused.",
+    "movie": "Her meets Iron Man—technology that serves humans, sophisticated but approachable.",
+    "book": "A really well-written technical manual that you actually enjoy reading. Clear diagrams, practical examples, no fluff."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Setup Steve",
+      "age_range": "30-55",
+      "description": "A homeowner who's bought some smart devices but now realizes it's more complicated than the box suggested. Reasonably tech-literate but not an expert. Has a decent job, can afford quality, and values things working properly.",
+      "mindset": "Solution-oriented, willing to learn, wants things to work right the first time. Values expertise but hates being talked down to.",
+      "goals": ["Get smart devices working together", "Not waste money on wrong products", "Understand enough to troubleshoot", "Impress family with home automation", "Save time on routine tasks"],
+      "pain_points": ["Devices don't work together", "Instructions assume too much knowledge", "Hard to know what's actually good", "Worried about security", "Partner thinks it's too complicated"],
+      "objections": ["Is this site going to recommend expensive stuff just for affiliate money?", "Will this actually work with what I have?", "Is this information current?"],
+      "trigger_phrases": ["best smart home hub", "how to set up smart home", "do I need a hub", "smart home for beginners", "alexa vs google home", "smart home security"]
+    },
+    "secondary_persona": {
+      "name": "Upgrading Uma",
+      "description": "Already has a working smart home but wants to optimize, expand, or upgrade. Knows the basics, wants advanced tips and honest comparisons.",
+      "how_they_differ": "Needs depth over basics, wants edge cases and advanced scenarios"
+    },
+    "tertiary_persona": {
+      "name": "Research Rachel",
+      "description": "Considering smart home but hasn't started. Doing research, comparing options, needs the big picture before diving in.",
+      "how_they_differ": "Needs overview content, 'where to start' guidance, budget planning"
+    },
+    "anti_persona": {
+      "description": "Someone who just wants the cheapest option regardless of quality. Someone expecting magic solutions without any learning. Extreme DIY-ers who want to build everything from scratch.",
+      "why_not": "We prioritize value and reliability over cheapest price. We require some reader engagement. We focus on consumer solutions, not custom builds."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Clean expertise—organized, professional, but approachable",
+    
+    "density": {
+      "description": "Efficient but not cramped. Information-rich without overwhelming.",
+      "content_to_whitespace_ratio": "55% content, 45% space",
+      "section_breathing": "Clear separation between topics. Information grouped logically.",
+      "never": "Never cluttered. Never wall-of-specs. Never information overload."
+    },
+    
+    "contrast": {
+      "description": "Clean contrast for readability. Light mode primary, dark mode supported.",
+      "approach": "High contrast text on clean backgrounds. Clear hierarchy through weight and size.",
+      "drama_level": "Low drama—let the content be the focus, not the design.",
+      "never": "Never low-contrast trendy gray. Never dramatic for drama's sake."
+    },
+    
+    "motion": {
+      "description": "Quick, purposeful, efficient. Technology should feel responsive.",
+      "speed": "Fast—0.2s-0.3s transitions. Snappy, not sluggish.",
+      "style": "Ease-out, responsive feel. Things happen when you want them to.",
+      "frequency": "Functional motion only. Hover states, reveals, navigation.",
+      "purpose": "To indicate interaction and state change, not decoration",
+      "never": "Never slow. Never bouncy. Never gratuitous. Never delayed."
+    },
+    
+    "texture": {
+      "description": "Clean and minimal. Let products and content provide visual interest.",
+      "elements": ["Subtle shadows for depth", "Clean lines", "Minimal texture"],
+      "intensity": "Very subtle—almost imperceptible",
+      "never": "Never grungy. Never skeuomorphic. Never paper textures."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean rectangles with slight rounding. Modern but not trendy.",
+      "border_radius_philosophy": "4-8px consistently. Not 0 (too harsh), not 16+ (too soft).",
+      "line_weight": "Medium—1-2px borders, clear but not heavy",
+      "never": "Never fully rounded pills. Never sharp 0-radius. Never inconsistent."
+    },
+    
+    "depth": {
+      "approach": "Subtle elevation for hierarchy. Cards float slightly.",
+      "shadow_style": "Soft, small shadows. Functional not decorative.",
+      "elevation_levels": "2-3 levels: base, raised, focused",
+      "never": "Never material design extremes. Never heavy drop shadows."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Clear value proposition hero—what we help with",
+        "Popular/featured guides—immediate value",
+        "Category exploration—find your need",
+        "Latest content—fresh and current",
+        "Trust signals—why trust us"
+      ],
+      "forbidden_flow": [
+        "Hero → 3-column features → CTA",
+        "Overwhelming product grid immediately",
+        "Aggressive newsletter popup"
+      ],
+      "hero_requirements": {
+        "type": "Clean, purposeful, not full-screen (users want content)",
+        "content_placement": "Clear headline, brief value prop, search or category entry",
+        "cta_style": "Clear paths: Search, Browse Categories, or Start Here",
+        "forbidden": ["Vague promises", "Stock office images", "Autoplay video"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Organized grid with featured content",
+      "featured_treatment": "Best/most useful content highlighted at top",
+      "pagination_style": "Load more or numbered pagination",
+      "forbidden": ["Endless identical grid", "No sorting/filtering", "Random order"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column with optional sidebar for navigation",
+      "max_width": "800px content area",
+      "sidebar_usage": "Sticky ToC for long guides, related content for shorter posts",
+      "related_content_style": "3-4 genuinely related posts, contextually chosen",
+      "forbidden": ["Sidebar ads dominating", "Infinite related posts", "Popups mid-article"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 on wide screens",
+      "preferred_columns": "3 columns for cards",
+      "asymmetry_level": "Low—consistency and organization over variety",
+      "grid_breaking": "Featured content can span full width"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "48px - 96px between major sections",
+      "element_spacing_scale": "4/8/12/16/24/32/48/64",
+      "rhythm_style": "Consistent and organized",
+      "breathing_rule": "Enough space to scan easily, not so much it feels empty"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Stack cleanly, maintain readability, touch-friendly targets",
+      "tablet_approach": "2-column where desktop is 3, maintain utility",
+      "breakpoint_behavior": "Smooth transitions, no jarring jumps"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Directory-Discovery hybrid—organized but explorable",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["Guides", "Reviews", "Best Of", "Hubs & Controllers", "Security", "About"],
+      "item_naming_style": "Clear and descriptive. Users should know what they'll find.",
+      "dropdown_behavior": "Clean dropdowns with subcategories. Mega menu if needed for large categories."
+    },
+    "mobile_nav": {
+      "style": "Slide-out drawer",
+      "full_screen": false,
+      "maintains_atmosphere": "Clean, organized, efficient access"
+    },
+    "secondary_nav": {
+      "location": "Footer + contextual sidebars",
+      "contents": "All categories, resources, about, contact"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Clear path: Home > Category > Subcategory > Post"
+    },
+    "search": {
+      "prominence": "Prominent—users often know what they need",
+      "style": "Search bar visible in header, predictive suggestions"
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Montserrat",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clean, modern, professional. Clear hierarchy without being cold.",
+      "weight_range": "500-700",
+      "letter_spacing": "Slight negative tracking (-0.01em) for headings",
+      "text_transform": "None typically, occasional all-caps for labels"
+    },
+    "body": {
+      "primary_font": "Source Sans Pro",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Highly readable, professional, comfortable for long reads",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.6-1.7",
+      "paragraph_spacing": "1.25em between paragraphs"
+    },
+    "accent": {
+      "font": "Source Code Pro",
+      "usage": "Code snippets, technical specs, model numbers",
+      "restraint_rule": "Only for genuinely technical content"
+    },
+    "type_scale": {
+      "base_size": "17px",
+      "scale_ratio": "1.25 (major third)",
+      "scale_values": {
+        "xs": "0.75rem (12.75px)",
+        "sm": "0.875rem (14.88px)",
+        "base": "1rem (17px)",
+        "lg": "1.25rem (21.25px)",
+        "xl": "1.563rem (26.6px)",
+        "2xl": "1.953rem (33.2px)",
+        "3xl": "2.441rem (41.5px)",
+        "4xl": "3.052rem (51.9px)"
+      }
+    },
+    "forbidden_fonts": ["Inter (overused)", "Roboto (too generic)", "Comic Sans", "Papyrus", "Any decorative fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light-first with dark mode support",
+    
+    "palette": {
+      "primary": {
+        "hex": "#0066CC",
+        "hsl": "hsl(210, 100%, 40%)",
+        "name": "Tech Blue",
+        "usage": "Links, primary buttons, key actions",
+        "emotion": "Trust, technology, reliability, professionalism"
+      },
+      "secondary": {
+        "hex": "#00A878",
+        "name": "Success Green",
+        "usage": "Success states, positive indicators, CTAs",
+        "emotion": "Go, confirmed, working, positive"
+      },
+      "accent": {
+        "hex": "#FF6B35",
+        "name": "Alert Orange",
+        "usage": "Warnings, important callouts, attention",
+        "max_usage": "Less than 5% - only when attention needed"
+      },
+      "background_primary": {
+        "hex": "#FFFFFF",
+        "name": "Clean White",
+        "dark_mode": "#1A1A2E"
+      },
+      "background_secondary": {
+        "hex": "#F8F9FA",
+        "name": "Light Gray",
+        "dark_mode": "#252536"
+      },
+      "background_tertiary": {
+        "hex": "#E9ECEF",
+        "name": "Border Gray",
+        "dark_mode": "#2D2D44"
+      },
+      "text_primary": {
+        "hex": "#212529",
+        "name": "Near Black",
+        "dark_mode": "#E8E8E8",
+        "contrast_ratio": "16:1 against white"
+      },
+      "text_secondary": {
+        "hex": "#495057",
+        "name": "Dark Gray",
+        "dark_mode": "#B8B8B8"
+      },
+      "text_muted": {
+        "hex": "#6C757D",
+        "name": "Medium Gray",
+        "dark_mode": "#888888"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#28A745",
+      "warning": "#FFC107",
+      "error": "#DC3545",
+      "info": "#17A2B8"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None in normal use",
+      "subtlety": "N/A",
+      "forbidden_gradients": ["All decorative gradients", "Purple-blue AI gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Neon colors",
+      "Purple-blue gradients",
+      "Overly saturated colors",
+      "Pastels that reduce readability"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Clean, well-lit, professional product photography",
+      "color_treatment": "Accurate colors—people need to see what products actually look like",
+      "mood": "Clean, organized, aspirational but achievable",
+      "subjects": ["Real product photos", "Clean home setups", "Device close-ups", "Setup process shots", "Interface screenshots", "Before/after comparisons"],
+      "forbidden_subjects": ["Generic tech stock photos", "Pointing at screens", "Blue-tinted everything", "Obviously staged 'smart home' shots", "Matrix-style imagery"]
+    },
+    "illustration_style": {
+      "approach": "Clean diagrams, system architecture visuals, comparison charts",
+      "line_weight": "Medium, clear",
+      "color_usage": "Brand colors, functional use",
+      "style_reference": "Apple product diagrams, Google's material illustrations"
+    },
+    "iconography": {
+      "style": "Clean line icons, consistent stroke width",
+      "stroke_weight": "1.5-2px consistently",
+      "custom_required": false,
+      "icon_library": "Phosphor Icons or Lucide (customized to brand colors)",
+      "forbidden": ["3D icons", "Emoji as icons", "Inconsistent styles", "Overly detailed icons"]
+    },
+    "image_treatment": {
+      "overlays": "None typically—let products be seen clearly",
+      "borders": "Subtle border or shadow for definition",
+      "shapes": "Clean rectangles, rounded corners matching brand radius",
+      "hover_effects": "Subtle shadow increase or brightness adjustment"
+    },
+    "sources": {
+      "preferred": ["Manufacturer press images", "Original photography", "Screenshots"],
+      "acceptable": ["Quality stock for lifestyle context"],
+      "forbidden": ["Generic tech stock", "Obvious AI generation", "Low-quality images"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Compatibility Checker",
+        "description": "Visual indicator of ecosystem compatibility (Alexa, Google, HomeKit, etc.)",
+        "usage": "Product reviews, buying guides",
+        "frequency": "Every product-related content"
+      },
+      {
+        "element": "Difficulty Rating",
+        "description": "Clear indicator of setup complexity (Easy/Medium/Advanced)",
+        "usage": "Guides and tutorials",
+        "frequency": "Every how-to content"
+      },
+      {
+        "element": "Quick Specs Box",
+        "description": "Scannable technical specifications summary",
+        "usage": "Reviews, product pages",
+        "frequency": "Every product review"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Connection diagram",
+        "when_to_use": "When explaining how devices connect"
+      },
+      {
+        "element": "Comparison table",
+        "when_to_use": "Product comparisons"
+      },
+      {
+        "element": "Pro/Con summary",
+        "when_to_use": "Reviews and recommendations"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "As many as helpful—these are functional",
+      "placement": "Where they provide value to readers",
+      "restraint_philosophy": "Functional elements should be common. Decorative elements should be rare."
+    },
+    "custom_ui_elements": {
+      "buttons": "Clear, adequate size, obvious clickability",
+      "cards": "Clean with clear hierarchy, product image prominent",
+      "dividers": "Simple lines or whitespace, never decorative",
+      "loading_states": "Simple spinner or skeleton, fast resolution",
+      "empty_states": "Helpful message with suggested action"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Knowledgeable", "Clear", "Helpful", "Honest", "Practical", "Patient"],
+    "tone_spectrum": {
+      "formal_casual": "5/10 - Professional but not stiff",
+      "serious_playful": "6/10 - Focused but can be light",
+      "technical_accessible": "5/10 - Technical when needed, always explained"
+    },
+    "writing_style": {
+      "sentence_length": "Clear and direct. Complex when necessary, simple when possible.",
+      "paragraph_length": "2-4 sentences. Break up dense technical info.",
+      "vocabulary_level": "Technical terms used but always explained on first use"
+    },
+    "perspective": "Second person (you) for guides, first person plural (we) for recommendations",
+    "forbidden_phrases": [
+      "In this article, we will",
+      "Without further ado",
+      "It goes without saying",
+      "At the end of the day",
+      "Game-changer",
+      "Revolutionary",
+      "Best ever",
+      "You won't believe"
+    ],
+    "encouraged_phrases": [
+      "Here's what you need to know",
+      "The short answer is",
+      "In our testing",
+      "Worth noting",
+      "The main consideration",
+      "For most people"
+    ],
+    "cta_voice": {
+      "style": "Clear and helpful, not pushy",
+      "examples": ["See Our Top Picks", "Read the Full Guide", "Check Current Price", "Compare Options", "View Setup Guide"],
+      "forbidden_ctas": ["Buy Now!", "Don't Miss Out!", "Limited Time!", "Click Here", "Learn More"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Hero → 3-column features → CTA",
+      "Overwhelming spec tables upfront",
+      "Ads between every paragraph",
+      "Sidebar larger than content",
+      "Multiple sticky elements"
+    ],
+    "visual_forbidden": [
+      "Purple-blue tech gradients",
+      "Matrix/cyber aesthetic",
+      "Dark mode only (must support light)",
+      "Neon accents",
+      "Futuristic for futurism's sake"
+    ],
+    "typography_forbidden": [
+      "Decorative fonts anywhere",
+      "All-caps body text",
+      "Tiny text for specs",
+      "Low contrast for 'aesthetic'"
+    ],
+    "content_forbidden": [
+      "Clickbait headlines",
+      "Affiliate disclaimers hidden",
+      "Specs without context",
+      "Jargon without explanation",
+      "Fear-based security content"
+    ],
+    "imagery_forbidden": [
+      "Blue-tinted stock photos",
+      "Pointing at screens",
+      "Obviously staged smart homes",
+      "AI-generated product images"
+    ],
+    "interaction_forbidden": [
+      "Exit intent popups",
+      "Aggressive newsletter begging",
+      "Autoplay video reviews",
+      "Chat widgets on every page"
+    ],
+    "this_site_specific_forbidden": [
+      "Recommending products we haven't tested",
+      "Ignoring security implications",
+      "Assuming technical knowledge",
+      "Ignoring cross-platform compatibility",
+      "Hiding affiliate relationships"
+    ],
+    "immediate_rejection_triggers": [
+      "Looks like generic tech blog template",
+      "Blue-purple gradient anywhere",
+      "Could be any product review site",
+      "Information density makes it unreadable",
+      "Obvious template with stock content"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Generic tech blog template",
+      "Blue gradient header",
+      "Stock photos of people pointing at tablets",
+      "Walls of unformatted specs",
+      "Obviously templated review format"
+    ],
+    "what_acceptable_looks_like": [
+      "Clean and readable",
+      "Appropriate typography",
+      "Real product images",
+      "But generic—could be any tech site"
+    ],
+    "what_perfect_looks_like": [
+      "Immediately communicates expertise and trustworthiness",
+      "Information is scannable AND comprehensive",
+      "Products look better here than on Amazon",
+      "Readers feel more capable after reading",
+      "Would be cited as a quality example in the niche"
+    ],
+    "tests": {
+      "screenshot_test": "Would someone researching smart homes trust this site at first glance?",
+      "swap_test": "Could this be mistaken for CNET or Tom's Guide? (Different, not generic)",
+      "memory_test": "After reading a guide, can someone actually do the thing?",
+      "ten_second_test": "Can a visitor find what they need within 10 seconds?"
+    },
+    "competitive_positioning": {
+      "competitors": ["The Verge", "CNET Smart Home", "Tom's Guide"],
+      "how_we_differ": "More depth, less news churn, focused specifically on smart home (not all tech)",
+      "what_they_do_wrong": "Too news-focused, not enough how-to depth, affiliate-driven recommendations",
+      "what_we_do_better": "Genuine expertise, practical guides, honest recommendations, beginner-friendly"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks + custom patterns"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "WPCode Pro",
+      "TablePress (for comparison tables)",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["smart home setup", "best smart home devices", "smart home hub", "home automation guide", "smart home for beginners"],
+    "secondary_keywords": ["alexa vs google home", "smart home security", "smart light setup", "smart thermostat guide"],
+    "content_pillars": ["Smart Home Basics", "Smart Hubs & Controllers", "Smart Security", "Smart Lighting", "Smart Climate"],
+    "schema_types": ["Article", "HowTo", "FAQPage", "Product", "Review"],
+    "internal_linking_strategy": "Category hubs link to all related content. Guides link to product reviews. Reviews link back to guides.",
+    "content_depth_target": "Ultimate guides: 4000+, Standard guides: 2000+, Reviews: 1500+, Quick answers: 800+"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-12",
+    "last_updated": "2025-12-12",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-12",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add interactive compatibility checker tool",
+      "Create device comparison widget",
+      "Implement user setup gallery",
+      "Add community troubleshooting section"
+    ],
+    "experiments_to_try": [
+      "Video teardowns/reviews",
+      "Interactive setup wizards",
+      "User-submitted setups gallery",
+      "Newsletter with deal alerts"
+    ]
+  }
+}
