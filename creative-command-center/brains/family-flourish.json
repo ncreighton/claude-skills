@@ -1,0 +1,620 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "family-flourish",
+  "codename": "FamilyGrowthGuide",
+  "url": "https://family-flourish.com",
+  "niche": "Family & Parenting",
+  "sub_niche": "Practical Family Wellness & Child Development",
+  "status": "Primary family content site",
+  
+  "archetype": {
+    "primary": "Caregiver",
+    "secondary": "Sage",
+    "archetype_expression": "The experienced parent friend who genuinely helps without judgment. Has been there, done that, knows what actually works. Shares wisdom without preaching, supports without enabling, guides without controlling. The friend whose house you go to when you need real advice over coffee."
+  },
+  
+  "soul": {
+    "one_sentence": "The supportive friend every parent deserves—real advice, no judgment, genuine help.",
+    "expanded": "Parenting is hard. Family life is messy. We don't pretend otherwise. We're here with practical solutions that work in real life, not Pinterest perfection. Every family is different, and we respect that while offering research-backed, genuinely helpful guidance that acknowledges the chaos while helping you thrive within it.",
+    "what_we_are": "A judgment-free zone for parents seeking real help. Practical, evidence-based advice. A community that celebrates 'good enough' parenting. Support for all family structures.",
+    "what_we_are_not": "Not mommy-blogger perfection. Not shame-inducing impossible standards. Not one-size-fits-all prescriptions. Not sponsored content disguised as advice."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Supportive warmth",
+    "secondary_emotion": "Genuine understanding",
+    "tertiary_emotion": "Encouraging empowerment",
+    "emotional_range": ["supported", "understood", "encouraged", "relieved", "empowered", "connected", "hopeful", "calm"],
+    "forbidden_emotions": ["shame", "guilt", "inadequacy", "overwhelm", "judgment", "anxiety", "competition", "perfection pressure"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 38-year-old parent of three who has seen it all—tantrums in Target, teenage drama, the works. Warm, slightly frazzled, but genuinely wise. Laughs about the chaos while actually having figured some things out. Would never judge your screen time choices. Brings wine to playdates and real solutions to problems.",
+    "place": "A warm, lived-in kitchen with evidence of real family life—kids' artwork on the fridge, a few dishes in the sink, comfortable chairs, good coffee. Clean enough to be healthy, messy enough to be happy. The kind of home where you immediately relax.",
+    "time_of_day": "Mid-morning after the school rush, when there's finally time for that coffee and real conversation. Or late evening, kids in bed, finally a moment to breathe and think.",
+    "season": "Early summer—hopeful, full of possibility, active but not overwhelming.",
+    "sound": "Background family noise—distant kids playing, comfortable household sounds. A friend's understanding 'mmhmm' as you share your struggles.",
+    "texture": "Worn soft cotton. Well-loved furniture. A warm mug in your hands. The specific weight of a child falling asleep on your shoulder.",
+    "smell": "Coffee. Clean laundry. Something baking. A hint of kid chaos (playdough, maybe).",
+    "taste": "Good coffee. Comfort food. The taste of something warm and nourishing.",
+    "temperature": "Warm and comfortable. Cozy without being stifling.",
+    "weather": "Sunny with clouds—mostly good, real life, some storms come through.",
+    "music_genre": "Acoustic/indie folk—warm, real, not over-produced. The kind of music that plays in the background of real homes.",
+    "movie": "This Is Us meets Parenthood—the real, messy, beautiful struggle of family.",
+    "book": "A parenting book you actually finish because it's helpful, not preachy. Dog-eared pages where you found real answers."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Overwhelmed Olivia",
+      "age_range": "28-45",
+      "description": "A parent (any gender) in the thick of it. Kids between 0-12, juggling work and family, desperately searching for solutions that actually work. Tired of perfect Pinterest parents and mommy shamers. Just wants help that respects their reality.",
+      "mindset": "Exhausted but trying. Wants to do right by their kids. Skeptical of 'expert' advice but open to genuine help. Values authenticity over perfection.",
+      "goals": ["Survive the current stage", "Feel like a good parent", "Find solutions that work in real life", "Connect with others who understand", "Raise happy, healthy kids without losing self"],
+      "pain_points": ["Nothing works like the books say", "Conflicting advice everywhere", "Judged by other parents", "Never enough time/energy", "Partner not on same page"],
+      "objections": ["Is this going to make me feel worse about myself?", "Does this person actually have kids?", "Is this just ads disguised as content?"],
+      "trigger_phrases": ["toddler won't sleep", "picky eater help", "sibling fighting", "screen time guidelines", "parenting tips", "how to get kids to listen"]
+    },
+    "secondary_persona": {
+      "name": "Preparing Pete",
+      "description": "Expecting or new parent preparing for what's ahead. Wants to be ready without the fear-mongering. Looking for realistic expectations.",
+      "how_they_differ": "Needs foundational content, what to expect, preparation without panic"
+    },
+    "tertiary_persona": {
+      "name": "Grandparent Grace",
+      "description": "Grandparent wanting to stay connected with modern parenting approaches. Wants to support without overstepping.",
+      "how_they_differ": "Needs bridge between generations, updated info, boundary navigation"
+    },
+    "anti_persona": {
+      "description": "Someone looking to judge other parents. Someone wanting 'proof' their parenting style is superior. Those seeking perfect Pinterest aesthetics over real help.",
+      "why_not": "We don't enable judgment. We're not about perfection. We're here to help, not compete."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Warm, lived-in, approachable—like a supportive friend's home",
+    
+    "density": {
+      "description": "Comfortable and breathable. Easy to scan when you only have 30 seconds.",
+      "content_to_whitespace_ratio": "45% content, 55% space",
+      "section_breathing": "Generous gaps. Content should feel restful, not overwhelming.",
+      "never": "Never cramped. Never overwhelming. Never adding to the chaos."
+    },
+    
+    "contrast": {
+      "description": "Soft contrast. Warm and easy on tired eyes.",
+      "approach": "Readable without harsh contrast. Comfortable for reading at 2am.",
+      "drama_level": "Low—calming, not attention-grabbing",
+      "never": "Never harsh. Never startling. Never demanding attention aggressively."
+    },
+    
+    "motion": {
+      "description": "Gentle, smooth, calming. Nothing that adds stress.",
+      "speed": "Slow to medium—0.4s-0.6s transitions. Calming pace.",
+      "style": "Soft fades, gentle reveals. Like a slow exhale.",
+      "frequency": "Minimal—let the content be calm",
+      "purpose": "To create restful experience, not excitement",
+      "never": "Never bouncy. Never playful-chaotic. Never overwhelming."
+    },
+    
+    "texture": {
+      "description": "Soft, comfortable, organic",
+      "elements": ["Subtle soft textures", "Gentle paper feel", "Natural warmth"],
+      "intensity": "Very subtle—comforting, not distracting",
+      "never": "Never harsh. Never clinical. Never cold."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Soft, rounded, comforting. Like well-worn furniture.",
+      "border_radius_philosophy": "8-16px—soft and comforting, not sharp or aggressive.",
+      "line_weight": "Light and gentle",
+      "never": "Never sharp corners. Never aggressive shapes. Never stark geometry."
+    },
+    
+    "depth": {
+      "approach": "Soft layering. Comfortable, not floating.",
+      "shadow_style": "Very soft, barely there. Cozy, not elevated.",
+      "elevation_levels": "Minimal—mostly flat with soft separation",
+      "never": "Never material design elevation. Never floating cards."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Warm welcome—you're not alone",
+        "Quick help—common struggles and solutions",
+        "Content by age/stage—find what you need",
+        "Community/support—you've got this",
+        "Newsletter—stay connected"
+      ],
+      "forbidden_flow": [
+        "Perfect family imagery",
+        "Overwhelming content grid",
+        "Aggressive CTAs",
+        "Competitive parenting content"
+      ],
+      "hero_requirements": {
+        "type": "Warm, welcoming, immediately helpful",
+        "content_placement": "Empathetic headline, quick access to help, search",
+        "cta_style": "Supportive: 'Find Help Now', 'What's Your Challenge?', 'Browse by Age'",
+        "forbidden": ["Stock perfect family", "Overwhelming options", "Guilt-inducing messaging"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Clear organization by topic/age with featured help",
+      "featured_treatment": "Most helpful content highlighted",
+      "pagination_style": "Load more button",
+      "forbidden": ["Endless overwhelm grid", "No organization", "Sponsored content dominating"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column, comfortable, easy to read",
+      "max_width": "700px for readability",
+      "sidebar_usage": "None on articles—focused reading",
+      "related_content_style": "Relevant next steps, 3 suggestions max",
+      "forbidden": ["Interrupting ads", "Mid-article popups", "Social pressure CTAs"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "3 on wide screens",
+      "preferred_columns": "2 columns for easier scanning",
+      "asymmetry_level": "Low—organized and calming",
+      "grid_breaking": "Featured help content can span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "64px - 120px between major sections",
+      "element_spacing_scale": "8/16/24/32/48/64/96",
+      "rhythm_style": "Generous and breathing",
+      "breathing_rule": "When tired parents visit, space should feel restful"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Critical—most parents browse on phones while kids nap",
+      "tablet_approach": "Comfortable two-column where appropriate",
+      "breakpoint_behavior": "Smooth, no jarring changes"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Helpful organization—find what you need, fast",
+    "primary_nav": {
+      "max_items": 6,
+      "required_items": ["By Age", "Common Challenges", "Activities", "Resources", "About"],
+      "item_naming_style": "Helpful, parent-friendly language",
+      "dropdown_behavior": "Simple dropdowns, age-organized"
+    },
+    "mobile_nav": {
+      "style": "Simple slide-out, thumb-friendly",
+      "full_screen": false,
+      "maintains_atmosphere": "Quick access while holding baby"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All topics, about, contact, resources"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Simple: Home > Toddlers > Sleep"
+    },
+    "search": {
+      "prominence": "Prominent—desperate parents search",
+      "style": "Search 'toddler won't eat vegetables'..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Nunito",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Warm, friendly, approachable. Like a friend talking to you.",
+      "weight_range": "600-800",
+      "letter_spacing": "Normal",
+      "text_transform": "None—sentence case, friendly"
+    },
+    "body": {
+      "primary_font": "Open Sans",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clear, readable, comfortable. Easy on tired eyes.",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.7-1.8",
+      "paragraph_spacing": "1.25em between paragraphs"
+    },
+    "accent": {
+      "font": "Caveat",
+      "usage": "Personal touches, 'from one parent to another' notes",
+      "restraint_rule": "Occasional warmth, not overused"
+    },
+    "type_scale": {
+      "base_size": "17px",
+      "scale_ratio": "1.2 (minor third)",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (17px)",
+        "lg": "1.2rem",
+        "xl": "1.44rem",
+        "2xl": "1.728rem",
+        "3xl": "2.074rem",
+        "4xl": "2.488rem"
+      }
+    },
+    "forbidden_fonts": ["Harsh geometric fonts", "Cold corporate fonts", "Overly decorative fonts", "Childish/crayon fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "warm-light",
+    
+    "palette": {
+      "primary": {
+        "hex": "#E8887C",
+        "name": "Soft Coral",
+        "usage": "Accents, highlights, warmth",
+        "emotion": "Warmth, nurturing, gentle energy"
+      },
+      "secondary": {
+        "hex": "#6B9B7A",
+        "name": "Sage Green",
+        "usage": "Balance, growth, secondary accents",
+        "emotion": "Growth, calm, nature"
+      },
+      "accent": {
+        "hex": "#D4A574",
+        "name": "Warm Sand",
+        "usage": "Tertiary warmth, grounding",
+        "max_usage": "Supporting, not dominant"
+      },
+      "background_primary": {
+        "hex": "#FFFBF7",
+        "name": "Warm White"
+      },
+      "background_secondary": {
+        "hex": "#FFF5EE",
+        "name": "Soft Cream"
+      },
+      "background_tertiary": {
+        "hex": "#FAEBD7",
+        "name": "Antique White"
+      },
+      "text_primary": {
+        "hex": "#3D3D3D",
+        "name": "Soft Black",
+        "contrast_ratio": "12:1 against Warm White"
+      },
+      "text_secondary": {
+        "hex": "#5C5C5C",
+        "name": "Warm Gray"
+      },
+      "text_muted": {
+        "hex": "#7A7A7A",
+        "name": "Soft Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#6B9B7A",
+      "warning": "#E8B87C",
+      "error": "#C97C7C",
+      "info": "#7C9BC9"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None—solid warm colors",
+      "forbidden_gradients": ["All gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Cool blues",
+      "Harsh neons",
+      "Pure white",
+      "Clinical colors"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Natural, warm, home-like",
+      "color_treatment": "Warm, slightly soft, authentic",
+      "mood": "Real family moments, imperfect and beautiful",
+      "subjects": ["Real families (diverse)", "Authentic moments (not posed)", "Home environments", "Natural activities", "Messy reality included"],
+      "forbidden_subjects": ["Perfect Pinterest families", "Studio-lit perfection", "Staged moments", "Homogeneous families only", "Unrealistic cleanliness"]
+    },
+    "illustration_style": {
+      "approach": "Warm, hand-drawn feel, friendly",
+      "line_weight": "Soft, approachable",
+      "color_usage": "Brand colors, warm",
+      "style_reference": "Children's book illustration quality, but for adults"
+    },
+    "iconography": {
+      "style": "Soft, rounded, friendly line icons",
+      "stroke_weight": "2px, soft",
+      "custom_required": false,
+      "icon_library": "Phosphor Icons (rounded style) or similar",
+      "forbidden": ["Sharp icons", "Corporate icons", "Cold line icons"]
+    },
+    "image_treatment": {
+      "overlays": "Subtle warm overlay if needed",
+      "borders": "Soft edges, never harsh frames",
+      "shapes": "Rounded corners, soft treatment",
+      "hover_effects": "Very subtle warmth increase"
+    },
+    "sources": {
+      "preferred": ["Authentic family photography", "Diverse stock (carefully selected)", "Custom photography"],
+      "acceptable": ["High-quality stock showing real moments"],
+      "forbidden": ["Perfect family stock", "Homogeneous imagery", "Staged perfection"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Age Indicator",
+        "description": "Clear tag showing what ages content applies to",
+        "usage": "All developmental content",
+        "frequency": "Where applicable"
+      },
+      {
+        "element": "'From One Parent to Another' notes",
+        "description": "Personal, warm touches acknowledging shared experience",
+        "usage": "Throughout content naturally",
+        "frequency": "Occasional, not every post"
+      },
+      {
+        "element": "Quick Help Box",
+        "description": "TL;DR for exhausted parents who need the answer fast",
+        "usage": "Top of how-to content",
+        "frequency": "All practical guides"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Printable resource callouts",
+        "when_to_use": "When downloadable resources are available"
+      },
+      {
+        "element": "Real parent quotes",
+        "when_to_use": "Community wisdom sections"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": 3,
+      "placement": "Where they help, not overwhelm",
+      "restraint_philosophy": "Help, don't add to the chaos"
+    },
+    "custom_ui_elements": {
+      "buttons": "Soft, warm, inviting",
+      "cards": "Gentle shadows, warm backgrounds, comfortable",
+      "dividers": "Soft lines or warm illustrated elements",
+      "loading_states": "Simple, patient, undemanding",
+      "empty_states": "Encouraging, helpful suggestions"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Supportive", "Understanding", "Practical", "Non-judgmental", "Warm", "Real"],
+    "tone_spectrum": {
+      "formal_casual": "3/10 - Very friendly and conversational",
+      "serious_playful": "4/10 - Warm with appropriate lightness",
+      "technical_accessible": "3/10 - Always accessible, research explained simply"
+    },
+    "writing_style": {
+      "sentence_length": "Short to medium. Tired parents need scannable content.",
+      "paragraph_length": "2-3 sentences max. Break it up.",
+      "vocabulary_level": "Everyday language. No parenting jargon without explanation."
+    },
+    "perspective": "First person (we/I've been there) and second person (you) for connection",
+    "forbidden_phrases": [
+      "You should always",
+      "Good parents do/don't",
+      "The right way to",
+      "If you really loved your kids",
+      "Back in my day",
+      "Studies prove you're wrong",
+      "Your child will be damaged if"
+    ],
+    "encouraged_phrases": [
+      "You're doing great",
+      "What works for your family",
+      "Many parents find",
+      "You know your child best",
+      "It's okay if",
+      "Here's what helped us"
+    ],
+    "cta_voice": {
+      "style": "Supportive invitation, not demand",
+      "examples": ["Get the Guide", "Find Help Here", "Join Our Community", "Show Me How", "I Need This"],
+      "forbidden_ctas": ["Don't Miss Out", "Before It's Too Late", "Every Parent Needs This", "If You Care About Your Kids"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Perfect family hero imagery",
+      "Overwhelming content grids",
+      "Aggressive sponsored content",
+      "Pinterest-perfect aesthetics"
+    ],
+    "visual_forbidden": [
+      "Stock perfect families",
+      "Cool clinical colors",
+      "Harsh contrast",
+      "Busy overwhelming patterns"
+    ],
+    "typography_forbidden": [
+      "Corporate cold fonts",
+      "Hard to read fancy fonts",
+      "Tiny text"
+    ],
+    "content_forbidden": [
+      "Shame-based messaging",
+      "Competitive parenting",
+      "One-size-fits-all mandates",
+      "Fear-mongering headlines",
+      "Sponsored content disguised as advice"
+    ],
+    "imagery_forbidden": [
+      "Pinterest perfection",
+      "Staged stock families",
+      "Exclusively white/nuclear families",
+      "Impossibly clean homes"
+    ],
+    "interaction_forbidden": [
+      "Aggressive newsletter popups",
+      "Guilt-trip CTAs",
+      "Multiple interruptions",
+      "Social proof pressure"
+    ],
+    "this_site_specific_forbidden": [
+      "Mommy shaming",
+      "Dad-incompetent jokes",
+      "Single path to good parenting",
+      "Ignoring diverse family structures",
+      "Age-inappropriate advice mixing"
+    ],
+    "immediate_rejection_triggers": [
+      "Perfect family imagery",
+      "Shame-based messaging",
+      "Cold clinical design",
+      "Could be any mommy blog",
+      "Adds to parenting pressure"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Stock perfect family on hero",
+      "Pink and blue gendered design",
+      "'Top 10 parenting tips' clickbait",
+      "Guilt-inducing headlines",
+      "Sponsored content everywhere"
+    ],
+    "what_acceptable_looks_like": [
+      "Warm and welcoming",
+      "Helpful content",
+      "Non-judgmental",
+      "But generic—could be any parenting site"
+    ],
+    "what_perfect_looks_like": [
+      "Exhausted parent lands and immediately exhales",
+      "Finds practical help within 30 seconds",
+      "Feels understood, not judged",
+      "Actually implements the advice",
+      "Returns and recommends to other parents"
+    ],
+    "tests": {
+      "screenshot_test": "Would a stressed parent feel relief or more stress seeing this?",
+      "swap_test": "Could this be mistaken for Pinterest-perfect mommy blog? (Must fail)",
+      "memory_test": "Did the content actually help with a real problem?",
+      "ten_second_test": "Can a tired parent find what they need in 10 seconds?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Parenting.com", "Parents.com", "What to Expect"],
+      "how_we_differ": "More real, less perfect. Friend advice, not magazine advice.",
+      "what_they_do_wrong": "Too perfect, too much sponsored content, not enough real help",
+      "what_we_do_better": "Authentic voice, practical help, judgment-free support"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85 (critical—mobile-first audience)",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["parenting tips", "toddler sleep help", "picky eater solutions", "sibling fighting", "child development"],
+    "secondary_keywords": ["[age] activities", "parenting advice", "family meal ideas", "discipline without yelling"],
+    "content_pillars": ["Babies & Newborns", "Toddlers", "Preschool", "School Age", "Family Life", "Parenting Strategies"],
+    "schema_types": ["Article", "HowTo", "FAQPage"],
+    "internal_linking_strategy": "Age-appropriate content linked together. Strategies link to specific examples. Always suggest 'next steps'.",
+    "content_depth_target": "Comprehensive guides: 2500+, How-tos: 1500+, Quick helps: 800+"
+  },
+  
+  "═══ AFFILIATE INTEGRATION ═══": "────────────────────────────────────────",
+  
+  "affiliate": {
+    "amazon_tag": "familyflourish-20",
+    "approach": "Genuine recommendations only",
+    "disclosure": "Clear, upfront, honest",
+    "forbidden": ["Recommending things we haven't used", "Hiding affiliate nature", "Pushing expensive options"]
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-12",
+    "last_updated": "2025-12-12",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-12",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add age-based content filter tool",
+      "Create printable resource library",
+      "Build community support features",
+      "Develop personalized content recommendations"
+    ],
+    "experiments_to_try": [
+      "Parent community forum",
+      "Expert Q&A feature",
+      "Personalized age-tracking",
+      "Local parent group connections"
+    ]
+  }
+}
