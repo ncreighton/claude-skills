@@ -1,0 +1,611 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "pulse-gear-reviews",
+  "codename": "PulseGearPro",
+  "url": "https://pulsegearreviews.com",
+  "niche": "Fitness Technology",
+  "sub_niche": "Fitness Trackers, Sports Tech & Workout Gear",
+  "status": "Primary fitness tech vertical",
+  
+  "archetype": {
+    "primary": "Hero",
+    "secondary": "Sage",
+    "archetype_expression": "The dedicated athlete who geeks out about performance data. Tests gear through real workouts, not just spec comparisons. Believes technology should enhance training, not complicate it. Respects all fitness levels—from first 5K to ultramarathons."
+  },
+  
+  "soul": {
+    "one_sentence": "Real gear, real workouts, real results—fitness tech tested by athletes who actually train.",
+    "expanded": "Every review is earned through sweat. We don't just read specs—we run miles, lift weights, and push limits with every piece of gear we review. Whether you're training for your first race or your fiftieth, we help you find the technology that actually makes you better, not just more connected.",
+    "what_we_are": "Athletes reviewing gear for athletes. Real training tests. Honest performance assessments. Technology that improves workouts.",
+    "what_we_are_not": "Not spec-sheet reviewers. Not influencer hype. Not pushing expensive gear on beginners. Not forgetting that fitness comes first."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Motivated determination",
+    "secondary_emotion": "Achievement confidence",
+    "tertiary_emotion": "Discovery excitement",
+    "emotional_range": ["motivated", "confident", "determined", "excited", "empowered", "accomplished", "informed"],
+    "forbidden_emotions": ["inadequacy", "intimidation", "FOMO", "shame about fitness level", "overwhelm"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 34-year-old triathlete who also coaches beginners. Has a drawer full of fitness trackers from years of testing. Gets genuinely excited about both new tech AND seeing someone complete their first workout. Data-driven but knows numbers aren't everything.",
+    "place": "A home gym that's functional, not flashy. Quality equipment, good music system, data screens showing training progress. Evidence of real use—chalk dust, worn spots, actual sweat.",
+    "time_of_day": "5:30am—serious training time, before the world wakes up.",
+    "season": "Spring—training season, goals ahead, energy building.",
+    "sound": "Deep breaths, heartbeat, maybe motivating music, the beep of workout complete.",
+    "texture": "Grip tape, quality rubber, the specific feel of well-designed sports equipment.",
+    "smell": "Clean gym, fresh air, the aftermath of a good workout.",
+    "taste": "Post-workout protein, electrolytes, the taste of effort.",
+    "temperature": "Cool enough to train hard, body warm from effort.",
+    "weather": "Perfect running weather—whatever that means to each athlete.",
+    "music_genre": "High-energy training music—whatever gets you moving.",
+    "movie": "Rocky meets a tech documentary—heart and data together.",
+    "book": "A training guide that combines science, technology, and real athlete wisdom."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Training Trevor",
+      "age_range": "25-50",
+      "description": "An active person who takes fitness seriously (but not professionally). Wants data to improve, willing to invest in quality gear. Has goals—maybe a race, maybe just staying fit.",
+      "mindset": "Goal-oriented, data-appreciating, quality-seeking. Views fitness tech as training tool, not toy.",
+      "goals": ["Find gear that improves training", "Understand performance data", "Make informed purchases", "Achieve fitness goals", "Not waste money on hype"],
+      "pain_points": ["Reviews by non-athletes", "Spec comparisons without real tests", "Influencer-driven recommendations", "Unclear if gear is worth the price"],
+      "objections": ["Did they actually train with this?", "Is this for my fitness level?", "Is the expensive option worth it?"],
+      "trigger_phrases": ["best fitness tracker", "garmin vs apple watch", "running watch review", "gym equipment review", "is [product] worth it for running"]
+    },
+    "secondary_persona": {
+      "name": "Beginner Beth",
+      "description": "New to fitness, wants to track progress, intimidated by complex gear. Needs guidance on what's actually necessary.",
+      "how_they_differ": "Needs simpler recommendations, budget options, reassurance about fitness level"
+    },
+    "tertiary_persona": {
+      "name": "Performance Pete",
+      "description": "Serious athlete, wants deep data analysis, willing to pay for the best. Needs technical depth.",
+      "how_they_differ": "Needs advanced features, comparison charts, training integration details"
+    },
+    "anti_persona": {
+      "description": "Gear collectors who don't train. Those wanting to shame others' fitness levels. Hype-seekers over substance.",
+      "why_not": "Gear should be used. All fitness levels respected. Substance over hype."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Athletic, energetic, clean—performance-focused without being aggressive",
+    
+    "density": {
+      "description": "Efficient like an athlete—no wasted space, but room to breathe",
+      "content_to_whitespace_ratio": "55% content, 45% space",
+      "section_breathing": "Clear sections, scannable, organized",
+      "never": "Never cluttered. Never overwhelming. Never aggressive."
+    },
+    
+    "contrast": {
+      "description": "High contrast, energetic but not harsh",
+      "approach": "Dark mode capable, bright accents for energy",
+      "drama_level": "Medium-high—engaging, motivating",
+      "never": "Never muddy. Never hard to read. Never sterile."
+    },
+    
+    "motion": {
+      "description": "Quick, dynamic, athletic—like the athletes using the gear",
+      "speed": "Fast—0.15s-0.25s transitions. Responsive, energetic.",
+      "style": "Sharp, clean, purposeful",
+      "frequency": "Functional, celebrating interaction",
+      "purpose": "To communicate energy and responsiveness",
+      "never": "Never slow. Never lazy. Never distracting from content."
+    },
+    
+    "texture": {
+      "description": "Clean, technical, performance-oriented",
+      "elements": ["Subtle gradients for energy", "Clean surfaces", "Athletic feel"],
+      "intensity": "Minimal—let products and action shine",
+      "never": "Never grungy. Never soft. Never decorative over functional."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean, dynamic angles, athletic feel",
+      "border_radius_philosophy": "4-8px—sharp but not harsh",
+      "line_weight": "Medium—strong, clear",
+      "never": "Never fully rounded/soft. Never aggressive/harsh."
+    },
+    
+    "depth": {
+      "approach": "Layered for clear hierarchy",
+      "shadow_style": "Subtle, cool-tinted shadows",
+      "elevation_levels": "2-3 levels: base, content, featured",
+      "never": "Never flat. Never extreme depth."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Energetic hero—gear in action",
+        "Featured reviews—latest tested gear",
+        "Categories by sport/activity",
+        "Best of guides—quick decisions",
+        "Newsletter—training tips + gear updates"
+      ],
+      "forbidden_flow": [
+        "Static product grid only",
+        "Aggressive sales push",
+        "Intimidating elite-only feel"
+      ],
+      "hero_requirements": {
+        "type": "Dynamic, athletic, gear-focused",
+        "content_placement": "Clear value prop, action imagery",
+        "cta_style": "Action: 'Find Your Gear', 'Browse Reviews', 'Best For Runners'",
+        "forbidden": ["Static product shots", "No athlete/action", "Intimidating messaging"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Organized grid with filtering by sport/feature",
+      "featured_treatment": "Top picks prominently featured",
+      "pagination_style": "Load more or numbered",
+      "forbidden": ["No filtering", "No organization", "Only expensive options"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column with quick-take sidebar",
+      "max_width": "800px main content",
+      "sidebar_usage": "Sticky quick verdict for reviews",
+      "related_content_style": "Compare alternatives, complementary gear",
+      "forbidden": ["No workout test info", "Spec-only reviews", "Affiliate overload"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 on wide screens",
+      "preferred_columns": "3 columns for products",
+      "asymmetry_level": "Low—organized for scanning",
+      "grid_breaking": "Featured reviews span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "48px - 80px between sections",
+      "element_spacing_scale": "4/8/12/16/24/32/48",
+      "rhythm_style": "Efficient, athletic",
+      "breathing_rule": "Clear hierarchy, easy scanning"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Critical—athletes browse on phones",
+      "tablet_approach": "Two columns where appropriate",
+      "breakpoint_behavior": "Smooth, professional"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Efficient—find gear by sport or category fast",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["Reviews", "Best Of", "Running", "Fitness", "Cycling", "About"],
+      "item_naming_style": "Clear, activity-focused",
+      "dropdown_behavior": "Organized by sport/activity"
+    },
+    "mobile_nav": {
+      "style": "Slide-out drawer",
+      "full_screen": false,
+      "maintains_atmosphere": "Quick access"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All categories, about, methodology"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Clear: Home > Running > GPS Watches > Garmin 965 Review"
+    },
+    "search": {
+      "prominence": "Very prominent",
+      "style": "Search watches, trackers, equipment..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Barlow",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Athletic, strong, modern",
+      "weight_range": "600-800",
+      "letter_spacing": "-0.01em tight",
+      "text_transform": "Occasional uppercase for impact"
+    },
+    "body": {
+      "primary_font": "Source Sans Pro",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clear, readable, professional",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.6-1.7",
+      "paragraph_spacing": "1.25em"
+    },
+    "accent": {
+      "font": "Barlow Condensed",
+      "usage": "Stats, metrics, performance numbers",
+      "restraint_rule": "Data displays, not body text"
+    },
+    "type_scale": {
+      "base_size": "16px",
+      "scale_ratio": "1.25",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem",
+        "4xl": "3.052rem"
+      }
+    },
+    "forbidden_fonts": ["Decorative fonts", "Script fonts", "Heavy display fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light-first with strong dark mode",
+    
+    "palette": {
+      "primary": {
+        "hex": "#E63946",
+        "name": "Pulse Red",
+        "usage": "Primary accents, CTAs, energy",
+        "emotion": "Energy, heart rate, passion, performance"
+      },
+      "secondary": {
+        "hex": "#1D3557",
+        "name": "Midnight Navy",
+        "usage": "Secondary, depth, professional",
+        "emotion": "Depth, trust, professionalism"
+      },
+      "accent": {
+        "hex": "#2A9D8F",
+        "name": "Active Teal",
+        "usage": "Success, positive metrics",
+        "max_usage": "Supporting, metrics"
+      },
+      "background_primary": {
+        "hex": "#FFFFFF",
+        "name": "Clean White",
+        "dark_mode": "#0D1117"
+      },
+      "background_secondary": {
+        "hex": "#F8F9FA",
+        "name": "Light Gray",
+        "dark_mode": "#161B22"
+      },
+      "background_tertiary": {
+        "hex": "#E9ECEF",
+        "name": "Border Gray",
+        "dark_mode": "#21262D"
+      },
+      "text_primary": {
+        "hex": "#1A1A1A",
+        "name": "Near Black",
+        "dark_mode": "#F0F0F0",
+        "contrast_ratio": "18:1"
+      },
+      "text_secondary": {
+        "hex": "#4A4A4A",
+        "name": "Dark Gray",
+        "dark_mode": "#A0A0A0"
+      },
+      "text_muted": {
+        "hex": "#6C757D",
+        "name": "Medium Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#2A9D8F",
+      "warning": "#F4A261",
+      "error": "#E63946",
+      "info": "#457B9D"
+    },
+    
+    "gradient_rules": {
+      "allowed": true,
+      "type": "Subtle energy gradients",
+      "subtlety": "Hero elements only",
+      "approved_gradients": [
+        "Red to dark (for energy)",
+        "Dark to darker (for depth)"
+      ],
+      "forbidden_gradients": ["Rainbow", "Neon", "Obvious decorative"]
+    },
+    
+    "forbidden_colors": [
+      "Pastels (too soft)",
+      "Neon (too aggressive)",
+      "Brown/earth tones (wrong energy)"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Dynamic, natural for outdoor, professional for product",
+      "color_treatment": "Vibrant, energetic, true-to-life",
+      "mood": "Athletic, aspirational but achievable, in motion",
+      "subjects": ["Athletes using gear", "Products in action", "Training moments", "Data screens", "Real workouts"],
+      "forbidden_subjects": ["Static product only", "Elite athletes only", "Intimidating imagery", "Stock fitness poses"]
+    },
+    "illustration_style": {
+      "approach": "Clean data visualizations, comparison graphics",
+      "line_weight": "Medium, clear",
+      "color_usage": "Brand colors for data viz",
+      "style_reference": "Sports analytics style"
+    },
+    "iconography": {
+      "style": "Clean, athletic line icons",
+      "stroke_weight": "2px",
+      "custom_required": false,
+      "icon_library": "Lucide or Phosphor",
+      "forbidden": ["Cute icons", "3D icons", "Generic clipart"]
+    },
+    "image_treatment": {
+      "overlays": "Subtle gradient for text readability",
+      "borders": "Clean edges",
+      "shapes": "Dynamic angles occasionally",
+      "hover_effects": "Subtle energy increase"
+    },
+    "sources": {
+      "preferred": ["Action shots with gear", "Original testing photography", "Real workout imagery"],
+      "acceptable": ["Quality athletic stock"],
+      "forbidden": ["Static product only", "Elite-only athletes", "Intimidating poses"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Workout Test Summary",
+        "description": "What workouts we actually did with this gear",
+        "usage": "All reviews",
+        "frequency": "Every review"
+      },
+      {
+        "element": "Performance Rating",
+        "description": "Clear score with breakdown",
+        "usage": "Reviews",
+        "frequency": "Every product review"
+      },
+      {
+        "element": "Best For Badge",
+        "description": "Activity/level this gear suits best",
+        "usage": "All product content",
+        "frequency": "Every product"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Data comparison charts",
+        "when_to_use": "Comparisons, detailed reviews"
+      },
+      {
+        "element": "Training integration tips",
+        "when_to_use": "When relevant to training plans"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "Functional elements as needed",
+      "placement": "Where they help decisions",
+      "restraint_philosophy": "Help athletes decide, don't overwhelm"
+    },
+    "custom_ui_elements": {
+      "buttons": "Strong, clear, action-oriented",
+      "cards": "Product prominent, key info scannable",
+      "dividers": "Clean, subtle",
+      "loading_states": "Quick, athletic feel",
+      "empty_states": "Motivating suggestions"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Motivated", "Honest", "Knowledgeable", "Inclusive", "Data-driven", "Experienced"],
+    "tone_spectrum": {
+      "formal_casual": "5/10 - Professional but approachable",
+      "serious_playful": "6/10 - Focused with enthusiasm",
+      "technical_accessible": "6/10 - Technical when needed, always explained"
+    },
+    "writing_style": {
+      "sentence_length": "Direct, efficient",
+      "paragraph_length": "Short, scannable",
+      "vocabulary_level": "Athletic terms used naturally, explained when needed"
+    },
+    "perspective": "First person (I trained, we tested) for authenticity",
+    "forbidden_phrases": [
+      "Only serious athletes",
+      "If you can't afford this",
+      "Game-changing",
+      "Revolutionary fitness"
+    ],
+    "encouraged_phrases": [
+      "In my training",
+      "After X miles/workouts",
+      "Worth it if you",
+      "Skip this if you",
+      "All fitness levels"
+    ],
+    "cta_voice": {
+      "style": "Action-oriented, clear",
+      "examples": ["See Full Review", "Check Price", "Compare Options", "Find Your Watch", "Training Guide"],
+      "forbidden_ctas": ["Don't Miss Out", "Limited Time", "Pros Only"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Static product grids only",
+      "No athlete/action imagery",
+      "Elite-only intimidating feel",
+      "Spec dumps without testing"
+    ],
+    "visual_forbidden": [
+      "Static product photos only",
+      "Intimidating elite imagery",
+      "Aggressive neon",
+      "No energy/action"
+    ],
+    "typography_forbidden": [
+      "Decorative fonts",
+      "Weak/soft fonts",
+      "Aggressive ALL CAPS everywhere"
+    ],
+    "content_forbidden": [
+      "Reviews without workout tests",
+      "Elite gatekeeping",
+      "Spec sheets only",
+      "Intimidating language"
+    ],
+    "imagery_forbidden": [
+      "Product only, no action",
+      "Elite athletes only",
+      "Intimidating poses",
+      "Stock fitness clichés"
+    ],
+    "interaction_forbidden": [
+      "Aggressive popups",
+      "Shame-based CTAs",
+      "Price manipulation"
+    ],
+    "this_site_specific_forbidden": [
+      "Untested reviews",
+      "Fitness level gatekeeping",
+      "Influencer-style hype",
+      "Ignoring budget options"
+    ],
+    "immediate_rejection_triggers": [
+      "Reviews without real testing",
+      "Intimidating/elite-only feel",
+      "Spec sheets without workouts",
+      "Generic tech review style"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Spec sheets without testing",
+      "Product shots only",
+      "Reviews by non-athletes",
+      "Intimidating elite focus"
+    ],
+    "what_acceptable_looks_like": [
+      "Real testing",
+      "Action imagery",
+      "Multiple fitness levels",
+      "But generic presentation"
+    ],
+    "what_perfect_looks_like": [
+      "Clearly tested through real workouts",
+      "All fitness levels feel welcome",
+      "Data-driven but accessible",
+      "Actually helps training decisions",
+      "Motivating, not intimidating"
+    ],
+    "tests": {
+      "screenshot_test": "Would a beginner feel welcome?",
+      "swap_test": "Is this obviously fitness-focused? (Must be)",
+      "memory_test": "Does reader know if gear suits their training?",
+      "ten_second_test": "Is real testing evident immediately?"
+    },
+    "competitive_positioning": {
+      "competitors": ["DC Rainmaker", "Wareable", "Gadgets & Wearables"],
+      "how_we_differ": "More accessible to all levels, equally rigorous testing",
+      "what_they_do_wrong": "Too technical/intimidating or too surface-level",
+      "what_we_do_better": "Balance of depth and accessibility, all fitness levels"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "TablePress",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["fitness tracker review", "running watch review", "best fitness tracker", "garmin review", "apple watch fitness"],
+    "secondary_keywords": ["[product] review", "best watch for running", "fitness tracker comparison", "gym equipment review"],
+    "content_pillars": ["Running Watches", "Fitness Trackers", "Gym Equipment", "Cycling Tech", "Buyer's Guides"],
+    "schema_types": ["Article", "Product", "Review", "FAQPage"],
+    "internal_linking_strategy": "Reviews link to comparisons. Comparisons link to best-of guides. Guides link to individual reviews.",
+    "content_depth_target": "In-depth reviews: 3000+, Comparisons: 2000+, Quick reviews: 1200+"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-13",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add gear finder quiz",
+      "Build comparison tool",
+      "Create training plan integrations",
+      "Add community workout logs"
+    ],
+    "experiments_to_try": [
+      "Video workout tests",
+      "Training plan recommendations",
+      "Community reviews",
+      "Gear tracking over time"
+    ]
+  }
+}
