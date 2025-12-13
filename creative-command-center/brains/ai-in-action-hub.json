@@ -1,0 +1,618 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "ai-in-action-hub",
+  "codename": "AIinActionEditor",
+  "url": "https://aiinactionhub.com",
+  "niche": "Artificial Intelligence",
+  "sub_niche": "Practical AI Applications & Tutorials",
+  "status": "Primary AI content site",
+  
+  "archetype": {
+    "primary": "Creator",
+    "secondary": "Sage",
+    "archetype_expression": "The forward-thinking practitioner who bridges the gap between AI hype and real application. Not an academic theorist—someone who actually uses these tools and can show you how. Excited about possibilities but grounded in practical reality. The colleague who's always finding cool AI tools and showing you how to actually use them."
+  },
+  
+  "soul": {
+    "one_sentence": "Where AI stops being buzzwords and starts being tools you actually use.",
+    "expanded": "The AI revolution is happening, but most coverage is either hype-driven nonsense or academic papers nobody can understand. We're different. We're practitioners first—we test, we build, we figure out what actually works. Then we show you exactly how to do it yourself. No PhD required.",
+    "what_we_are": "Practical AI education for everyone. Real tools, real applications, real results. Tutorials that actually work. Honest assessments of what AI can and can't do.",
+    "what_we_are_not": "Not hype merchants. Not academic gatekeepers. Not 'AI will take your job' fear-mongerers. Not 'AI will solve everything' utopians."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Empowered excitement",
+    "secondary_emotion": "Practical confidence",
+    "tertiary_emotion": "Curious exploration",
+    "emotional_range": ["excited", "empowered", "capable", "curious", "informed", "ahead-of-curve", "practical", "grounded"],
+    "forbidden_emotions": ["fear", "overwhelm", "FOMO", "hype-driven anxiety", "imposter syndrome", "confusion"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 32-year-old product manager who became obsessed with AI tools and now helps their whole company work smarter. Not a developer by training but can code enough to build useful things. Always has three side projects going. Gets genuinely excited sharing discoveries but never makes you feel stupid for not knowing something.",
+    "place": "A modern co-working space with good coffee and fast wifi. Whiteboards with system diagrams. Multiple monitors showing dashboards and terminals. The energy of people building things. Clean but lived-in—function over form.",
+    "time_of_day": "Mid-morning—peak productivity time, fresh coffee, ready to learn and build.",
+    "season": "Spring—new growth, fresh starts, emerging possibilities.",
+    "sound": "Keyboard typing, notification pings (the productive kind), people excited about discoveries.",
+    "texture": "Smooth screens, quality keyboards, the satisfying click of well-designed hardware.",
+    "smell": "Good coffee. Clean workspace. Maybe a hint of new electronics.",
+    "taste": "Quality coffee—you need fuel for learning.",
+    "temperature": "Comfortable for focused work.",
+    "weather": "Clear and connected—good internet day.",
+    "music_genre": "Lo-fi beats, electronic ambient—focus music for builders.",
+    "movie": "The Social Network meets Her—the thrill of building something new with technology that feels magical.",
+    "book": "A well-written technical tutorial that's actually engaging and gets you building immediately."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Practical Paul",
+      "age_range": "25-50",
+      "description": "A professional (any field) who knows AI is important but doesn't know where to start with actually using it. Has tried ChatGPT, maybe confused about what else is out there. Wants practical skills, not theory.",
+      "mindset": "Eager to learn, frustrated by hype, wants real skills. Values practicality over flash. Willing to invest time to learn if the payoff is clear.",
+      "goals": ["Use AI to work smarter", "Not get left behind", "Build practical projects", "Understand what's actually possible", "Impress colleagues with AI skills"],
+      "pain_points": ["Too much hype, hard to know what's real", "Tutorials too basic or too advanced", "Don't know which tools to use", "Worried about being replaced by AI", "Can't tell good AI content from nonsense"],
+      "objections": ["Is this just hype?", "Do I need to code?", "Is this already outdated?", "Will this actually help my work?"],
+      "trigger_phrases": ["how to use AI", "best AI tools", "AI for beginners", "ChatGPT tutorial", "AI automation", "AI for business"]
+    },
+    "secondary_persona": {
+      "name": "Builder Beth",
+      "description": "Someone with technical skills looking to integrate AI into their projects. Wants implementation details, API guides, integration tutorials.",
+      "how_they_differ": "Needs more technical depth, code examples, architecture patterns"
+    },
+    "tertiary_persona": {
+      "name": "Strategic Steve",
+      "description": "Decision-maker evaluating AI for their organization. Needs to understand capabilities and limitations without getting too technical.",
+      "how_they_differ": "Needs strategic overviews, use case libraries, ROI considerations"
+    },
+    "anti_persona": {
+      "description": "Someone looking for 'get rich quick with AI' schemes. People who want to spread AI misinformation. Those seeking to use AI for harmful purposes.",
+      "why_not": "We don't enable scams or harm. We're about practical, ethical AI use."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Forward-modern—clean, smart, but approachable. Tech without being intimidating.",
+    
+    "density": {
+      "description": "Organized and efficient. Information-rich but scannable.",
+      "content_to_whitespace_ratio": "55% content, 45% space",
+      "section_breathing": "Clear sections, logical groupings, easy navigation",
+      "never": "Never cluttered. Never overwhelming with options. Never confusing."
+    },
+    
+    "contrast": {
+      "description": "High contrast, dark mode native. The future is dark mode.",
+      "approach": "Dark backgrounds with bright accents. Clean and focused.",
+      "drama_level": "Medium—modern and engaging without being flashy",
+      "never": "Never low-contrast trendy. Never garish. Never eye-straining."
+    },
+    
+    "motion": {
+      "description": "Sharp, purposeful, responsive. Technology should feel fast.",
+      "speed": "Fast—0.15s-0.25s transitions. Snappy and responsive.",
+      "style": "Sharp easing, precise timing. No mushiness.",
+      "frequency": "Functional—state changes, feedback, navigation",
+      "purpose": "To communicate responsiveness and intelligence",
+      "never": "Never slow. Never decorative. Never attention-seeking."
+    },
+    
+    "texture": {
+      "description": "Clean, digital, minimal texture",
+      "elements": ["Subtle gradients for depth", "Clean surfaces", "Occasional code/data textures"],
+      "intensity": "Very minimal—let content shine",
+      "never": "Never organic textures. Never paper/fabric. Never retro."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean geometry, subtle rounded corners",
+      "border_radius_philosophy": "4-8px—modern but not bubbly",
+      "line_weight": "Crisp, consistent, precise",
+      "never": "Never fully rounded. Never irregular. Never ornate."
+    },
+    
+    "depth": {
+      "approach": "Layered cards, clear hierarchy",
+      "shadow_style": "Subtle, dark mode appropriate",
+      "elevation_levels": "3 levels: background, content, focused",
+      "never": "Never heavy shadows. Never extreme depth."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Clear value proposition—practical AI, no hype",
+        "Featured tutorials—start learning immediately",
+        "Tool categories—find what you need",
+        "Latest updates—AI moves fast, stay current",
+        "Newsletter—stay informed"
+      ],
+      "forbidden_flow": [
+        "Hype-driven hero with vague promises",
+        "Wall of news without organization",
+        "Fear-based 'AI is coming' messaging"
+      ],
+      "hero_requirements": {
+        "type": "Clean, clear, immediately useful",
+        "content_placement": "Value prop, search, quick category access",
+        "cta_style": "Action-oriented: 'Start Learning', 'Find Tools', 'Browse Tutorials'",
+        "forbidden": ["Vague futurism", "Fear messaging", "Hype without substance"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Organized grid with featured content",
+      "featured_treatment": "Best/most useful prominently displayed",
+      "pagination_style": "Load more or numbered pagination",
+      "forbidden": ["Chronological blog dump", "No organization", "Sponsored content dominating"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column with sticky ToC for tutorials",
+      "max_width": "800px for content, wider for code blocks",
+      "sidebar_usage": "Sticky ToC for long tutorials, none for short posts",
+      "related_content_style": "Next steps, related tools, progressive learning",
+      "forbidden": ["Mid-tutorial interruptions", "Paywall teases", "Excessive affiliate pushing"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 on wide screens",
+      "preferred_columns": "3 columns for cards",
+      "asymmetry_level": "Low—organized and consistent",
+      "grid_breaking": "Featured tutorials can span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "48px - 80px between major sections",
+      "element_spacing_scale": "4/8/12/16/24/32/48",
+      "rhythm_style": "Efficient and organized",
+      "breathing_rule": "Enough space to scan, not so much it feels slow"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Fully functional on mobile—learners are everywhere",
+      "tablet_approach": "Two columns where appropriate",
+      "breakpoint_behavior": "Smooth, professional transitions"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Efficient organization—find what you need, fast",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["Tutorials", "Tools", "Use Cases", "News", "Resources", "About"],
+      "item_naming_style": "Clear, action-oriented",
+      "dropdown_behavior": "Organized dropdowns by category"
+    },
+    "mobile_nav": {
+      "style": "Slide-out drawer",
+      "full_screen": false,
+      "maintains_atmosphere": "Clean, efficient access"
+    },
+    "secondary_nav": {
+      "location": "Footer + contextual",
+      "contents": "All categories, resources, about, community"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Clear path: Home > Tutorials > ChatGPT > Advanced Prompting"
+    },
+    "search": {
+      "prominence": "Very prominent—learners search specific topics",
+      "style": "Smart search with suggestions, 'Search AI tools, tutorials, guides...'"
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Space Grotesk",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Modern, technical, approachable. Forward-looking but not cold.",
+      "weight_range": "500-700",
+      "letter_spacing": "-0.01em for tight, modern feel",
+      "text_transform": "None typically"
+    },
+    "body": {
+      "primary_font": "Inter",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clear, highly readable, professional",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.6-1.7",
+      "paragraph_spacing": "1.25em between paragraphs"
+    },
+    "code": {
+      "font": "JetBrains Mono",
+      "usage": "All code blocks, technical content",
+      "style": "Syntax highlighted, well-formatted"
+    },
+    "type_scale": {
+      "base_size": "16px",
+      "scale_ratio": "1.25 (major third)",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (16px)",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem",
+        "4xl": "3.052rem"
+      }
+    },
+    "forbidden_fonts": ["Decorative fonts", "Serif fonts (except for contrast)", "Overly futuristic fonts", "Anything that feels dated"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "dark-first",
+    
+    "palette": {
+      "primary": {
+        "hex": "#00F0FF",
+        "name": "Electric Cyan",
+        "usage": "Primary accents, key actions, highlights",
+        "emotion": "Innovation, future, energy, intelligence"
+      },
+      "secondary": {
+        "hex": "#7C3AED",
+        "name": "AI Purple",
+        "usage": "Secondary accents, categories, depth",
+        "emotion": "Technology, intelligence, premium"
+      },
+      "accent": {
+        "hex": "#10B981",
+        "name": "Success Green",
+        "usage": "Success states, positive indicators",
+        "max_usage": "Functional only"
+      },
+      "background_primary": {
+        "hex": "#0F0F14",
+        "name": "Deep Dark"
+      },
+      "background_secondary": {
+        "hex": "#1A1A24",
+        "name": "Card Dark"
+      },
+      "background_tertiary": {
+        "hex": "#252532",
+        "name": "Elevated Dark"
+      },
+      "text_primary": {
+        "hex": "#F8F8F8",
+        "name": "Near White",
+        "contrast_ratio": "18:1 against Deep Dark"
+      },
+      "text_secondary": {
+        "hex": "#A1A1AA",
+        "name": "Light Gray"
+      },
+      "text_muted": {
+        "hex": "#71717A",
+        "name": "Muted Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "info": "#3B82F6"
+    },
+    
+    "gradient_rules": {
+      "allowed": true,
+      "type": "Subtle, brand-colored",
+      "subtlety": "Used sparingly for key elements",
+      "approved_gradients": [
+        "Cyan to purple (for featured elements only)",
+        "Dark to darker (for depth)"
+      ],
+      "forbidden_gradients": ["Rainbow", "Obvious decorative gradients", "Overused cyan-purple everywhere"]
+    },
+    
+    "forbidden_colors": [
+      "Pastel colors",
+      "Warm earth tones",
+      "Dated tech colors (old blue, etc.)"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Clean, modern, tech-appropriate",
+      "color_treatment": "Cool, slightly desaturated, professional",
+      "mood": "Professional, modern, building-focused",
+      "subjects": ["Screenshots of actual tools", "Interface examples", "Workflow diagrams", "Real results (not mocked)", "People using technology (diverse)"],
+      "forbidden_subjects": ["Robots with human faces", "Blue brain imagery", "Matrix-style code rain", "Terminator references", "Stock 'AI' imagery"]
+    },
+    "illustration_style": {
+      "approach": "Clean technical diagrams, system illustrations",
+      "line_weight": "Crisp, consistent",
+      "color_usage": "Brand colors, functional",
+      "style_reference": "Modern tech documentation, Stripe-style illustrations"
+    },
+    "iconography": {
+      "style": "Clean line icons, consistent",
+      "stroke_weight": "1.5-2px",
+      "custom_required": false,
+      "icon_library": "Lucide or Phosphor",
+      "forbidden": ["Emoji as icons", "Inconsistent styles", "Overly detailed icons"]
+    },
+    "image_treatment": {
+      "overlays": "None—let screenshots be clear",
+      "borders": "Subtle dark borders for definition",
+      "shapes": "Clean rectangles with consistent radius",
+      "hover_effects": "Subtle scale or glow"
+    },
+    "sources": {
+      "preferred": ["Real screenshots", "Custom diagrams", "Original product images"],
+      "acceptable": ["Quality tech stock (carefully selected)"],
+      "forbidden": ["Generic AI stock imagery", "Blue brain images", "Robot faces", "Matrix references"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Difficulty Indicator",
+        "description": "Clear tag showing skill level required (Beginner/Intermediate/Advanced)",
+        "usage": "All tutorials",
+        "frequency": "Every tutorial"
+      },
+      {
+        "element": "Time Estimate",
+        "description": "How long the tutorial/setup takes",
+        "usage": "Tutorials and guides",
+        "frequency": "All how-to content"
+      },
+      {
+        "element": "Updated Date",
+        "description": "When content was last verified current",
+        "usage": "All content",
+        "frequency": "Every piece of content"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Code copy buttons",
+        "when_to_use": "All code blocks"
+      },
+      {
+        "element": "Tool comparison tables",
+        "when_to_use": "Comparison content"
+      },
+      {
+        "element": "Video embeds",
+        "when_to_use": "Complex tutorials"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "Functional elements as needed",
+      "placement": "Where they help users",
+      "restraint_philosophy": "Functional over decorative"
+    },
+    "custom_ui_elements": {
+      "buttons": "Clean, clear, state-visible",
+      "cards": "Dark background, clear information hierarchy",
+      "dividers": "Subtle lines or space, never decorative",
+      "loading_states": "Fast, informative skeleton states",
+      "empty_states": "Helpful with suggestions"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Knowledgeable", "Practical", "Excited but grounded", "No-nonsense", "Helpful", "Current"],
+    "tone_spectrum": {
+      "formal_casual": "5/10 - Professional but approachable",
+      "serious_playful": "5/10 - Focused with occasional enthusiasm",
+      "technical_accessible": "6/10 - Technical when needed, always explained"
+    },
+    "writing_style": {
+      "sentence_length": "Clear and direct. Concise for tutorials, detailed for concepts.",
+      "paragraph_length": "Short. Scannable. Break up technical content.",
+      "vocabulary_level": "Technical terms introduced and explained"
+    },
+    "perspective": "Second person (you) for tutorials, first person plural (we) for opinions/testing",
+    "forbidden_phrases": [
+      "AI will change everything",
+      "Revolutionary breakthrough",
+      "Game-changer",
+      "Mind-blowing",
+      "AI apocalypse",
+      "Your job is at risk",
+      "Disrupting everything"
+    ],
+    "encouraged_phrases": [
+      "Here's how to actually",
+      "In our testing",
+      "The practical reality",
+      "What this means for you",
+      "Step by step",
+      "The honest assessment"
+    ],
+    "cta_voice": {
+      "style": "Action-oriented and clear",
+      "examples": ["Start the Tutorial", "Try This Tool", "Get the Template", "See Examples", "Watch It Work"],
+      "forbidden_ctas": ["Don't get left behind", "Before it's too late", "Secret AI tricks", "Learn More"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Hype-driven hero with vague promises",
+      "News-only chronological dump",
+      "Fear-based messaging",
+      "Overwhelming options without organization"
+    ],
+    "visual_forbidden": [
+      "Robot face imagery",
+      "Blue brain AI clichés",
+      "Matrix code rain",
+      "Terminator references",
+      "Generic 'futuristic' imagery"
+    ],
+    "typography_forbidden": [
+      "Futuristic/sci-fi fonts",
+      "Overly technical fonts that hurt readability"
+    ],
+    "content_forbidden": [
+      "Hype without substance",
+      "Fear-mongering about AI",
+      "Get rich quick promises",
+      "Outdated information presented as current",
+      "Theory without practical application"
+    ],
+    "imagery_forbidden": [
+      "Stock AI imagery",
+      "Blue glowing brains",
+      "Humanoid robots",
+      "Fear-inducing AI imagery"
+    ],
+    "interaction_forbidden": [
+      "Aggressive newsletter popups",
+      "FOMO-based CTAs",
+      "Premium teases without value"
+    ],
+    "this_site_specific_forbidden": [
+      "Hype over substance",
+      "Outdated tutorials",
+      "Theory without practice",
+      "Gatekeeping knowledge",
+      "AI doomism or utopianism"
+    ],
+    "immediate_rejection_triggers": [
+      "Blue brain imagery",
+      "Hype-driven messaging",
+      "Fear-based content",
+      "Looks like every other AI site",
+      "Outdated information"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Blue brain hero image",
+      "'AI will change everything' headline",
+      "No actual tutorials, just hype",
+      "Outdated ChatGPT tips",
+      "Matrix aesthetic"
+    ],
+    "what_acceptable_looks_like": [
+      "Clean, modern design",
+      "Real tutorials",
+      "Current information",
+      "But generic—could be any AI site"
+    ],
+    "what_perfect_looks_like": [
+      "User can actually build something after visiting",
+      "Information is verifiably current",
+      "Complex topics made genuinely accessible",
+      "Honest about limitations and capabilities",
+      "Becomes a go-to resource people return to"
+    ],
+    "tests": {
+      "screenshot_test": "Does it look like every other AI site? (Must fail)",
+      "swap_test": "Could this be hype-driven AI marketing? (Must fail)",
+      "memory_test": "Can the reader actually do something new?",
+      "ten_second_test": "Is it clear this is practical, not hype?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Zapier AI guides", "Medium AI content", "YouTube AI tutorials"],
+      "how_we_differ": "More organized, more practical, more honest, better maintained",
+      "what_they_do_wrong": "Too much hype, outdated quickly, scattered/unorganized",
+      "what_we_do_better": "Practical focus, honest assessment, organized learning paths, current information"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "WPCode Pro (for code highlighting)",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["AI tools", "AI tutorial", "how to use ChatGPT", "AI for business", "AI automation"],
+    "secondary_keywords": ["[tool] tutorial", "best AI tools for [use case]", "AI prompt engineering", "AI workflow automation"],
+    "content_pillars": ["AI Tools & Platforms", "ChatGPT & LLMs", "AI Automation", "AI for Business", "AI Development"],
+    "schema_types": ["Article", "HowTo", "FAQPage", "SoftwareApplication"],
+    "internal_linking_strategy": "Learning paths connecting related tutorials. Tools link to tutorials using them. Tutorials link to next steps.",
+    "content_depth_target": "Complete guides: 3000+, Tutorials: 1500-2500, Tool reviews: 1200+, Quick tips: 600-1000"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-12",
+    "last_updated": "2025-12-12",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-12",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add interactive code playgrounds",
+      "Create AI tool comparison database",
+      "Build community contribution system",
+      "Develop personalized learning paths"
+    ],
+    "experiments_to_try": [
+      "Video tutorials embedded",
+      "Interactive prompt builders",
+      "Community tool ratings",
+      "Newsletter with weekly AI updates"
+    ]
+  }
+}
