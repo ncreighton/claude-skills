@@ -1,0 +1,590 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "celebration-season",
+  "codename": "FestiveHost",
+  "url": "https://celebrationseason.com",
+  "niche": "Holidays & Celebrations",
+  "sub_niche": "Party Planning, Holiday Guides & Celebration Ideas",
+  "status": "Seasonal content site",
+  
+  "archetype": {
+    "primary": "Creator",
+    "secondary": "Entertainer",
+    "archetype_expression": "The natural host who makes every gathering feel special without being stressful. Believes celebrations should bring joy, not anxiety. Creative ideas grounded in practicality. The friend who throws great parties that actually feel effortless—and shares all their secrets."
+  },
+  
+  "soul": {
+    "one_sentence": "Making celebrations memorable without the stress—real ideas that actually work.",
+    "expanded": "Every celebration deserves to feel special, but not at the cost of your sanity. We're here with creative, achievable ideas that work in real life with real budgets and real time constraints. Whether it's a major holiday or a Tuesday birthday, we help you create moments worth remembering without creating moments of panic.",
+    "what_we_are": "Practical celebration inspiration. Real-budget party planning. Stress-free hosting guides. Ideas that actually work for normal people with normal lives.",
+    "what_we_are_not": "Not Pinterest-perfect impossible standards. Not expensive-only options. Not creating hosting anxiety. Not forgetting the point is connection, not perfection."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Joyful excitement",
+    "secondary_emotion": "Confident creativity",
+    "tertiary_emotion": "Relaxed anticipation",
+    "emotional_range": ["excited", "creative", "confident", "joyful", "relaxed", "inspired", "festive", "connected", "accomplished"],
+    "forbidden_emotions": ["overwhelm", "anxiety", "perfectionism pressure", "comparison shame", "hosting stress", "inadequacy", "panic"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 38-year-old who genuinely loves bringing people together. Their parties feel magical but guests don't know about the shortcuts and simplifications behind the scenes. Believes the best celebrations are about connection, not competition. Has a drawer of decorations organized by holiday.",
+    "place": "A home ready for guests—inviting, festive, but not intimidatingly perfect. Real homes decorated for real celebrations. Evidence of thoughtful touches without exhausting effort. The kitchen might be a little messy but nobody cares because the vibe is great.",
+    "time_of_day": "Golden hour before guests arrive—excited anticipation, everything coming together, that magical moment.",
+    "season": "All seasons, but especially the run-up to holidays—that festive preparation energy when possibilities feel endless.",
+    "sound": "Good music playing, the buzz of arriving guests, laughter, maybe kids excited, glasses clinking.",
+    "texture": "Quality napkins, wrapped gifts, festive decorations, the clink of glasses, soft twinkle lights.",
+    "smell": "Something delicious baking, seasonal scents (cinnamon, pine, summer BBQ), candles creating atmosphere.",
+    "taste": "Party food done right, celebration drinks, seasonal treats that become traditions.",
+    "temperature": "Warm and welcoming—the kind of atmosphere that makes people want to stay.",
+    "weather": "Doesn't matter—celebrations happen rain or shine, inside or outside.",
+    "music_genre": "Festive but tasteful—appropriate for the celebration at hand, sets the mood without dominating.",
+    "movie": "The best holiday movies—warm, funny, about togetherness over perfection. Think Home Alone meets The Holiday.",
+    "book": "A party planning book that's actually realistic and doesn't make you feel inadequate—dog-eared with sticky notes."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Hosting Hannah",
+      "age_range": "28-50",
+      "description": "Someone planning a celebration—holiday dinner, birthday party, special occasion. Wants it to feel special without losing their mind. Looking for ideas that are achievable with their actual time and budget constraints.",
+      "mindset": "Wants to create joy for others. Worried about pulling it off. Seeking practical inspiration not impossible standards.",
+      "goals": ["Host a memorable celebration", "Not stress themselves out", "Find achievable creative ideas", "Stay on budget", "Make guests feel special", "Create traditions worth keeping"],
+      "pain_points": ["Pinterest overwhelm and comparison", "Unrealistic expectations", "Limited time and budget", "Hosting anxiety", "Comparison to perfect-seeming others", "Not knowing where to start"],
+      "objections": ["Is this actually doable in my timeframe?", "How much will this cost really?", "I'm not crafty enough for this"],
+      "trigger_phrases": ["party ideas", "[holiday] party", "birthday party ideas", "how to host", "easy party food", "decoration ideas", "last minute party"]
+    },
+    "secondary_persona": {
+      "name": "Last-Minute Lisa",
+      "age_range": "25-45",
+      "description": "Planning something with limited time—maybe just found out, forgot, or life happened. Needs quick, practical, achievable ideas NOW.",
+      "how_they_differ": "Needs fast solutions, minimal prep time, quick wins that still feel special"
+    },
+    "tertiary_persona": {
+      "name": "Traditional Tom",
+      "age_range": "35-60",
+      "description": "Wants meaningful traditions and ideas for family celebrations. Values meaning over spectacle. Wants to create memories that last.",
+      "how_they_differ": "Needs tradition-focused content, meaningful activities, family-friendly, multi-generational appeal"
+    },
+    "anti_persona": {
+      "description": "People wanting to shame others' celebrations. Those promoting unrealistic standards. Hosts who prioritize impressing over connecting. Competition-focused party planners.",
+      "why_not": "Celebrations are about connection, not competition or judgment. Perfection is the enemy of joy."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Festive, joyful, achievable—celebrations that look attainable and make you excited to try",
+    
+    "density": {
+      "description": "Organized inspiration—enough ideas without overwhelm",
+      "content_to_whitespace_ratio": "50% content, 50% space",
+      "section_breathing": "Clear sections, easy browsing, organized by type",
+      "never": "Never cluttered. Never overwhelming. Never anxiety-inducing."
+    },
+    
+    "contrast": {
+      "description": "Bright, festive, joyful—celebratory energy",
+      "approach": "Light backgrounds with festive color pops that feel happy",
+      "drama_level": "Medium—celebratory without overwhelming",
+      "never": "Never harsh. Never dull. Never stress-inducing."
+    },
+    
+    "motion": {
+      "description": "Playful, festive, celebratory—like confetti or sparkle",
+      "speed": "Medium—0.3s-0.5s transitions. Festive not frantic.",
+      "style": "Gentle, festive, joyful movements",
+      "frequency": "Occasional festive touches that delight",
+      "purpose": "To create celebratory feeling without distraction",
+      "never": "Never chaotic. Never overwhelming. Never distracting from content."
+    },
+    
+    "texture": {
+      "description": "Festive but clean—confetti touches, subtle patterns, celebration elements",
+      "elements": ["Subtle festive textures", "Celebration touches", "Clean backgrounds with festive accents"],
+      "intensity": "Moderate—celebratory but not busy",
+      "never": "Never cluttered. Never visually overwhelming."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Rounded, friendly, celebratory—party vibes",
+      "border_radius_philosophy": "12-16px—friendly, approachable, festive",
+      "line_weight": "Medium, clear, joyful",
+      "never": "Never harsh. Never corporate. Never cold."
+    },
+    
+    "depth": {
+      "approach": "Gentle layering, festive elements",
+      "shadow_style": "Soft, warm shadows—celebratory glow",
+      "elevation_levels": "2-3 levels for visual interest and hierarchy",
+      "never": "Never flat/boring. Never extreme depth."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Festive hero—celebration invitation, seasonal relevance",
+        "What's coming up—next holidays on the calendar",
+        "Quick-access categories (by holiday, by type)",
+        "Featured inspiration—doable ideas that excite",
+        "Last-minute section—for the procrastinators",
+        "Newsletter—holiday prep delivered early"
+      ],
+      "forbidden_flow": [
+        "Overwhelming inspiration dumps",
+        "Unrealistic perfection imagery only",
+        "Anxiety-inducing countdowns"
+      ],
+      "hero_requirements": {
+        "type": "Festive, inviting, seasonal, achievable-feeling",
+        "content_placement": "Seasonal relevance, quick category access, welcoming",
+        "cta_style": "Inviting: 'Find Ideas', 'Plan Your Party', 'This Week's Holidays'",
+        "forbidden": ["Intimidating perfection", "Urgent/anxiety messaging", "Overwhelming options"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Organized grid with filters (budget, time, group size)",
+      "featured_treatment": "Editor's picks, 'Most Achievable' highlights",
+      "pagination_style": "Load more with encouragement",
+      "forbidden": ["Dense overwhelming grids", "No practical filters", "Only expensive options"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column, clear sections, scannable",
+      "max_width": "780px",
+      "sidebar_usage": "Sticky quick info: time needed, budget, servings",
+      "related_content_style": "Complementary ideas: 'Pairs well with' or 'Also try'",
+      "forbidden": ["Dense walls of text", "No practical info (time/budget)", "Aggressive affiliate pushing"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 on wide screens",
+      "preferred_columns": "3 columns for good scanning",
+      "asymmetry_level": "Low—organized for easy browsing",
+      "grid_breaking": "Featured seasonal content can span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "48px - 80px between major sections",
+      "element_spacing_scale": "4/8/12/16/24/32/48",
+      "rhythm_style": "Organized, festive, browsable",
+      "breathing_rule": "Room to appreciate each idea without overwhelm"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Full functionality—people plan parties on phones",
+      "tablet_approach": "Great for showing ideas to others",
+      "breakpoint_behavior": "Smooth, maintains browsability"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Find by occasion or by need—multiple paths to the right idea",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["Holidays", "Birthdays", "Party Food", "Decorations", "Last Minute", "Traditions", "About"],
+      "item_naming_style": "Clear, occasion-focused, action-oriented",
+      "dropdown_behavior": "Organized by holiday or category"
+    },
+    "mobile_nav": {
+      "style": "Slide-out drawer",
+      "full_screen": false,
+      "maintains_atmosphere": "Quick access to inspiration"
+    },
+    "secondary_nav": {
+      "location": "Footer + contextual",
+      "contents": "All holidays, categories, about, contact"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Clear: Home > Christmas > Party Food > Easy Appetizers"
+    },
+    "search": {
+      "prominence": "Prominent—specific searches common",
+      "style": "Search parties, recipes, decorations..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Poppins",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Friendly, festive, approachable, modern",
+      "weight_range": "500-700",
+      "letter_spacing": "Normal to slightly tight",
+      "text_transform": "None typically"
+    },
+    "body": {
+      "primary_font": "Open Sans",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clear, readable, friendly, comfortable",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.6-1.7",
+      "paragraph_spacing": "1.25em"
+    },
+    "accent": {
+      "font": "Poppins Medium",
+      "usage": "Callouts, key info, festive emphasis",
+      "restraint_rule": "For key info only"
+    },
+    "type_scale": {
+      "base_size": "17px",
+      "scale_ratio": "1.25 (major third)",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (17px)",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem"
+      }
+    },
+    "forbidden_fonts": ["Cold technical fonts", "Hard to read scripts", "Overly decorative for body"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light-first (bright and celebratory)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#DC143C",
+        "name": "Celebration Red",
+        "usage": "Primary accents, festive energy, CTAs",
+        "emotion": "Celebration, energy, joy, festivity"
+      },
+      "secondary": {
+        "hex": "#FFD700",
+        "name": "Party Gold",
+        "usage": "Highlights, special touches, premium feel",
+        "emotion": "Special, premium, celebration, sparkle"
+      },
+      "accent": {
+        "hex": "#228B22",
+        "name": "Festive Green",
+        "usage": "Balance, seasonal (especially winter holidays)",
+        "max_usage": "Supporting, seasonal emphasis"
+      },
+      "background_primary": {
+        "hex": "#FFFEFA",
+        "name": "Bright White"
+      },
+      "background_secondary": {
+        "hex": "#FFF8F0",
+        "name": "Warm Cream"
+      },
+      "background_tertiary": {
+        "hex": "#F5F0E8",
+        "name": "Soft Neutral"
+      },
+      "text_primary": {
+        "hex": "#2D2D2D",
+        "name": "Rich Black",
+        "contrast_ratio": "14:1"
+      },
+      "text_secondary": {
+        "hex": "#4A4A4A",
+        "name": "Dark Gray"
+      },
+      "text_muted": {
+        "hex": "#6B6B6B",
+        "name": "Medium Gray"
+      }
+    },
+    
+    "seasonal_palettes": {
+      "winter_holidays": {
+        "primary": "#DC143C",
+        "secondary": "#228B22",
+        "accent": "#FFD700"
+      },
+      "valentines": {
+        "primary": "#FF69B4",
+        "secondary": "#DC143C",
+        "accent": "#FFB6C1"
+      },
+      "easter_spring": {
+        "primary": "#E6E6FA",
+        "secondary": "#98FB98",
+        "accent": "#FFD700"
+      },
+      "summer": {
+        "primary": "#FF6B6B",
+        "secondary": "#4ECDC4",
+        "accent": "#FFE66D"
+      },
+      "halloween": {
+        "primary": "#FF6600",
+        "secondary": "#000000",
+        "accent": "#8B008B"
+      },
+      "thanksgiving": {
+        "primary": "#CD853F",
+        "secondary": "#8B4513",
+        "accent": "#FFD700"
+      }
+    },
+    
+    "gradient_rules": {
+      "allowed": true,
+      "type": "Festive gradients sparingly",
+      "subtlety": "Hero elements, special occasions",
+      "forbidden_gradients": ["Dull gradients", "Corporate gradients"]
+    },
+    
+    "forbidden_colors": ["Dull/muted colors as primary", "Cold corporate colors", "Anxiety-inducing combinations"]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Bright, warm, festive, inviting",
+      "color_treatment": "Vibrant, joyful, celebratory",
+      "mood": "Celebratory, achievable, real, joyful",
+      "subjects": ["Real celebrations (not staged perfection)", "Achievable décor", "Happy guests", "Food and drinks looking delicious", "DIY in process showing it's doable"],
+      "forbidden_subjects": ["Only professional events", "Unrealistic perfection", "Stressful preparation imagery", "Empty perfect setups without people"]
+    },
+    "illustration_style": {
+      "approach": "Playful, festive, hand-drawn feel",
+      "line_weight": "Medium, friendly",
+      "color_usage": "Bright, festive palette",
+      "style_reference": "Celebration/party illustration, greeting card style"
+    },
+    "iconography": {
+      "style": "Playful, rounded icons",
+      "stroke_weight": "2px",
+      "custom_required": false,
+      "icon_subjects": ["Party elements", "Calendar/planning", "Food/drinks", "Decorations", "Time/budget"],
+      "forbidden": ["Corporate icons", "Stressful imagery"]
+    },
+    "image_treatment": {
+      "overlays": "None or festive subtle overlay",
+      "borders": "Friendly rounded borders",
+      "shapes": "Playful, celebratory shapes",
+      "hover_effects": "Joyful brightness increase"
+    },
+    "sources": {
+      "preferred": ["Real celebration photography", "Achievable party setups", "Diverse celebrations and people"],
+      "acceptable": ["Quality celebration stock"],
+      "forbidden": ["Only perfect professional events", "Intimidating luxury", "Stressful perfection"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Time Required Badge",
+        "description": "How long this actually takes: Quick (30 min), Medium (1-2 hrs), Project (half day+)",
+        "usage": "All practical content",
+        "frequency": "Every guide and recipe"
+      },
+      {
+        "element": "Budget Indicator",
+        "description": "Realistic cost range",
+        "usage": "All content with purchases",
+        "frequency": "Where applicable"
+      },
+      {
+        "element": "Group Size Tag",
+        "description": "Small gathering, medium party, large event",
+        "usage": "Party planning content",
+        "frequency": "All party content"
+      },
+      {
+        "element": "Make-Ahead Note",
+        "description": "What can be done in advance",
+        "usage": "Recipes and DIY",
+        "frequency": "Where applicable"
+      }
+    ],
+    "optional_flourishes": [
+      {"element": "Last-Minute Version", "when_to_use": "When quick alternatives exist"},
+      {"element": "Kid-Friendly Badge", "when_to_use": "Family celebrations"},
+      {"element": "Tradition Starter Box", "when_to_use": "Ideas that could become yearly traditions"}
+    ],
+    "usage_rules": {
+      "max_per_page": "3-4 practical badges",
+      "placement": "Prominent—help decisions quickly",
+      "restraint_philosophy": "Helpful info, not overwhelming badges"
+    },
+    "custom_ui_elements": {
+      "buttons": "Warm, inviting, rounded, festive",
+      "cards": "Festive imagery, clear practical info",
+      "dividers": "Subtle festive touches or clean space",
+      "loading_states": "Festive, brief animation",
+      "empty_states": "Encouraging: 'Ready to celebrate?'"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Joyful", "Practical", "Encouraging", "Creative", "Realistic", "Supportive", "Fun"],
+    "tone_spectrum": {
+      "formal_casual": "3/10 - Very friendly, excited friend energy",
+      "serious_playful": "3/10 - Fun and celebratory",
+      "technical_accessible": "2/10 - Always simple and doable"
+    },
+    "writing_style": {
+      "sentence_length": "Short, energetic, scannable",
+      "paragraph_length": "Short, easy to skim while planning",
+      "vocabulary_level": "Simple, accessible, actionable"
+    },
+    "perspective": "Second person (you) and first person (I love this because, my favorite trick)",
+    "forbidden_phrases": [
+      "You have to do this perfectly",
+      "Every good host knows",
+      "It's simple—just [complex thing]",
+      "Everyone will judge you if",
+      "Real parties have"
+    ],
+    "encouraged_phrases": [
+      "Easy option:",
+      "If you're short on time",
+      "Budget-friendly alternative",
+      "Don't stress about",
+      "The most important thing is",
+      "Good enough is actually great",
+      "Your guests won't notice if"
+    ],
+    "cta_voice": {
+      "style": "Excited invitation, not pressure",
+      "examples": ["Get the Ideas", "Plan Your Party", "See More", "Make It Easy", "Try This", "Save for Later"],
+      "forbidden_ctas": ["You Need This", "Don't Be That Host", "Everyone Else Is", "Limited Time"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Overwhelming inspiration dumps without organization",
+      "Unrealistic perfection imagery only",
+      "Anxiety-inducing countdowns",
+      "No practical filtering options"
+    ],
+    "visual_forbidden": [
+      "Only professional event photography",
+      "Intimidating luxury presentations",
+      "Stressful/manic energy",
+      "Perfection that creates anxiety"
+    ],
+    "typography_forbidden": [
+      "Hard to read decorative fonts",
+      "Cold technical fonts",
+      "Anxiety-inducing urgent styling"
+    ],
+    "content_forbidden": [
+      "Making hosting feel impossible",
+      "Judgment about 'wrong' ways to celebrate",
+      "Unrealistic time/budget assumptions",
+      "Competition over connection focus",
+      "Shaming simpler celebrations"
+    ],
+    "imagery_forbidden": [
+      "Only perfect Pinterest parties",
+      "Unrealistic DIY complexity",
+      "Stressful preparation scenes",
+      "No diversity in celebrations shown"
+    ],
+    "interaction_forbidden": [
+      "Aggressive popups during planning",
+      "Fear-based CTAs",
+      "Scarcity manipulation"
+    ],
+    "this_site_specific_forbidden": [
+      "Creating hosting anxiety",
+      "Judgment about celebration choices",
+      "Ignoring budget realities",
+      "Perfection over connection",
+      "Making simple celebrations feel inadequate"
+    ],
+    "immediate_rejection_triggers": [
+      "Intimidating perfection",
+      "Hosting shame/judgment",
+      "Unrealistic expectations presented as normal",
+      "Anxiety-inducing content"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Only Pinterest-perfect impossible images",
+      "No practical info (time, budget)",
+      "Creating hosting anxiety",
+      "Judgment embedded in content"
+    ],
+    "what_acceptable_looks_like": [
+      "Good ideas",
+      "Some practical info",
+      "Achievable-ish",
+      "But generic party site feel"
+    ],
+    "what_perfect_looks_like": [
+      "Visitor feels excited not anxious",
+      "Clearly achievable ideas",
+      "Practical info always present",
+      "Celebrates all celebration sizes",
+      "Would recommend to stressed friend",
+      "Makes hosting feel doable"
+    ],
+    "tests": {
+      "screenshot_test": "Does this excite or stress?",
+      "swap_test": "Could this create hosting anxiety? (Must fail)",
+      "memory_test": "Does reader feel capable and excited?",
+      "ten_second_test": "Is practical info immediately visible?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Martha Stewart", "The Kitchn parties", "Pinterest"],
+      "how_we_differ": "More achievable, always practical info, celebrates all budgets",
+      "what_they_do_wrong": "Can be intimidating, assume resources, perfection focus",
+      "what_we_do_better": "Achievable ideas, real budgets, connection over perfection"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {"cms": "WordPress", "theme": "Blocksy with child theme", "page_builder": "Gutenberg blocks"},
+    "required_plugins": ["RankMath SEO Pro", "LiteSpeed Cache", "WP Recipe Maker", "Complianz GDPR", "Wordfence Security"],
+    "performance_targets": {"pagespeed_mobile": ">80", "pagespeed_desktop": ">90", "lcp": "<2.5s", "fid": "<100ms", "cls": "<0.1"}
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["party ideas", "birthday party ideas", "holiday party", "Christmas party ideas", "celebration ideas"],
+    "secondary_keywords": ["[holiday] ideas", "easy party food", "party decoration ideas", "hosting tips", "last minute party"],
+    "content_pillars": ["Birthday Parties", "Holiday Celebrations", "Party Food", "Decoration Ideas", "Hosting Guides", "Traditions"],
+    "schema_types": ["Article", "HowTo", "Recipe", "FAQPage"]
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "2.0.0",
+    "changelog": [{"date": "2025-12-13", "version": "2.0.0", "changes": "Expanded to full comprehensive detail"}]
+  }
+}
