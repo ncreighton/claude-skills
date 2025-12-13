@@ -1,0 +1,704 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "witchcraft-for-beginners",
+  "codename": "MoonlightMystic",
+  "url": "https://witchcraftforbeginners.com",
+  "niche": "Spirituality & Witchcraft",
+  "sub_niche": "Beginner Witchcraft Education",
+  "status": "Flagship site - highest priority",
+  
+  "archetype": {
+    "primary": "Magician",
+    "secondary": "Sage",
+    "archetype_expression": "The wise witch who remembers what it was like to be new. Transforms curiosity into practice through patient guidance. Never condescending, always empowering. Treats the craft with reverence but makes it accessible."
+  },
+  
+  "soul": {
+    "one_sentence": "An ancient grimoire reimagined for the digital age, where every scroll reveals a secret.",
+    "expanded": "This is the candlelit sanctuary where seekers become practitioners. We honor the old ways while speaking in modern tongues. Every visitor is treated as a future member of the craft, deserving of respect and real knowledge—not watered-down spirituality or dangerous misinformation.",
+    "what_we_are": "The trusted guide into authentic witchcraft practice. A bridge between ancient wisdom and modern seekers. A community that takes the craft seriously while remaining warm and welcoming.",
+    "what_we_are_not": "Not a trendy aesthetic. Not 'witch-lite' for Instagram. Not appropriative of closed practices. Not fear-mongering or dark for darkness's sake. Not a marketplace first."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Warm mysticism",
+    "secondary_emotion": "Empowering reverence",
+    "tertiary_emotion": "Grounded wonder",
+    "emotional_range": ["curiosity", "wonder", "belonging", "empowerment", "reverence", "comfort", "excitement", "peace"],
+    "forbidden_emotions": ["fear", "anxiety", "shame", "confusion", "overwhelm", "skepticism", "judgment", "rushed urgency"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A wise woman in her 40s-50s who has practiced for decades. Silver streaks in dark hair, warm eyes that have seen much. She welcomes you into her cottage filled with herbs, books, and candles. She speaks slowly, thoughtfully, and never rushes. She remembers her own beginning and treats your questions with respect.",
+    "place": "A candlelit study in an old cottage. Bookshelves line the walls, filled with leather-bound volumes and glass jars of herbs. A fire crackles low. Dried flowers hang from wooden beams. Moonlight filters through leaded glass windows. It smells of sage, old paper, and beeswax.",
+    "time_of_day": "The blue hour—just after sunset when the veil between day and night is thin. The moment when candles become necessary and shadows become interesting.",
+    "season": "Late autumn, when the world turns inward. Leaves have fallen, nights are long, the time for introspection and study has arrived.",
+    "sound": "A fire crackling softly. Pages turning. Wind chimes in the distance. A cat purring. Occasional owl. No modern sounds—no notifications, no traffic.",
+    "texture": "Aged leather book covers, smooth from centuries of hands. Rough-woven linen. Warm candle wax. Cool crystal. Dried herb bundles. Handmade paper.",
+    "smell": "Dried lavender and rosemary. Old books. Beeswax candles. Wood smoke. A hint of earth after rain. Chamomile tea.",
+    "taste": "Herbal tea with honey. Mulled wine. Dark chocolate. Something comforting and slightly mysterious.",
+    "temperature": "Warm from the fire against cool autumn air seeping through old windows. Cozy but not stifling.",
+    "weather": "A clear night with visible stars and moon, perhaps with mist settling in the garden.",
+    "music_genre": "Ambient/ethereal—artists like Wardruna, Enya's more mystical tracks, or medieval/folk instrumentals. Never modern pop. Never aggressive.",
+    "movie": "Practical Magic meets The Secret Garden—mystical but grounded, magical but relatable.",
+    "book": "A well-worn grimoire passed down through generations, filled with handwritten notes in the margins from practitioners past."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Curious Clara",
+      "age_range": "25-45",
+      "description": "A woman who has always felt drawn to something more. She's done some reading, maybe owns a few crystals or tarot cards, but doesn't know where to start with actual practice. She's intelligent, somewhat skeptical of 'woo-woo' content, and wants substance over aesthetics.",
+      "mindset": "Seeking but cautious. Doesn't want to do anything 'wrong' or disrespectful. Worried about cultural appropriation. Wants to feel like she belongs somewhere.",
+      "goals": ["Learn authentic witchcraft from trustworthy source", "Develop personal practice", "Connect with like-minded community", "Understand before doing", "Find practices that fit her life"],
+      "pain_points": ["Overwhelmed by conflicting information online", "Worried about doing something wrong", "Can't tell authentic from fake sources", "Feels silly admitting interest to others", "Doesn't know where to start"],
+      "objections": ["Is this site going to try to sell me expensive courses?", "Is this real information or made-up nonsense?", "Will I be judged for being a beginner?", "Is this culturally appropriative?"],
+      "trigger_phrases": ["how to start witchcraft", "beginner witch", "witchcraft for beginners", "am I a witch", "how to know if you're a witch", "simple spells for beginners", "is witchcraft real"]
+    },
+    "secondary_persona": {
+      "name": "Returning Rebecca",
+      "description": "A woman who practiced years ago but life got in the way. Now she's ready to return but feels rusty and wonders what's changed. She needs a refresher without feeling talked down to.",
+      "how_they_differ": "Has baseline knowledge but needs updating and confidence rebuilding"
+    },
+    "tertiary_persona": {
+      "name": "Curious Chris",
+      "description": "A man interested in witchcraft but unsure if it's 'for him' given the feminine-coded content he's encountered. Looking for inclusive, non-gendered approach to the craft.",
+      "how_they_differ": "Needs to see himself represented, reassured that witchcraft isn't exclusively feminine"
+    },
+    "anti_persona": {
+      "description": "Someone looking to curse enemies, summon demons, or practice 'dark magic' for harmful purposes. Also: people looking only for aesthetic content without substance.",
+      "why_not": "We don't serve harmful intentions. We're not an aesthetic Pinterest board."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Ancient wisdom meets digital clarity—a grimoire that loads fast",
+    
+    "density": {
+      "description": "Spacious with intention. Content breathes like the pauses between incantations.",
+      "content_to_whitespace_ratio": "40% content, 60% space",
+      "section_breathing": "Generous gaps between sections. Each section is a chamber in a larger temple.",
+      "never": "Never cramped. Never 'above the fold' anxiety. Never wall-of-text."
+    },
+    
+    "contrast": {
+      "description": "High contrast but warm. Dark backgrounds with warm light emerging.",
+      "approach": "Light comes from within—candlelit, not spotlit. Content emerges from shadow.",
+      "drama_level": "High drama, low aggression. Theatrical but not startling.",
+      "never": "Never flat gray. Never harsh white. Never clinical bright."
+    },
+    
+    "motion": {
+      "description": "Slow, deliberate, organic. Like candle flames and turning pages.",
+      "speed": "Slow—0.5s minimum for meaningful transitions, 0.8s-1.2s for reveals",
+      "style": "Organic easing, never mechanical. Fade and emerge, not slide and bounce.",
+      "frequency": "Rare but meaningful. Every animation has purpose.",
+      "purpose": "To create atmosphere, never to impress with tech",
+      "never": "Never bouncy. Never flashy. Never attention-demanding. Never parallax for parallax's sake."
+    },
+    
+    "texture": {
+      "description": "Aged, organic, handmade feel",
+      "elements": ["Subtle paper/parchment textures", "Noise/grain overlays", "Organic edges", "Handwritten accent elements"],
+      "intensity": "Subtle—felt more than seen. 5-10% opacity textures.",
+      "never": "Never shiny. Never plastic. Never perfectly clean digital."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Organic curves with intentional imperfection. Slightly asymmetric.",
+      "border_radius_philosophy": "Soft but not bubbly. 4-8px, never 16px+ rounded pills.",
+      "line_weight": "Medium to thin. Delicate but not fragile.",
+      "never": "Never perfectly geometric. Never harsh 90° corners. Never pill-shaped buttons."
+    },
+    
+    "depth": {
+      "approach": "Layered with atmospheric depth. Content floats above misty backgrounds.",
+      "shadow_style": "Soft, large, low-opacity. Atmospheric, not drop-shadow.",
+      "elevation_levels": "3 levels: deep background, mid-ground content, foreground focus",
+      "never": "Never flat. Never hard drop shadows. Never material design elevation."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Atmospheric hero with emergence effect—the threshold moment",
+        "Invitation to begin (for new visitors)—clear beginner path",
+        "Featured/essential content—curated, not 'latest posts'",
+        "Topic exploration—discover the branches of practice",
+        "Community/newsletter—join the circle invitation"
+      ],
+      "forbidden_flow": [
+        "Hero → 3-column features → CTA (template trap)",
+        "Blog grid immediately after hero",
+        "Multiple competing CTAs in hero",
+        "Generic 'Welcome to our site' messaging"
+      ],
+      "hero_requirements": {
+        "type": "Full-viewport atmospheric immersion",
+        "content_placement": "Off-center, asymmetric, emerging from shadow",
+        "cta_style": "Single inviting CTA, not commanding. Lower third.",
+        "forbidden": ["Centered everything", "Multiple CTAs", "Stock witch imagery", "Generic taglines"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Magazine-style with featured hierarchy",
+      "featured_treatment": "Top 1-3 posts significantly larger, editorial selection",
+      "pagination_style": "Load more button (not infinite scroll)",
+      "forbidden": ["Identical card grid", "No editorial curation", "Endless scroll without end"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column, centered, max-width 720px",
+      "max_width": "720px for readability",
+      "sidebar_usage": "None on articles—full focus on content",
+      "related_content_style": "Curated 'Continue Your Journey' section, 3 posts max",
+      "forbidden": ["Sidebar competing with content", "20 related posts grid", "Aggressive mid-article CTAs"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 on wide screens, 2 on mobile",
+      "preferred_columns": "3 columns with varied card sizes",
+      "asymmetry_level": "High—vary card heights, feature some content larger",
+      "grid_breaking": "Every 6-8 cards, break with full-width element or featured content"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "80px - 160px between major sections",
+      "element_spacing_scale": "8/16/24/32/48/64/96/128",
+      "rhythm_style": "Varied and breathing—not metronomic",
+      "breathing_rule": "When in doubt, add more space. Content should never feel cramped."
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Simplified but still atmospheric. Emergence effects reduced. Touch-optimized.",
+      "tablet_approach": "Maintain atmosphere, 2-column where desktop is 3",
+      "breakpoint_behavior": "Graceful degradation—mobile is simpler, not broken desktop"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Discovery—navigation is an invitation to explore, not a directory",
+    "primary_nav": {
+      "max_items": 6,
+      "required_items": ["Begin Here", "Spells & Rituals", "Moon Magic", "Tools & Supplies", "About"],
+      "item_naming_style": "Inviting, not clinical. 'Begin Here' not 'Getting Started'. 'Moon Magic' not 'Lunar Content'.",
+      "dropdown_behavior": "Simple dropdowns, not mega menus. Keep mystery—don't reveal everything."
+    },
+    "mobile_nav": {
+      "style": "Full-screen overlay",
+      "full_screen": true,
+      "maintains_atmosphere": "Dark background, items emerge like content. Navigation is a moment, not a utility."
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All categories, legal, about, contact"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Subtle, above title. 'Home / Moon Magic / Full Moon Ritual'"
+    },
+    "search": {
+      "prominence": "Present in header, subtle until focused",
+      "style": "Expands on focus, placeholder: 'Search spells, rituals, guides...'"
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Cinzel",
+      "fallback_stack": "Garamond, 'Times New Roman', serif",
+      "personality": "Ancient, elegant, authoritative but not cold. The font of grimoire titles.",
+      "weight_range": "400-700",
+      "letter_spacing": "0.02em - slight expansion for elegance",
+      "text_transform": "None for most, small-caps for special emphasis"
+    },
+    "body": {
+      "primary_font": "Lora",
+      "fallback_stack": "Georgia, 'Times New Roman', serif",
+      "personality": "Readable, warm, literary. The font of well-loved books.",
+      "weight": "400, 700 for emphasis",
+      "line_height": "1.7-1.8 for comfortable reading",
+      "paragraph_spacing": "1.5em between paragraphs"
+    },
+    "accent": {
+      "font": "Cormorant Garamond",
+      "usage": "Pull quotes, special callouts, ritual instructions",
+      "restraint_rule": "Max 1-2 uses per page. Special, not common."
+    },
+    "secondary_accent": {
+      "font": "Dancing Script",
+      "usage": "Handwritten notes, 'blessed be' signatures, personal touches",
+      "restraint_rule": "Very rare. Only for genuinely handwritten feel."
+    },
+    "type_scale": {
+      "base_size": "18px",
+      "scale_ratio": "1.333 (perfect fourth)",
+      "scale_values": {
+        "xs": "0.75rem (13.5px)",
+        "sm": "0.875rem (15.75px)",
+        "base": "1rem (18px)",
+        "lg": "1.333rem (24px)",
+        "xl": "1.777rem (32px)",
+        "2xl": "2.369rem (42.6px)",
+        "3xl": "3.157rem (56.8px)",
+        "4xl": "4.209rem (75.8px)"
+      }
+    },
+    "forbidden_fonts": ["Inter", "Roboto", "Arial", "Helvetica", "Open Sans", "Montserrat", "System fonts for headings", "Any sans-serif as primary"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "dark-first",
+    
+    "palette": {
+      "primary": {
+        "hex": "#4A1C6F",
+        "hsl": "hsl(272, 59%, 27%)",
+        "name": "Deep Amethyst",
+        "usage": "Accents, important UI elements, links",
+        "emotion": "Mystery, magic, depth, wisdom"
+      },
+      "secondary": {
+        "hex": "#D4AF37",
+        "name": "Candle Gold",
+        "usage": "Highlights, important elements, warmth accents",
+        "emotion": "Warmth, candlelight, preciousness, ancient"
+      },
+      "accent": {
+        "hex": "#8B4513",
+        "name": "Aged Leather",
+        "usage": "Tertiary accent, earthiness, grounding",
+        "max_usage": "Less than 5% of any page"
+      },
+      "background_primary": {
+        "hex": "#1A1A2E",
+        "name": "Night Sky",
+        "emotion": "Deep night, mystery, the void before creation"
+      },
+      "background_secondary": {
+        "hex": "#16213E",
+        "name": "Midnight Blue",
+        "emotion": "Depth variation, subtle layers"
+      },
+      "background_tertiary": {
+        "hex": "#0F0F1A",
+        "name": "Deep Void",
+        "emotion": "Deepest darks, true shadow"
+      },
+      "text_primary": {
+        "hex": "#E8E4D9",
+        "name": "Aged Parchment",
+        "contrast_ratio": "12.5:1 against Night Sky"
+      },
+      "text_secondary": {
+        "hex": "#B8B4A9",
+        "name": "Faded Ink"
+      },
+      "text_muted": {
+        "hex": "#6B6860",
+        "name": "Shadow Text"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#4A7C59",
+      "success_name": "Forest Green",
+      "warning": "#C9A227",
+      "warning_name": "Amber Caution",
+      "error": "#8B3A3A",
+      "error_name": "Deep Crimson",
+      "info": "#4A6F8B",
+      "info_name": "Twilight Blue"
+    },
+    
+    "gradient_rules": {
+      "allowed": true,
+      "type": "Radial, vignette-style",
+      "subtlety": "Very subtle—for atmosphere, not decoration",
+      "approved_gradients": [
+        "Vignette: transparent center to dark edges",
+        "Candle glow: subtle warm radial in hero areas"
+      ],
+      "forbidden_gradients": ["Purple-to-blue linear", "Rainbow", "Any obvious gradient", "Gradient text"]
+    },
+    
+    "forbidden_colors": [
+      "#8B5CF6 (AI purple)",
+      "Any neon colors",
+      "Pure white #FFFFFF (too harsh)",
+      "Pure black #000000 (use #0F0F1A instead)",
+      "Bright saturated colors",
+      "Pastel colors (too light/modern)"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Natural/candlelit—warm, low-key, dramatic shadows",
+      "color_treatment": "Warm, slightly desaturated, aged feel",
+      "mood": "Atmospheric, contemplative, never staged-looking",
+      "subjects": ["Real altars and setups", "Herbs and botanicals", "Candles and flames", "Moon and night sky", "Crystals in natural settings", "Hands performing rituals", "Old books and grimoires"],
+      "forbidden_subjects": ["Stock witch costumes", "Posed pentagram shots", "Halloween imagery", "Black cats as cliché", "AI-generated faces", "Overly perfect setups", "Modern/clinical settings"]
+    },
+    "illustration_style": {
+      "approach": "Hand-drawn botanical and celestial illustrations",
+      "line_weight": "Thin, delicate, detailed",
+      "color_usage": "Monochrome or limited palette matching brand",
+      "style_reference": "Vintage botanical prints, medieval manuscripts, astronomical charts"
+    },
+    "iconography": {
+      "style": "Custom line icons with slight imperfection",
+      "stroke_weight": "1.5-2px, consistent",
+      "custom_required": true,
+      "icon_subjects": ["Moon phases", "Candles", "Herbs", "Crystals", "Pentacle", "Elements", "Seasons"],
+      "forbidden": ["Font Awesome", "Heroicons unchanged", "Emoji as icons", "3D icons", "Colored icon sets"]
+    },
+    "image_treatment": {
+      "overlays": "Subtle vignette, slight warmth",
+      "borders": "None or very subtle, never thick frames",
+      "shapes": "Soft edges, occasional mask to organic shape",
+      "hover_effects": "Subtle brightening, never zoom"
+    },
+    "sources": {
+      "preferred": ["Custom photography", "Unsplash (curated)", "Pexels (curated)"],
+      "acceptable": ["High-quality stock if properly treated"],
+      "forbidden": ["Shutterstock generic", "AI-generated people", "Obvious stock"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Moon Phase Indicator",
+        "description": "Current moon phase displayed subtly, connecting site to lunar cycle",
+        "usage": "Header or footer, always present",
+        "frequency": "Every page"
+      },
+      {
+        "element": "Candle Glow Effect",
+        "description": "Subtle warm glow suggesting candlelight presence",
+        "usage": "Hero sections, important callouts",
+        "frequency": "Homepage and key landing pages"
+      },
+      {
+        "element": "Emergence Animation",
+        "description": "Content appearing from darkness like secrets revealed",
+        "usage": "Page loads, scroll reveals",
+        "frequency": "First meaningful interaction on each page"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Constellation patterns",
+        "when_to_use": "Background decoration in spacious areas"
+      },
+      {
+        "element": "Botanical border elements",
+        "when_to_use": "Special content, ritual instructions"
+      },
+      {
+        "element": "Parchment texture overlay",
+        "when_to_use": "Cards, callout boxes"
+      },
+      {
+        "element": "Hand-drawn dividers",
+        "when_to_use": "Between major sections"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": 3,
+      "placement": "Entry points and section transitions",
+      "restraint_philosophy": "These elements are special because they're rare. Overuse makes them ordinary."
+    },
+    "custom_ui_elements": {
+      "buttons": "Soft edges, subtle glow on hover, text feels handwritten or ancient",
+      "cards": "Slight parchment texture, soft shadow, content emerges from darkness",
+      "dividers": "Decorative botanical or celestial, never plain lines",
+      "loading_states": "Candle flame animation or moon phase cycle",
+      "empty_states": "Mystical messaging with invitation to explore"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Wise but warm", "Patient teacher", "Respectful of tradition", "Empowering not gatekeeping", "Mystical but grounded"],
+    "tone_spectrum": {
+      "formal_casual": "6/10 - Respectful but approachable",
+      "serious_playful": "7/10 - Takes craft seriously, warm delivery",
+      "technical_accessible": "4/10 - Always accessible, never jargon-heavy"
+    },
+    "writing_style": {
+      "sentence_length": "Varied—short for emphasis, longer for explanation",
+      "paragraph_length": "3-4 sentences typical, never walls of text",
+      "vocabulary_level": "Accessible with craft-specific terms explained"
+    },
+    "perspective": "Second person (you) for instructions, first person (we) for community",
+    "forbidden_phrases": [
+      "Transform your life",
+      "Unlock your potential",
+      "Ultimate guide to everything",
+      "You won't believe",
+      "Secret that experts don't want you to know",
+      "Easy 5-minute spell",
+      "This one weird trick",
+      "As an AI language model",
+      "It's important to note that"
+    ],
+    "encouraged_phrases": [
+      "Your practice",
+      "The craft",
+      "As you develop your skills",
+      "Many practitioners find",
+      "In traditional practice",
+      "Consider your intention",
+      "Trust your intuition"
+    ],
+    "cta_voice": {
+      "style": "Invitation, not command",
+      "examples": ["Begin Your Journey", "Enter the Circle", "Discover Your Path", "Light the Candle", "Explore the Grimoire"],
+      "forbidden_ctas": ["Learn More", "Get Started", "Click Here", "Submit", "Buy Now", "Sign Up", "Download Now"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Hero → 3-column features → CTA",
+      "Centered-everything symmetry",
+      "Generic blog grid as main content",
+      "Sidebar on articles",
+      "Mega menu navigation",
+      "Sticky everything",
+      "Footer with 5 identical columns"
+    ],
+    "visual_forbidden": [
+      "Purple-to-blue gradients",
+      "White backgrounds",
+      "Pastel colors",
+      "Neon accents",
+      "Stock overlays",
+      "Generic icon sets",
+      "Material design shadows",
+      "Perfectly rounded pill buttons"
+    ],
+    "typography_forbidden": [
+      "Sans-serif headings",
+      "Inter, Roboto, Arial anywhere",
+      "System font stack for headings",
+      "All-caps body text",
+      "Centered body paragraphs",
+      "Justified text"
+    ],
+    "content_forbidden": [
+      "Generic CTAs",
+      "'Welcome to our website'",
+      "'Your one-stop shop'",
+      "Clickbait headlines",
+      "Excessive exclamation marks",
+      "Emojis in body content"
+    ],
+    "imagery_forbidden": [
+      "Stock witch costumes",
+      "Halloween imagery",
+      "Pentagram poses",
+      "Black cat clichés",
+      "Cauldron stereotypes",
+      "AI-generated faces",
+      "Harry Potter aesthetic"
+    ],
+    "interaction_forbidden": [
+      "Popup within 10 seconds",
+      "Exit intent guilt-trip",
+      "Autoplay anything",
+      "Aggressive newsletter prompts",
+      "Chat widget on every page",
+      "Social share buttons everywhere"
+    ],
+    "this_site_specific_forbidden": [
+      "Appropriation of closed practices (Voodoo, Hoodoo without proper attribution)",
+      "Trivializing the craft as aesthetic",
+      "Fear-based content ('dangerous spells')",
+      "Promising unrealistic results",
+      "Gatekeeping or elitism",
+      "Gendering witchcraft unnecessarily"
+    ],
+    "immediate_rejection_triggers": [
+      "Looks like a WordPress theme demo",
+      "Could work on any spiritual site",
+      "Uses template layout patterns",
+      "Hero could be anywhere",
+      "Typography is generic sans-serif",
+      "Colors are AI-generated purple/blue"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Centered text on dark purple background",
+      "Stock witch image with gradient overlay",
+      "Inter or Roboto typography",
+      "Generic '3 reasons to practice witchcraft' cards",
+      "Cookie-cutter testimonial carousel",
+      "'Start your journey today!' button"
+    ],
+    "what_acceptable_looks_like": [
+      "Appropriate colors and typography",
+      "Decent hierarchy and spacing",
+      "No major anti-patterns",
+      "But... lacks that special something",
+      "Forgettable, not screenshot-worthy"
+    ],
+    "what_perfect_looks_like": [
+      "Visitor pauses on arrival—atmosphere is tangible",
+      "Content emerges like secrets being revealed",
+      "Typography feels like reading an ancient book",
+      "Color palette creates warmth in darkness",
+      "Every element serves the mystical immersion",
+      "A designer would screenshot it for inspiration",
+      "You can FEEL the candle warmth through the screen"
+    ],
+    "tests": {
+      "screenshot_test": "Would a professional designer save this to their inspiration folder?",
+      "swap_test": "Could this design work on a generic spiritual site? (Must fail)",
+      "memory_test": "What specific element will visitors remember in a week?",
+      "ten_second_test": "Can a visitor feel the mystical atmosphere within 10 seconds?",
+      "grandmother_test": "If someone's skeptical grandmother saw this, would she think it's 'a real website' or 'spooky nonsense'?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Spells8.com", "LearnReligions.com/Paganism", "TheWitchipedia.com"],
+      "how_we_differ": "We prioritize atmosphere and experience over information density. Quality over quantity. Journey over destination.",
+      "what_they_do_wrong": "Information overload, no editorial curation, clinical presentation, no emotional connection",
+      "what_we_do_better": "Immersive experience, careful curation, warm guidance, authentic community"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks + custom patterns"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "AI Engine",
+      "WPCode Pro",
+      "Complianz GDPR",
+      "Wordfence Security",
+      "UpdraftPlus Backup"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">80",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.5s",
+      "fid": "<100ms",
+      "cls": "<0.1",
+      "ttfb": "<600ms"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome (last 2)", "Firefox (last 2)", "Safari (last 2)", "Edge (last 2)"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["witchcraft for beginners", "how to start witchcraft", "beginner witch", "learn witchcraft", "witchcraft basics"],
+    "secondary_keywords": ["spells for beginners", "moon magic", "witchcraft tools", "book of shadows", "wicca vs witchcraft"],
+    "content_pillars": ["Beginner's Path", "Spells & Rituals", "Moon Magic", "Tools & Supplies", "Sabbats & Seasons"],
+    "schema_types": ["Article", "HowTo", "FAQPage", "WebSite", "Organization"],
+    "internal_linking_strategy": "Hub and spoke from pillar pages. Every post links to its pillar. Pillars link to each other.",
+    "content_depth_target": "Pillar: 3000-5000 words | Hub: 1500-2500 words | Spoke: 1000-2000 words | Support: 500-1000 words"
+  },
+  
+  "═══ CONTENT CATEGORIES ═══": "────────────────────────────────────────",
+  
+  "content_categories": {
+    "begin_here": {
+      "purpose": "Entry point for all beginners",
+      "content_types": ["Foundation guides", "First steps", "Common questions"],
+      "tone": "Extra welcoming, zero assumptions"
+    },
+    "spells_rituals": {
+      "purpose": "Practical spell content",
+      "content_types": ["Spell guides", "Ritual instructions", "Correspondences"],
+      "tone": "Instructional, reverent, practical"
+    },
+    "moon_magic": {
+      "purpose": "Lunar practice content",
+      "content_types": ["Moon phase guides", "Lunar rituals", "Moon calendars"],
+      "tone": "Cyclical, connected to nature"
+    },
+    "tools_supplies": {
+      "purpose": "Equipment and materials",
+      "content_types": ["Tool guides", "Buying guides", "DIY instructions"],
+      "tone": "Practical, helpful, affiliate-friendly"
+    },
+    "sabbats": {
+      "purpose": "Seasonal celebrations",
+      "content_types": ["Sabbat guides", "Seasonal rituals", "Recipes and crafts"],
+      "tone": "Celebratory, traditional"
+    }
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-12",
+    "last_updated": "2025-12-12",
+    "version": "2.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-12",
+        "version": "2.0.0",
+        "changes": "Complete DNA overhaul with comprehensive sections"
+      },
+      {
+        "date": "2025-12-12",
+        "version": "1.0.0",
+        "changes": "Initial creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add moon phase API integration specifications",
+      "Define seasonal color variations",
+      "Create component library documentation",
+      "Document interactive spell builder patterns"
+    ],
+    "experiments_to_try": [
+      "Subtle ambient audio option",
+      "Personalized content based on practice level",
+      "Interactive moon calendar",
+      "Community spell sharing"
+    ]
+  }
+}
