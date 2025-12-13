@@ -1,0 +1,513 @@
+{
+  "version": "1.0.0",
+  "description": "Production-ready workflow templates for common automation patterns",
+  
+  "templates": {
+    "webhookProcessor": {
+      "name": "Webhook → Validate → Queue → Worker",
+      "description": "Event-driven pattern for processing incoming webhooks reliably",
+      "workflow": {
+        "name": "Webhook Processor",
+        "nodes": [
+          {
+            "id": "webhook-1",
+            "name": "Webhook",
+            "type": "n8n-nodes-base.webhook",
+            "position": [250, 300],
+            "webhookId": "{{$randomUUID}}",
+            "parameters": {
+              "httpMethod": "POST",
+              "path": "process-event",
+              "authentication": "headerAuth",
+              "responseMode": "onReceived",
+              "responseCode": 202
+            },
+            "typeVersion": 2
+          },
+          {
+            "id": "validate-1",
+            "name": "Validate Payload",
+            "type": "n8n-nodes-base.code",
+            "position": [450, 300],
+            "parameters": {
+              "mode": "runOnceForAllItems",
+              "language": "javaScript",
+              "jsCode": "const items = $input.all();\nconst validated = [];\n\nfor (const item of items) {\n  const payload = item.json.body || item.json;\n  \n  // Validation logic\n  if (!payload.id) {\n    throw new Error('Missing required field: id');\n  }\n  \n  validated.push({\n    json: {\n      ...payload,\n      received_at: new Date().toISOString(),\n      status: 'pending'\n    }\n  });\n}\n\nreturn validated;"
+            },
+            "typeVersion": 2
+          },
+          {
+            "id": "queue-1",
+            "name": "Queue to Database",
+            "type": "n8n-nodes-base.postgres",
+            "position": [650, 300],
+            "parameters": {
+              "operation": "insert",
+              "table": "event_queue",
+              "columns": "id, payload, status, created_at",
+              "returnFields": "id"
+            },
+            "typeVersion": 2.5,
+            "credentials": {
+              "postgres": {
+                "id": "CREDENTIAL_ID",
+                "name": "PostgreSQL"
+              }
+            }
+          },
+          {
+            "id": "exec-worker-1",
+            "name": "Trigger Worker",
+            "type": "n8n-nodes-base.executeWorkflow",
+            "position": [850, 300],
+            "parameters": {
+              "source": "database",
+              "workflowId": "WORKER_WORKFLOW_ID",
+              "mode": "once",
+              "options": {
+                "waitForSubWorkflow": false
+              }
+            },
+            "typeVersion": 1.2
+          }
+        ],
+        "connections": {
+          "Webhook": {
+            "main": [[{"node": "Validate Payload", "type": "main", "index": 0}]]
+          },
+          "Validate Payload": {
+            "main": [[{"node": "Queue to Database", "type": "main", "index": 0}]]
+          },
+          "Queue to Database": {
+            "main": [[{"node": "Trigger Worker", "type": "main", "index": 0}]]
+          }
+        },
+        "settings": {
+          "saveExecutionProgress": true,
+          "saveManualExecutions": true,
+          "saveDataErrorExecution": "all",
+          "saveDataSuccessExecution": "all"
+        }
+      }
+    },
+    
+    "workerProcessor": {
+      "name": "Queue Worker",
+      "description": "Worker that processes items from a queue table",
+      "workflow": {
+        "name": "Queue Worker",
+        "nodes": [
+          {
+            "id": "trigger-1",
+            "name": "Execute Workflow Trigger",
+            "type": "n8n-nodes-base.executeWorkflowTrigger",
+            "position": [250, 300],
+            "parameters": {},
+            "typeVersion": 1.1
+          },
+          {
+            "id": "fetch-1",
+            "name": "Fetch Pending Items",
+            "type": "n8n-nodes-base.postgres",
+            "position": [450, 300],
+            "parameters": {
+              "operation": "executeQuery",
+              "query": "UPDATE event_queue SET status = 'processing', started_at = NOW() WHERE id IN (SELECT id FROM event_queue WHERE status = 'pending' ORDER BY created_at LIMIT 10 FOR UPDATE SKIP LOCKED) RETURNING *;"
+            },
+            "typeVersion": 2.5
+          },
+          {
+            "id": "if-empty",
+            "name": "Has Items?",
+            "type": "n8n-nodes-base.if",
+            "position": [650, 300],
+            "parameters": {
+              "conditions": {
+                "options": {"caseSensitive": true, "typeValidation": "strict"},
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.length }}",
+                    "rightValue": 0,
+                    "operator": {"type": "number", "operation": "gt"}
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            "typeVersion": 2.2
+          },
+          {
+            "id": "batch-1",
+            "name": "Split In Batches",
+            "type": "n8n-nodes-base.splitInBatches",
+            "position": [850, 200],
+            "parameters": {
+              "batchSize": 1,
+              "options": {}
+            },
+            "typeVersion": 3
+          },
+          {
+            "id": "process-1",
+            "name": "Process Item",
+            "type": "n8n-nodes-base.code",
+            "position": [1050, 200],
+            "parameters": {
+              "mode": "runOnceForAllItems",
+              "language": "javaScript",
+              "jsCode": "// Process the item here\nconst item = $input.first();\nconst payload = item.json.payload;\n\n// Your processing logic\nconst result = {\n  ...payload,\n  processed: true,\n  processed_at: new Date().toISOString()\n};\n\nreturn [{json: result}];"
+            },
+            "typeVersion": 2
+          },
+          {
+            "id": "mark-complete-1",
+            "name": "Mark Complete",
+            "type": "n8n-nodes-base.postgres",
+            "position": [1250, 200],
+            "parameters": {
+              "operation": "update",
+              "table": "event_queue",
+              "columns": "status, completed_at, result",
+              "updateKey": "id"
+            },
+            "typeVersion": 2.5
+          },
+          {
+            "id": "loop-back",
+            "name": "Loop Back",
+            "type": "n8n-nodes-base.noOp",
+            "position": [1250, 400],
+            "parameters": {},
+            "typeVersion": 1
+          }
+        ],
+        "connections": {
+          "Execute Workflow Trigger": {
+            "main": [[{"node": "Fetch Pending Items", "type": "main", "index": 0}]]
+          },
+          "Fetch Pending Items": {
+            "main": [[{"node": "Has Items?", "type": "main", "index": 0}]]
+          },
+          "Has Items?": {
+            "main": [
+              [{"node": "Split In Batches", "type": "main", "index": 0}],
+              []
+            ]
+          },
+          "Split In Batches": {
+            "main": [[{"node": "Process Item", "type": "main", "index": 0}]]
+          },
+          "Process Item": {
+            "main": [[{"node": "Mark Complete", "type": "main", "index": 0}]]
+          },
+          "Mark Complete": {
+            "main": [[{"node": "Loop Back", "type": "main", "index": 0}]]
+          },
+          "Loop Back": {
+            "main": [[{"node": "Split In Batches", "type": "main", "index": 0}]]
+          }
+        },
+        "settings": {
+          "saveExecutionProgress": true,
+          "saveDataErrorExecution": "all",
+          "executionTimeout": 300
+        }
+      }
+    },
+    
+    "errorHandler": {
+      "name": "Global Error Handler",
+      "description": "Centralized error workflow for logging and alerting",
+      "workflow": {
+        "name": "Error Handler",
+        "nodes": [
+          {
+            "id": "error-trigger-1",
+            "name": "Error Trigger",
+            "type": "n8n-nodes-base.errorTrigger",
+            "position": [250, 300],
+            "parameters": {},
+            "typeVersion": 1
+          },
+          {
+            "id": "extract-error",
+            "name": "Extract Error Details",
+            "type": "n8n-nodes-base.code",
+            "position": [450, 300],
+            "parameters": {
+              "mode": "runOnceForAllItems",
+              "language": "javaScript",
+              "jsCode": "const item = $input.first();\nconst execution = item.json.execution;\nconst workflow = item.json.workflow;\n\nreturn [{\n  json: {\n    workflow_id: workflow.id,\n    workflow_name: workflow.name,\n    execution_id: execution.id,\n    execution_mode: execution.mode,\n    error_message: execution.error?.message || 'Unknown error',\n    error_stack: execution.error?.stack,\n    failed_node: execution.lastNodeExecuted,\n    timestamp: new Date().toISOString()\n  }\n}];"
+            },
+            "typeVersion": 2
+          },
+          {
+            "id": "log-error",
+            "name": "Log to Database",
+            "type": "n8n-nodes-base.postgres",
+            "position": [650, 300],
+            "parameters": {
+              "operation": "insert",
+              "table": "workflow_errors",
+              "columns": "workflow_id, workflow_name, execution_id, execution_mode, error_message, error_stack, failed_node, timestamp"
+            },
+            "typeVersion": 2.5
+          },
+          {
+            "id": "alert-slack",
+            "name": "Alert Slack",
+            "type": "n8n-nodes-base.slack",
+            "position": [850, 300],
+            "parameters": {
+              "resource": "message",
+              "operation": "post",
+              "channel": "#n8n-alerts",
+              "text": "🚨 *Workflow Error*\n\n*Workflow:* {{ $json.workflow_name }}\n*Node:* {{ $json.failed_node }}\n*Error:* {{ $json.error_message }}\n*Execution:* {{ $json.execution_id }}"
+            },
+            "typeVersion": 2.2
+          }
+        ],
+        "connections": {
+          "Error Trigger": {
+            "main": [[{"node": "Extract Error Details", "type": "main", "index": 0}]]
+          },
+          "Extract Error Details": {
+            "main": [[{"node": "Log to Database", "type": "main", "index": 0}]]
+          },
+          "Log to Database": {
+            "main": [[{"node": "Alert Slack", "type": "main", "index": 0}]]
+          }
+        },
+        "settings": {
+          "saveExecutionProgress": true,
+          "saveDataErrorExecution": "all"
+        }
+      }
+    },
+    
+    "aiAgent": {
+      "name": "AI Agent with Tools",
+      "description": "Autonomous AI agent that can use tools to accomplish tasks",
+      "workflow": {
+        "name": "AI Agent",
+        "nodes": [
+          {
+            "id": "chat-trigger-1",
+            "name": "Chat Trigger",
+            "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+            "position": [250, 300],
+            "parameters": {
+              "options": {}
+            },
+            "typeVersion": 1.1
+          },
+          {
+            "id": "agent-1",
+            "name": "AI Agent",
+            "type": "@n8n/n8n-nodes-langchain.agent",
+            "position": [550, 300],
+            "parameters": {
+              "agentType": "toolsAgent",
+              "text": "={{ $json.chatInput }}",
+              "options": {
+                "systemMessage": "You are a helpful assistant. Use the available tools to help the user accomplish their tasks. Always think step by step."
+              }
+            },
+            "typeVersion": 1.7
+          },
+          {
+            "id": "openai-1",
+            "name": "OpenAI Model",
+            "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+            "position": [550, 500],
+            "parameters": {
+              "model": "gpt-4o",
+              "options": {
+                "temperature": 0.7,
+                "maxTokens": 4096
+              }
+            },
+            "typeVersion": 1.2
+          },
+          {
+            "id": "memory-1",
+            "name": "Window Buffer Memory",
+            "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+            "position": [750, 500],
+            "parameters": {
+              "sessionKey": "={{ $json.sessionId }}",
+              "contextWindowLength": 10
+            },
+            "typeVersion": 1.3
+          },
+          {
+            "id": "tool-http-1",
+            "name": "HTTP Request Tool",
+            "type": "@n8n/n8n-nodes-langchain.toolHttpRequest",
+            "position": [350, 500],
+            "parameters": {
+              "name": "web_request",
+              "description": "Make HTTP requests to external APIs"
+            },
+            "typeVersion": 1.1
+          }
+        ],
+        "connections": {
+          "Chat Trigger": {
+            "main": [[{"node": "AI Agent", "type": "main", "index": 0}]]
+          },
+          "OpenAI Model": {
+            "ai_languageModel": [[{"node": "AI Agent", "type": "ai_languageModel", "index": 0}]]
+          },
+          "Window Buffer Memory": {
+            "ai_memory": [[{"node": "AI Agent", "type": "ai_memory", "index": 0}]]
+          },
+          "HTTP Request Tool": {
+            "ai_tool": [[{"node": "AI Agent", "type": "ai_tool", "index": 0}]]
+          }
+        },
+        "settings": {
+          "saveExecutionProgress": true,
+          "saveManualExecutions": true
+        }
+      }
+    },
+    
+    "scheduledSync": {
+      "name": "Scheduled Data Sync",
+      "description": "Periodically sync data between two systems",
+      "workflow": {
+        "name": "Scheduled Data Sync",
+        "nodes": [
+          {
+            "id": "schedule-1",
+            "name": "Schedule Trigger",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "position": [250, 300],
+            "parameters": {
+              "rule": {
+                "interval": [{"field": "hours", "hoursInterval": 1}]
+              }
+            },
+            "typeVersion": 1.2
+          },
+          {
+            "id": "get-last-sync",
+            "name": "Get Last Sync Time",
+            "type": "n8n-nodes-base.postgres",
+            "position": [450, 300],
+            "parameters": {
+              "operation": "executeQuery",
+              "query": "SELECT last_sync_at FROM sync_state WHERE sync_name = 'data_sync' ORDER BY last_sync_at DESC LIMIT 1"
+            },
+            "typeVersion": 2.5
+          },
+          {
+            "id": "fetch-changes",
+            "name": "Fetch Changes from Source",
+            "type": "n8n-nodes-base.httpRequest",
+            "position": [650, 300],
+            "parameters": {
+              "method": "GET",
+              "url": "https://api.source.com/changes",
+              "sendQuery": true,
+              "queryParameters": {
+                "parameters": [
+                  {
+                    "name": "since",
+                    "value": "={{ $json.last_sync_at || '1970-01-01' }}"
+                  }
+                ]
+              }
+            },
+            "typeVersion": 4.2
+          },
+          {
+            "id": "if-changes",
+            "name": "Has Changes?",
+            "type": "n8n-nodes-base.if",
+            "position": [850, 300],
+            "parameters": {
+              "conditions": {
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.data.length }}",
+                    "rightValue": 0,
+                    "operator": {"type": "number", "operation": "gt"}
+                  }
+                ]
+              }
+            },
+            "typeVersion": 2.2
+          },
+          {
+            "id": "upsert-target",
+            "name": "Upsert to Target",
+            "type": "n8n-nodes-base.postgres",
+            "position": [1050, 200],
+            "parameters": {
+              "operation": "upsert",
+              "table": "synced_data",
+              "columns": "id, data, synced_at",
+              "conflictColumns": "id"
+            },
+            "typeVersion": 2.5
+          },
+          {
+            "id": "update-sync-state",
+            "name": "Update Sync State",
+            "type": "n8n-nodes-base.postgres",
+            "position": [1250, 200],
+            "parameters": {
+              "operation": "upsert",
+              "table": "sync_state",
+              "columns": "sync_name, last_sync_at, records_synced",
+              "conflictColumns": "sync_name"
+            },
+            "typeVersion": 2.5
+          }
+        ],
+        "connections": {
+          "Schedule Trigger": {
+            "main": [[{"node": "Get Last Sync Time", "type": "main", "index": 0}]]
+          },
+          "Get Last Sync Time": {
+            "main": [[{"node": "Fetch Changes from Source", "type": "main", "index": 0}]]
+          },
+          "Fetch Changes from Source": {
+            "main": [[{"node": "Has Changes?", "type": "main", "index": 0}]]
+          },
+          "Has Changes?": {
+            "main": [
+              [{"node": "Upsert to Target", "type": "main", "index": 0}],
+              []
+            ]
+          },
+          "Upsert to Target": {
+            "main": [[{"node": "Update Sync State", "type": "main", "index": 0}]]
+          }
+        },
+        "settings": {
+          "saveExecutionProgress": true,
+          "saveDataErrorExecution": "all",
+          "errorWorkflow": "ERROR_WORKFLOW_ID"
+        }
+      }
+    }
+  },
+  
+  "databaseSchemas": {
+    "eventQueue": {
+      "description": "Table for queuing events for reliable processing",
+      "sql": "CREATE TABLE IF NOT EXISTS event_queue (\n  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  event_type VARCHAR(100) NOT NULL,\n  payload JSONB NOT NULL,\n  status VARCHAR(20) DEFAULT 'pending',\n  priority INTEGER DEFAULT 0,\n  retry_count INTEGER DEFAULT 0,\n  max_retries INTEGER DEFAULT 3,\n  created_at TIMESTAMP DEFAULT NOW(),\n  started_at TIMESTAMP,\n  completed_at TIMESTAMP,\n  error_message TEXT,\n  result JSONB\n);\n\nCREATE INDEX idx_event_queue_status ON event_queue(status);\nCREATE INDEX idx_event_queue_priority ON event_queue(priority DESC, created_at ASC);"
+    },
+    "workflowErrors": {
+      "description": "Table for logging workflow errors",
+      "sql": "CREATE TABLE IF NOT EXISTS workflow_errors (\n  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  workflow_id VARCHAR(100) NOT NULL,\n  workflow_name VARCHAR(255),\n  execution_id VARCHAR(100) NOT NULL,\n  execution_mode VARCHAR(50),\n  error_message TEXT,\n  error_stack TEXT,\n  failed_node VARCHAR(255),\n  timestamp TIMESTAMP DEFAULT NOW(),\n  resolved BOOLEAN DEFAULT FALSE,\n  resolution_notes TEXT\n);\n\nCREATE INDEX idx_workflow_errors_workflow ON workflow_errors(workflow_id);\nCREATE INDEX idx_workflow_errors_timestamp ON workflow_errors(timestamp DESC);"
+    },
+    "syncState": {
+      "description": "Table for tracking sync state between systems",
+      "sql": "CREATE TABLE IF NOT EXISTS sync_state (\n  sync_name VARCHAR(100) PRIMARY KEY,\n  last_sync_at TIMESTAMP NOT NULL,\n  records_synced INTEGER DEFAULT 0,\n  last_error TEXT,\n  updated_at TIMESTAMP DEFAULT NOW()\n);"
+    }
+  }
+}
