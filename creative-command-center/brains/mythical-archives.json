@@ -1,0 +1,613 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "mythical-archives",
+  "codename": "ArcaneArchivist",
+  "url": "https://mythicalarchives.com",
+  "niche": "Mythology & Folklore",
+  "sub_niche": "World Mythology Encyclopedia & Education",
+  "status": "Primary educational content site",
+  
+  "archetype": {
+    "primary": "Sage",
+    "secondary": "Explorer",
+    "archetype_expression": "The passionate scholar who has dedicated their life to collecting and sharing the world's mythological traditions. Academic rigor with accessible presentation. Treats ancient stories with the respect they deserve while making them engaging for modern readers. Indiana Jones meets your favorite professor."
+  },
+  
+  "soul": {
+    "one_sentence": "A scholar's study where the world's mythological traditions come alive through meticulous curation and genuine wonder.",
+    "expanded": "We are the keepers of humanity's oldest stories. Every culture has myths that explain their world—creation stories, hero journeys, explanations of natural phenomena. We collect, contextualize, and share these traditions with academic accuracy and genuine enthusiasm. This is not entertainment; this is preservation of human heritage.",
+    "what_we_are": "A serious but accessible resource for mythology. A bridge between academic scholarship and public curiosity. A place that treats all cultural traditions with equal respect and rigor.",
+    "what_we_are_not": "Not pop culture interpretations (Marvel, Disney). Not appropriation without context. Not ranking myths as 'better' or 'worse'. Not treating living traditions as museum pieces."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Scholarly wonder",
+    "secondary_emotion": "Respectful curiosity",
+    "tertiary_emotion": "Preservation urgency",
+    "emotional_range": ["wonder", "curiosity", "respect", "fascination", "awe", "discovery", "appreciation", "contemplation"],
+    "forbidden_emotions": ["mockery", "trivialization", "sensationalism", "fear-mongering", "cultural superiority", "dismissiveness"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 55-year-old professor of comparative mythology with wild gray hair and kind eyes. They've traveled to study traditions firsthand, speak multiple languages, and light up when discussing any culture's stories. Their office is filled with artifacts, books in various languages, and hand-drawn maps. They treat a student's question about Percy Jackson with the same respect as a doctoral thesis inquiry.",
+    "place": "A vast private library in an old university building. Dark wood shelves reaching to high ceilings. Leather-bound volumes in dozens of languages. A large globe that shows ancient trade routes. Artifacts in glass cases from cultures around the world. Soft light from green banker's lamps. The smell of old paper and possibility.",
+    "time_of_day": "Late afternoon in autumn when golden light streams through tall windows, dust motes floating in the air, the quiet of concentrated study.",
+    "season": "Autumn—the time of harvests, reflection, when the veil between worlds grows thin in Celtic tradition, appropriate for studying the old ways.",
+    "sound": "Pages turning. Distant clock ticking. Perhaps rain against leaded windows. Occasionally, the scratch of pen on paper. Profound, comfortable silence.",
+    "texture": "Aged leather book bindings. Smooth vellum. Rough stone artifacts. The weight of a heavy tome in your hands.",
+    "smell": "Old books. Leather. Wood polish. Perhaps incense from far-off lands. Coffee from the professor's cup.",
+    "taste": "Strong coffee. Perhaps tea with honey. The imagined taste of ancient feasts described in texts.",
+    "temperature": "Warm despite the old building. Comfortable enough to spend hours reading.",
+    "weather": "Misty, atmospheric. The kind of day that makes you want to stay inside with books.",
+    "music_genre": "Classical, particularly pieces inspired by mythology—Holst's Planets, Wagner (problematically), Rimsky-Korsakov. World traditional music from cultures being studied.",
+    "movie": "The Mummy (1999) meets Dead Poets Society—adventure and scholarship together.",
+    "book": "A comprehensive encyclopedia with beautiful illustrations, primary source translations, and comprehensive citations."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Curious Casey",
+      "age_range": "16-45",
+      "description": "Someone fascinated by mythology who wants to go deeper than Wikipedia or pop culture interpretations. Could be a student, writer, game developer, or simply a mythology enthusiast. Values accuracy but doesn't have academic access.",
+      "mindset": "Genuinely curious, wants real information, tired of surface-level content. May have been inspired by games, books, or movies but wants authentic sources.",
+      "goals": ["Understand myths in their original cultural context", "Find accurate information for creative projects", "Discover lesser-known mythologies", "Learn about connections between traditions", "Access scholarly knowledge without academic paywalls"],
+      "pain_points": ["Wikipedia is shallow", "Pop culture has distorted the stories", "Academic papers are inaccessible", "Hard to know what's authentic vs. modern invention", "Don't know where to start with unfamiliar traditions"],
+      "objections": ["Is this information actually accurate?", "Are you qualified to discuss these cultures?", "Is this just another pop culture wiki?"],
+      "trigger_phrases": ["greek mythology", "norse gods", "celtic mythology", "egyptian gods", "mythology explained", "origin of [creature]", "who is [deity]", "myth vs legend"]
+    },
+    "secondary_persona": {
+      "name": "Creative Colin",
+      "description": "A writer, game developer, or artist looking for mythological inspiration with authentic details. Needs accurate information to create respectful interpretations.",
+      "how_they_differ": "Specifically seeking usable creative material, needs details about appearance, symbols, stories"
+    },
+    "tertiary_persona": {
+      "name": "Student Sam",
+      "description": "A student researching for a paper or project. Needs citable, reliable information with proper sources.",
+      "how_they_differ": "Needs academic rigor, citations, primary source references"
+    },
+    "anti_persona": {
+      "description": "Someone looking for 'proof' that one culture's mythology is 'right' or 'better'. Someone wanting to appropriate sacred traditions. Someone only interested in pop culture versions.",
+      "why_not": "We don't rank cultures. We don't enable appropriation. We provide context, not just entertainment."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Scholarly warmth—the feeling of entering a well-loved library",
+    
+    "density": {
+      "description": "Content-rich but organized. Like a well-designed encyclopedia.",
+      "content_to_whitespace_ratio": "60% content, 40% space",
+      "section_breathing": "Clear sections, generous margins, readable columns",
+      "never": "Never overwhelming. Never cluttered. Never wall-of-text without breaks."
+    },
+    
+    "contrast": {
+      "description": "Warm contrast. Cream/sepia tones with dark text. Like aged paper.",
+      "approach": "High readability with comfortable warmth. Not harsh white, not too dark.",
+      "drama_level": "Subtle elegance, not dramatic",
+      "never": "Never stark modern contrast. Never cold clinical white."
+    },
+    
+    "motion": {
+      "description": "Subtle, elegant, restrained. Like pages turning.",
+      "speed": "Medium—0.3s-0.5s transitions. Never rushed.",
+      "style": "Fade and gentle reveals. Nothing bouncy or playful.",
+      "frequency": "Rare—motion serves function, not decoration",
+      "purpose": "To guide reading experience smoothly",
+      "never": "Never flashy. Never attention-grabbing. Never gaming-style."
+    },
+    
+    "texture": {
+      "description": "Subtle paper and parchment feels. Old book quality.",
+      "elements": ["Paper texture overlays", "Vellum/parchment suggestions", "Aged patina"],
+      "intensity": "Subtle—5-10% opacity, felt not seen",
+      "never": "Never grungy. Never damaged. Never obstructing readability."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Classic, restrained. Subtle ornamental touches.",
+      "border_radius_philosophy": "Minimal—2-4px at most. Classical, not bubbly.",
+      "line_weight": "Thin, elegant lines. Reminiscent of manuscript decoration.",
+      "never": "Never fully rounded. Never sharp brutal corners. Never modern minimalist."
+    },
+    
+    "depth": {
+      "approach": "Layered like pages, but subtle",
+      "shadow_style": "Very soft, suggesting depth of stacked pages",
+      "elevation_levels": "2 levels: background, content surface",
+      "never": "Never material design depth. Never floating cards."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Welcoming scholarly introduction—what this archive contains",
+        "Featured traditions—explore by culture",
+        "Recent additions—the archive grows",
+        "Popular explorations—what others are reading",
+        "How to use—navigation guidance"
+      ],
+      "forbidden_flow": [
+        "Gaming-style hero with dramatic imagery",
+        "Timeline of 'coolest' myths",
+        "Pop culture references front and center"
+      ],
+      "hero_requirements": {
+        "type": "Elegant, scholarly, inviting exploration",
+        "content_placement": "Clear introduction, paths to major sections",
+        "cta_style": "Explore by Culture, Search the Archives, New to Mythology?",
+        "forbidden": ["Dramatic CGI gods", "Gaming aesthetic", "Movie imagery"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Encyclopedia-style with clear organization",
+      "featured_treatment": "Most significant entries highlighted",
+      "pagination_style": "Alphabetical index + search + browse",
+      "forbidden": ["Random grid", "No organization", "Only latest posts"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column, article format, generous margins",
+      "max_width": "750px for readability",
+      "sidebar_usage": "Contextual: Related entries, culture overview, key facts",
+      "related_content_style": "Related myths, same culture, connected deities",
+      "forbidden": ["Interrupting ads", "Pop culture connections", "Ranking/rating myths"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 for index pages",
+      "preferred_columns": "3 columns for browsing",
+      "asymmetry_level": "Low—organization is paramount",
+      "grid_breaking": "Featured or important entries can span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "64px - 120px between major sections",
+      "element_spacing_scale": "8/16/24/32/48/64",
+      "rhythm_style": "Consistent, scholarly, organized",
+      "breathing_rule": "Comfortable reading—generous but not sparse"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Maintain readability above all. Single column, comfortable text.",
+      "tablet_approach": "Two columns where appropriate, maintain scholarly feel",
+      "breakpoint_behavior": "Graceful, never jarring"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Directory + Discovery—organized index with exploration encouraged",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["Cultures", "Deities", "Creatures", "Heroes", "Search", "About"],
+      "item_naming_style": "Clear, categorical, academic",
+      "dropdown_behavior": "Organized mega menu by culture/category"
+    },
+    "mobile_nav": {
+      "style": "Full-screen organized menu",
+      "full_screen": true,
+      "maintains_atmosphere": "Maintains scholarly organization"
+    },
+    "secondary_nav": {
+      "location": "Footer + sidebar indexes",
+      "contents": "A-Z indexes, culture lists, about/methodology/sources"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Archives > Greek > Deities > Athena"
+    },
+    "search": {
+      "prominence": "Very prominent—scholars search",
+      "style": "Full search with filters by culture, type, etc."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Playfair Display",
+      "fallback_stack": "Georgia, 'Times New Roman', serif",
+      "personality": "Classical, scholarly, elegant. The font of serious books.",
+      "weight_range": "400-700",
+      "letter_spacing": "Normal to slightly expanded",
+      "text_transform": "Small-caps for subheadings"
+    },
+    "body": {
+      "primary_font": "Source Serif Pro",
+      "fallback_stack": "Georgia, 'Times New Roman', serif",
+      "personality": "Highly readable serif, comfortable for long reading sessions",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.7-1.8 for comfortable reading",
+      "paragraph_spacing": "1.5em between paragraphs"
+    },
+    "accent": {
+      "font": "IM Fell English",
+      "usage": "Pull quotes, chapter headers, special designations",
+      "restraint_rule": "Rare—for truly special emphasis only"
+    },
+    "type_scale": {
+      "base_size": "18px",
+      "scale_ratio": "1.25 (major third)",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (18px)",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem",
+        "4xl": "3.052rem"
+      }
+    },
+    "forbidden_fonts": ["Sans-serif for body text", "Modern geometric fonts", "Display fonts for body", "Fantasy/decorative fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "warm-light (aged paper feel)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#8B4513",
+        "name": "Saddle Brown",
+        "usage": "Accents, links, important elements",
+        "emotion": "Aged leather, old books, wisdom"
+      },
+      "secondary": {
+        "hex": "#2F4F4F",
+        "name": "Dark Slate",
+        "usage": "Secondary accents, depth",
+        "emotion": "Scholarly depth, mystery"
+      },
+      "accent": {
+        "hex": "#B8860B",
+        "name": "Dark Goldenrod",
+        "usage": "Highlights, gilded touches",
+        "max_usage": "Less than 5%—like gold leaf, precious and rare"
+      },
+      "background_primary": {
+        "hex": "#FAF8F0",
+        "name": "Cream Paper"
+      },
+      "background_secondary": {
+        "hex": "#F5F0E6",
+        "name": "Aged Vellum"
+      },
+      "background_tertiary": {
+        "hex": "#EDE8DC",
+        "name": "Parchment"
+      },
+      "text_primary": {
+        "hex": "#2D2A24",
+        "name": "Ink Black",
+        "contrast_ratio": "13:1 against Cream Paper"
+      },
+      "text_secondary": {
+        "hex": "#4A4740",
+        "name": "Faded Ink"
+      },
+      "text_muted": {
+        "hex": "#6B665C",
+        "name": "Aged Ink"
+      }
+    },
+    
+    "extended_palette": {
+      "greek": "#1E4D6B",
+      "norse": "#4A5568",
+      "egyptian": "#B7950B",
+      "celtic": "#2D5016",
+      "japanese": "#8B0000",
+      "hindu": "#FF6B35"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None—solid colors only",
+      "forbidden_gradients": ["All gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Pure white #FFFFFF",
+      "Cool grays",
+      "Neon anything",
+      "Modern tech colors"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Natural, museum-quality for artifacts",
+      "color_treatment": "Warm, slightly aged feel",
+      "mood": "Scholarly, respectful, documentary",
+      "subjects": ["Historical artifacts (properly attributed)", "Ancient art with context", "Archaeological sites", "Manuscript illustrations", "Temple architecture", "Cultural ceremonies (with respect)"],
+      "forbidden_subjects": ["Hollywood interpretations", "AI-generated mythology", "Disney/Marvel versions", "Disrespectful stereotypes", "Stock 'ancient' imagery"]
+    },
+    "illustration_style": {
+      "approach": "Historical art reproduction or scholarly diagrams",
+      "line_weight": "Varies by culture's artistic tradition",
+      "color_usage": "Period-appropriate",
+      "style_reference": "Museum collection catalogs, academic publications"
+    },
+    "iconography": {
+      "style": "Cultural symbols drawn accurately, properly attributed",
+      "stroke_weight": "Varies by tradition",
+      "custom_required": true,
+      "forbidden": ["Generic 'ancient' symbols", "Mixed-culture mashups", "Simplified cartoons of sacred symbols"]
+    },
+    "image_treatment": {
+      "overlays": "None—respect original art",
+      "borders": "Simple frames suggesting display cases",
+      "shapes": "Respect original proportions",
+      "hover_effects": "None or very subtle"
+    },
+    "sources": {
+      "preferred": ["Public domain historical art", "Museum collections (credited)", "Academic publications"],
+      "acceptable": ["Properly licensed historical images"],
+      "forbidden": ["AI-generated", "Stock mythology", "Hollywood stills", "Uncredited appropriation"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Culture Badge",
+        "description": "Clear visual indicator of which tradition an entry belongs to",
+        "usage": "Every entry, cards, headers",
+        "frequency": "Always present"
+      },
+      {
+        "element": "Etymology Box",
+        "description": "Origin and meaning of names in original language",
+        "usage": "Deity and creature entries",
+        "frequency": "Where applicable"
+      },
+      {
+        "element": "Source Attribution",
+        "description": "Clear reference to primary sources",
+        "usage": "All content",
+        "frequency": "Every entry"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Manuscript-style drop caps",
+        "when_to_use": "Article openings"
+      },
+      {
+        "element": "Cultural border patterns",
+        "when_to_use": "Section divisions within cultural areas"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": 3,
+      "placement": "Functional locations",
+      "restraint_philosophy": "Scholarly restraint—decoration is secondary to information"
+    },
+    "custom_ui_elements": {
+      "buttons": "Subtle, elegant, clear",
+      "cards": "Like catalog entries, clean and informative",
+      "dividers": "Cultural patterns or simple elegant lines",
+      "loading_states": "Simple, unobtrusive",
+      "empty_states": "Helpful search suggestions"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Scholarly", "Respectful", "Curious", "Thorough", "Accessible", "Wonder-filled"],
+    "tone_spectrum": {
+      "formal_casual": "7/10 - Scholarly but not stuffy",
+      "serious_playful": "8/10 - Treats subject seriously with genuine enthusiasm",
+      "technical_accessible": "6/10 - Academic rigor made accessible"
+    },
+    "writing_style": {
+      "sentence_length": "Varied—clear explanations, some longer for nuance",
+      "paragraph_length": "3-5 sentences, well-organized",
+      "vocabulary_level": "Accessible with cultural/academic terms explained"
+    },
+    "perspective": "Third person scholarly, occasional second person for engagement",
+    "forbidden_phrases": [
+      "Myth DEBUNKED",
+      "The REAL story",
+      "Better than other cultures",
+      "Primitive beliefs",
+      "Just a myth",
+      "Obviously false",
+      "Ancient people thought"
+    ],
+    "encouraged_phrases": [
+      "According to [tradition]",
+      "In this cultural context",
+      "The story tells",
+      "Scholars interpret",
+      "Primary sources describe",
+      "This reflects the culture's view of"
+    ],
+    "cta_voice": {
+      "style": "Inviting exploration",
+      "examples": ["Explore Greek Mythology", "Discover the Story", "Read More from Celtic Tradition", "Search the Archives"],
+      "forbidden_ctas": ["Read the TRUTH", "Click to find out", "You won't believe"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Gaming-style dramatic hero",
+      "Pop culture imagery",
+      "Ranking myths",
+      "Culture comparison charts",
+      "'Top 10' mythology lists"
+    ],
+    "visual_forbidden": [
+      "Hollywood interpretations",
+      "AI-generated gods",
+      "Marvel/Disney imagery",
+      "Neon colors",
+      "Modern tech aesthetic"
+    ],
+    "typography_forbidden": [
+      "Sans-serif body text",
+      "Fantasy/gaming fonts",
+      "Modern display fonts"
+    ],
+    "content_forbidden": [
+      "Ranking cultures",
+      "Treating myths as 'false'",
+      "Cultural appropriation",
+      "Sensationalism",
+      "Pop culture references as primary"
+    ],
+    "imagery_forbidden": [
+      "Hollywood gods",
+      "Video game interpretations",
+      "AI-generated mythology",
+      "Disrespectful representations"
+    ],
+    "interaction_forbidden": [
+      "Gamification of myths",
+      "Quiz-style content as primary",
+      "Social sharing as primary focus"
+    ],
+    "this_site_specific_forbidden": [
+      "Treating living traditions as 'ancient'",
+      "Western-centric mythology framing",
+      "Ignoring scholarly debate",
+      "Stating interpretations as fact",
+      "Mixing traditions without context"
+    ],
+    "immediate_rejection_triggers": [
+      "Hollywood-style imagery",
+      "Gaming aesthetic",
+      "Lacks scholarly rigor",
+      "Disrespects cultural traditions",
+      "Pop culture focus"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Zeus clipart from Google Images",
+      "Generic 'ancient' font",
+      "'Top 10 Coolest Gods' format",
+      "No sources cited",
+      "Obvious Wikipedia rewrites"
+    ],
+    "what_acceptable_looks_like": [
+      "Proper imagery",
+      "Sources listed",
+      "Respectful treatment",
+      "But generic encyclopedia feel"
+    ],
+    "what_perfect_looks_like": [
+      "Would be cited in a research paper",
+      "Treats every culture with equal scholarly respect",
+      "Primary sources referenced throughout",
+      "Visual design matches scholarly quality of content",
+      "A comparative mythology professor would approve"
+    ],
+    "tests": {
+      "screenshot_test": "Would a mythology professor use this with students?",
+      "swap_test": "Could this be mistaken for a gaming wiki? (Must fail)",
+      "memory_test": "Did the reader learn something substantive?",
+      "ten_second_test": "Is it immediately clear this is serious scholarship?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Theoi.com", "Encyclopedia Mythica", "Wikipedia Mythology"],
+      "how_we_differ": "More accessible than Theoi, more rigorous than Wikipedia, broader than niche sites",
+      "what_they_do_wrong": "Either too academic or too shallow, often single-culture focused",
+      "what_we_do_better": "Balance of accessibility and rigor, global scope, beautiful presentation"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "TablePress",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">80",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.5s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["greek mythology", "norse mythology", "egyptian gods", "mythology encyclopedia", "world mythology"],
+    "secondary_keywords": ["[deity name]", "[creature name]", "[culture] mythology", "mythology explained"],
+    "content_pillars": ["Greek Mythology", "Norse Mythology", "Egyptian Mythology", "Celtic Mythology", "Japanese Mythology", "Hindu Mythology"],
+    "schema_types": ["Article", "FAQPage", "WebSite", "Organization"],
+    "internal_linking_strategy": "Extensive cross-linking between related entries. Culture hubs link to all entries. Entries link to related deities, creatures, stories.",
+    "content_depth_target": "Major deities: 3000+, Secondary figures: 1500+, Creatures: 1000+, Quick references: 500+"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-12",
+    "last_updated": "2025-12-12",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-12",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add family tree/genealogy visualizations",
+      "Create interactive mythology maps",
+      "Build comparative mythology tools",
+      "Add primary source reading lists"
+    ],
+    "experiments_to_try": [
+      "Audio pronunciations of deity names",
+      "Scholarly podcast/audio content",
+      "User contribution/correction system",
+      "Digital humanities collaborations"
+    ]
+  }
+}
