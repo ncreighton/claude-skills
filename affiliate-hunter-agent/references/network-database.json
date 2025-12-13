@@ -1,0 +1,273 @@
+{
+  "networks": {
+    "amazon_associates": {
+      "name": "Amazon Associates",
+      "type": "major_retailer",
+      "url": "https://affiliate-program.amazon.com/",
+      "application_url": "https://affiliate-program.amazon.com/signup",
+      "commission_range": "1-10%",
+      "cookie_duration": "24 hours",
+      "payment_threshold": "$10",
+      "payment_methods": ["Direct Deposit", "Amazon Gift Card", "Check"],
+      "payment_frequency": "Monthly (60 days after month end)",
+      "requirements": {
+        "minimum_traffic": "None specified but needs engagement",
+        "content_requirements": "Original content, no incentivized clicks",
+        "approval_time": "1-3 days",
+        "qualifying_sales": "3 sales within 180 days to stay active"
+      },
+      "application_fields": [
+        "Account Information (name, email, phone)",
+        "Website(s) - up to 50",
+        "Website description",
+        "Topics covered",
+        "How you drive traffic",
+        "How you monetize",
+        "Tax information"
+      ],
+      "best_for": ["Physical products", "Wide product range", "Consumer goods"],
+      "niches_fit": ["smart-home", "family", "productivity", "general"],
+      "notes": "Must disclose affiliate relationship. Links expire in 24h but cart lasts 90 days."
+    },
+    "shareasale": {
+      "name": "ShareASale",
+      "type": "affiliate_network",
+      "url": "https://www.shareasale.com/",
+      "application_url": "https://www.shareasale.com/info/affiliate-sign-up/",
+      "commission_range": "Varies by merchant (5-50%+)",
+      "cookie_duration": "Varies by merchant (30-90 days typical)",
+      "payment_threshold": "$50",
+      "payment_methods": ["Direct Deposit", "Check", "Payoneer"],
+      "payment_frequency": "Monthly (20th of each month)",
+      "requirements": {
+        "minimum_traffic": "No minimum",
+        "content_requirements": "Active website with quality content",
+        "approval_time": "1-7 days",
+        "qualifying_sales": "None to maintain account"
+      },
+      "application_fields": [
+        "Contact Information",
+        "Website URL",
+        "Website Description",
+        "Primary Promotional Methods",
+        "Country/Region",
+        "Tax Information"
+      ],
+      "best_for": ["Diverse merchants", "Niche products", "Established affiliate programs"],
+      "niches_fit": ["witchcraft", "smart-home", "family", "productivity", "general"],
+      "top_merchants_by_niche": {
+        "witchcraft": ["Crystal shops", "Spiritual suppliers", "Candle makers"],
+        "smart-home": ["Tech retailers", "Home improvement"],
+        "family": ["Baby products", "Educational toys"],
+        "productivity": ["Office supplies", "Planners"]
+      },
+      "notes": "Large network with 4,500+ merchants. Individual merchant approval required after network approval."
+    },
+    "cj_affiliate": {
+      "name": "CJ Affiliate (Commission Junction)",
+      "type": "affiliate_network",
+      "url": "https://www.cj.com/",
+      "application_url": "https://signup.cj.com/member/signup/publisher/",
+      "commission_range": "Varies by merchant",
+      "cookie_duration": "Varies by merchant",
+      "payment_threshold": "$50 (direct deposit), $100 (check)",
+      "payment_methods": ["Direct Deposit", "Check", "Payoneer"],
+      "payment_frequency": "Monthly (20th)",
+      "requirements": {
+        "minimum_traffic": "No strict minimum but quality reviewed",
+        "content_requirements": "Established website with consistent content",
+        "approval_time": "Instant network, 1-14 days per merchant",
+        "qualifying_sales": "None"
+      },
+      "application_fields": [
+        "Contact Information",
+        "Network Promotional Properties",
+        "Primary promotional method",
+        "Website details",
+        "Tax information"
+      ],
+      "best_for": ["Major brands", "Retail", "Travel", "Financial services"],
+      "niches_fit": ["smart-home", "family", "ai-tech"],
+      "notes": "Premium network with major brands. Requires separate merchant applications."
+    },
+    "impact": {
+      "name": "Impact (formerly Impact Radius)",
+      "type": "affiliate_network",
+      "url": "https://impact.com/",
+      "application_url": "https://app.impact.com/signup",
+      "commission_range": "Varies by brand",
+      "cookie_duration": "Varies by brand",
+      "payment_threshold": "$10-25 depending on method",
+      "payment_methods": ["Direct Deposit", "PayPal", "Wire"],
+      "payment_frequency": "Monthly or bi-monthly",
+      "requirements": {
+        "minimum_traffic": "Varies by brand",
+        "content_requirements": "Quality content, professional presentation",
+        "approval_time": "1-7 days network, varies by brand",
+        "qualifying_sales": "None"
+      },
+      "application_fields": [
+        "Business Information",
+        "Website/App details",
+        "Promotional methods",
+        "Audience information",
+        "Previous affiliate experience"
+      ],
+      "best_for": ["SaaS", "D2C brands", "Subscription services", "Tech"],
+      "niches_fit": ["ai-tech", "smart-home", "productivity"],
+      "top_programs": ["Shopify", "Canva", "Notion", "Many SaaS tools"],
+      "notes": "Growing network popular with SaaS and D2C brands. Good for tech/AI niches."
+    },
+    "awin": {
+      "name": "Awin",
+      "type": "affiliate_network",
+      "url": "https://www.awin.com/",
+      "application_url": "https://ui.awin.com/awin/affiliate/",
+      "commission_range": "Varies by merchant",
+      "cookie_duration": "Varies by merchant",
+      "payment_threshold": "$20",
+      "payment_methods": ["Direct Deposit", "PayPal"],
+      "payment_frequency": "Monthly",
+      "requirements": {
+        "minimum_traffic": "No minimum",
+        "content_requirements": "Active website",
+        "approval_time": "1-5 days",
+        "qualifying_sales": "None",
+        "application_fee": "$5 (refunded on first payment)"
+      },
+      "application_fields": [
+        "Personal Information",
+        "Promotional methods",
+        "Website details",
+        "Payment information"
+      ],
+      "best_for": ["Retail", "Travel", "Finance", "European brands"],
+      "niches_fit": ["family", "smart-home", "general"],
+      "notes": "$5 application fee refunded with first payment. Global network."
+    },
+    "rakuten": {
+      "name": "Rakuten Advertising",
+      "type": "affiliate_network",
+      "url": "https://rakutenadvertising.com/",
+      "application_url": "https://rakutenadvertising.com/affiliate/",
+      "commission_range": "Varies by merchant",
+      "cookie_duration": "Varies by merchant",
+      "payment_threshold": "$50",
+      "payment_methods": ["Direct Deposit", "Check", "PayPal"],
+      "payment_frequency": "Monthly",
+      "requirements": {
+        "minimum_traffic": "Quality over quantity",
+        "content_requirements": "Professional website",
+        "approval_time": "1-7 days",
+        "qualifying_sales": "None"
+      },
+      "best_for": ["Major retailers", "Fashion", "Home goods"],
+      "niches_fit": ["family", "smart-home", "productivity"],
+      "notes": "Premium network with well-known brands."
+    },
+    "clickbank": {
+      "name": "ClickBank",
+      "type": "digital_products",
+      "url": "https://www.clickbank.com/",
+      "application_url": "https://accounts.clickbank.com/signup/",
+      "commission_range": "50-75% typical",
+      "cookie_duration": "60 days standard",
+      "payment_threshold": "$10-100 (configurable)",
+      "payment_methods": ["Direct Deposit", "Check", "Wire", "Payoneer"],
+      "payment_frequency": "Weekly or bi-weekly",
+      "requirements": {
+        "minimum_traffic": "None",
+        "content_requirements": "None for sign-up",
+        "approval_time": "Instant",
+        "qualifying_sales": "None"
+      },
+      "best_for": ["Digital products", "Online courses", "eBooks", "Software"],
+      "niches_fit": ["witchcraft", "ai-tech", "productivity", "family"],
+      "notes": "High commissions on digital products. Quality varies - vet products carefully."
+    },
+    "partnerstack": {
+      "name": "PartnerStack",
+      "type": "saas_affiliate",
+      "url": "https://www.partnerstack.com/",
+      "application_url": "Various - through individual SaaS programs",
+      "commission_range": "20-40% recurring typical",
+      "cookie_duration": "30-90 days",
+      "payment_threshold": "$5-25",
+      "payment_methods": ["PayPal", "Stripe"],
+      "payment_frequency": "Monthly",
+      "requirements": {
+        "minimum_traffic": "Varies by program",
+        "content_requirements": "Tech/business audience",
+        "approval_time": "1-7 days per program"
+      },
+      "best_for": ["SaaS tools", "B2B software", "Productivity apps"],
+      "niches_fit": ["ai-tech", "productivity"],
+      "top_programs": ["Monday.com", "Webflow", "Calendly", "Many B2B SaaS"],
+      "notes": "Excellent for recurring commissions on SaaS products."
+    },
+    "etsy_affiliate": {
+      "name": "Etsy Affiliate Program",
+      "type": "marketplace",
+      "url": "https://www.etsy.com/affiliates",
+      "application_url": "https://www.awin.com/ (via Awin)",
+      "commission_range": "4-8%",
+      "cookie_duration": "30 days",
+      "payment_threshold": "$20 (through Awin)",
+      "payment_methods": ["Via Awin"],
+      "payment_frequency": "Monthly",
+      "requirements": {
+        "minimum_traffic": "Quality content required",
+        "content_requirements": "Lifestyle, craft, or home content",
+        "approval_time": "1-5 days"
+      },
+      "best_for": ["Handmade goods", "Vintage items", "Unique products", "Craft supplies"],
+      "niches_fit": ["witchcraft", "productivity", "mythology"],
+      "notes": "Managed through Awin. Great for unique/handmade product recommendations."
+    },
+    "skimlinks": {
+      "name": "Skimlinks",
+      "type": "content_monetization",
+      "url": "https://skimlinks.com/",
+      "application_url": "https://skimlinks.com/publisher-signup/",
+      "commission_range": "Varies (keeps 25% of commission)",
+      "cookie_duration": "Varies by merchant",
+      "payment_threshold": "$10",
+      "payment_methods": ["PayPal", "Direct Deposit"],
+      "payment_frequency": "Monthly (90 day delay)",
+      "requirements": {
+        "minimum_traffic": "No minimum",
+        "content_requirements": "Content website",
+        "approval_time": "1-3 days"
+      },
+      "best_for": ["Automatic link monetization", "Content publishers", "Editorial content"],
+      "niches_fit": ["all"],
+      "notes": "Auto-converts links to affiliate links. Good passive option but takes 25% cut."
+    }
+  },
+  "direct_program_templates": {
+    "outreach_subject_lines": [
+      "Partnership Inquiry - {site_name} ({monthly_visitors} monthly readers)",
+      "Affiliate Partnership Request - {niche} Content Creator",
+      "Collaboration Opportunity - {site_name}"
+    ],
+    "outreach_email_template": "See assets/email-templates/partnership-outreach.md"
+  },
+  "discovery_queries": {
+    "general": [
+      "{niche} affiliate program",
+      "{niche} partner program",
+      "{product_type} affiliate",
+      "best {niche} affiliate programs 2025"
+    ],
+    "direct_brand": [
+      "{brand_name} affiliate program",
+      "{brand_name} partner program",
+      "{brand_name} referral program"
+    ],
+    "network_search": [
+      "site:shareasale.com {niche}",
+      "site:cj.com {niche}",
+      "{niche} merchants ShareASale"
+    ]
+  }
+}
