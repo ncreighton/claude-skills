@@ -1,0 +1,579 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "wealth-from-ai",
+  "codename": "AIWealthStrategist",
+  "url": "https://wealthfromai.com",
+  "niche": "AI & Business",
+  "sub_niche": "AI for Business Growth, Automation & Revenue",
+  "status": "Business AI vertical - revenue and strategy focused",
+  
+  "archetype": {
+    "primary": "Ruler",
+    "secondary": "Sage",
+    "archetype_expression": "The successful entrepreneur who built businesses using AI before most people knew it was possible. Now shares strategies that actually work. No get-rich-quick schemes—real business applications. Respects your intelligence and time. Shows work, shares results."
+  },
+  
+  "soul": {
+    "one_sentence": "Building real businesses with AI—strategies that actually generate revenue.",
+    "expanded": "AI isn't magic money—it's a powerful business tool when applied correctly. We cut through the hype to show you exactly how AI is being used to build and grow real businesses. No courses selling dreams. No 'passive income' fantasies. Just proven strategies from people who've actually done it. Real numbers, real results, real work.",
+    "what_we_are": "Business-focused AI education. Real revenue strategies. Practical implementation guides. Honest about what works and what doesn't. Results-driven.",
+    "what_we_are_not": "Not get-rich-quick schemes. Not hype without substance. Not selling AI dreams. Not ignoring the work required. Not Lamborghini lifestyle."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Strategic confidence",
+    "secondary_emotion": "Grounded ambition",
+    "tertiary_emotion": "Informed optimism",
+    "emotional_range": ["confident", "strategic", "ambitious", "informed", "capable", "motivated", "grounded", "realistic"],
+    "forbidden_emotions": ["desperation", "FOMO", "get-rich-quick hope", "overwhelm", "imposter anxiety", "hype"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 45-year-old serial entrepreneur who's built multiple businesses using AI. Doesn't flex wealth—talks about strategy, process, and real results. Respects your time, doesn't promise easy riches. Would rather show you something that took work but actually works than sell you a dream.",
+    "place": "A well-designed home office with multiple monitors showing data. Evidence of real business activity—not staged luxury. Clean, professional, focused on work that generates results. Maybe a whiteboard with actual strategy.",
+    "time_of_day": "Early morning focus time—when serious work gets done, before distractions.",
+    "season": "Any—business doesn't stop for seasons. Always building.",
+    "sound": "Quiet focus. Maybe a news stream in background. Keyboard typing. Focused work.",
+    "texture": "Quality business materials. Good technology. Clean workspace. Functional.",
+    "smell": "Good coffee. Clean office. The smell of productive work.",
+    "taste": "Quality coffee during focused work. No time for nonsense.",
+    "temperature": "Comfortable for long work sessions.",
+    "weather": "Irrelevant—work happens regardless. Results don't wait for weather.",
+    "music_genre": "Focus music or financial news—functional, not entertainment.",
+    "movie": "The Social Network meets Moneyball—building something real with data and strategy.",
+    "book": "A business strategy book that's actually practical with specific AI applications and real numbers."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Business Builder Brad",
+      "age_range": "30-55",
+      "description": "An entrepreneur or business professional who wants to leverage AI for competitive advantage. Has business experience, understands revenue requires work. Looking for real strategies, not hype. Ready to implement.",
+      "mindset": "Results-focused, strategy-oriented, skeptical of hype. Values substance over promises. Has been burned by courses before.",
+      "goals": ["Use AI to grow business", "Automate strategically", "Increase revenue", "Stay ahead of competition", "Implement what actually works"],
+      "pain_points": ["Too much AI hype, not enough substance", "Don't know what actually drives revenue", "Wasting time on wrong AI tools", "Hard to separate signal from noise", "Too many courses, not enough results"],
+      "objections": ["Is this real or just another course?", "Does this person have actual results?", "Is this applicable to my business?", "Is this just theory or practical?"],
+      "trigger_phrases": ["AI for business", "AI automation business", "AI revenue", "how to use AI for business", "AI side business", "make money with AI"]
+    },
+    "secondary_persona": {
+      "name": "Corporate Carol",
+      "description": "Business professional wanting to bring AI value to their company. Needs to make a case to leadership. Wants ROI-focused content. Needs to justify investments.",
+      "how_they_differ": "Needs corporate-friendly content, ROI focus, implementation frameworks, business case support"
+    },
+    "tertiary_persona": {
+      "name": "Solopreneur Sam",
+      "description": "Individual building AI-powered business or service. Needs practical solo-implementable strategies. Bootstrap mindset.",
+      "how_they_differ": "Needs solo-friendly approaches, bootstrapped strategies, one-person implementation, low startup cost"
+    },
+    "anti_persona": {
+      "description": "Get-rich-quick seekers. People wanting to profit without value creation. Those looking for schemes not strategies. Course collectors who never implement.",
+      "why_not": "We don't enable schemes. Real business requires real value. No shortcuts to sustainable revenue."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Professional, strategic, premium but not flashy. Business publication quality.",
+    
+    "density": {
+      "description": "Efficient—respects time while being comprehensive. Dense with value, not fluff.",
+      "content_to_whitespace_ratio": "55% content, 45% space",
+      "section_breathing": "Clear, organized, professional pacing",
+      "never": "Never cluttered. Never sales-page desperate. Never overwhelming. Never sparse."
+    },
+    
+    "contrast": {
+      "description": "High contrast, professional, premium feel without flash",
+      "approach": "Dark mode capable, gold accents for premium feel, professional restraint",
+      "drama_level": "Medium—professional gravitas without hype",
+      "never": "Never garish. Never cheap. Never sales-page styled. Never flashy."
+    },
+    
+    "motion": {
+      "description": "Minimal, professional, purposeful—business-like",
+      "speed": "Fast—0.2s-0.3s. Business-like efficiency.",
+      "style": "Clean, professional transitions only",
+      "frequency": "Minimal—content over flash",
+      "purpose": "To indicate interaction, not to impress",
+      "never": "Never flashy. Never desperate. Never distracting. Never sales-page animations."
+    },
+    
+    "texture": {
+      "description": "Clean, premium, minimal—content focused",
+      "elements": ["Subtle premium textures", "Clean surfaces", "Quality feel"],
+      "intensity": "Minimal—substance over style",
+      "never": "Never busy. Never cheap-looking. Never decorative."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean, sharp but not aggressive. Professional geometry.",
+      "border_radius_philosophy": "4-8px—professional, not soft, not harsh",
+      "line_weight": "Medium, confident, clear",
+      "never": "Never bubbly. Never aggressive. Never cheap."
+    },
+    
+    "depth": {
+      "approach": "Subtle elevation for hierarchy, professional layering",
+      "shadow_style": "Subtle, professional, functional",
+      "elevation_levels": "2-3 levels for clear organization",
+      "never": "Never flat. Never extreme depth. Never sales-page shadows."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Clear value proposition—real AI business strategies",
+        "Featured strategies/case studies",
+        "Content categories—implementation, automation, revenue",
+        "Results/proof section—real numbers, not hype",
+        "Newsletter—weekly strategy insights"
+      ],
+      "forbidden_flow": [
+        "Long sales pages",
+        "Get-rich-quick imagery",
+        "Countdown timers",
+        "Excessive testimonial walls",
+        "Income claims without substance"
+      ],
+      "hero_requirements": {
+        "type": "Professional, value-focused, clear proposition",
+        "content_placement": "Value prop prominent, professional imagery",
+        "cta_style": "Direct: 'See Strategies', 'View Case Studies', 'Start Here'",
+        "forbidden": ["Money imagery", "Lamborghinis", "Flashy lifestyle", "Income claims"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Organized grid, strategy-focused",
+      "featured_treatment": "Most valuable content highlighted",
+      "pagination_style": "Standard, professional",
+      "forbidden": ["Sales-page styling", "Hype language", "Get-rich-quick positioning"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column, substantial content",
+      "max_width": "800px",
+      "sidebar_usage": "Related strategies, minimal",
+      "related_content_style": "Related strategies, implementation guides",
+      "forbidden": ["Long sales copy", "Hype language", "Empty promises"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "3 on wide screens",
+      "preferred_columns": "2-3 for professional scanning",
+      "asymmetry_level": "Low—professional, organized",
+      "grid_breaking": "Case studies can feature larger"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "48px - 80px between sections",
+      "element_spacing_scale": "4/8/12/16/24/32/48",
+      "rhythm_style": "Professional, efficient, not cramped",
+      "breathing_rule": "Room to read, not to impress"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Fully functional, professional on mobile",
+      "tablet_approach": "Two columns where appropriate",
+      "breakpoint_behavior": "Professional, smooth"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Strategy-focused—find what you need to implement",
+    "primary_nav": {
+      "max_items": 6,
+      "required_items": ["Strategies", "Automation", "Case Studies", "Tools", "About"],
+      "item_naming_style": "Clear, action-oriented, professional",
+      "dropdown_behavior": "Organized by implementation area"
+    },
+    "mobile_nav": {
+      "style": "Professional slide-out",
+      "full_screen": false,
+      "maintains_atmosphere": "Quick, professional access"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All strategies, resources, about, contact"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Clear: Home > Automation > Content Strategy"
+    },
+    "search": {
+      "prominence": "Prominent—finding strategies matters",
+      "style": "Search strategies, tools, implementations..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Inter",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Professional, clear, authoritative",
+      "weight_range": "600-700",
+      "letter_spacing": "-0.01em tight",
+      "text_transform": "None"
+    },
+    "body": {
+      "primary_font": "Inter",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clear, professional, highly readable",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.6-1.7",
+      "paragraph_spacing": "1.25em"
+    },
+    "accent": {
+      "font": "JetBrains Mono",
+      "usage": "Code, technical details, numbers",
+      "restraint_rule": "Technical content only"
+    },
+    "type_scale": {
+      "base_size": "16px",
+      "scale_ratio": "1.25",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (16px)",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem"
+      }
+    },
+    "forbidden_fonts": ["Display fonts", "Flashy fonts", "Sales-page fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "dark-first (professional, premium, focused)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#D4AF37",
+        "name": "Strategic Gold",
+        "usage": "Premium accents, CTAs, highlights",
+        "emotion": "Value, success, premium, results"
+      },
+      "secondary": {
+        "hex": "#1E3A5F",
+        "name": "Executive Blue",
+        "usage": "Professional depth, secondary elements",
+        "emotion": "Trust, professionalism, depth, stability"
+      },
+      "accent": {
+        "hex": "#2A9D8F",
+        "name": "Growth Teal",
+        "usage": "Success indicators, positive metrics",
+        "max_usage": "Supporting, data highlights"
+      },
+      "background_primary": {
+        "hex": "#0D0D0F",
+        "name": "Executive Black"
+      },
+      "background_secondary": {
+        "hex": "#151518",
+        "name": "Card Dark"
+      },
+      "background_tertiary": {
+        "hex": "#1E1E22",
+        "name": "Elevated Dark"
+      },
+      "text_primary": {
+        "hex": "#F5F5F5",
+        "name": "Clean White",
+        "contrast_ratio": "17:1"
+      },
+      "text_secondary": {
+        "hex": "#A0A0A0",
+        "name": "Light Gray"
+      },
+      "text_muted": {
+        "hex": "#6B6B6B",
+        "name": "Muted Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#2A9D8F",
+      "warning": "#D4AF37",
+      "error": "#C44536",
+      "info": "#5B8DB8"
+    },
+    
+    "gradient_rules": {
+      "allowed": true,
+      "type": "Subtle premium gradients only",
+      "subtlety": "Hero and premium elements only",
+      "approved_gradients": [
+        "Gold shimmer for premium (very subtle)",
+        "Dark to darker for depth"
+      ],
+      "forbidden_gradients": ["Rainbow", "Flashy", "Sales-page styled", "Obvious"]
+    },
+    
+    "forbidden_colors": [
+      "Cheap bright colors",
+      "Sales-page red urgency",
+      "Neon colors",
+      "Get-rich-quick gold"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Professional, clean, well-lit",
+      "color_treatment": "Desaturated professionalism or warm premium",
+      "mood": "Professional, successful but not flashy, real",
+      "subjects": ["Business environments", "Data/dashboards", "Strategy sessions", "Real business results", "Professional workspaces", "Real work being done"],
+      "forbidden_subjects": ["Lamborghinis", "Money stacks", "Flashy lifestyle", "Get-rich-quick imagery", "Obvious stock business", "Beach laptops"]
+    },
+    "illustration_style": {
+      "approach": "Clean data visualization, business diagrams, strategy maps",
+      "line_weight": "Medium, professional, clear",
+      "color_usage": "Brand colors, business-appropriate",
+      "style_reference": "Premium business publication"
+    },
+    "iconography": {
+      "style": "Clean, professional line icons",
+      "stroke_weight": "1.5-2px",
+      "custom_required": false,
+      "icon_library": "Lucide or similar professional",
+      "forbidden": ["Flashy icons", "Money symbols overused", "Get-rich imagery"]
+    },
+    "image_treatment": {
+      "overlays": "None or subtle premium dark",
+      "borders": "Clean, professional",
+      "shapes": "Clean rectangles",
+      "hover_effects": "Subtle professional"
+    },
+    "sources": {
+      "preferred": ["Real business photography", "Data visualizations", "Professional environments", "Actual work"],
+      "acceptable": ["Quality business stock (carefully selected, not generic)"],
+      "forbidden": ["Flashy wealth imagery", "Get-rich-quick visuals", "Obvious stock business", "Lifestyle flex"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Implementation Difficulty",
+        "description": "How hard is this to implement (Beginner/Intermediate/Advanced)",
+        "usage": "All strategies",
+        "frequency": "Every strategy"
+      },
+      {
+        "element": "Time Investment",
+        "description": "How long does this take to implement and see results",
+        "usage": "Strategies and guides",
+        "frequency": "Where relevant"
+      },
+      {
+        "element": "Real Results Note",
+        "description": "Actual outcomes from implementation (with realistic caveats)",
+        "usage": "Case studies, strategies",
+        "frequency": "Where we have data"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Tool recommendations",
+        "when_to_use": "When tools are part of implementation"
+      },
+      {
+        "element": "Cost breakdown",
+        "when_to_use": "When investment is required"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "Functional elements as needed",
+      "placement": "Where they help implementation decisions",
+      "restraint_philosophy": "Value over decoration"
+    },
+    "custom_ui_elements": {
+      "buttons": "Strong, clear, professional",
+      "cards": "Clean, content prominent, professional",
+      "dividers": "Subtle, professional",
+      "loading_states": "Fast, professional",
+      "empty_states": "Helpful, professional"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Strategic", "Direct", "Experienced", "No-nonsense", "Results-focused", "Honest", "Professional"],
+    "tone_spectrum": {
+      "formal_casual": "7/10 - Professional, businesslike",
+      "serious_playful": "8/10 - Serious about business results",
+      "technical_accessible": "6/10 - Technical when needed, always clear"
+    },
+    "writing_style": {
+      "sentence_length": "Direct, efficient, no fluff",
+      "paragraph_length": "Concise, scannable, value-dense",
+      "vocabulary_level": "Business-literate, AI terms explained when needed"
+    },
+    "perspective": "First person (I've built, we've seen) for authority and authenticity",
+    "forbidden_phrases": [
+      "Get rich quick",
+      "Passive income secret",
+      "This one weird trick",
+      "Limited time offer",
+      "Gurus don't want you to know",
+      "Make money while you sleep",
+      "Six figures in 30 days"
+    ],
+    "encouraged_phrases": [
+      "Here's the reality",
+      "What actually works",
+      "The strategy behind",
+      "Real numbers",
+      "Implementation steps",
+      "What we learned",
+      "The work required"
+    ],
+    "cta_voice": {
+      "style": "Direct, professional, action-oriented",
+      "examples": ["Get the Strategy", "Read the Case Study", "See Implementation", "Download Framework", "View Results"],
+      "forbidden_ctas": ["Get Rich Now", "Secret Revealed", "Limited Spots", "Gurus Hate This", "Free Money"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Long sales pages",
+      "Get-rich-quick styling",
+      "Countdown timers",
+      "Excessive testimonial walls",
+      "Income screenshot galleries"
+    ],
+    "visual_forbidden": [
+      "Lamborghinis/flashy wealth",
+      "Money stacks imagery",
+      "Sales page design",
+      "Get-rich-quick visuals",
+      "Beach laptop lifestyle"
+    ],
+    "typography_forbidden": [
+      "Sales page fonts",
+      "Flashy display fonts",
+      "Urgency styling"
+    ],
+    "content_forbidden": [
+      "Unrealistic income promises",
+      "Passive income fantasies",
+      "Scheme over strategy",
+      "Hype without substance",
+      "Theory without implementation"
+    ],
+    "imagery_forbidden": [
+      "Lifestyle flex",
+      "Money imagery",
+      "Sales-page styled",
+      "Get-rich-quick visual language"
+    ],
+    "this_site_specific_forbidden": [
+      "Income claims without substance",
+      "Promising easy riches",
+      "Selling dreams not strategies",
+      "Scheme promotion",
+      "Guru positioning"
+    ],
+    "immediate_rejection_triggers": [
+      "Get-rich-quick styling",
+      "Flashy wealth imagery",
+      "Sales page design",
+      "Unrealistic promises",
+      "Guru worship"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Sales page design",
+      "Get-rich-quick imagery",
+      "Income screenshots",
+      "Countdown timers",
+      "Hype without substance"
+    ],
+    "what_acceptable_looks_like": [
+      "Professional design",
+      "Real strategies",
+      "Some proof",
+      "But generic business site feel"
+    ],
+    "what_perfect_looks_like": [
+      "Clearly professional and trustworthy",
+      "Real strategies with real implementation",
+      "Honest about what works and what doesn't",
+      "Would recommend to serious business person",
+      "Could cite in professional context"
+    ],
+    "tests": {
+      "screenshot_test": "Does this look professional and trustworthy?",
+      "swap_test": "Could this be confused with get-rich-quick site? (Must fail)",
+      "memory_test": "Did reader get actionable strategy?",
+      "ten_second_test": "Is professional quality immediately evident?"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    }
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["AI for business", "AI automation", "AI revenue", "AI business ideas", "make money with AI"],
+    "secondary_keywords": ["AI business strategy", "AI tools for business", "AI productivity", "AI side business"],
+    "content_pillars": ["AI Business Strategy", "AI Automation", "AI Tools", "Case Studies", "Implementation Guides"],
+    "schema_types": ["Article", "HowTo", "FAQPage"]
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "1.0.0"
+  }
+}
