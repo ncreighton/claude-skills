@@ -1,0 +1,538 @@
+{
+  "// INSTRUCTIONS": "Copy this template and fill ALL sections for each site. Remove this comment block.",
+  "// REQUIRED": "Every field must be filled. No 'TBD' or 'TODO' allowed.",
+  
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "your-site-slug",
+  "codename": "UniqueCodename",
+  "url": "https://yoursite.com",
+  "niche": "Primary niche category",
+  "sub_niche": "Specific sub-category",
+  
+  "archetype": {
+    "primary": "One of: Sage, Magician, Creator, Caregiver, Explorer, Ruler, Everyman, Lover, Jester, Hero, Outlaw, Innocent",
+    "secondary": "Optional secondary archetype",
+    "archetype_expression": "How this archetype manifests specifically for THIS site"
+  },
+  
+  "soul": {
+    "one_sentence": "The single sentence that captures everything this site IS",
+    "expanded": "2-3 sentences expanding on the soul",
+    "what_we_are": "Explicit statement of identity",
+    "what_we_are_not": "Explicit statement of what we reject"
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "The dominant feeling",
+    "secondary_emotion": "Supporting feeling",
+    "tertiary_emotion": "Subtle undertone",
+    "emotional_range": ["emotion1", "emotion2", "emotion3", "emotion4"],
+    "forbidden_emotions": ["emotion we must NEVER evoke", "another forbidden emotion"]
+  },
+  
+  "if_this_site_were": {
+    "person": "Detailed description of the person",
+    "place": "Detailed description of the place",
+    "time_of_day": "Specific time and why",
+    "season": "Season and why",
+    "sound": "What you'd hear",
+    "texture": "What you'd feel touching it",
+    "smell": "What scent",
+    "taste": "What flavor",
+    "temperature": "Warm/cool and why",
+    "weather": "Weather that matches the mood",
+    "music_genre": "What music would play",
+    "movie": "What film has this vibe",
+    "book": "What book has this feel"
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Persona name",
+      "age_range": "XX-XX",
+      "description": "Who they are",
+      "mindset": "How they think",
+      "goals": ["goal1", "goal2", "goal3"],
+      "pain_points": ["pain1", "pain2", "pain3"],
+      "objections": ["objection1", "objection2"],
+      "trigger_phrases": ["what they search for", "how they describe problems"]
+    },
+    "secondary_persona": {
+      "name": "Persona name",
+      "description": "Who they are",
+      "how_they_differ": "Key difference from primary"
+    },
+    "anti_persona": {
+      "description": "Who this site is NOT for",
+      "why_not": "Why they won't resonate"
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "One phrase describing the look",
+    
+    "density": {
+      "description": "How crowded or spacious",
+      "content_to_whitespace_ratio": "XX% content, XX% space",
+      "section_breathing": "How sections breathe",
+      "never": "What density to avoid"
+    },
+    
+    "contrast": {
+      "description": "Light/dark balance",
+      "approach": "How contrast is used",
+      "drama_level": "Low/medium/high drama",
+      "never": "What contrast approach to avoid"
+    },
+    
+    "motion": {
+      "description": "How things move",
+      "speed": "Fast/medium/slow",
+      "style": "Bouncy/smooth/sharp/organic",
+      "frequency": "How often motion occurs",
+      "purpose": "Why motion exists",
+      "never": "What motion to avoid"
+    },
+    
+    "texture": {
+      "description": "Surface quality feel",
+      "elements": ["texture1", "texture2"],
+      "intensity": "Subtle/moderate/prominent",
+      "never": "What textures to avoid"
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Rounded/angular/organic/geometric",
+      "border_radius_philosophy": "How corners are treated",
+      "line_weight": "Thin/medium/thick",
+      "never": "What shapes to avoid"
+    },
+    
+    "depth": {
+      "approach": "Flat/layered/dimensional",
+      "shadow_style": "Soft/hard/colored/none",
+      "elevation_levels": "How many depth levels",
+      "never": "What depth approach to avoid"
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Section 1 purpose",
+        "Section 2 purpose", 
+        "Section 3 purpose",
+        "Section 4 purpose"
+      ],
+      "forbidden_flow": [
+        "Forbidden pattern 1",
+        "Forbidden pattern 2"
+      ],
+      "hero_requirements": {
+        "type": "Full-screen/partial/minimal",
+        "content_placement": "Where text goes",
+        "cta_style": "How CTA appears",
+        "forbidden": ["what hero must NOT do"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Grid/list/magazine/hybrid",
+      "featured_treatment": "How featured content differs",
+      "pagination_style": "Load more/infinite/numbered",
+      "forbidden": ["what category pages must NOT do"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column/sidebar/wide",
+      "max_width": "Content width",
+      "sidebar_usage": "Yes/No/Conditional",
+      "related_content_style": "How related posts appear",
+      "forbidden": ["what posts must NOT do"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "Maximum columns allowed",
+      "preferred_columns": "Typical column count",
+      "asymmetry_level": "How asymmetric layouts can be",
+      "grid_breaking": "When/how to break the grid"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "XXpx - XXpx",
+      "element_spacing_scale": "4/8/16/24/32/48/64/96",
+      "rhythm_style": "Regular/varied/dramatic",
+      "breathing_rule": "Philosophy on space"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "How mobile differs fundamentally",
+      "tablet_approach": "Tablet-specific considerations",
+      "breakpoint_behavior": "How transitions happen"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Directory/Discovery/Minimal/Narrative",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["Item1", "Item2"],
+      "item_naming_style": "How nav items should be named",
+      "dropdown_behavior": "Mega menu/simple dropdown/none"
+    },
+    "mobile_nav": {
+      "style": "Hamburger/bottom bar/slide out",
+      "full_screen": true,
+      "maintains_atmosphere": "How mobile nav keeps brand feel"
+    },
+    "secondary_nav": {
+      "location": "Footer/sidebar/contextual",
+      "contents": "What goes in secondary nav"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "How breadcrumbs look"
+    },
+    "search": {
+      "prominence": "Prominent/subtle/hidden until needed",
+      "style": "How search appears"
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Font Name",
+      "fallback_stack": "fallback1, fallback2, serif/sans-serif",
+      "personality": "What the heading font communicates",
+      "weight_range": "300-700",
+      "letter_spacing": "Normal/tight/wide",
+      "text_transform": "None/uppercase/capitalize"
+    },
+    "body": {
+      "primary_font": "Font Name",
+      "fallback_stack": "fallback1, fallback2, serif/sans-serif",
+      "personality": "What the body font communicates",
+      "weight": "400",
+      "line_height": "1.6-1.8",
+      "paragraph_spacing": "How paragraphs separate"
+    },
+    "accent": {
+      "font": "Font Name or 'none'",
+      "usage": "Where accent font appears",
+      "restraint_rule": "How sparingly to use"
+    },
+    "type_scale": {
+      "base_size": "18px",
+      "scale_ratio": "1.25/1.333/1.414/1.5/1.618",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem", 
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem"
+      }
+    },
+    "forbidden_fonts": ["Font1", "Font2", "Inter", "Roboto"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "dark-first/light-first/both-equal",
+    
+    "palette": {
+      "primary": {
+        "hex": "#XXXXXX",
+        "hsl": "hsl(X, X%, X%)",
+        "name": "Descriptive name",
+        "usage": "Where used",
+        "emotion": "What it evokes"
+      },
+      "secondary": {
+        "hex": "#XXXXXX",
+        "name": "Descriptive name",
+        "usage": "Where used",
+        "emotion": "What it evokes"
+      },
+      "accent": {
+        "hex": "#XXXXXX",
+        "name": "Descriptive name",
+        "usage": "Where used (sparingly)",
+        "max_usage": "Less than X% of any page"
+      },
+      "background_primary": {
+        "hex": "#XXXXXX",
+        "name": "Descriptive name"
+      },
+      "background_secondary": {
+        "hex": "#XXXXXX",
+        "name": "Descriptive name"
+      },
+      "text_primary": {
+        "hex": "#XXXXXX",
+        "contrast_ratio": "X:1 against primary background"
+      },
+      "text_secondary": {
+        "hex": "#XXXXXX"
+      },
+      "text_muted": {
+        "hex": "#XXXXXX"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#XXXXXX",
+      "warning": "#XXXXXX", 
+      "error": "#XXXXXX",
+      "info": "#XXXXXX"
+    },
+    
+    "gradient_rules": {
+      "allowed": true,
+      "type": "Radial/linear/none",
+      "subtlety": "Very subtle/moderate/prominent",
+      "forbidden_gradients": ["purple-to-blue", "rainbow"]
+    },
+    
+    "forbidden_colors": ["#XXXXXX (why)", "neon anything", "etc"]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Natural/studio/dramatic/soft",
+      "color_treatment": "Warm/cool/neutral/stylized",
+      "mood": "Candid/posed/atmospheric",
+      "subjects": "What to photograph",
+      "forbidden_subjects": ["stock cliches", "specific forbidden imagery"]
+    },
+    "illustration_style": {
+      "approach": "Hand-drawn/vector/mixed/none",
+      "line_weight": "Thin/medium/thick",
+      "color_usage": "Full color/limited/monochrome",
+      "style_reference": "What style to emulate"
+    },
+    "iconography": {
+      "style": "Line/filled/duotone/custom",
+      "stroke_weight": "Consistent with brand",
+      "custom_required": true,
+      "forbidden": ["Font Awesome defaults", "generic icon sets"]
+    },
+    "image_treatment": {
+      "overlays": "What overlays if any",
+      "borders": "How images are bordered",
+      "shapes": "Custom shapes/masks",
+      "hover_effects": "What happens on hover"
+    },
+    "sources": {
+      "preferred": ["Custom", "Specific stock sources"],
+      "acceptable": ["Curated stock"],
+      "forbidden": ["Generic stock", "AI faces"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Element name",
+        "description": "What it is",
+        "usage": "Where it appears",
+        "frequency": "How often"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Element name",
+        "when_to_use": "Conditions for use"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": 2,
+      "placement": "Entry points and transitions",
+      "restraint_philosophy": "Less is more explanation"
+    },
+    "custom_ui_elements": {
+      "buttons": "How buttons are unique",
+      "cards": "How cards are unique",
+      "dividers": "How sections divide",
+      "loading_states": "How loading appears",
+      "empty_states": "How empty states appear"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Trait1", "Trait2", "Trait3"],
+    "tone_spectrum": {
+      "formal_casual": "1-10 scale position",
+      "serious_playful": "1-10 scale position",
+      "technical_accessible": "1-10 scale position"
+    },
+    "writing_style": {
+      "sentence_length": "Short/varied/long",
+      "paragraph_length": "2-4 sentences typical",
+      "vocabulary_level": "Accessible/intermediate/expert"
+    },
+    "perspective": "First person (we)/second person (you)/third person",
+    "forbidden_phrases": [
+      "Transform your life",
+      "Unlock your potential",
+      "site-specific forbidden phrases"
+    ],
+    "required_phrases": [
+      "Phrases that embody the brand"
+    ],
+    "cta_voice": {
+      "style": "Invitation/command/question",
+      "examples": ["Good CTA 1", "Good CTA 2"],
+      "forbidden_ctas": ["Learn more", "Get started", "Click here"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Hero → 3-column → CTA",
+      "Site-specific forbidden layouts"
+    ],
+    "visual_forbidden": [
+      "Purple-to-blue gradients",
+      "Site-specific forbidden visuals"
+    ],
+    "typography_forbidden": [
+      "Inter anywhere",
+      "Roboto as primary",
+      "Site-specific forbidden type"
+    ],
+    "content_forbidden": [
+      "Generic CTAs",
+      "Site-specific forbidden content"
+    ],
+    "imagery_forbidden": [
+      "Stock cliches for this niche",
+      "Site-specific forbidden imagery"
+    ],
+    "interaction_forbidden": [
+      "Aggressive popups",
+      "Site-specific forbidden interactions"
+    ],
+    "this_site_specific_forbidden": [
+      "Things that are wrong ONLY for this specific site",
+      "That might be fine for other sites"
+    ],
+    "immediate_rejection_triggers": [
+      "Looks like WordPress theme demo",
+      "Could be any site in niche",
+      "Site-specific rejection triggers"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Specific example of cheap for this site",
+      "Another cheap indicator"
+    ],
+    "what_acceptable_looks_like": [
+      "What passes but isn't great"
+    ],
+    "what_perfect_looks_like": [
+      "Screenshot-worthy specific description",
+      "What makes this site undeniably excellent"
+    ],
+    "tests": {
+      "screenshot_test": "Would a designer save this?",
+      "swap_test": "Could this work on a competitor?",
+      "memory_test": "What will visitors remember in a week?",
+      "ten_second_test": "Can visitor feel uniqueness in 10 seconds?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Competitor1.com", "Competitor2.com"],
+      "how_we_differ": "Explicit differentiation",
+      "what_they_do_wrong": "What competitors miss",
+      "what_we_do_better": "Our advantage"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy",
+      "page_builder": "Gutenberg"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "AI Engine"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">80",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.5s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": ">1024px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["keyword1", "keyword2", "keyword3"],
+    "content_pillars": ["Pillar1", "Pillar2", "Pillar3"],
+    "schema_types": ["Article", "HowTo", "FAQPage"],
+    "internal_linking_strategy": "Hub and spoke description",
+    "content_depth_target": "Pillar: 3000+, Hub: 1500+, Spoke: 1000+"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "YYYY-MM-DD",
+    "last_updated": "YYYY-MM-DD",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "YYYY-MM-DD",
+        "version": "1.0.0",
+        "changes": "Initial creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Future enhancement 1",
+      "Future enhancement 2"
+    ],
+    "experiments_to_try": [
+      "Ideas to test"
+    ]
+  }
+}
