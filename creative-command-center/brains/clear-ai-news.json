@@ -1,0 +1,598 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "clear-ai-news",
+  "codename": "AINewsDesk",
+  "url": "https://clearainews.com",
+  "niche": "AI News & Analysis",
+  "sub_niche": "AI Industry News, Developments & Analysis",
+  "status": "News/journalism AI vertical (distinct from AI in Action Hub tutorials)",
+  
+  "archetype": {
+    "primary": "Sage",
+    "secondary": "Explorer",
+    "archetype_expression": "The technology journalist who cuts through AI hype to deliver clear, factual coverage. Respects readers' intelligence. Explains complexity without dumbing down. No agenda beyond accurate, useful reporting. Has seen enough hype cycles to be appropriately skeptical."
+  },
+  
+  "soul": {
+    "one_sentence": "AI news that respects your intelligence—clear reporting on what actually matters.",
+    "expanded": "The AI space is flooded with hype, fear-mongering, and corporate PR disguised as news. We're different. We provide clear, factual, well-sourced coverage of AI developments that actually matter. We explain the complex clearly. We separate signal from noise. We respect your time and intelligence. No sensationalism, no agenda.",
+    "what_we_are": "Quality AI journalism. Clear explanations of complex topics. Factual, balanced reporting. News that respects reader intelligence. Signal in the noise.",
+    "what_we_are_not": "Not hype merchants. Not fear-mongering clickbait. Not corporate PR. Not dumbed-down oversimplification. Not agenda-driven."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Informed clarity",
+    "secondary_emotion": "Trusted authority",
+    "tertiary_emotion": "Thoughtful analysis",
+    "emotional_range": ["informed", "clear", "thoughtful", "trustworthy", "balanced", "insightful", "measured"],
+    "forbidden_emotions": ["fear", "hype", "sensationalism", "panic", "FOMO", "breathless excitement"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 40-year-old technology journalist with 15 years covering the industry. Has seen hype cycles come and go. Values accuracy over speed, clarity over clicks. Could work at a major publication but values independence. Trusted by peers and readers alike.",
+    "place": "A newsroom or professional office. Clean, functional, focused on work. Multiple screens showing feeds. The environment of serious journalism, not flashy media.",
+    "time_of_day": "Early morning—first to know what's happening, ready to analyze and report before the spin begins.",
+    "season": "Any—news doesn't stop for seasons.",
+    "sound": "Keyboard typing, news alerts, focused work. The sound of careful journalism.",
+    "texture": "Quality journalism—well-researched, well-written, well-sourced.",
+    "smell": "Coffee. Clean office. The focus of deadline work.",
+    "taste": "Coffee during deadline work. The satisfaction of getting a story right.",
+    "temperature": "Comfortable for focused reading and writing.",
+    "weather": "Irrelevant—news happens regardless.",
+    "music_genre": "None—focus on content. Journalism doesn't need a soundtrack.",
+    "movie": "Spotlight or All the President's Men—journalism that matters, reporting that makes a difference.",
+    "book": "Quality long-form journalism that explains complex topics clearly without patronizing."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Professional Pat",
+      "age_range": "28-55",
+      "description": "A professional who needs to stay informed about AI developments for their work. Doesn't have time for hype or noise. Values quality, factual reporting they can trust and cite. Makes decisions based on this information.",
+      "mindset": "Information-seeking, quality-demanding, time-constrained. Values accuracy and clarity above all.",
+      "goals": ["Stay informed on AI developments", "Understand implications for their work", "Find trustworthy sources", "Cut through hype", "Share reliable information with colleagues"],
+      "pain_points": ["Too much AI hype", "Can't trust most sources", "Clickbait headlines everywhere", "No time for noise", "Need reliable citation sources"],
+      "objections": ["Is this source reliable?", "Is this balanced or agenda-driven?", "Is this factual or speculation?", "Can I cite this?"],
+      "trigger_phrases": ["AI news", "AI developments", "AI industry news", "[company] AI announcement", "AI policy news", "AI research news"]
+    },
+    "secondary_persona": {
+      "name": "Researcher Robin",
+      "description": "Academic or analyst who needs factual, citable information about AI developments. Requires accuracy and proper sourcing. Writing papers or reports.",
+      "how_they_differ": "Needs depth, citations, primary sources, academic-level accuracy"
+    },
+    "tertiary_persona": {
+      "name": "Curious Cameron",
+      "description": "Generally interested person who wants to understand AI developments without hype or fear. Wants clear explanations, not jargon.",
+      "how_they_differ": "Needs more context and explanation, less assumed knowledge"
+    },
+    "anti_persona": {
+      "description": "Those seeking sensationalism. People wanting AI doom or utopia narratives. Those who want entertainment over information. Agenda-seekers.",
+      "why_not": "We provide factual journalism, not entertainment, fear, or hope-selling."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Clean journalism—professional, readable, trustworthy. Major publication quality.",
+    
+    "density": {
+      "description": "Content-rich but organized. News should be scannable and findable.",
+      "content_to_whitespace_ratio": "55% content, 45% space",
+      "section_breathing": "Clear organization, easy navigation, professional pacing",
+      "never": "Never cluttered. Never overwhelming. Never confusing. Never flashy."
+    },
+    
+    "contrast": {
+      "description": "High readability, professional, newspaper-quality",
+      "approach": "Light mode primary, clean and clear, maximum readability",
+      "drama_level": "Low—content speaks, not design. Typography does the work.",
+      "never": "Never dramatic. Never flashy. Never distracting from content."
+    },
+    
+    "motion": {
+      "description": "Minimal, functional only—journalism doesn't need animation",
+      "speed": "Fast—0.2s functional transitions only",
+      "style": "Simple, unobtrusive, invisible",
+      "frequency": "Minimal—only when functionally necessary",
+      "purpose": "Navigation only, never decoration",
+      "never": "Never flashy. Never attention-seeking. Never decorative."
+    },
+    
+    "texture": {
+      "description": "Clean, minimal—content is the texture",
+      "elements": ["Clean surfaces", "Minimal texture", "Content provides interest"],
+      "intensity": "Almost none—journalism is about words, not decoration",
+      "never": "Never decorative. Never distracting. Never busy."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean rectangles, simple, professional",
+      "border_radius_philosophy": "2-4px—professional, not playful, newspaper-like",
+      "line_weight": "Light, clean, unobtrusive",
+      "never": "Never rounded/playful. Never aggressive. Never decorative."
+    },
+    
+    "depth": {
+      "approach": "Subtle, for hierarchy only—flat journalism aesthetic",
+      "shadow_style": "Very subtle, functional only",
+      "elevation_levels": "2 levels max—content and featured",
+      "never": "Never dramatic shadows. Never depth as decoration."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Top stories—most important AI news",
+        "Latest news—chronological feed",
+        "Analysis section—deeper pieces",
+        "Categories—browse by topic",
+        "Newsletter—daily/weekly briefing"
+      ],
+      "forbidden_flow": [
+        "Sensational headlines",
+        "Fear-based lead stories",
+        "Hype-driven content promotion",
+        "Entertainment-style layout"
+      ],
+      "hero_requirements": {
+        "type": "Lead story or top stories—journalistic, not flashy",
+        "content_placement": "Headline and summary prominent, professional",
+        "cta_style": "Simple: 'Read More', 'Full Story', 'Analysis'",
+        "forbidden": ["Dramatic imagery", "Sensational language", "Fear imagery"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "News list or simple grid, chronological option",
+      "featured_treatment": "Editor's picks subtly highlighted",
+      "pagination_style": "Traditional numbered or load more",
+      "forbidden": ["Clickbait styling", "Sensational thumbnails", "Hype language"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Article layout—single column, generous reading width",
+      "max_width": "720px—optimal reading",
+      "sidebar_usage": "Related stories, minimal, non-distracting",
+      "related_content_style": "Related coverage, timeline of story, context",
+      "forbidden": ["Sensational related content", "Clickbait suggestions", "Advertising-heavy"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "3 for news grids",
+      "preferred_columns": "List or 2 columns—scannable",
+      "asymmetry_level": "Low—professional, balanced, newspaper-like",
+      "grid_breaking": "Feature stories span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "32px - 64px between sections",
+      "element_spacing_scale": "4/8/12/16/24/32/48",
+      "rhythm_style": "Professional, newspaper-like, efficient but not cramped",
+      "breathing_rule": "Enough space to read comfortably"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Excellent reading experience on mobile—news consumption",
+      "tablet_approach": "Two-column when appropriate",
+      "breakpoint_behavior": "Professional, smooth, unobtrusive"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Topic-based—find news by category efficiently",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["News", "Analysis", "Industry", "Policy", "Research", "About"],
+      "item_naming_style": "Clear news categories, journalistic",
+      "dropdown_behavior": "Simple dropdowns by topic"
+    },
+    "mobile_nav": {
+      "style": "Simple slide-out or hamburger",
+      "full_screen": false,
+      "maintains_atmosphere": "Quick, functional, news-focused"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All categories, about, contact, editorial standards"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Simple: Home > Industry > OpenAI Coverage"
+    },
+    "search": {
+      "prominence": "Prominent—finding past coverage important",
+      "style": "Search news, analysis, coverage..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Source Serif Pro",
+      "fallback_stack": "Georgia, 'Times New Roman', serif",
+      "personality": "Journalistic, authoritative, readable—newspaper quality",
+      "weight_range": "600-700",
+      "letter_spacing": "Normal to slight negative for headlines",
+      "text_transform": "None"
+    },
+    "body": {
+      "primary_font": "Source Sans Pro",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Highly readable, professional, clear",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.6-1.7—optimal for long-form reading",
+      "paragraph_spacing": "1.25em between paragraphs"
+    },
+    "accent": {
+      "font": "Source Serif Pro Italic",
+      "usage": "Pull quotes, editorial emphasis",
+      "restraint_rule": "Rare, meaningful—journalism style"
+    },
+    "type_scale": {
+      "base_size": "17px",
+      "scale_ratio": "1.2 (minor third)—tighter for news efficiency",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (17px)",
+        "lg": "1.2rem",
+        "xl": "1.44rem",
+        "2xl": "1.728rem",
+        "3xl": "2.074rem",
+        "4xl": "2.488rem"
+      }
+    },
+    "forbidden_fonts": ["Display fonts", "Decorative fonts", "Casual fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light (maximum readability, journalism standard)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#0D5C63",
+        "name": "Trust Teal",
+        "usage": "Links, key elements, bylines",
+        "emotion": "Trust, clarity, authority, reliability"
+      },
+      "secondary": {
+        "hex": "#2D3748",
+        "name": "Editorial Dark",
+        "usage": "Headers, emphasis, navigation",
+        "emotion": "Authority, professionalism, seriousness"
+      },
+      "accent": {
+        "hex": "#C53030",
+        "name": "Alert Red",
+        "usage": "Breaking news only, truly important alerts",
+        "max_usage": "Very rare—when genuinely urgent"
+      },
+      "background_primary": {
+        "hex": "#FFFFFF",
+        "name": "Clean White"
+      },
+      "background_secondary": {
+        "hex": "#F7FAFC",
+        "name": "Light Gray"
+      },
+      "background_tertiary": {
+        "hex": "#EDF2F7",
+        "name": "Border Gray"
+      },
+      "text_primary": {
+        "hex": "#1A202C",
+        "name": "Rich Black",
+        "contrast_ratio": "16:1 on white"
+      },
+      "text_secondary": {
+        "hex": "#4A5568",
+        "name": "Dark Gray"
+      },
+      "text_muted": {
+        "hex": "#718096",
+        "name": "Medium Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#2F855A",
+      "warning": "#C05621",
+      "error": "#C53030",
+      "info": "#2B6CB0"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None—clean journalism, no decoration",
+      "forbidden_gradients": ["All gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Bright/flashy colors",
+      "Fear-inducing red overuse",
+      "Hype-associated colors",
+      "Entertainment colors"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Clean, journalistic, documentary-style",
+      "color_treatment": "Neutral, professional, true-to-life",
+      "mood": "Professional, factual, documentary",
+      "subjects": ["Company logos/products when relevant", "Industry events", "Charts and data visualization", "Professional settings", "Relevant tech imagery"],
+      "forbidden_subjects": ["AI hype imagery", "Terminator/robot clichés", "Blue brain clichés", "Fear-inducing imagery", "Sensational visuals"]
+    },
+    "illustration_style": {
+      "approach": "Clean data visualization, informational charts",
+      "line_weight": "Clean, professional, minimal",
+      "color_usage": "Brand colors, clear, functional",
+      "style_reference": "Major news publication standards"
+    },
+    "iconography": {
+      "style": "Simple, professional, minimal",
+      "stroke_weight": "1.5px",
+      "custom_required": false,
+      "icon_library": "Simple, professional set",
+      "forbidden": ["Flashy icons", "Cliché AI imagery", "Decorative icons"]
+    },
+    "image_treatment": {
+      "overlays": "None—journalistic clarity",
+      "borders": "Clean, simple, minimal",
+      "shapes": "Clean rectangles only",
+      "hover_effects": "Minimal to none"
+    },
+    "sources": {
+      "preferred": ["Actual product/company images", "Data visualizations", "Event photography", "Official press images"],
+      "acceptable": ["Professional stock (carefully selected)"],
+      "forbidden": ["AI clichés", "Hype imagery", "Fear imagery", "Sensational visuals"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Publication Date & Time",
+        "description": "Clear timestamp for all news",
+        "usage": "Every article",
+        "frequency": "Always"
+      },
+      {
+        "element": "Category Tag",
+        "description": "Clear topic categorization",
+        "usage": "Every article",
+        "frequency": "Always"
+      },
+      {
+        "element": "Byline",
+        "description": "Author attribution",
+        "usage": "Every article",
+        "frequency": "Always"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Related Coverage Timeline",
+        "when_to_use": "For developing stories"
+      },
+      {
+        "element": "Source Links",
+        "when_to_use": "When citing primary sources"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "Essential journalism elements only",
+      "placement": "Standard journalism placement",
+      "restraint_philosophy": "Information over decoration"
+    },
+    "custom_ui_elements": {
+      "buttons": "Simple, clear, minimal",
+      "cards": "News card—headline, summary, date, clean",
+      "dividers": "Simple lines",
+      "loading_states": "Fast, unobtrusive",
+      "empty_states": "Helpful, simple"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Authoritative", "Clear", "Balanced", "Professional", "Factual", "Thoughtful", "Measured"],
+    "tone_spectrum": {
+      "formal_casual": "7/10 - Professional journalism",
+      "serious_playful": "8/10 - Serious news coverage",
+      "technical_accessible": "5/10 - Technical made clear, never dumbed down"
+    },
+    "writing_style": {
+      "sentence_length": "Clear, journalistic—lead with key facts",
+      "paragraph_length": "Standard journalism—inverted pyramid",
+      "vocabulary_level": "Professional, technical terms explained in context"
+    },
+    "perspective": "Third person journalistic, first person for clearly labeled opinion/analysis",
+    "forbidden_phrases": [
+      "AI apocalypse",
+      "Groundbreaking breakthrough",
+      "Revolutionary new",
+      "Game-changing",
+      "You won't believe",
+      "Experts are terrified"
+    ],
+    "encouraged_phrases": [
+      "According to",
+      "The company announced",
+      "In a statement",
+      "Analysis suggests",
+      "Context:",
+      "For background"
+    ],
+    "cta_voice": {
+      "style": "Informative, simple",
+      "examples": ["Read Full Analysis", "See Details", "Related Coverage", "View Source", "Full Report"],
+      "forbidden_ctas": ["Breaking!", "Shocking!", "Must Read!", "Before It's Too Late", "Exclusive!"]
+    }
+  },
+  
+  "═══ DIFFERENTIATION FROM AI IN ACTION HUB ═══": "────────────────────────────────────────",
+  
+  "differentiation_from_aiinactionhub": {
+    "clear_ai_news_is": [
+      "News/journalism focus (vs tutorials)",
+      "Reporting developments (vs teaching how-to)",
+      "Analysis and context (vs implementation guides)",
+      "Current events (vs evergreen content)",
+      "Journalistic tone (vs helpful teacher tone)",
+      "Third person (vs second person)",
+      "Serif headings (vs sans-serif)"
+    ],
+    "visual_differences": [
+      "News publication layout (vs tutorial site layout)",
+      "Minimal design (vs more tech-forward design)",
+      "Light mode journalistic (vs dark mode tech)",
+      "Clean readability focus (vs feature highlighting)",
+      "Newspaper aesthetic (vs modern tech aesthetic)"
+    ],
+    "content_differences": [
+      "What happened (vs how to do)",
+      "Industry analysis (vs practical tutorials)",
+      "Breaking news coverage (vs evergreen guides)",
+      "Company and policy coverage (vs tool coverage)",
+      "Chronological news (vs topical guides)"
+    ]
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Sensational layout",
+      "Entertainment styling",
+      "Clickbait design",
+      "Hype-driven presentation"
+    ],
+    "visual_forbidden": [
+      "AI cliché imagery",
+      "Fear-inducing visuals",
+      "Hype imagery",
+      "Sensational graphics"
+    ],
+    "typography_forbidden": [
+      "Display/decorative fonts",
+      "Casual fonts",
+      "Sensational headline styling"
+    ],
+    "content_forbidden": [
+      "Sensational headlines",
+      "Fear-mongering",
+      "Hype without substance",
+      "Clickbait content",
+      "Agenda-driven reporting"
+    ],
+    "imagery_forbidden": [
+      "Robot/Terminator clichés",
+      "Blue brain imagery",
+      "Fear imagery",
+      "Hype visuals"
+    ],
+    "this_site_specific_forbidden": [
+      "Any sensationalism",
+      "Agenda-driven coverage",
+      "Hype amplification",
+      "Fear-mongering",
+      "Clickbait of any kind"
+    ],
+    "immediate_rejection_triggers": [
+      "Sensational headlines",
+      "Fear-based content",
+      "Hype language",
+      "AI cliché imagery",
+      "Clickbait styling"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Clickbait headlines",
+      "AI cliché imagery",
+      "Sensational coverage",
+      "Fear-mongering content",
+      "Agenda-driven reporting"
+    ],
+    "what_acceptable_looks_like": [
+      "Factual reporting",
+      "Clean design",
+      "Balanced coverage",
+      "But generic news site feel"
+    ],
+    "what_perfect_looks_like": [
+      "Trusted by professionals",
+      "First source people check",
+      "Respected for accuracy",
+      "Clear explanations of complex topics",
+      "Could be cited in professional context"
+    ],
+    "tests": {
+      "screenshot_test": "Does this look like quality journalism?",
+      "swap_test": "Could this be confused with clickbait AI news? (Must fail)",
+      "memory_test": "Does reader trust what they read?",
+      "ten_second_test": "Is professional journalism quality immediately evident?"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">92",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    }
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["AI news", "artificial intelligence news", "AI industry news", "AI developments", "AI announcements"],
+    "secondary_keywords": ["[company] AI news", "AI policy", "AI regulation", "AI research news"],
+    "content_pillars": ["Industry News", "Company Coverage", "Policy & Regulation", "Research Developments", "Analysis"],
+    "schema_types": ["NewsArticle", "Article", "Organization"]
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "1.0.0"
+  }
+}
