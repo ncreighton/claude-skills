@@ -1,0 +1,624 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "wearable-gear-hub",
+  "codename": "WearableTechPro",
+  "url": "https://wearablegearhub.com",
+  "niche": "Wearable Technology",
+  "sub_niche": "Smartwatches, Fitness Bands & Wearable Tech Reviews",
+  "status": "Specialized wearables vertical (distinct from PulseGear fitness focus)",
+  
+  "archetype": {
+    "primary": "Sage",
+    "secondary": "Explorer",
+    "archetype_expression": "The wearable tech expert who tests everything that goes on your wrist, body, or in your ear. Deep technical knowledge paired with real-world testing. Helps people find the right wearable for their specific needs—not the most expensive or most hyped."
+  },
+  
+  "soul": {
+    "one_sentence": "The wearable on your wrist should work for your life—we help you find the right one.",
+    "expanded": "Wearable tech is personal—literally. It's on your body every day. That's why choosing the right one matters so much and why generic 'best smartwatch' lists don't help. We test every wearable for real use cases, specific needs, and honest daily wearability. Because the best wearable is the one that works for YOUR life.",
+    "what_we_are": "Expert wearable tech reviews. Real-world testing. Specific recommendations for specific needs. Honest about compromises.",
+    "what_we_are_not": "Not just spec comparisons. Not affiliate-driven rankings. Not ignoring the 'wear' in wearable. Not assuming one size fits all."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Informed confidence",
+    "secondary_emotion": "Discovery excitement",
+    "tertiary_emotion": "Personal connection",
+    "emotional_range": ["confident", "curious", "informed", "connected", "empowered", "satisfied"],
+    "forbidden_emotions": ["overwhelm", "confusion", "FOMO", "buyer's remorse", "tech anxiety"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 36-year-old tech journalist who wears 3 different smartwatches in rotation for testing. Has reviewed hundreds of wearables and remembers the strengths and weaknesses of each. Gets genuinely excited about good design and frustrated by bad user experience. Values function AND form.",
+    "place": "A home office with a display wall of smartwatches and wearables, organized by type and era. Testing equipment for battery life, sensors, water resistance. Evidence of real use—worn straps, used devices, honest testing.",
+    "time_of_day": "Morning workout time—when wearables prove their worth.",
+    "season": "All seasons—wearables need to work year-round.",
+    "sound": "Notification sounds, heart rate beeps, workout complete chimes.",
+    "texture": "Watch bands—silicone, leather, metal, fabric. Smooth screens. The specific feel of a well-designed device.",
+    "smell": "Clean tech, the gym when testing fitness features.",
+    "taste": "Post-workout hydration, coffee during reviews.",
+    "temperature": "Varied—wearables must work in all conditions.",
+    "weather": "All types—part of testing is weather resistance.",
+    "music_genre": "Workout playlists, focus music during writing.",
+    "movie": "A tech documentary that shows both innovation and real-world impact.",
+    "book": "A comprehensive tech guide that balances specs with user experience."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Considering Casey",
+      "age_range": "25-55",
+      "description": "Someone ready to buy a wearable but overwhelmed by options. Has specific needs (fitness tracking, smartphone companion, health monitoring, style) but doesn't know which device best matches those needs.",
+      "mindset": "Research-mode, specific needs, wants the right choice. Willing to spend for quality but doesn't want to overpay.",
+      "goals": ["Find the right wearable for their needs", "Understand real differences between options", "Not waste money on wrong choice", "Get something they'll actually wear", "Understand what features they actually need"],
+      "pain_points": ["Too many options", "Can't tell real differences", "Reviews seem biased/affiliate-driven", "Don't know what features matter for them", "Worried about buying wrong one"],
+      "objections": ["Is this reviewer paid by the brand?", "Will this actually work for my use case?", "Am I overpaying for features I won't use?"],
+      "trigger_phrases": ["best smartwatch", "apple watch vs", "smartwatch for [specific use]", "[device] review", "best fitness tracker"]
+    },
+    "secondary_persona": {
+      "name": "Upgrading Uma",
+      "description": "Someone with an existing wearable considering upgrade. Wants to know if new models are worth it and what's actually improved.",
+      "how_they_differ": "Has baseline knowledge, needs comparison to what they own, ROI focus"
+    },
+    "tertiary_persona": {
+      "name": "Specific Steve",
+      "description": "Someone with very specific needs—medical monitoring, specific sport, professional use. Needs detailed feature analysis.",
+      "how_they_differ": "Needs deep-dive into specific features, niche use cases, specialized recommendations"
+    },
+    "anti_persona": {
+      "description": "People who want to be told 'the best' without context. Those who only care about status/brand. People who won't read beyond headlines.",
+      "why_not": "We provide nuanced recommendations. The 'best' depends on your needs."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Clean tech editorial—products displayed beautifully, content readable",
+    
+    "density": {
+      "description": "Information-rich but organized. Tech content needs detail but not clutter.",
+      "content_to_whitespace_ratio": "55% content, 45% space",
+      "section_breathing": "Clear organization, easy scanning, grouped information",
+      "never": "Never cluttered. Never wall-of-specs. Never overwhelming."
+    },
+    
+    "contrast": {
+      "description": "High readability, products pop against clean backgrounds",
+      "approach": "Light mode with dark mode support. Products should look their best.",
+      "drama_level": "Medium—let products be heroes",
+      "never": "Never muddy. Never low-contrast. Never competing with products."
+    },
+    
+    "motion": {
+      "description": "Smooth, tech-appropriate, responsive",
+      "speed": "Fast—0.2s-0.3s transitions. Modern and snappy.",
+      "style": "Clean, precise transitions",
+      "frequency": "Functional—state changes, reveals",
+      "purpose": "To feel modern and responsive",
+      "never": "Never slow. Never decorative-only."
+    },
+    
+    "texture": {
+      "description": "Clean, minimal, let products provide texture",
+      "elements": ["Clean surfaces", "Subtle shadows", "Product photography shine"],
+      "intensity": "Minimal—products are the visual interest",
+      "never": "Never competing with products. Never busy."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean rectangles, subtle rounding like device screens",
+      "border_radius_philosophy": "8-12px—modern, tech-appropriate",
+      "line_weight": "Medium, clear",
+      "never": "Never outdated design. Never harsh."
+    },
+    
+    "depth": {
+      "approach": "Subtle elevation, products float slightly",
+      "shadow_style": "Soft, professional",
+      "elevation_levels": "2-3 levels for hierarchy",
+      "never": "Never flat. Never extreme depth."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Clear value proposition—finding YOUR right wearable",
+        "Featured/latest reviews",
+        "Browse by category (watches, bands, hearables, etc.)",
+        "Comparison tools and guides",
+        "Newsletter—new reviews and deals"
+      ],
+      "forbidden_flow": [
+        "Generic 'best smartwatch' as only entry",
+        "Brand-focused over use-case focused",
+        "Affiliate deals as primary content"
+      ],
+      "hero_requirements": {
+        "type": "Clean, product-focused, inviting",
+        "content_placement": "Value prop, category access, search",
+        "cta_style": "Helpful: 'Find Your Watch', 'Browse Reviews', 'Compare Models'",
+        "forbidden": ["Affiliate deals prominent", "Single product hero", "Brand-focused"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Organized grid with filtering by use case, price, features",
+      "featured_treatment": "Editor's picks for different use cases",
+      "pagination_style": "Load more or numbered",
+      "forbidden": ["No filtering", "Price only filtering", "No use-case organization"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column with sticky quick-take sidebar",
+      "max_width": "800px main content",
+      "sidebar_usage": "Sticky verdict box, key specs, pros/cons",
+      "related_content_style": "Alternatives at same price, comparisons, related reviews",
+      "forbidden": ["No verdict box", "Spec dump without testing", "Affiliate pressure"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 on wide screens",
+      "preferred_columns": "3 columns for product grids",
+      "asymmetry_level": "Low—organized for comparison shopping",
+      "grid_breaking": "Comparison features and guides can span full"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "48px - 80px between major sections",
+      "element_spacing_scale": "4/8/12/16/24/32/48",
+      "rhythm_style": "Organized, efficient",
+      "breathing_rule": "Enough space to compare and scan easily"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Essential—people research purchases on phones",
+      "tablet_approach": "Good comparison experience",
+      "breakpoint_behavior": "Smooth, maintains comparison ability"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Category + Use-case—find by what or find by why",
+    "primary_nav": {
+      "max_items": 7,
+      "required_items": ["Smartwatches", "Fitness Trackers", "Hearables", "Comparisons", "Guides", "About"],
+      "item_naming_style": "Clear product categories plus help content",
+      "dropdown_behavior": "Organized by brand and use case"
+    },
+    "mobile_nav": {
+      "style": "Slide-out drawer",
+      "full_screen": false,
+      "maintains_atmosphere": "Quick category access"
+    },
+    "secondary_nav": {
+      "location": "Footer + contextual",
+      "contents": "All brands, all categories, guides, about"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Clear: Home > Smartwatches > Apple > Apple Watch Series 9 Review"
+    },
+    "search": {
+      "prominence": "Very prominent—specific product searches common",
+      "style": "Smart search with suggestions, filter by category"
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Inter",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clean, modern, professional—tech-appropriate",
+      "weight_range": "500-700",
+      "letter_spacing": "-0.01em tight",
+      "text_transform": "None typically"
+    },
+    "body": {
+      "primary_font": "Inter",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Highly readable, modern, clean",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.6-1.7",
+      "paragraph_spacing": "1.25em"
+    },
+    "accent": {
+      "font": "JetBrains Mono",
+      "usage": "Specs, measurements, technical data",
+      "restraint_rule": "Technical data only"
+    },
+    "type_scale": {
+      "base_size": "16px",
+      "scale_ratio": "1.25",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (16px)",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem",
+        "4xl": "3.052rem"
+      }
+    },
+    "forbidden_fonts": ["Decorative fonts", "Outdated tech fonts", "Hard to read fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light-first with full dark mode",
+    
+    "palette": {
+      "primary": {
+        "hex": "#3B82F6",
+        "name": "Tech Blue",
+        "usage": "Primary accents, links, CTAs",
+        "emotion": "Trust, technology, clarity"
+      },
+      "secondary": {
+        "hex": "#10B981",
+        "name": "Success Green",
+        "usage": "Positive indicators, recommendations",
+        "emotion": "Good choice, recommended"
+      },
+      "accent": {
+        "hex": "#F59E0B",
+        "name": "Attention Amber",
+        "usage": "Warnings, 'consider' indicators",
+        "max_usage": "Functional only"
+      },
+      "background_primary": {
+        "hex": "#FFFFFF",
+        "name": "Clean White",
+        "dark_mode": "#111827"
+      },
+      "background_secondary": {
+        "hex": "#F9FAFB",
+        "name": "Light Gray",
+        "dark_mode": "#1F2937"
+      },
+      "background_tertiary": {
+        "hex": "#F3F4F6",
+        "name": "Border Gray",
+        "dark_mode": "#374151"
+      },
+      "text_primary": {
+        "hex": "#111827",
+        "name": "Near Black",
+        "dark_mode": "#F9FAFB",
+        "contrast_ratio": "18:1"
+      },
+      "text_secondary": {
+        "hex": "#4B5563",
+        "name": "Dark Gray",
+        "dark_mode": "#9CA3AF"
+      },
+      "text_muted": {
+        "hex": "#9CA3AF",
+        "name": "Medium Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "info": "#3B82F6"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None—clean and clear",
+      "forbidden_gradients": ["Decorative gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Dated tech colors",
+      "Overly branded colors",
+      "Low contrast combinations"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Clean, product photography quality",
+      "color_treatment": "Accurate—people need to see real products",
+      "mood": "Professional, trustworthy, clear",
+      "subjects": ["Products on wrist (diverse wrists)", "Product detail shots", "Interface screenshots", "Comparison setups", "Real-world use"],
+      "forbidden_subjects": ["Only stock hands", "Only marketing shots", "Misleading angles", "Unrealistic scenarios"]
+    },
+    "illustration_style": {
+      "approach": "Clean diagrams, comparison charts",
+      "line_weight": "Clean, professional",
+      "color_usage": "Brand colors for data viz",
+      "style_reference": "Tech publication quality"
+    },
+    "iconography": {
+      "style": "Clean, modern line icons",
+      "stroke_weight": "1.5-2px",
+      "custom_required": false,
+      "icon_library": "Lucide or similar",
+      "forbidden": ["Outdated icons", "Busy icons"]
+    },
+    "image_treatment": {
+      "overlays": "None—products need to be seen clearly",
+      "borders": "Subtle borders for definition",
+      "shapes": "Clean rectangles",
+      "hover_effects": "Subtle scale or brightness"
+    },
+    "sources": {
+      "preferred": ["Original product photography", "Real testing photos", "Verified press images"],
+      "acceptable": ["Quality manufacturer images"],
+      "forbidden": ["Misleading images", "Heavily edited products", "Fake scenarios"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Quick Verdict Box",
+        "description": "Scannable summary: Rating, Best For, Not For, Key Stats",
+        "usage": "Every review",
+        "frequency": "Top of every review"
+      },
+      {
+        "element": "Best For Tag",
+        "description": "Who this wearable is actually best for",
+        "usage": "All product content",
+        "frequency": "Every product"
+      },
+      {
+        "element": "Testing Methodology Note",
+        "description": "How we actually tested this device",
+        "usage": "Reviews",
+        "frequency": "Every review"
+      },
+      {
+        "element": "Comparison Quick-Link",
+        "description": "Compare vs main competitors",
+        "usage": "Reviews",
+        "frequency": "Every review"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Spec comparison table",
+        "when_to_use": "Comparison content, detailed reviews"
+      },
+      {
+        "element": "Real-world battery chart",
+        "when_to_use": "Reviews, comparisons"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "Functional elements as needed",
+      "placement": "Where they help buying decisions",
+      "restraint_philosophy": "Help decide, don't overwhelm"
+    },
+    "custom_ui_elements": {
+      "buttons": "Clean, clear, tech-modern",
+      "cards": "Product image prominent, key info scannable",
+      "dividers": "Subtle lines",
+      "loading_states": "Fast, skeleton loading",
+      "empty_states": "Helpful search suggestions"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Expert", "Honest", "Helpful", "Detail-oriented", "Practical", "Trustworthy"],
+    "tone_spectrum": {
+      "formal_casual": "6/10 - Professional but approachable",
+      "serious_playful": "6/10 - Focused with occasional enthusiasm",
+      "technical_accessible": "6/10 - Technical when needed, always explained"
+    },
+    "writing_style": {
+      "sentence_length": "Clear, efficient",
+      "paragraph_length": "Short, scannable",
+      "vocabulary_level": "Tech-literate but accessible"
+    },
+    "perspective": "First person (I tested, we found) for authenticity",
+    "forbidden_phrases": [
+      "Best smartwatch ever",
+      "Must-have",
+      "Game-changer",
+      "You need this"
+    ],
+    "encouraged_phrases": [
+      "In my testing",
+      "Best for [specific use]",
+      "Worth it if you",
+      "Skip this if you",
+      "The honest trade-off"
+    ],
+    "cta_voice": {
+      "style": "Clear, helpful",
+      "examples": ["Read Full Review", "Compare Options", "Check Current Price", "See Alternatives", "View Specs"],
+      "forbidden_ctas": ["Buy Now!", "Don't Miss Out", "Limited Time"]
+    }
+  },
+  
+  "═══ CRITICAL DIFFERENTIATION FROM PULSE GEAR ═══": "────────────────────────────────────────",
+  
+  "differentiation_from_pulsegear": {
+    "wearable_gear_hub_is": [
+      "All wearable tech (vs fitness-focused)",
+      "Tech review style (vs athlete tester style)",
+      "Broader categories: hearables, smart rings, etc.",
+      "Daily wear focus (vs workout focus)",
+      "Feature-comparison heavy (vs workout-test heavy)"
+    ],
+    "visual_differences": [
+      "Tech editorial aesthetic (vs athletic energy)",
+      "Product hero imagery (vs action imagery)",
+      "Blue/neutral palette (vs red energy palette)",
+      "Clean minimal (vs dynamic athletic)"
+    ],
+    "content_differences": [
+      "All wearables covered (vs fitness devices only)",
+      "Tech feature deep-dives (vs workout test results)",
+      "Daily use scenarios (vs athletic scenarios)",
+      "Broader comparison scope"
+    ]
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Affiliate deals as primary content",
+      "Brand worship",
+      "Spec sheets without context",
+      "No actual testing evidence"
+    ],
+    "visual_forbidden": [
+      "Outdated tech aesthetic",
+      "Misleading product images",
+      "Brand-heavy design"
+    ],
+    "content_forbidden": [
+      "Reviews without real testing",
+      "Affiliate-driven rankings",
+      "Universal 'best' without context",
+      "Ignoring use-case differences"
+    ],
+    "imagery_forbidden": [
+      "Only marketing images",
+      "Misleading product shots",
+      "No real-world testing evidence"
+    ],
+    "this_site_specific_forbidden": [
+      "One-size-fits-all recommendations",
+      "Ignoring the 'wearable' aspect (comfort, style)",
+      "Spec-only reviews without real use",
+      "Brand favoritism"
+    ],
+    "immediate_rejection_triggers": [
+      "Obvious affiliate motivation",
+      "No evidence of real testing",
+      "Universal 'best' without nuance",
+      "Ignoring user-specific needs"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Spec sheets from manufacturer",
+      "No real testing",
+      "'Best smartwatch' with affiliate links",
+      "Brand-focused not user-focused"
+    ],
+    "what_acceptable_looks_like": [
+      "Real testing",
+      "Honest opinions",
+      "Some use-case guidance",
+      "But generic—could be any tech site"
+    ],
+    "what_perfect_looks_like": [
+      "Every review clearly tested over time",
+      "Specific 'best for' guidance",
+      "Honest about trade-offs",
+      "Reader finds their right match",
+      "Trusted as unbiased source"
+    ],
+    "tests": {
+      "screenshot_test": "Is it clear we actually test devices?",
+      "swap_test": "Could this be generic affiliate content? (Must fail)",
+      "memory_test": "Does reader know which device fits THEIR needs?",
+      "ten_second_test": "Is real testing methodology immediately evident?"
+    },
+    "competitive_positioning": {
+      "competitors": ["The Verge", "CNET Wearables", "Wareable"],
+      "how_we_differ": "More use-case focused, longer testing periods, honest about trade-offs",
+      "what_they_do_wrong": "Too spec-focused, quick reviews, generic recommendations",
+      "what_we_do_better": "Match devices to actual user needs"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "TablePress",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["best smartwatch", "smartwatch review", "fitness tracker review", "apple watch review", "samsung watch review"],
+    "secondary_keywords": ["[device] review", "[brand] vs [brand]", "best [type] for [use]", "smartwatch comparison"],
+    "content_pillars": ["Smartwatch Reviews", "Fitness Tracker Reviews", "Hearables", "Comparisons", "Buying Guides"],
+    "schema_types": ["Product", "Review", "Article", "FAQPage"],
+    "internal_linking_strategy": "Reviews link to comparisons. Comparisons link to individual reviews. Everything links to best-for guides.",
+    "content_depth_target": "In-depth reviews: 3000+, Comparisons: 2500+, Quick reviews: 1500+"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-13",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add interactive comparison tool",
+      "Build 'find your device' quiz",
+      "Create long-term testing updates",
+      "Add user review aggregation"
+    ],
+    "experiments_to_try": [
+      "Video reviews embedded",
+      "Real-time price tracking",
+      "Community recommendations",
+      "Long-term durability updates"
+    ]
+  }
+}
