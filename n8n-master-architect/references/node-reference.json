@@ -1,0 +1,575 @@
+{
+  "version": "1.0.0",
+  "description": "Comprehensive n8n node reference for workflow generation",
+  "lastUpdated": "2025-11-28",
+  
+  "triggerNodes": {
+    "manualTrigger": {
+      "type": "n8n-nodes-base.manualTrigger",
+      "description": "Starts workflow manually from the editor",
+      "parameters": {},
+      "example": {
+        "id": "trigger-1",
+        "name": "Manual Trigger",
+        "type": "n8n-nodes-base.manualTrigger",
+        "position": [250, 300],
+        "parameters": {},
+        "typeVersion": 1
+      }
+    },
+    "webhook": {
+      "type": "n8n-nodes-base.webhook",
+      "description": "Receives HTTP requests to trigger workflow",
+      "parameters": {
+        "httpMethod": "GET|POST|PUT|DELETE|PATCH",
+        "path": "string",
+        "authentication": "none|basicAuth|headerAuth",
+        "responseMode": "onReceived|lastNode",
+        "responseData": "allEntries|firstEntryJson|firstEntryBinary"
+      },
+      "example": {
+        "id": "webhook-1",
+        "name": "Webhook",
+        "type": "n8n-nodes-base.webhook",
+        "position": [250, 300],
+        "webhookId": "unique-webhook-id",
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "my-endpoint",
+          "authentication": "none",
+          "responseMode": "onReceived"
+        },
+        "typeVersion": 2
+      }
+    },
+    "schedule": {
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "description": "Runs workflow on a schedule (cron)",
+      "parameters": {
+        "rule": {
+          "interval": [{"field": "hours", "hoursInterval": 1}]
+        }
+      },
+      "example": {
+        "id": "schedule-1",
+        "name": "Schedule Trigger",
+        "type": "n8n-nodes-base.scheduleTrigger",
+        "position": [250, 300],
+        "parameters": {
+          "rule": {
+            "interval": [{"field": "hours", "hoursInterval": 1}]
+          }
+        },
+        "typeVersion": 1.2
+      }
+    },
+    "errorTrigger": {
+      "type": "n8n-nodes-base.errorTrigger",
+      "description": "Triggers when another workflow errors",
+      "parameters": {},
+      "example": {
+        "id": "error-trigger-1",
+        "name": "Error Trigger",
+        "type": "n8n-nodes-base.errorTrigger",
+        "position": [250, 300],
+        "parameters": {},
+        "typeVersion": 1
+      }
+    }
+  },
+  
+  "coreNodes": {
+    "httpRequest": {
+      "type": "n8n-nodes-base.httpRequest",
+      "description": "Make HTTP requests to external APIs",
+      "parameters": {
+        "method": "GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS",
+        "url": "string",
+        "authentication": "none|genericCredentialType|predefinedCredentialType",
+        "sendBody": "boolean",
+        "bodyParameters": "object",
+        "sendQuery": "boolean",
+        "queryParameters": "object",
+        "sendHeaders": "boolean",
+        "headerParameters": "object",
+        "options": {
+          "timeout": "number",
+          "response": {
+            "response": {
+              "responseFormat": "json|text|file"
+            }
+          }
+        }
+      },
+      "example": {
+        "id": "http-1",
+        "name": "HTTP Request",
+        "type": "n8n-nodes-base.httpRequest",
+        "position": [450, 300],
+        "parameters": {
+          "method": "GET",
+          "url": "https://api.example.com/data",
+          "authentication": "none",
+          "options": {}
+        },
+        "typeVersion": 4.2
+      }
+    },
+    "code": {
+      "type": "n8n-nodes-base.code",
+      "description": "Execute custom JavaScript or Python code",
+      "parameters": {
+        "mode": "runOnceForAllItems|runOnceForEachItem",
+        "language": "javaScript|python",
+        "jsCode": "string",
+        "pythonCode": "string"
+      },
+      "example": {
+        "id": "code-1",
+        "name": "Code",
+        "type": "n8n-nodes-base.code",
+        "position": [450, 300],
+        "parameters": {
+          "mode": "runOnceForAllItems",
+          "language": "javaScript",
+          "jsCode": "// Process all items\nconst items = $input.all();\nconst results = items.map(item => ({\n  json: {\n    ...item.json,\n    processed: true\n  }\n}));\nreturn results;"
+        },
+        "typeVersion": 2
+      }
+    },
+    "set": {
+      "type": "n8n-nodes-base.set",
+      "description": "Set, modify, or delete fields on items",
+      "parameters": {
+        "mode": "manual|raw",
+        "duplicateItem": "boolean",
+        "assignments": {
+          "assignments": [
+            {
+              "name": "string",
+              "value": "string|expression",
+              "type": "string|number|boolean|array|object"
+            }
+          ]
+        }
+      },
+      "example": {
+        "id": "set-1",
+        "name": "Set Data",
+        "type": "n8n-nodes-base.set",
+        "position": [450, 300],
+        "parameters": {
+          "mode": "manual",
+          "duplicateItem": false,
+          "assignments": {
+            "assignments": [
+              {
+                "id": "uuid",
+                "name": "status",
+                "value": "processed",
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "typeVersion": 3.4
+      }
+    },
+    "if": {
+      "type": "n8n-nodes-base.if",
+      "description": "Conditional branching based on expressions",
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": "boolean",
+            "leftValue": "",
+            "typeValidation": "strict|loose"
+          },
+          "conditions": [
+            {
+              "leftValue": "expression",
+              "rightValue": "expression",
+              "operator": {
+                "type": "string",
+                "operation": "equals|notEquals|contains|notContains|startsWith|endsWith|regex|gt|gte|lt|lte|empty|notEmpty|isTrue|isFalse"
+              }
+            }
+          ],
+          "combinator": "and|or"
+        }
+      },
+      "example": {
+        "id": "if-1",
+        "name": "IF",
+        "type": "n8n-nodes-base.if",
+        "position": [450, 300],
+        "parameters": {
+          "conditions": {
+            "options": {
+              "caseSensitive": true,
+              "leftValue": "",
+              "typeValidation": "strict"
+            },
+            "conditions": [
+              {
+                "id": "uuid",
+                "leftValue": "={{ $json.status }}",
+                "rightValue": "active",
+                "operator": {
+                  "type": "string",
+                  "operation": "equals"
+                }
+              }
+            ],
+            "combinator": "and"
+          }
+        },
+        "typeVersion": 2.2
+      }
+    },
+    "switch": {
+      "type": "n8n-nodes-base.switch",
+      "description": "Route items to multiple outputs based on conditions",
+      "parameters": {
+        "mode": "expression|rules",
+        "output": "expression",
+        "rules": {
+          "rules": [
+            {
+              "outputKey": "string",
+              "conditions": {}
+            }
+          ]
+        }
+      },
+      "example": {
+        "id": "switch-1",
+        "name": "Switch",
+        "type": "n8n-nodes-base.switch",
+        "position": [450, 300],
+        "parameters": {
+          "mode": "rules",
+          "rules": {
+            "rules": [
+              {
+                "outputKey": "High Priority",
+                "conditions": {
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json.priority }}",
+                      "rightValue": "high",
+                      "operator": {"type": "string", "operation": "equals"}
+                    }
+                  ]
+                }
+              },
+              {
+                "outputKey": "Low Priority",
+                "conditions": {
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json.priority }}",
+                      "rightValue": "low",
+                      "operator": {"type": "string", "operation": "equals"}
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "typeVersion": 3.2
+      }
+    },
+    "merge": {
+      "type": "n8n-nodes-base.merge",
+      "description": "Combine data from multiple inputs",
+      "parameters": {
+        "mode": "append|combine|chooseBranch|multiplex",
+        "options": {}
+      },
+      "example": {
+        "id": "merge-1",
+        "name": "Merge",
+        "type": "n8n-nodes-base.merge",
+        "position": [650, 300],
+        "parameters": {
+          "mode": "append"
+        },
+        "typeVersion": 3
+      }
+    },
+    "splitInBatches": {
+      "type": "n8n-nodes-base.splitInBatches",
+      "description": "Process items in batches with loop capability",
+      "parameters": {
+        "batchSize": "number",
+        "options": {
+          "reset": "boolean"
+        }
+      },
+      "example": {
+        "id": "batch-1",
+        "name": "Split In Batches",
+        "type": "n8n-nodes-base.splitInBatches",
+        "position": [450, 300],
+        "parameters": {
+          "batchSize": 10,
+          "options": {}
+        },
+        "typeVersion": 3
+      }
+    },
+    "executeWorkflow": {
+      "type": "n8n-nodes-base.executeWorkflow",
+      "description": "Call another workflow as a sub-workflow",
+      "parameters": {
+        "source": "database|parameter",
+        "workflowId": "string",
+        "mode": "once|each",
+        "options": {}
+      },
+      "example": {
+        "id": "exec-1",
+        "name": "Execute Workflow",
+        "type": "n8n-nodes-base.executeWorkflow",
+        "position": [450, 300],
+        "parameters": {
+          "source": "database",
+          "workflowId": "workflow-id-here",
+          "mode": "once"
+        },
+        "typeVersion": 1.2
+      }
+    },
+    "wait": {
+      "type": "n8n-nodes-base.wait",
+      "description": "Pause execution for time or webhook callback",
+      "parameters": {
+        "resume": "timeInterval|specificTime|webhook",
+        "amount": "number",
+        "unit": "seconds|minutes|hours|days"
+      },
+      "example": {
+        "id": "wait-1",
+        "name": "Wait",
+        "type": "n8n-nodes-base.wait",
+        "position": [450, 300],
+        "parameters": {
+          "resume": "timeInterval",
+          "amount": 5,
+          "unit": "seconds"
+        },
+        "typeVersion": 1.1
+      }
+    },
+    "noOp": {
+      "type": "n8n-nodes-base.noOp",
+      "description": "Do nothing - useful for documentation/branching",
+      "parameters": {},
+      "example": {
+        "id": "noop-1",
+        "name": "No Operation",
+        "type": "n8n-nodes-base.noOp",
+        "position": [450, 300],
+        "parameters": {},
+        "typeVersion": 1
+      }
+    },
+    "stickyNote": {
+      "type": "n8n-nodes-base.stickyNote",
+      "description": "Add documentation notes to workflow canvas",
+      "parameters": {
+        "width": "number",
+        "height": "number",
+        "content": "string (markdown)"
+      },
+      "example": {
+        "id": "note-1",
+        "name": "Sticky Note",
+        "type": "n8n-nodes-base.stickyNote",
+        "position": [100, 100],
+        "parameters": {
+          "width": 300,
+          "height": 200,
+          "content": "## Workflow Documentation\n\nThis section handles..."
+        },
+        "typeVersion": 1
+      }
+    }
+  },
+  
+  "databaseNodes": {
+    "postgres": {
+      "type": "n8n-nodes-base.postgres",
+      "description": "PostgreSQL database operations",
+      "parameters": {
+        "operation": "executeQuery|insert|update|upsert|delete|select",
+        "query": "string (for executeQuery)",
+        "table": "string",
+        "columns": "string",
+        "options": {}
+      }
+    },
+    "mysql": {
+      "type": "n8n-nodes-base.mySql",
+      "description": "MySQL database operations"
+    },
+    "supabase": {
+      "type": "n8n-nodes-base.supabase",
+      "description": "Supabase database and storage operations"
+    },
+    "redis": {
+      "type": "n8n-nodes-base.redis",
+      "description": "Redis cache operations"
+    },
+    "mongodb": {
+      "type": "n8n-nodes-base.mongoDb",
+      "description": "MongoDB document operations"
+    }
+  },
+  
+  "aiNodes": {
+    "openAi": {
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "description": "OpenAI API operations (GPT, DALL-E, etc.)"
+    },
+    "anthropic": {
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "description": "Anthropic Claude models"
+    },
+    "agent": {
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "description": "Autonomous AI agent with tool access",
+      "parameters": {
+        "agentType": "toolsAgent|conversationalAgent|openAiFunctionsAgent|planAndExecuteAgent|reActAgent"
+      }
+    },
+    "chainLlm": {
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "description": "Basic LLM chain for text generation"
+    },
+    "memoryBufferWindow": {
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "description": "Conversation memory buffer"
+    },
+    "vectorStore": {
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+      "description": "In-memory vector store for RAG"
+    },
+    "documentLoader": {
+      "type": "@n8n/n8n-nodes-langchain.documentLoaderCsv",
+      "description": "Load documents for processing"
+    },
+    "textSplitter": {
+      "type": "@n8n/n8n-nodes-langchain.textSplitterCharacterTextSplitter",
+      "description": "Split text into chunks"
+    },
+    "embeddings": {
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "description": "Generate embeddings for text"
+    },
+    "tool": {
+      "type": "@n8n/n8n-nodes-langchain.toolWorkflow",
+      "description": "Use workflow as AI tool"
+    },
+    "outputParser": {
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "description": "Parse LLM output to structured format"
+    }
+  },
+  
+  "integrationNodes": {
+    "slack": {
+      "type": "n8n-nodes-base.slack",
+      "description": "Slack messaging and management"
+    },
+    "gmail": {
+      "type": "n8n-nodes-base.gmail",
+      "description": "Gmail email operations"
+    },
+    "googleSheets": {
+      "type": "n8n-nodes-base.googleSheets",
+      "description": "Google Sheets operations"
+    },
+    "notion": {
+      "type": "n8n-nodes-base.notion",
+      "description": "Notion database and page operations"
+    },
+    "airtable": {
+      "type": "n8n-nodes-base.airtable",
+      "description": "Airtable database operations"
+    },
+    "shopify": {
+      "type": "n8n-nodes-base.shopify",
+      "description": "Shopify e-commerce operations"
+    },
+    "stripe": {
+      "type": "n8n-nodes-base.stripe",
+      "description": "Stripe payment operations"
+    },
+    "github": {
+      "type": "n8n-nodes-base.github",
+      "description": "GitHub repository operations"
+    },
+    "discord": {
+      "type": "n8n-nodes-base.discord",
+      "description": "Discord bot operations"
+    },
+    "telegram": {
+      "type": "n8n-nodes-base.telegram",
+      "description": "Telegram bot operations"
+    }
+  },
+  
+  "connectionTemplate": {
+    "description": "Standard connection structure between nodes",
+    "template": {
+      "connections": {
+        "Source Node Name": {
+          "main": [
+            [
+              {
+                "node": "Target Node Name",
+                "type": "main",
+                "index": 0
+              }
+            ]
+          ]
+        }
+      }
+    },
+    "multiOutput": {
+      "description": "For nodes with multiple outputs (IF, Switch)",
+      "template": {
+        "connections": {
+          "IF Node": {
+            "main": [
+              [{"node": "True Branch", "type": "main", "index": 0}],
+              [{"node": "False Branch", "type": "main", "index": 0}]
+            ]
+          }
+        }
+      }
+    }
+  },
+  
+  "workflowSettings": {
+    "default": {
+      "saveExecutionProgress": true,
+      "saveManualExecutions": true,
+      "saveDataErrorExecution": "all",
+      "saveDataSuccessExecution": "all",
+      "executionTimeout": 3600,
+      "timezone": "America/New_York"
+    },
+    "production": {
+      "saveExecutionProgress": true,
+      "saveManualExecutions": false,
+      "saveDataErrorExecution": "all",
+      "saveDataSuccessExecution": "none",
+      "executionTimeout": 300,
+      "errorWorkflow": "error-workflow-id"
+    }
+  }
+}
