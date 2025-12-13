@@ -1,0 +1,306 @@
+{
+  "workflows": {
+    "opportunity_scanner": {
+      "name": "Affiliate Opportunity Scanner",
+      "description": "Daily scan for new affiliate opportunities by niche",
+      "trigger": "Schedule (Daily at 6 AM)",
+      "nodes": [
+        {
+          "type": "Schedule Trigger",
+          "config": {
+            "rule": "0 6 * * *"
+          }
+        },
+        {
+          "type": "Code",
+          "name": "Load Site Profiles",
+          "code": "// Load sites and their niches\nconst sites = [\n  {id: 'witchcraft-beginners', niche: 'witchcraft', keywords: ['crystals', 'tarot', 'spell supplies']},\n  {id: 'smart-home-wizards', niche: 'smart-home', keywords: ['IoT devices', 'home automation', 'security cameras']},\n  {id: 'ai-action-hub', niche: 'AI tools', keywords: ['AI writing', 'automation', 'ChatGPT']},\n  // ... add all sites\n];\nreturn sites.map(s => ({json: s}));"
+        },
+        {
+          "type": "HTTP Request",
+          "name": "Search Affiliate Programs",
+          "config": {
+            "method": "GET",
+            "url": "https://api.anthropic.com/v1/messages",
+            "headers": {
+              "x-api-key": "{{$env.ANTHROPIC_API_KEY}}",
+              "anthropic-version": "2023-06-01"
+            },
+            "body": {
+              "model": "claude-sonnet-4-20250514",
+              "max_tokens": 2000,
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Search for new affiliate programs in the {{$json.niche}} niche. Focus on: {{$json.keywords.join(', ')}}. Return JSON array with: program_name, url, commission_rate, cookie_duration, fit_score (1-100)."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "Code",
+          "name": "Parse & Score Results",
+          "code": "// Parse Claude response and score opportunities\nconst results = JSON.parse($input.first().json.content[0].text);\nconst scored = results.filter(r => r.fit_score >= 70);\nreturn scored.map(r => ({json: {...r, site_id: $input.first().json.id}}));"
+        },
+        {
+          "type": "Airtable",
+          "name": "Store Opportunities",
+          "config": {
+            "operation": "create",
+            "table": "Affiliate Opportunities",
+            "fields": {
+              "Program Name": "={{$json.program_name}}",
+              "URL": "={{$json.url}}",
+              "Commission": "={{$json.commission_rate}}",
+              "Cookie Duration": "={{$json.cookie_duration}}",
+              "Score": "={{$json.fit_score}}",
+              "Site": "={{$json.site_id}}",
+              "Status": "discovered",
+              "Discovered Date": "={{$now.format('YYYY-MM-DD')}}"
+            }
+          }
+        },
+        {
+          "type": "IF",
+          "name": "Check High Score",
+          "conditions": {
+            "score_gte_70": "={{$json.fit_score >= 70}}"
+          }
+        },
+        {
+          "type": "Slack/Email",
+          "name": "Notify High-Value Opportunity",
+          "config": {
+            "channel": "#affiliate-opportunities",
+            "message": "🎯 New high-value affiliate opportunity found!\n*{{$json.program_name}}*\nCommission: {{$json.commission_rate}}\nScore: {{$json.fit_score}}/100\nFor site: {{$json.site_id}}\n{{$json.url}}"
+          }
+        }
+      ]
+    },
+    "application_submitter": {
+      "name": "Affiliate Application Submitter",
+      "description": "Auto-submit applications for qualified opportunities",
+      "trigger": "Webhook or Airtable trigger (status = 'qualified')",
+      "nodes": [
+        {
+          "type": "Webhook",
+          "name": "Receive Application Request",
+          "config": {
+            "path": "/submit-affiliate-app",
+            "method": "POST"
+          }
+        },
+        {
+          "type": "Code",
+          "name": "Load Site Profile",
+          "code": "// Load full site profile for form filling\nconst siteProfiles = require('./site-profiles.json');\nconst site = siteProfiles.sites.find(s => s.site_id === $json.site_id);\nreturn [{json: {...$json, site_data: site}}];"
+        },
+        {
+          "type": "HTTP Request",
+          "name": "Trigger Browser Automation",
+          "config": {
+            "url": "https://api.browserbase.com/v1/sessions",
+            "method": "POST",
+            "body": {
+              "projectId": "{{$env.BROWSERBASE_PROJECT_ID}}",
+              "proxies": true
+            }
+          },
+          "note": "Create browser session for form filling"
+        },
+        {
+          "type": "Code",
+          "name": "Execute Form Fill Sequence",
+          "code": "// Use Stagehand/Browserbase to fill form\n// This would call the browserbase API to:\n// 1. Navigate to application URL\n// 2. Fill each field with site_data\n// 3. Submit and capture confirmation\nconst sessionId = $input.first().json.id;\nconst appUrl = $json.application_url;\nconst siteData = $json.site_data.application_data;\n\n// Return commands for browser execution\nreturn [{\n  json: {\n    session_id: sessionId,\n    commands: [\n      {action: 'navigate', url: appUrl},\n      {action: 'fill', field: 'Website URL', value: siteData.site_url},\n      {action: 'fill', field: 'Website Name', value: siteData.site_name},\n      {action: 'fill', field: 'Description', value: siteData.site_description},\n      {action: 'select', field: 'Category', value: siteData.primary_category},\n      {action: 'screenshot', name: 'pre-submit'},\n      {action: 'click', selector: 'Submit'},\n      {action: 'screenshot', name: 'confirmation'}\n    ]\n  }\n}];"
+        },
+        {
+          "type": "Airtable",
+          "name": "Update Status",
+          "config": {
+            "operation": "update",
+            "table": "Affiliate Opportunities",
+            "fields": {
+              "Status": "applied",
+              "Applied Date": "={{$now.format('YYYY-MM-DD')}}",
+              "Confirmation Screenshot": "={{$json.screenshot_url}}"
+            }
+          }
+        },
+        {
+          "type": "Slack/Email",
+          "name": "Confirm Submission",
+          "config": {
+            "message": "✅ Application submitted!\nProgram: {{$json.program_name}}\nSite: {{$json.site_id}}\nStatus: Pending Review"
+          }
+        }
+      ]
+    },
+    "status_checker": {
+      "name": "Application Status Checker",
+      "description": "Weekly check of pending applications",
+      "trigger": "Schedule (Weekly on Monday)",
+      "nodes": [
+        {
+          "type": "Schedule Trigger",
+          "config": {
+            "rule": "0 9 * * 1"
+          }
+        },
+        {
+          "type": "Airtable",
+          "name": "Get Pending Applications",
+          "config": {
+            "operation": "list",
+            "table": "Affiliate Opportunities",
+            "filter": "AND({Status} = 'applied', DATETIME_DIFF(NOW(), {Applied Date}, 'days') >= 3)"
+          }
+        },
+        {
+          "type": "SplitInBatches",
+          "name": "Process Each Application"
+        },
+        {
+          "type": "HTTP Request",
+          "name": "Check Network Status",
+          "config": {
+            "note": "Login to each network and check application status",
+            "method": "POST",
+            "url": "Browser automation endpoint to check status"
+          }
+        },
+        {
+          "type": "IF",
+          "name": "Status Changed?",
+          "conditions": {
+            "approved": "={{$json.new_status === 'approved'}}",
+            "rejected": "={{$json.new_status === 'rejected'}}"
+          }
+        },
+        {
+          "type": "Airtable",
+          "name": "Update Record",
+          "config": {
+            "operation": "update",
+            "fields": {
+              "Status": "={{$json.new_status}}",
+              "Affiliate Link": "={{$json.affiliate_link || ''}}",
+              "Status Updated": "={{$now.format('YYYY-MM-DD')}}"
+            }
+          }
+        },
+        {
+          "type": "Slack",
+          "name": "Notify Status Change",
+          "config": {
+            "message": "📊 Application status update:\n{{$json.program_name}} - {{$json.new_status}}\n{{$json.new_status === 'approved' ? '🎉 Affiliate link: ' + $json.affiliate_link : ''}}"
+          }
+        }
+      ]
+    },
+    "bulk_discovery": {
+      "name": "Bulk Affiliate Discovery",
+      "description": "Deep dive discovery for a specific niche",
+      "trigger": "Manual or Webhook",
+      "nodes": [
+        {
+          "type": "Webhook",
+          "config": {
+            "path": "/discover-affiliates",
+            "method": "POST",
+            "body_schema": {
+              "niche": "string",
+              "site_id": "string",
+              "max_results": "number"
+            }
+          }
+        },
+        {
+          "type": "Code",
+          "name": "Generate Search Queries",
+          "code": "const niche = $json.niche;\nconst queries = [\n  `${niche} affiliate program`,\n  `best ${niche} affiliate programs 2025`,\n  `${niche} partner program high commission`,\n  `${niche} affiliate network`,\n  `top ${niche} affiliate offers`\n];\nreturn queries.map(q => ({json: {query: q, niche, site_id: $json.site_id}}));"
+        },
+        {
+          "type": "HTTP Request",
+          "name": "Web Search",
+          "config": {
+            "url": "Search API endpoint",
+            "query": "={{$json.query}}"
+          }
+        },
+        {
+          "type": "Code",
+          "name": "Extract Programs",
+          "code": "// Parse search results and extract affiliate programs\nconst results = $input.all();\nconst programs = [];\n\nresults.forEach(r => {\n  // Extract program details from search results\n  // Dedupe by URL\n});\n\nreturn programs.map(p => ({json: p}));"
+        },
+        {
+          "type": "HTTP Request",
+          "name": "Score with Claude",
+          "config": {
+            "url": "Anthropic API",
+            "body": {
+              "model": "claude-sonnet-4-20250514",
+              "messages": [{
+                "role": "user",
+                "content": "Score this affiliate program for {{$json.niche}} content: {{$json.program_name}}. Consider: commission rate, cookie duration, product fit, brand reputation. Return JSON: {score: 0-100, reasoning: string, recommendation: 'apply'|'skip'|'research'}"
+              }]
+            }
+          }
+        },
+        {
+          "type": "Airtable",
+          "name": "Store All Results",
+          "config": {
+            "operation": "create",
+            "table": "Affiliate Opportunities"
+          }
+        },
+        {
+          "type": "Code",
+          "name": "Generate Summary Report",
+          "code": "const all = $input.all();\nconst highScore = all.filter(p => p.json.score >= 70).length;\nconst toReview = all.filter(p => p.json.score >= 50 && p.json.score < 70).length;\nconst skip = all.filter(p => p.json.score < 50).length;\n\nreturn [{\n  json: {\n    summary: `Discovery complete: ${all.length} programs found`,\n    high_priority: highScore,\n    review_needed: toReview,\n    skipped: skip,\n    top_programs: all.filter(p => p.json.score >= 70).slice(0, 5)\n  }\n}];"
+        },
+        {
+          "type": "Slack",
+          "name": "Send Discovery Report",
+          "config": {
+            "message": "🔍 *Affiliate Discovery Report*\n\nNiche: {{$json.niche}}\nTotal Found: {{$input.all().length}}\n\n✅ High Priority (70+): {{$json.high_priority}}\n⚠️ Review Needed (50-69): {{$json.review_needed}}\n❌ Skipped (<50): {{$json.skip}}\n\nTop Programs:\n{{$json.top_programs.map(p => `• ${p.program_name} (${p.score})`).join('\\n')}}"
+          }
+        }
+      ]
+    }
+  },
+  "import_instructions": {
+    "step_1": "Open n8n and create a new workflow",
+    "step_2": "Use 'Import from JSON' and paste the workflow object",
+    "step_3": "Configure credentials for: Airtable, Slack, Anthropic API, Browserbase",
+    "step_4": "Update environment variables in n8n settings",
+    "step_5": "Test each node individually before activating"
+  },
+  "required_credentials": [
+    "Airtable API Key",
+    "Slack Webhook URL or Bot Token",
+    "Anthropic API Key",
+    "Browserbase API Key & Project ID",
+    "Search API Key (if using Exa or similar)"
+  ],
+  "airtable_schema": {
+    "table_name": "Affiliate Opportunities",
+    "fields": [
+      {"name": "Program Name", "type": "Single line text"},
+      {"name": "Network", "type": "Single select", "options": ["Amazon", "ShareASale", "CJ", "Impact", "Awin", "Direct", "Other"]},
+      {"name": "Merchant", "type": "Single line text"},
+      {"name": "URL", "type": "URL"},
+      {"name": "Commission Rate", "type": "Single line text"},
+      {"name": "Cookie Duration", "type": "Single line text"},
+      {"name": "Score", "type": "Number"},
+      {"name": "Site", "type": "Single select"},
+      {"name": "Status", "type": "Single select", "options": ["discovered", "qualified", "applied", "pending", "approved", "rejected", "active"]},
+      {"name": "Discovered Date", "type": "Date"},
+      {"name": "Applied Date", "type": "Date"},
+      {"name": "Affiliate Link", "type": "URL"},
+      {"name": "Notes", "type": "Long text"},
+      {"name": "Screenshots", "type": "Attachment"}
+    ]
+  }
+}
