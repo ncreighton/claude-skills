@@ -1,0 +1,449 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "sprout-and-spruce",
+  "codename": "GardenSage",
+  "url": "https://sproutandspruce.com",
+  "niche": "Gardening & Outdoor Living",
+  "sub_niche": "Home Gardening, Plant Care & Outdoor Spaces",
+  "status": "Lifestyle vertical",
+  
+  "archetype": {
+    "primary": "Creator",
+    "secondary": "Caregiver",
+    "archetype_expression": "The experienced gardener next door who shares wisdom earned through seasons of trial and error. Gets dirt under their nails and genuinely celebrates when your tomatoes finally ripen. Patient teacher who knows gardening is a journey, not a destination. Never makes you feel bad about failed plants—everyone has them."
+  },
+  
+  "soul": {
+    "one_sentence": "Growing confidence alongside your garden—real advice from real gardeners.",
+    "expanded": "Gardening isn't about Pinterest-perfect plots—it's about the joy of growing things, learning from failures, and connecting with nature. We're here with practical guidance, honest about what works and what doesn't, celebrating every gardener from apartment balconies to sprawling backyards. Your first successful tomato matters as much as a prize-winning rose.",
+    "what_we_are": "Practical gardening education from experienced growers. Honest about challenges. Celebrating all garden sizes. Real results over perfect aesthetics. Zone-aware advice. Season-specific guidance.",
+    "what_we_are_not": "Not intimidating garden perfection. Not assuming everyone has acres. Not ignoring climate differences. Not making gardening seem harder than it is. Not gatekeeping 'real' gardening."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Nurturing encouragement",
+    "secondary_emotion": "Patient confidence",
+    "tertiary_emotion": "Growth celebration",
+    "emotional_range": ["encouraged", "patient", "curious", "proud", "connected", "peaceful", "accomplished", "hopeful", "grounded"],
+    "forbidden_emotions": ["intimidation", "perfectionism pressure", "overwhelm", "inadequacy", "frustration without hope", "judgment", "gatekeeping energy"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 52-year-old gardener who learned from their grandmother and has been growing things for decades. Equally excited about a first-time gardener's single tomato plant and a master gardener's heirloom collection. Always has plant starts to share and advice given without judgment. Wears well-loved gardening gloves and has dirt permanently under their nails.",
+    "place": "A well-tended but not perfectly manicured garden. Productive raised beds, some cheerful chaos, evidence of experiments both successful and failed. A potting bench with well-worn tools. Morning coffee in the garden. Real and lived-in, not staged for photos.",
+    "time_of_day": "Early morning—the best time to be in the garden, dew on leaves, birds singing, cool air before the day heats up.",
+    "season": "Late spring—everything growing, possibilities everywhere, planting season energy, that magical moment when the garden really comes alive.",
+    "sound": "Birds singing, gentle breeze through leaves, distant bees humming, quiet morning peace, maybe a wind chime.",
+    "texture": "Rich soil between fingers, smooth leaves, rough bark, cool morning air, the satisfying weight of a ripe tomato.",
+    "smell": "Fresh earth after watering, blooming flowers, morning grass, tomato plant leaves (that distinctive green smell), herbs releasing fragrance.",
+    "taste": "Sun-warmed tomato straight from the vine, fresh herbs pinched while walking past, garden-to-table satisfaction.",
+    "temperature": "Cool morning warming up—perfect gardening weather, comfortable for work, plants happy.",
+    "weather": "Clear morning after rain—plants happy, soil workable, perfect conditions.",
+    "music_genre": "Quiet acoustic or birdsong—nothing competing with garden sounds, maybe gentle folk music.",
+    "movie": "A documentary about community gardens or regenerative farming—hopeful, practical, connecting people to earth.",
+    "book": "A well-worn gardening guide with notes in margins and dirt on pages, passed down through generations."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Beginning Bonnie",
+      "age_range": "28-55",
+      "description": "Someone who wants to grow things but isn't sure where to start. Maybe has a balcony, small yard, or is renting and wants container gardens. Intimidated by gardening complexity but motivated by fresh food, beauty, stress relief, or wanting to connect with nature.",
+      "mindset": "Eager but uncertain. Doesn't want to fail. Wants clear guidance without overwhelming information. Believes they might not have a 'green thumb' but wants to try.",
+      "goals": ["Grow something successfully", "Not kill plants", "Learn basics without overwhelm", "Create outdoor space they love", "Maybe grow some food", "Find stress relief in gardening", "Connect with nature"],
+      "pain_points": ["Information overwhelm", "Don't know their climate zone", "Failed before and feel discouraged", "Small space limitations", "Don't know what's worth the effort", "Conflicting advice online", "Feel like they lack natural ability"],
+      "objections": ["I kill every plant I touch", "I don't have enough space", "Is it worth the effort?", "I don't have a green thumb", "It seems so complicated"],
+      "trigger_phrases": ["gardening for beginners", "easy plants to grow", "container gardening", "why are my plants dying", "how to start a garden", "plants for beginners", "small space garden"]
+    },
+    "secondary_persona": {
+      "name": "Expanding Emma",
+      "age_range": "35-60",
+      "description": "Already gardening successfully with basics, wants to expand skills—maybe vegetable gardening, perennials, specific challenges like shade gardens or native plants. Looking for next-level guidance.",
+      "how_they_differ": "Needs depth over basics, specific problem-solving, expansion ideas, more advanced techniques, seasonal planning"
+    },
+    "tertiary_persona": {
+      "name": "Design-focused Dana",
+      "age_range": "30-50",
+      "description": "Interested in outdoor spaces as living areas—landscaping, garden design, outdoor living spaces. Aesthetics alongside function. Wants their garden to be beautiful as well as productive.",
+      "how_they_differ": "Needs design guidance, outdoor living content, aesthetics focus, landscape planning, curb appeal"
+    },
+    "anti_persona": {
+      "description": "Perfectionists who shame imperfect gardens. Those who gatekeep 'real' gardening. People only interested in expensive landscaping without actual growing. Those who judge others' garden choices.",
+      "why_not": "All gardens valid. No shaming imperfection. Growing matters more than aesthetics. Every space counts."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Fresh, natural, inviting—like stepping into a well-loved garden on a perfect morning",
+    
+    "density": {
+      "description": "Breathing room like garden paths. Space to appreciate each element.",
+      "content_to_whitespace_ratio": "45% content, 55% space",
+      "section_breathing": "Generous, natural, unforced—like meandering through a garden",
+      "never": "Never cramped. Never overwhelming. Never cluttered like an overgrown bed."
+    },
+    
+    "contrast": {
+      "description": "Natural, gentle, earth-toned with green vibrancy",
+      "approach": "Light backgrounds like morning light, natural color pops from plants, easy reading",
+      "drama_level": "Low—peaceful, inviting, calming",
+      "never": "Never harsh. Never artificial. Never competing with plant imagery."
+    },
+    
+    "motion": {
+      "description": "Gentle, organic, like leaves in a breeze",
+      "speed": "Slow-medium—0.4s-0.6s transitions. Natural pace.",
+      "style": "Soft, organic movements like growing things",
+      "frequency": "Minimal and meaningful",
+      "purpose": "To feel natural, living, organic",
+      "never": "Never mechanical. Never jarring. Never attention-demanding."
+    },
+    
+    "texture": {
+      "description": "Natural textures—earth, wood, leaves, stone",
+      "elements": ["Subtle natural textures", "Organic patterns", "Warmth of natural materials", "Soft green undertones"],
+      "intensity": "Subtle—complementing, not competing with plant imagery",
+      "never": "Never plastic. Never artificial. Never sterile."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Organic, soft, natural curves",
+      "border_radius_philosophy": "8-16px—soft, natural, not harsh like garden edges",
+      "line_weight": "Medium, natural",
+      "never": "Never geometric/angular. Never harsh corners. Never industrial."
+    },
+    
+    "depth": {
+      "approach": "Gentle layering, like garden beds at different depths",
+      "shadow_style": "Soft, green-tinted or warm shadows like dappled sunlight",
+      "elevation_levels": "2 levels: ground, elevated—simple like garden tiers",
+      "never": "Never stark shadows. Never unnatural depth."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Welcoming hero—invitation to grow with us",
+        "Seasonal spotlight—what to do NOW",
+        "Beginner-friendly entry points",
+        "Browse by garden type (container, vegetable, flower, etc.)",
+        "Latest guides and seasonal content",
+        "Newsletter—seasonal tips delivered"
+      ],
+      "forbidden_flow": [
+        "Intimidating perfect garden imagery",
+        "Overwhelming plant databases",
+        "No acknowledgment of different skill levels"
+      ],
+      "hero_requirements": {
+        "type": "Warm, inviting, real garden feeling",
+        "content_placement": "Welcoming message, seasonal relevance, easy entry",
+        "cta_style": "Encouraging: 'Start Growing', 'Find Your First Plant', 'This Week in the Garden'",
+        "forbidden": ["Intimidating perfect gardens", "Technical jargon", "Overwhelming options"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Organized but organic grid with clear sections",
+      "featured_treatment": "Seasonal picks, beginner favorites highlighted",
+      "pagination_style": "Load more with encouraging message",
+      "forbidden": ["Dense overwhelming grids", "No skill level indication", "No seasonal relevance"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column, spacious, easy reading",
+      "max_width": "720px—intimate, not overwhelming",
+      "sidebar_usage": "Minimal—related content, maybe seasonal tips",
+      "related_content_style": "Gentle suggestions: 'You might also enjoy' or 'Next steps'",
+      "forbidden": ["Dense walls of text", "Overwhelming sidebars", "Aggressive CTAs"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "3 on wide screens",
+      "preferred_columns": "2-3 columns for breathing room",
+      "asymmetry_level": "Low—balanced, harmonious like a designed garden",
+      "grid_breaking": "Featured seasonal content can span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "64px - 100px between major sections",
+      "element_spacing_scale": "8/16/24/32/48/64/96",
+      "rhythm_style": "Generous, peaceful, unhurried",
+      "breathing_rule": "When in doubt, add more space—gardens need room to breathe"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Equally peaceful, easy reading in the garden",
+      "tablet_approach": "Perfect for garden planning",
+      "breakpoint_behavior": "Gentle, smooth like seasons changing"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Simple paths through the garden—find what you need easily",
+    "primary_nav": {
+      "max_items": 6,
+      "required_items": ["Grow Guides", "Plant Care", "Garden Types", "Seasonal", "For Beginners", "About"],
+      "item_naming_style": "Friendly, action-oriented, welcoming",
+      "dropdown_behavior": "Organized by type and skill level"
+    },
+    "mobile_nav": {
+      "style": "Slide-out drawer, natural feeling",
+      "full_screen": false,
+      "maintains_atmosphere": "Peaceful, easy browsing"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All categories, seasonal archives, about, contact"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Gentle: Home > Vegetables > Tomatoes > Growing Tomatoes in Containers"
+    },
+    "search": {
+      "prominence": "Present but not aggressive",
+      "style": "Search plants, guides, tips..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Lora",
+      "fallback_stack": "Georgia, 'Times New Roman', serif",
+      "personality": "Warm, approachable, organic, slightly traditional",
+      "weight_range": "400-600",
+      "letter_spacing": "Normal",
+      "text_transform": "None"
+    },
+    "body": {
+      "primary_font": "Source Sans Pro",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clear, readable, friendly, comfortable",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.7-1.8—generous for easy reading",
+      "paragraph_spacing": "1.5em between paragraphs"
+    },
+    "accent": {
+      "font": "Lora Italic",
+      "usage": "Plant names, special tips, wisdom quotes",
+      "restraint_rule": "Occasional emphasis only"
+    },
+    "type_scale": {
+      "base_size": "18px",
+      "scale_ratio": "1.25 (major third)",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (18px)",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem",
+        "4xl": "3.052rem"
+      }
+    },
+    "forbidden_fonts": ["Cold sans-serif", "Technical fonts", "Overly decorative fonts", "Trendy display fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light (natural daylight feel)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#228B22",
+        "name": "Forest Green",
+        "usage": "Primary accents, links, nature connection",
+        "emotion": "Growth, nature, vitality, life, health"
+      },
+      "secondary": {
+        "hex": "#8B7355",
+        "name": "Earth Brown",
+        "usage": "Grounding elements, secondary accents",
+        "emotion": "Soil, stability, natural, grounded"
+      },
+      "accent": {
+        "hex": "#DAA520",
+        "name": "Golden Sun",
+        "usage": "Highlights, warmth, sunshine",
+        "max_usage": "Accent sparingly"
+      },
+      "background_primary": {
+        "hex": "#FFFEF9",
+        "name": "Natural White"
+      },
+      "background_secondary": {
+        "hex": "#F5F5DC",
+        "name": "Soft Cream"
+      },
+      "background_tertiary": {
+        "hex": "#E8E4D8",
+        "name": "Garden Path"
+      },
+      "text_primary": {
+        "hex": "#2F2F2F",
+        "name": "Rich Soil",
+        "contrast_ratio": "14:1"
+      },
+      "text_secondary": {
+        "hex": "#4A4A4A",
+        "name": "Stone Gray"
+      },
+      "text_muted": {
+        "hex": "#6B6B6B",
+        "name": "Weathered"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#228B22",
+      "warning": "#DAA520",
+      "error": "#CD5C5C",
+      "info": "#4682B4",
+      "spring": "#90EE90",
+      "summer": "#228B22",
+      "autumn": "#D2691E",
+      "winter": "#708090"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None—natural colors",
+      "forbidden_gradients": ["All obvious gradients"]
+    },
+    
+    "forbidden_colors": ["Neon/artificial colors", "Cold blues", "Harsh contrast", "Synthetic feeling"]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Natural, golden hour preferred",
+      "color_treatment": "Natural, true to life, warm",
+      "mood": "Inviting, real, achievable",
+      "subjects": ["Real gardens at various skill levels", "Plants up close", "Hands in soil", "Garden process", "All garden sizes"],
+      "forbidden_subjects": ["Only perfect gardens", "Only large properties", "Stock garden imagery"]
+    },
+    "illustration_style": {
+      "approach": "Botanical illustration style",
+      "line_weight": "Delicate to medium",
+      "color_usage": "Natural greens and earth tones",
+      "style_reference": "Classic botanical prints"
+    },
+    "iconography": {
+      "style": "Simple, natural line icons",
+      "stroke_weight": "2px",
+      "custom_required": false,
+      "forbidden": ["Complex icons", "Artificial-feeling icons"]
+    },
+    "sources": {
+      "preferred": ["Real garden photography", "Diverse garden sizes", "Process shots"],
+      "acceptable": ["Quality garden stock"],
+      "forbidden": ["Perfect magazine gardens only", "Staged impossibility"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Difficulty Indicator",
+        "description": "Clear beginner/intermediate/advanced marking",
+        "usage": "All guides",
+        "frequency": "Every guide"
+      },
+      {
+        "element": "Zone Indicator",
+        "description": "USDA hardiness zone relevance",
+        "usage": "Plant content",
+        "frequency": "All plant-specific content"
+      },
+      {
+        "element": "Seasonal Tag",
+        "description": "When to do this / when this applies",
+        "usage": "Guides, tasks",
+        "frequency": "All actionable content"
+      }
+    ],
+    "optional_flourishes": [
+      {"element": "Garden Journal Prompt", "when_to_use": "End of guides"},
+      {"element": "Common Mistakes Box", "when_to_use": "Where beginners often go wrong"}
+    ]
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Encouraging", "Patient", "Practical", "Honest", "Warm", "Experienced"],
+    "tone_spectrum": {
+      "formal_casual": "3/10 - Very friendly, neighborly",
+      "serious_playful": "4/10 - Warm with gardening humor",
+      "technical_accessible": "3/10 - Always accessible"
+    },
+    "forbidden_phrases": ["Any real gardener knows", "You should have", "It's easy—just", "Simply"],
+    "encouraged_phrases": ["Don't worry if", "It takes practice", "What works for me", "Start small", "Every garden is different"]
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": ["Only perfect garden imagery", "Overwhelming plant databases", "No acknowledgment of challenges"],
+    "visual_forbidden": ["Artificial/synthetic colors", "Only magazine-perfect gardens", "Cold/sterile presentation"],
+    "content_forbidden": ["Gardening gatekeeping", "Shaming beginners", "Ignoring small spaces", "Perfectionism pressure"],
+    "imagery_forbidden": ["Only large property gardens", "Impossibly perfect gardens", "No diversity in garden types"],
+    "immediate_rejection_triggers": ["Intimidating perfection", "Gatekeeping real gardening", "Ignoring small space gardeners", "Making failures shameful"]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": ["Only perfect stock photos", "No acknowledgment of challenges", "Gatekeeping language"],
+    "what_acceptable_looks_like": ["Helpful content", "Some beginner focus", "But generic"],
+    "what_perfect_looks_like": ["Visitor feels welcomed", "All garden sizes represented", "Celebrates progress over perfection", "Would recommend to intimidated friend"],
+    "tests": {
+      "screenshot_test": "Would a beginner feel welcomed?",
+      "swap_test": "Could this be gatekeeping? (Must fail)",
+      "memory_test": "Does reader feel encouraged?"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {"cms": "WordPress", "theme": "Blocksy with child theme"},
+    "required_plugins": ["RankMath SEO Pro", "LiteSpeed Cache", "Complianz GDPR", "Wordfence Security"],
+    "performance_targets": {"pagespeed_mobile": ">80", "pagespeed_desktop": ">90", "lcp": "<2.5s"}
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["gardening for beginners", "how to start a garden", "container gardening", "vegetable garden", "plant care"],
+    "secondary_keywords": ["easy plants to grow", "why is my plant dying", "garden planning", "raised beds", "indoor plants"],
+    "content_pillars": ["Beginner Guides", "Vegetable Gardening", "Container Gardens", "Plant Care", "Seasonal Gardening"]
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "2.0.0",
+    "changelog": [{"date": "2025-12-13", "version": "2.0.0", "changes": "Expanded to full detail"}]
+  }
+}
