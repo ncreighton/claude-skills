@@ -1,0 +1,620 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "ai-discovery",
+  "codename": "AIExplorer",
+  "url": "https://aidiscovery.io",
+  "niche": "AI Tools & Resources",
+  "sub_niche": "AI Tool Discovery, Directories & Resources",
+  "status": "AI tools vertical (directory/discovery focus)",
+  
+  "archetype": {
+    "primary": "Explorer",
+    "secondary": "Sage",
+    "archetype_expression": "The AI tool scout who finds, tests, and catalogs every useful AI tool so you don't have to. Constantly discovering what's new, what works, what's hype. Your guide to the ever-expanding AI tool landscape."
+  },
+  
+  "soul": {
+    "one_sentence": "The signal in the AI tool noise—discovering what's actually useful.",
+    "expanded": "New AI tools launch every hour. Most are hype or duplicates. Some are genuinely useful. We sort through everything so you don't have to—finding the tools worth your time, explaining what they actually do, and helping you discover AI capabilities you didn't know existed.",
+    "what_we_are": "AI tool discovery engine. Curated directories. Honest assessments. New tool alerts. Finding signal in noise.",
+    "what_we_are_not": "Not listing everything uncritically. Not pay-to-play placement. Not hype amplification. Not ignoring the duds."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Discovery excitement",
+    "secondary_emotion": "Curated confidence",
+    "tertiary_emotion": "Informed curiosity",
+    "emotional_range": ["excited", "curious", "informed", "confident", "empowered", "ahead-of-curve"],
+    "forbidden_emotions": ["overwhelm", "FOMO", "confusion", "hype-driven anxiety"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 30-year-old AI enthusiast who tests every new tool that comes out and has strong opinions about what's actually useful vs. hype. Maintains spreadsheets of tools, notices patterns, spots the next big thing early. Excited to share discoveries but honest about disappointments.",
+    "place": "A clean workspace with multiple browser tabs open to new AI tools being tested. Beta access to upcoming tools. The environment of someone who lives at the cutting edge but filters it for others.",
+    "time_of_day": "Early morning—first to find what launched overnight.",
+    "season": "Always—AI doesn't slow down.",
+    "sound": "Notifications of new launches, keyboard testing tools, excited 'oh this is good' moments.",
+    "texture": "Digital—the interface of AI tools being explored.",
+    "smell": "Coffee during tool testing sessions.",
+    "taste": "Coffee fuel for discovery sessions.",
+    "temperature": "Focused work temperature.",
+    "weather": "Irrelevant—discoveries happen online.",
+    "music_genre": "Focus music during testing, nothing during demos.",
+    "movie": "A tech documentary about the pace of innovation.",
+    "book": "A well-maintained catalog that's always up-to-date."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Searching Sam",
+      "age_range": "25-50",
+      "description": "Someone who knows AI can help them but doesn't know what tools exist. Looking for tools for specific tasks—writing, images, coding, automation. Overwhelmed by options, wants curated guidance.",
+      "mindset": "Task-focused, wants solutions, willing to try tools but needs direction.",
+      "goals": ["Find right AI tool for their need", "Not miss useful tools", "Not waste time on bad tools", "Stay current with what's useful", "Discover capabilities they didn't know existed"],
+      "pain_points": ["Too many tools to evaluate", "Can't tell hype from useful", "Tools disappear or change", "Don't know what's possible", "Wasted time on bad tools"],
+      "objections": ["Is this actually useful or just listed?", "Is this up to date?", "Are these real reviews?"],
+      "trigger_phrases": ["AI tools for", "best AI [type] tool", "AI tool directory", "new AI tools", "AI tool like [X]"]
+    },
+    "secondary_persona": {
+      "name": "Staying-Current Sarah",
+      "description": "Someone in AI-adjacent field who needs to know what tools exist. Doesn't use them all but needs awareness.",
+      "how_they_differ": "Needs overview/awareness more than hands-on guidance"
+    },
+    "tertiary_persona": {
+      "name": "Builder Ben",
+      "description": "Developer or creator looking for AI tools to integrate into projects. Needs technical details, API info, integration possibilities.",
+      "how_they_differ": "Needs technical depth, API info, integration focus"
+    },
+    "anti_persona": {
+      "description": "People wanting paid placement. Tools wanting fake reviews. Those who want every tool listed regardless of quality.",
+      "why_not": "We curate, not list. Quality over quantity. No pay-to-play."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Clean directory—organized, scannable, discovery-focused",
+    
+    "density": {
+      "description": "Information-dense but organized. Directories need density done right.",
+      "content_to_whitespace_ratio": "60% content, 40% space",
+      "section_breathing": "Clear categories, scannable lists, organized grids",
+      "never": "Never overwhelming. Never cluttered. Never hard to scan."
+    },
+    
+    "contrast": {
+      "description": "High readability, clear categories",
+      "approach": "Light mode with clear category distinction",
+      "drama_level": "Low—let tools be the interest",
+      "never": "Never competing with tool screenshots. Never confusing."
+    },
+    
+    "motion": {
+      "description": "Fast, functional, responsive",
+      "speed": "Fast—0.15s-0.25s. Snappy directory feel.",
+      "style": "Clean transitions, filter animations",
+      "frequency": "Functional—filtering, expanding, loading",
+      "purpose": "To make discovery efficient",
+      "never": "Never slow. Never decorative."
+    },
+    
+    "texture": {
+      "description": "Clean, minimal—tools provide visual interest",
+      "elements": ["Clean surfaces", "Subtle category colors", "Tool icons/screenshots"],
+      "intensity": "Minimal—tools are the content",
+      "never": "Never busy. Never competing with tools."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean cards, organized grids",
+      "border_radius_philosophy": "8px—modern, organized",
+      "line_weight": "Light, clear",
+      "never": "Never irregular. Never disorganized."
+    },
+    
+    "depth": {
+      "approach": "Subtle cards, clear hierarchy",
+      "shadow_style": "Subtle, organizing",
+      "elevation_levels": "2 levels: base, cards",
+      "never": "Never extreme depth."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Clear value prop—finding useful AI tools",
+        "Featured/new discoveries",
+        "Browse by category",
+        "Search functionality prominent",
+        "Newsletter—weekly discoveries"
+      ],
+      "forbidden_flow": [
+        "Overwhelming tool dump",
+        "No organization",
+        "Paid placement prominent"
+      ],
+      "hero_requirements": {
+        "type": "Clean, search-prominent, category access",
+        "content_placement": "Search front and center, categories visible",
+        "cta_style": "Discovery: 'Find AI Tools', 'Browse Categories', 'New This Week'",
+        "forbidden": ["Single tool promotion", "Hype messaging", "Overwhelming options"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Filterable grid with multiple filter options",
+      "featured_treatment": "Editor's picks at top",
+      "pagination_style": "Load more or infinite with count",
+      "forbidden": ["No filtering", "Random order", "No curation visible"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Tool profile page with clear sections",
+      "max_width": "900px",
+      "sidebar_usage": "Quick info sidebar: pricing, category, links",
+      "related_content_style": "Alternatives, similar tools, related categories",
+      "forbidden": ["No actual review content", "Just listing info", "No alternatives shown"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4-5 for tool cards",
+      "preferred_columns": "4 columns for scanning",
+      "asymmetry_level": "None—consistent grid for scanning",
+      "grid_breaking": "Featured tools can span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "40px - 64px between sections",
+      "element_spacing_scale": "4/8/12/16/24/32",
+      "rhythm_style": "Tight, efficient, scannable",
+      "breathing_rule": "Efficient scanning, not cramped"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Fully functional discovery on mobile",
+      "tablet_approach": "Good grid experience",
+      "breakpoint_behavior": "Smooth column reduction"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Category-first—find by what you need",
+    "primary_nav": {
+      "max_items": 8,
+      "required_items": ["Categories", "New Tools", "Top Rated", "Collections", "Submit Tool", "About"],
+      "item_naming_style": "Clear discovery actions",
+      "dropdown_behavior": "Category mega-menu with subcategories"
+    },
+    "mobile_nav": {
+      "style": "Slide-out with category tree",
+      "full_screen": false,
+      "maintains_atmosphere": "Quick category access"
+    },
+    "secondary_nav": {
+      "location": "Footer + category sidebars",
+      "contents": "All categories, popular tools, about, submit"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Clear: Home > Writing > AI Copywriting > [Tool Name]"
+    },
+    "search": {
+      "prominence": "VERY prominent—primary discovery method",
+      "style": "Instant search with category filters, suggestions"
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Inter",
+      "fallback_stack": "system-ui, sans-serif",
+      "personality": "Clean, modern, organized",
+      "weight_range": "500-700",
+      "letter_spacing": "-0.01em",
+      "text_transform": "None"
+    },
+    "body": {
+      "primary_font": "Inter",
+      "fallback_stack": "system-ui, sans-serif",
+      "personality": "Highly readable, efficient",
+      "weight": "400, 500 for emphasis",
+      "line_height": "1.5-1.6 (tighter for lists)",
+      "paragraph_spacing": "1em"
+    },
+    "accent": {
+      "font": "None needed",
+      "usage": "N/A",
+      "restraint_rule": "Consistency"
+    },
+    "type_scale": {
+      "base_size": "15px",
+      "scale_ratio": "1.2",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (15px)",
+        "lg": "1.2rem",
+        "xl": "1.44rem",
+        "2xl": "1.728rem",
+        "3xl": "2.074rem"
+      }
+    },
+    "forbidden_fonts": ["Decorative fonts", "Hard to scan fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light-first",
+    
+    "palette": {
+      "primary": {
+        "hex": "#6366F1",
+        "name": "Discovery Indigo",
+        "usage": "Primary accents, CTAs",
+        "emotion": "Discovery, intelligence, modern"
+      },
+      "secondary": {
+        "hex": "#10B981",
+        "name": "Verified Green",
+        "usage": "Verified/tested indicators",
+        "emotion": "Verified, quality, recommended"
+      },
+      "accent": {
+        "hex": "#F59E0B",
+        "name": "New Badge Amber",
+        "usage": "New tool badges, attention",
+        "max_usage": "Badges and highlights"
+      },
+      "background_primary": {
+        "hex": "#FFFFFF",
+        "name": "Clean White"
+      },
+      "background_secondary": {
+        "hex": "#F9FAFB",
+        "name": "Light Gray"
+      },
+      "background_tertiary": {
+        "hex": "#F3F4F6",
+        "name": "Card Gray"
+      },
+      "text_primary": {
+        "hex": "#111827",
+        "name": "Near Black",
+        "contrast_ratio": "17:1"
+      },
+      "text_secondary": {
+        "hex": "#4B5563",
+        "name": "Dark Gray"
+      },
+      "text_muted": {
+        "hex": "#9CA3AF",
+        "name": "Medium Gray"
+      }
+    },
+    
+    "category_colors": {
+      "writing": "#6366F1",
+      "image": "#EC4899",
+      "video": "#EF4444",
+      "audio": "#F59E0B",
+      "coding": "#10B981",
+      "productivity": "#3B82F6",
+      "business": "#8B5CF6"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "forbidden_gradients": ["All gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Confusing category overlap",
+      "Low contrast combinations"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "N/A—mostly tool screenshots and icons",
+      "color_treatment": "True to tool branding",
+      "mood": "Professional, trustworthy",
+      "subjects": ["Tool screenshots", "Tool logos/icons", "Interface examples", "Output samples"],
+      "forbidden_subjects": ["Misleading screenshots", "Outdated interfaces", "Fake outputs"]
+    },
+    "illustration_style": {
+      "approach": "Clean category icons, simple illustrations",
+      "line_weight": "Light, clean",
+      "color_usage": "Category colors",
+      "style_reference": "Modern app directory style"
+    },
+    "iconography": {
+      "style": "Clean, category-appropriate",
+      "stroke_weight": "1.5-2px",
+      "custom_required": false,
+      "icon_library": "Lucide or similar",
+      "forbidden": ["Inconsistent styles", "Busy icons"]
+    },
+    "image_treatment": {
+      "overlays": "None—tools shown clearly",
+      "borders": "Subtle rounded borders",
+      "shapes": "Consistent card shapes",
+      "hover_effects": "Subtle elevation"
+    },
+    "sources": {
+      "preferred": ["Actual tool screenshots", "Official tool icons", "Real interface captures"],
+      "acceptable": ["Official press images"],
+      "forbidden": ["Outdated screenshots", "Misleading images", "Fake demos"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Tool Card",
+        "description": "Standardized card: icon, name, one-liner, category, rating",
+        "usage": "All tool displays",
+        "frequency": "Every tool listing"
+      },
+      {
+        "element": "Verified Badge",
+        "description": "Indicates we've actually tested/verified this tool",
+        "usage": "Tested tools",
+        "frequency": "Where applicable"
+      },
+      {
+        "element": "Category Filter",
+        "description": "Always-accessible category and filter options",
+        "usage": "All directory pages",
+        "frequency": "Every listing page"
+      },
+      {
+        "element": "'New' Badge",
+        "description": "Indicates recently added tools",
+        "usage": "New additions",
+        "frequency": "Tools added in last 30 days"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Comparison quick-select",
+        "when_to_use": "When comparing similar tools"
+      },
+      {
+        "element": "Collection badges",
+        "when_to_use": "When tools are in curated collections"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "Functional elements as needed",
+      "placement": "Consistent across all tool displays",
+      "restraint_philosophy": "Consistency enables efficient scanning"
+    },
+    "custom_ui_elements": {
+      "buttons": "Clean, clear actions",
+      "cards": "Standardized tool cards",
+      "dividers": "Category section dividers",
+      "loading_states": "Skeleton cards",
+      "empty_states": "Search suggestions, browse prompts"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Curator", "Discoverer", "Honest", "Efficient", "Helpful", "Current"],
+    "tone_spectrum": {
+      "formal_casual": "5/10 - Clear and efficient",
+      "serious_playful": "5/10 - Excited about discoveries, honest about duds",
+      "technical_accessible": "5/10 - Technical when needed"
+    },
+    "writing_style": {
+      "sentence_length": "Short, scannable",
+      "paragraph_length": "Brief—directory style",
+      "vocabulary_level": "Accessible, AI terms used naturally"
+    },
+    "perspective": "First person plural (we found, we tested) for curation authority",
+    "forbidden_phrases": [
+      "Revolutionary new",
+      "Game-changing",
+      "Must-have tool",
+      "Best ever"
+    ],
+    "encouraged_phrases": [
+      "Worth trying if",
+      "Best for [specific use]",
+      "Alternative to [popular tool]",
+      "New and promising",
+      "Skip unless you need"
+    ],
+    "cta_voice": {
+      "style": "Discovery-oriented",
+      "examples": ["Try This Tool", "View Details", "Compare Options", "See Alternatives", "Browse Category"],
+      "forbidden_ctas": ["Don't Miss Out", "Everyone's Using This", "Limited Access"]
+    }
+  },
+  
+  "═══ CRITICAL DIFFERENTIATION FROM AI IN ACTION HUB ═══": "────────────────────────────────────────",
+  
+  "differentiation_from_aiinactionhub": {
+    "ai_discovery_is": [
+      "Directory/catalog focus (vs tutorial focus)",
+      "Tool discovery (vs how-to-use)",
+      "Scanning/browsing optimized (vs reading optimized)",
+      "Breadth of tools (vs depth of tutorials)",
+      "Finding what exists (vs learning to use)"
+    ],
+    "visual_differences": [
+      "Grid/card heavy (vs article heavy)",
+      "Dense scanning layout (vs spacious reading)",
+      "Category colors prominent (vs single brand palette)",
+      "Search-first design (vs content-first)"
+    ],
+    "content_differences": [
+      "Tool profiles (vs tutorials)",
+      "Quick assessments (vs in-depth guides)",
+      "Category browsing (vs learning paths)",
+      "New tool alerts (vs evergreen content)"
+    ]
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Unorganized tool dump",
+      "No filtering",
+      "Paid placement prominence",
+      "No curation visible"
+    ],
+    "visual_forbidden": [
+      "Inconsistent tool cards",
+      "Confusing category system",
+      "Overwhelming density"
+    ],
+    "content_forbidden": [
+      "Listing without evaluation",
+      "Pay-to-play rankings",
+      "Outdated tool info",
+      "No actual testing"
+    ],
+    "imagery_forbidden": [
+      "Outdated screenshots",
+      "Missing tool images",
+      "Misleading interface shots"
+    ],
+    "this_site_specific_forbidden": [
+      "Uncurated listing",
+      "Paid placement without disclosure",
+      "Outdated tool information",
+      "No quality filtering"
+    ],
+    "immediate_rejection_triggers": [
+      "Looks like uncurated dump",
+      "No evidence of testing/curation",
+      "Pay-to-play obvious",
+      "Outdated tool info"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "List of tools with no curation",
+      "Outdated information",
+      "Obvious paid placements",
+      "No real evaluation"
+    ],
+    "what_acceptable_looks_like": [
+      "Organized directory",
+      "Some curation",
+      "Decent information",
+      "But generic directory feel"
+    ],
+    "what_perfect_looks_like": [
+      "Clearly curated and tested",
+      "Always up-to-date",
+      "Helps find the right tool quickly",
+      "Trusted source for discovery",
+      "First place people check for AI tools"
+    ],
+    "tests": {
+      "screenshot_test": "Is curation and quality evident?",
+      "swap_test": "Could this be an uncurated dump? (Must fail)",
+      "memory_test": "Did user find the right tool for their need?",
+      "ten_second_test": "Can user find relevant tools in 10 seconds?"
+    },
+    "competitive_positioning": {
+      "competitors": ["There's An AI For That", "Futurepedia", "AI Tool Directory"],
+      "how_we_differ": "Actually curated, tested, honest about quality",
+      "what_they_do_wrong": "List everything, no real curation, outdated quickly",
+      "what_we_do_better": "Quality curation, honest assessment, kept current"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg + custom tool CPT"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "Advanced Custom Fields Pro",
+      "SearchWP",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">92",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["AI tools", "AI tool directory", "best AI tools", "AI tools for [use]", "AI [category] tools"],
+    "secondary_keywords": ["new AI tools", "[tool name] alternatives", "AI tool like [X]", "free AI tools"],
+    "content_pillars": ["Writing AI Tools", "Image AI Tools", "Video AI Tools", "Coding AI Tools", "Productivity AI Tools"],
+    "schema_types": ["SoftwareApplication", "Article", "FAQPage", "ItemList"],
+    "internal_linking_strategy": "Categories link to tools. Tools link to alternatives. Collections cross-link.",
+    "content_depth_target": "Tool profiles: 800-1200 words, Category overviews: 1500+, Comparisons: 2000+"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-13",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add interactive comparison builder",
+      "Create 'find my tool' quiz",
+      "Build tool submission/review system",
+      "Add pricing tracking"
+    ],
+    "experiments_to_try": [
+      "Community ratings",
+      "Real-time new tool alerts",
+      "Tool stack recommendations",
+      "Integration compatibility tracking"
+    ]
+  }
+}
