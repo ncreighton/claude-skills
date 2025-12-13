@@ -1,0 +1,607 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "bullet-journals",
+  "codename": "BulletJournalPro",
+  "url": "https://bulletjournals.net",
+  "niche": "Productivity & Planning",
+  "sub_niche": "Bullet Journaling & Creative Planning",
+  "status": "Niche productivity site",
+  
+  "archetype": {
+    "primary": "Creator",
+    "secondary": "Ruler",
+    "archetype_expression": "The organized creative who has mastered the art of analog productivity in a digital world. Shows that structure and creativity aren't opposites—they're partners. Patient teacher who respects both minimalists and maximalists. Proves that bullet journaling is a tool, not a lifestyle to conform to."
+  },
+  
+  "soul": {
+    "one_sentence": "Where analog planning meets personal creativity—your journal, your rules, your system.",
+    "expanded": "Bullet journaling isn't about perfect spreads or Instagram-worthy pages. It's about building a productivity system that actually works for your brain. Whether you're a minimalist who loves clean rapid logging or an artist who turns every page into a masterpiece, we're here to help you build YOUR perfect system.",
+    "what_we_are": "Practical bullet journal education that respects all styles. Tutorials for beginners and inspiration for veterans. Focus on function AND form. Real systems from real people.",
+    "what_we_are_not": "Not only for artists. Not gatekeeping what 'real' bullet journaling is. Not shaming minimalists or maximalists. Not selling expensive supplies as necessities."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Creative empowerment",
+    "secondary_emotion": "Organized calm",
+    "tertiary_emotion": "Personal satisfaction",
+    "emotional_range": ["empowered", "creative", "organized", "calm", "satisfied", "inspired", "capable", "personal"],
+    "forbidden_emotions": ["inadequacy", "perfectionism pressure", "overwhelm", "comparison shame", "consumer guilt"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 28-year-old creative professional who started bullet journaling to manage ADHD and fell in love with the method. Their journal is functional first but beautiful too—not Instagram-perfect, but genuinely useful. Enthusiastic about sharing what works without being preachy about it.",
+    "place": "A clean, well-organized creative workspace with a good desk, quality pens in a cup, and journals on a shelf showing various stages of use. Natural light. Some plants. The vibe of productive creativity.",
+    "time_of_day": "Early morning, before the day gets chaotic. Or late evening, during the satisfying ritual of planning tomorrow.",
+    "season": "Early January—fresh start energy, new journal, possibility ahead.",
+    "sound": "The satisfying scratch of pen on quality paper. Maybe lo-fi beats in the background. The quiet of focused work.",
+    "texture": "Quality paper that takes ink well. Smooth pen barrels. The specific feel of a well-made notebook.",
+    "smell": "New notebooks. Quality paper. Fresh ink. Maybe a cup of tea.",
+    "taste": "Morning coffee or tea. The taste of focused ritual time.",
+    "temperature": "Comfortable for sitting and writing—cozy but alert.",
+    "weather": "Quiet day—good for staying in and organizing thoughts.",
+    "music_genre": "Lo-fi, ambient, or classical—focus music that doesn't compete.",
+    "movie": "The combination of Marie Kondo's intention with a creative studio documentary.",
+    "book": "The original Bullet Journal Method, but with permission to break the rules."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Beginning Blake",
+      "age_range": "18-45",
+      "description": "Someone who heard about bullet journaling (TikTok, Pinterest, friend) and wants to try it. Possibly overwhelmed by elaborate spreads online. Unsure if they need to be artistic. Looking for actual guidance to start.",
+      "mindset": "Curious but intimidated. Wants productivity improvement but fears the artistic expectations. Willing to invest time if it actually helps.",
+      "goals": ["Learn the actual method", "Build a functional system", "Get more organized", "Develop a sustainable practice", "Not fail after two weeks"],
+      "pain_points": ["Overwhelmed by fancy spreads online", "Don't know where to start", "Worried they're not artistic enough", "Tried before and quit", "Confused by all the terms"],
+      "objections": ["Do I need to be artistic?", "What supplies do I actually need?", "Will I actually use this?"],
+      "trigger_phrases": ["bullet journal for beginners", "how to start bullet journaling", "simple bullet journal", "bullet journal setup", "minimalist bullet journal"]
+    },
+    "secondary_persona": {
+      "name": "Veteran Vanessa",
+      "description": "Experienced bullet journalist looking for fresh inspiration, new spread ideas, or solutions to specific challenges. Has their system down but wants to evolve it.",
+      "how_they_differ": "Needs advanced content, specific solutions, inspiration rather than basics"
+    },
+    "tertiary_persona": {
+      "name": "Artistic Artie",
+      "description": "Someone who loves the creative/artistic side and wants to push their journal as an art form. Values aesthetic content and creative techniques.",
+      "how_they_differ": "Needs creative inspiration, artistic techniques, supply recommendations"
+    },
+    "anti_persona": {
+      "description": "People who want to shame others for 'doing it wrong.' Those pushing expensive supplies as requirements. Gatekeepers of 'authentic' bullet journaling.",
+      "why_not": "All approaches are valid. Basic supplies work fine. There's no wrong way to use your own journal."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Clean, organized, intentionally minimal—like a well-designed journal spread itself",
+    
+    "density": {
+      "description": "Breathing room like a clean journal page. Space is intentional.",
+      "content_to_whitespace_ratio": "40% content, 60% space",
+      "section_breathing": "Generous gaps, clear sections, easy scanning",
+      "never": "Never cluttered. Never overwhelming. Never competing elements."
+    },
+    
+    "contrast": {
+      "description": "Black and white as base, with intentional color pops",
+      "approach": "Ink on paper aesthetic. High contrast, clean.",
+      "drama_level": "Low—calm and organized",
+      "never": "Never garish. Never busy. Never distracting."
+    },
+    
+    "motion": {
+      "description": "Minimal, precise, intentional—like drawing a careful line",
+      "speed": "Medium—0.3s-0.4s. Deliberate, not rushed.",
+      "style": "Simple, clean transitions. Nothing bouncy.",
+      "frequency": "Rare—let static organization speak",
+      "purpose": "To indicate interaction, not to decorate",
+      "never": "Never playful-bouncy. Never attention-seeking."
+    },
+    
+    "texture": {
+      "description": "Subtle paper texture—the feel of a quality journal",
+      "elements": ["Paper grain", "Dot grid suggestion", "Clean lines"],
+      "intensity": "Very subtle—suggestion rather than obvious",
+      "never": "Never heavy. Never competing with content."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Clean rectangles, intentional lines. Like drawn boxes in a journal.",
+      "border_radius_philosophy": "0-4px mostly. Clean and deliberate. Journals have corners.",
+      "line_weight": "Consistent 1-2px. Like pen lines.",
+      "never": "Never fully rounded. Never random organic shapes."
+    },
+    
+    "depth": {
+      "approach": "Mostly flat—like pages",
+      "shadow_style": "Very minimal, just enough for clarity",
+      "elevation_levels": "2 levels max: page and content",
+      "never": "Never floating cards. Never 3D effects."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Clear value proposition—bullet journaling for everyone",
+        "Start here path—for beginners",
+        "Inspiration gallery—for browsing",
+        "Content categories—find what you need",
+        "Community/newsletter"
+      ],
+      "forbidden_flow": [
+        "Overwhelming gallery of complex spreads",
+        "Supply shopping as primary CTA",
+        "Gatekeeping messaging about 'right' way"
+      ],
+      "hero_requirements": {
+        "type": "Clean, organized, welcoming",
+        "content_placement": "Simple headline, beginner entry point visible",
+        "cta_style": "Inviting: 'Start Your Journal', 'Browse Spreads', 'Learn the Method'",
+        "forbidden": ["Intimidating artistic spreads", "Supply-focused messaging"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Grid gallery with filtering",
+      "featured_treatment": "Most useful/popular highlighted",
+      "pagination_style": "Load more or grid pagination",
+      "forbidden": ["No filtering", "Only elaborate spreads", "No beginner content"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Single column, clean, focused",
+      "max_width": "720px",
+      "sidebar_usage": "None—focused reading",
+      "related_content_style": "Next in series, related spreads",
+      "forbidden": ["Affiliate overload", "Complexity overwhelm", "Supply pushing"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "4 for galleries",
+      "preferred_columns": "3 columns for content",
+      "asymmetry_level": "Low—organized grid like journal collections",
+      "grid_breaking": "Featured tutorials can span wider"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "64px - 96px between major sections",
+      "element_spacing_scale": "4/8/16/24/32/48",
+      "rhythm_style": "Regular, organized, intentional",
+      "breathing_rule": "Like the margins of a well-planned journal page"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Simple, clean, easy to browse",
+      "tablet_approach": "Two columns for galleries",
+      "breakpoint_behavior": "Smooth, maintain organization"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Clear index—like a journal index",
+    "primary_nav": {
+      "max_items": 6,
+      "required_items": ["Start Here", "Spreads", "Methods", "Supplies", "Templates", "About"],
+      "item_naming_style": "Clear, journal-appropriate terms",
+      "dropdown_behavior": "Simple dropdowns by category"
+    },
+    "mobile_nav": {
+      "style": "Clean slide-out",
+      "full_screen": false,
+      "maintains_atmosphere": "Organized, minimal"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All categories, resources, about"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Simple: Home > Spreads > Monthly"
+    },
+    "search": {
+      "prominence": "Prominent",
+      "style": "Search spreads, methods, tutorials..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "IBM Plex Sans",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Clean, modern, organized. Like neat handwriting but digital.",
+      "weight_range": "500-700",
+      "letter_spacing": "Normal",
+      "text_transform": "None"
+    },
+    "body": {
+      "primary_font": "IBM Plex Sans",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Highly readable, clean, organized",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.6-1.7",
+      "paragraph_spacing": "1.25em between paragraphs"
+    },
+    "accent": {
+      "font": "Caveat",
+      "usage": "Handwritten notes, personal touches, tips",
+      "restraint_rule": "Occasional warmth, not overused"
+    },
+    "mono": {
+      "font": "IBM Plex Mono",
+      "usage": "Keys, signifiers, collections"
+    },
+    "type_scale": {
+      "base_size": "17px",
+      "scale_ratio": "1.2 (minor third)",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (17px)",
+        "lg": "1.2rem",
+        "xl": "1.44rem",
+        "2xl": "1.728rem",
+        "3xl": "2.074rem",
+        "4xl": "2.488rem"
+      }
+    },
+    "forbidden_fonts": ["Overly decorative fonts", "Script fonts as body", "Cutesy fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light (paper-like)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#1A1A1A",
+        "name": "Ink Black",
+        "usage": "Primary text, key elements",
+        "emotion": "Clarity, focus, intention"
+      },
+      "secondary": {
+        "hex": "#E8505B",
+        "name": "Bullet Red",
+        "usage": "Accents, important markers",
+        "emotion": "Energy, importance, markers"
+      },
+      "accent": {
+        "hex": "#F5B700",
+        "name": "Highlight Yellow",
+        "usage": "Highlights, attention, markers",
+        "max_usage": "Like highlighter—sparingly"
+      },
+      "background_primary": {
+        "hex": "#FFFEF9",
+        "name": "Paper White"
+      },
+      "background_secondary": {
+        "hex": "#F8F7F2",
+        "name": "Aged Paper"
+      },
+      "background_tertiary": {
+        "hex": "#E8E6DF",
+        "name": "Grid Lines"
+      },
+      "text_primary": {
+        "hex": "#1A1A1A",
+        "name": "Ink Black",
+        "contrast_ratio": "19:1 against Paper White"
+      },
+      "text_secondary": {
+        "hex": "#4A4A4A",
+        "name": "Pencil Gray"
+      },
+      "text_muted": {
+        "hex": "#7A7A7A",
+        "name": "Light Pencil"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#4A9B6A",
+      "warning": "#E8A82E",
+      "error": "#D64545",
+      "info": "#4A7AB8"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None—solid colors like pen ink",
+      "forbidden_gradients": ["All gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Neon colors",
+      "Complex gradients",
+      "Colors that don't look like pen/marker"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Natural, clean, well-lit",
+      "color_treatment": "Accurate—show the journals as they are",
+      "mood": "Organized, creative, aspirational but achievable",
+      "subjects": ["Real journal spreads (various skill levels)", "Writing process", "Supplies in use", "Diverse hands/journals", "Both minimalist and artistic styles"],
+      "forbidden_subjects": ["Only Instagram-perfect spreads", "Intimidating complexity", "Only expensive supplies", "Only one style"]
+    },
+    "illustration_style": {
+      "approach": "Simple line drawings, bullet journal style",
+      "line_weight": "1-2px, like pen drawings",
+      "color_usage": "Minimal—black and accent colors",
+      "style_reference": "Actual bullet journal drawings"
+    },
+    "iconography": {
+      "style": "Simple, hand-drawn feel",
+      "stroke_weight": "1.5-2px",
+      "custom_required": true,
+      "icon_subjects": ["Bullets (•◦◎○×>)", "Journal symbols", "Planning icons"],
+      "forbidden": ["Complex icons", "3D icons", "Generic corporate icons"]
+    },
+    "image_treatment": {
+      "overlays": "None—show journals clearly",
+      "borders": "Simple lines like journal borders",
+      "shapes": "Rectangles, page-like",
+      "hover_effects": "Very subtle"
+    },
+    "sources": {
+      "preferred": ["Real journal photos (user submissions)", "Custom photography", "Original illustrations"],
+      "acceptable": ["Quality bullet journal stock"],
+      "forbidden": ["Overly styled/edited", "Only elaborate spreads", "Fake journals"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Difficulty/Complexity Indicator",
+        "description": "Shows if spread is beginner/intermediate/advanced",
+        "usage": "All spread tutorials",
+        "frequency": "Every tutorial"
+      },
+      {
+        "element": "Time to Create",
+        "description": "How long the spread takes to set up",
+        "usage": "Spread tutorials",
+        "frequency": "All spread content"
+      },
+      {
+        "element": "Supplies Used",
+        "description": "What was used (with alternatives)",
+        "usage": "All creative content",
+        "frequency": "Where applicable"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Printable templates",
+        "when_to_use": "When offering downloadable resources"
+      },
+      {
+        "element": "Bullet key reference",
+        "when_to_use": "Method content"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "Functional elements as needed",
+      "placement": "Where helpful",
+      "restraint_philosophy": "Organized, not cluttered—like a good journal"
+    },
+    "custom_ui_elements": {
+      "buttons": "Clean, clear, journal-appropriate",
+      "cards": "Paper-like, organized, clean",
+      "dividers": "Simple lines, like ruled paper",
+      "loading_states": "Simple, patient",
+      "empty_states": "Encouraging, with suggestions"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Encouraging", "Practical", "Creative", "Non-judgmental", "Organized", "Inclusive"],
+    "tone_spectrum": {
+      "formal_casual": "4/10 - Friendly and conversational",
+      "serious_playful": "4/10 - Warm, occasionally playful",
+      "technical_accessible": "3/10 - Always accessible, method terms explained"
+    },
+    "writing_style": {
+      "sentence_length": "Clear and concise. Tutorials scannable.",
+      "paragraph_length": "Short. Broken up with visuals.",
+      "vocabulary_level": "Accessible, BuJo terms introduced gently"
+    },
+    "perspective": "Second person (you) and first person (I/we) for personal touch",
+    "forbidden_phrases": [
+      "The right way to",
+      "Real bullet journalists",
+      "You need this pen",
+      "Your spread must have",
+      "Everyone's journal should"
+    ],
+    "encouraged_phrases": [
+      "One way to",
+      "Adapt this to your needs",
+      "Optional but fun",
+      "Works for my brain",
+      "Your journal, your rules"
+    ],
+    "cta_voice": {
+      "style": "Inviting and encouraging",
+      "examples": ["Get the Template", "Start Your Journal", "See More Spreads", "Try This Setup", "Download Free"],
+      "forbidden_ctas": ["You need this", "Don't journal without", "Real journalers use"]
+    }
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Only showing complex artistic spreads",
+      "Supply shopping as primary focus",
+      "Gatekeeping 'authentic' journaling",
+      "Intimidating complexity"
+    ],
+    "visual_forbidden": [
+      "Only Instagram-perfect spreads",
+      "Neon/rainbow overload",
+      "Corporate design aesthetic",
+      "Overly polished digital look"
+    ],
+    "typography_forbidden": [
+      "Cutesy decorative fonts",
+      "Hard to read scripts",
+      "Corporate fonts"
+    ],
+    "content_forbidden": [
+      "Shaming simple journals",
+      "Required expensive supplies",
+      "'Right way' gatekeeping",
+      "Only artistic content"
+    ],
+    "imagery_forbidden": [
+      "Only perfect spreads",
+      "Only expensive supplies",
+      "Only one style",
+      "Intimidating complexity"
+    ],
+    "interaction_forbidden": [
+      "Aggressive supply affiliate pushing",
+      "Gatekeeping messaging",
+      "Comparison-inducing design"
+    ],
+    "this_site_specific_forbidden": [
+      "Style gatekeeping",
+      "Supply snobbery",
+      "Complexity elitism",
+      "Excluding beginners",
+      "Only one aesthetic"
+    ],
+    "immediate_rejection_triggers": [
+      "Only shows intimidating spreads",
+      "Feels like supply marketing",
+      "Gatekeeps 'real' journaling",
+      "Makes beginners feel inadequate"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Pinterest-grab-aesthetic with no substance",
+      "All affiliate links to expensive supplies",
+      "Only elaborate spreads",
+      "'My perfect journal' humble-brag",
+      "Gatekeeping real bullet journaling"
+    ],
+    "what_acceptable_looks_like": [
+      "Helpful tutorials",
+      "Variety of styles",
+      "Beginner-friendly",
+      "But generic—could be any bujo site"
+    ],
+    "what_perfect_looks_like": [
+      "Beginner feels encouraged, not intimidated",
+      "All styles feel welcome",
+      "Can start journaling immediately after visiting",
+      "Returns for ongoing inspiration",
+      "Actually helps people build systems that work"
+    ],
+    "tests": {
+      "screenshot_test": "Would a beginner feel welcomed or intimidated?",
+      "swap_test": "Is this supply marketing disguised as content? (Must fail)",
+      "memory_test": "Could the visitor actually start/improve their journal?",
+      "ten_second_test": "Is it clear all skill levels are welcome?"
+    },
+    "competitive_positioning": {
+      "competitors": ["Bulletjournal.com", "Pinterest boards", "YouTube BuJo creators"],
+      "how_we_differ": "More organized, method-focused, all skill levels truly welcome",
+      "what_they_do_wrong": "Intimidating complexity, supply-focused, artistic gatekeeping",
+      "what_we_do_better": "Genuinely inclusive, practical focus, method over aesthetic"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">85",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.0s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    },
+    "responsive_breakpoints": {
+      "mobile": "<768px",
+      "tablet": "768px-1024px",
+      "desktop": "1024px-1440px",
+      "wide": ">1440px"
+    },
+    "browser_support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["bullet journal", "bullet journal for beginners", "bullet journal ideas", "bujo spreads", "bullet journal setup"],
+    "secondary_keywords": ["[month] bullet journal", "minimalist bullet journal", "bullet journal supplies", "weekly spread ideas"],
+    "content_pillars": ["Getting Started", "Monthly Spreads", "Weekly Spreads", "Collections", "Methods & Systems", "Supplies"],
+    "schema_types": ["Article", "HowTo", "FAQPage"],
+    "internal_linking_strategy": "Beginner content links to next steps. Spreads link to method explanations. Everything links back to getting started.",
+    "content_depth_target": "Complete guides: 2500+, Tutorials: 1200-2000, Spread ideas: 800-1500"
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-12",
+    "last_updated": "2025-12-12",
+    "version": "1.0.0",
+    "changelog": [
+      {
+        "date": "2025-12-12",
+        "version": "1.0.0",
+        "changes": "Initial comprehensive DNA creation"
+      }
+    ],
+    "planned_evolutions": [
+      "Add printable template library",
+      "Create spread gallery with filtering",
+      "Build community submissions feature",
+      "Develop digital bullet journal tools"
+    ],
+    "experiments_to_try": [
+      "User-submitted spread gallery",
+      "Monthly spread challenges",
+      "Printable downloads section",
+      "Video tutorials"
+    ]
+  }
+}
