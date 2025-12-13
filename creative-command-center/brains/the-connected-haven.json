@@ -1,0 +1,597 @@
+{
+  "═══ CORE IDENTITY ═══": "────────────────────────────────────────",
+  
+  "site_id": "the-connected-haven",
+  "codename": "ConnectedHome",
+  "url": "https://theconnectedhaven.com",
+  "niche": "Smart Home Lifestyle",
+  "sub_niche": "Smart Home Living & Connected Home Design",
+  "status": "Lifestyle smart home vertical (distinct from SmartHomeWizards tech focus)",
+  
+  "archetype": {
+    "primary": "Creator",
+    "secondary": "Caregiver",
+    "archetype_expression": "The homeowner who integrated smart tech to make their home genuinely better—not just more connected. Values comfort, aesthetics, and family life. Technology serves the home, not the other way around. Makes smart living feel effortless and beautiful."
+  },
+  
+  "soul": {
+    "one_sentence": "Technology that makes your home feel more like home—smart living that's actually livable.",
+    "expanded": "A connected home isn't about having the most gadgets—it's about technology that genuinely improves daily life. We focus on smart home solutions that enhance comfort, safety, and enjoyment without creating tech overwhelm. Beautiful spaces that happen to be intelligent. Family-friendly automation that everyone can use.",
+    "what_we_are": "Lifestyle-focused smart home guidance. Tech that enhances living. Design-conscious solutions. Family-friendly approaches. Beautiful and smart together.",
+    "what_we_are_not": "Not tech specs obsession. Not gadget collecting. Not ignoring aesthetics. Not making homes feel like tech labs. Not intimidating complexity."
+  },
+  
+  "emotional_tone": {
+    "primary_emotion": "Comfortable confidence",
+    "secondary_emotion": "Modern warmth",
+    "tertiary_emotion": "Effortless living",
+    "emotional_range": ["comfortable", "confident", "warm", "modern", "effortless", "secure", "delighted", "peaceful"],
+    "forbidden_emotions": ["overwhelm", "tech anxiety", "cold/sterile feeling", "complexity stress", "intimidation"]
+  },
+  
+  "if_this_site_were": {
+    "person": "A 42-year-old homeowner who loves both beautiful interiors and clever technology. Their home looks magazine-worthy AND is filled with smart conveniences that guests don't immediately notice. Values family comfort and experiences over tech impressiveness. Makes it look effortless.",
+    "place": "A beautiful, warm home that happens to be intelligently connected. Clean lines but comfortable. Tech that's integrated, not displayed. The kind of home where the technology is invisible but the benefits are everywhere. Cozy, modern, inviting.",
+    "time_of_day": "Evening at home—lights automatically dimmed, music playing, temperature perfect, home secure. The golden hour of home life.",
+    "season": "Any—a connected home adapts to all seasons automatically. Cozy in winter, cool in summer.",
+    "sound": "Good music through hidden speakers, maybe a voice assistant responding helpfully. The absence of annoying sounds because the home handles things quietly.",
+    "texture": "Quality home materials, warm fabrics, comfortable furniture, subtle tech. Natural materials meeting modern convenience.",
+    "smell": "A home that smells good because ventilation is smart, not because of air fresheners. Fresh, clean, inviting.",
+    "taste": "Homemade meal, enjoyed with good lighting and music handled automatically. The taste of a well-lived life.",
+    "temperature": "Perfect—because the smart thermostat knows your preferences. Never too hot, never too cold.",
+    "weather": "Handled—the house responds to weather automatically. Blinds adjust, systems adapt.",
+    "music_genre": "Whatever fits the moment—the house knows. Dinner party jazz, morning energy, bedtime calm.",
+    "movie": "Smart House meets Nancy Meyers interiors—intelligent and beautiful, warm and welcoming.",
+    "book": "A home design book where technology is seamlessly integrated, never intrusive."
+  },
+  
+  "═══ TARGET AUDIENCE ═══": "────────────────────────────────────────",
+  
+  "audience": {
+    "primary_persona": {
+      "name": "Lifestyle Laura",
+      "age_range": "30-50",
+      "description": "A homeowner who values both style and convenience. Interested in smart home for the lifestyle benefits, not the tech specs. Wants their home to be beautiful AND smart. Doesn't consider themselves 'techy' but loves good design.",
+      "mindset": "Design-conscious, convenience-seeking, not a techie. Values experience over specs. Wants things that 'just work.'",
+      "goals": ["Enhance daily living", "Maintain beautiful home aesthetics", "Simplify family routines", "Create family-friendly tech", "Not sacrifice style for function"],
+      "pain_points": ["Smart home content is too technical", "Tech looks ugly in homes", "Too complicated to set up", "Family members can't use it", "Aesthetics always ignored"],
+      "objections": ["Will this fit my decor?", "Can everyone in family use it?", "Is this actually easier or just more complicated?", "Will it look like a tech lab?"],
+      "trigger_phrases": ["smart home for beginners", "pretty smart home", "smart home design", "family smart home", "smart home that looks good", "smart home decor"]
+    },
+    "secondary_persona": {
+      "name": "Design-focused David",
+      "description": "Interior design enthusiast who wants tech that doesn't compromise aesthetics. Needs solutions that blend in beautifully. Perhaps a designer or design-adjacent professional.",
+      "how_they_differ": "Design primary, tech secondary. Needs aesthetic-first recommendations. Will reject anything that compromises style."
+    },
+    "tertiary_persona": {
+      "name": "Family-First Fiona",
+      "description": "Parent wanting smart home benefits for the whole family—safety, convenience, even kid-friendly features. Everyone needs to be able to use it.",
+      "how_they_differ": "Family/kid focus, safety priorities, everyone-can-use-it requirement. Practicality for busy family life."
+    },
+    "anti_persona": {
+      "description": "Tech enthusiasts who want maximum specs and features. Those who don't care about aesthetics. People who want the most cutting-edge tech regardless of usability or appearance.",
+      "why_not": "We prioritize livability over tech impressiveness. Design matters as much as function."
+    }
+  },
+  
+  "═══ VISUAL PHILOSOPHY ═══": "────────────────────────────────────────",
+  
+  "visual_philosophy": {
+    "overall_aesthetic": "Warm modern—beautiful homes that happen to be smart. Interior magazine quality.",
+    
+    "density": {
+      "description": "Spacious like a well-designed room—not cluttered, room to appreciate beauty",
+      "content_to_whitespace_ratio": "45% content, 55% space",
+      "section_breathing": "Generous, editorial, magazine-like pacing",
+      "never": "Never cluttered. Never tech-y. Never cold. Never cramped."
+    },
+    
+    "contrast": {
+      "description": "Warm, inviting, magazine-quality interior photography feel",
+      "approach": "Light mode, warm tones, quality feel throughout",
+      "drama_level": "Medium—editorial quality, lifestyle aspirational",
+      "never": "Never cold. Never sterile. Never harsh. Never clinical."
+    },
+    
+    "motion": {
+      "description": "Smooth, subtle, like smart home automation itself—effortless",
+      "speed": "Medium—0.3s-0.5s. Smooth and effortless feeling.",
+      "style": "Smooth, graceful, invisible effort",
+      "frequency": "Subtle, enhancing not distracting",
+      "purpose": "To feel effortless, like the smart home experience itself",
+      "never": "Never flashy. Never tech-demo feeling. Never jarring."
+    },
+    
+    "texture": {
+      "description": "Warm home textures—fabric, wood, quality materials feel",
+      "elements": ["Subtle warm textures", "Home material feels", "Quality surfaces", "Natural elements"],
+      "intensity": "Subtle—home magazine quality, not busy",
+      "never": "Never tech-y. Never cold. Never plastic feeling."
+    },
+    
+    "shape_language": {
+      "primary_shapes": "Soft modern—clean but warm, inviting curves",
+      "border_radius_philosophy": "8-12px—modern but not cold, welcoming",
+      "line_weight": "Light, elegant, refined",
+      "never": "Never sharp/cold. Never industrial. Never aggressive."
+    },
+    
+    "depth": {
+      "approach": "Subtle, like good interior design—layered but not dramatic",
+      "shadow_style": "Soft, warm shadows, almost imperceptible",
+      "elevation_levels": "Subtle layering, 2 levels max",
+      "never": "Never harsh shadows. Never flat. Never dramatic depth."
+    }
+  },
+  
+  "═══ LAYOUT CONSTITUTION ═══": "────────────────────────────────────────",
+  
+  "layout_constitution": {
+    "homepage": {
+      "required_flow": [
+        "Beautiful hero—stunning home interior with smart tech subtly visible",
+        "Value proposition—tech that enhances without overwhelming",
+        "Room-by-room inspiration—living room, kitchen, bedroom, etc.",
+        "Featured guides—getting started, family-friendly tech",
+        "Design showcase—beautiful smart homes",
+        "Newsletter—weekly inspiration"
+      ],
+      "forbidden_flow": [
+        "Tech-first presentation",
+        "Spec sheets and comparisons up front",
+        "Cold/sterile imagery",
+        "Gadget focus over lifestyle"
+      ],
+      "hero_requirements": {
+        "type": "Stunning interior photography with smart tech subtly integrated",
+        "content_placement": "Aspirational messaging, lifestyle focus",
+        "cta_style": "Elegant invitation: 'Explore Smart Living', 'Find Inspiration', 'Design Your Haven'",
+        "forbidden": ["Tech specs prominent", "Product shots as hero", "Cold/sterile imagery"]
+      }
+    },
+    
+    "category_pages": {
+      "layout_type": "Editorial grid, room-by-room or theme-based",
+      "featured_treatment": "Magazine-style featured content",
+      "pagination_style": "Load more, gentle, non-intrusive",
+      "forbidden": ["Dense product grids", "Spec-heavy presentation", "No lifestyle context"]
+    },
+    
+    "single_posts": {
+      "layout_type": "Editorial single column, generous imagery",
+      "max_width": "720px—intimate, magazine-style reading",
+      "sidebar_usage": "None or minimal—focused reading experience",
+      "related_content_style": "Related rooms, complementary ideas, gentle suggestions",
+      "forbidden": ["Dense technical content", "Spec tables as focus", "No lifestyle photography"]
+    },
+    
+    "grid_philosophy": {
+      "max_columns": "3 on wide screens",
+      "preferred_columns": "2 for spacious magazine feel",
+      "asymmetry_level": "Low—balanced, harmonious, editorial",
+      "grid_breaking": "Feature images can span full width"
+    },
+    
+    "spacing_rhythm": {
+      "section_gap_range": "80px - 120px between major sections",
+      "element_spacing_scale": "8/16/24/32/48/64/96",
+      "rhythm_style": "Generous, editorial, breathing",
+      "breathing_rule": "When in doubt, add more space"
+    },
+    
+    "responsive_philosophy": {
+      "mobile_approach": "Equally beautiful and spacious on mobile",
+      "tablet_approach": "Magazine reading experience",
+      "breakpoint_behavior": "Graceful, smooth transitions"
+    }
+  },
+  
+  "═══ NAVIGATION ═══": "────────────────────────────────────────",
+  
+  "navigation": {
+    "philosophy": "Room-based + lifestyle-based navigation—find by space or by goal",
+    "primary_nav": {
+      "max_items": 6,
+      "required_items": ["Rooms", "Ideas", "Getting Started", "Inspiration", "About"],
+      "item_naming_style": "Lifestyle-focused, not tech categories",
+      "dropdown_behavior": "Elegant dropdowns by room or theme"
+    },
+    "mobile_nav": {
+      "style": "Full-screen elegant overlay",
+      "full_screen": true,
+      "maintains_atmosphere": "Beautiful, not just functional"
+    },
+    "secondary_nav": {
+      "location": "Footer",
+      "contents": "All rooms, all themes, about, contact"
+    },
+    "breadcrumbs": {
+      "enabled": true,
+      "style": "Subtle: Home > Living Room > Ambient Lighting Ideas"
+    },
+    "search": {
+      "prominence": "Present but subtle—discovery over search",
+      "style": "Search rooms, ideas, inspiration..."
+    }
+  },
+  
+  "═══ TYPOGRAPHY ═══": "────────────────────────────────────────",
+  
+  "typography": {
+    "headings": {
+      "primary_font": "Cormorant Garamond",
+      "fallback_stack": "Georgia, 'Times New Roman', serif",
+      "personality": "Elegant, refined, interior-magazine quality",
+      "weight_range": "400-600",
+      "letter_spacing": "0.01em - slightly expanded for elegance",
+      "text_transform": "None"
+    },
+    "body": {
+      "primary_font": "Nunito Sans",
+      "fallback_stack": "system-ui, -apple-system, sans-serif",
+      "personality": "Warm, readable, friendly, approachable",
+      "weight": "400, 600 for emphasis",
+      "line_height": "1.7-1.8—generous reading",
+      "paragraph_spacing": "1.5em between paragraphs"
+    },
+    "accent": {
+      "font": "Cormorant Garamond Italic",
+      "usage": "Pull quotes, special callouts, elegant emphasis",
+      "restraint_rule": "Rare, meaningful moments only"
+    },
+    "type_scale": {
+      "base_size": "17px",
+      "scale_ratio": "1.25 (major third)",
+      "scale_values": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem (17px)",
+        "lg": "1.25rem",
+        "xl": "1.563rem",
+        "2xl": "1.953rem",
+        "3xl": "2.441rem",
+        "4xl": "3.052rem"
+      }
+    },
+    "forbidden_fonts": ["Tech/cold sans-serif", "Heavy fonts", "Decorative fonts"]
+  },
+  
+  "═══ COLOR SYSTEM ═══": "────────────────────────────────────────",
+  
+  "colors": {
+    "mode": "light (warm, inviting, interior-magazine feel)",
+    
+    "palette": {
+      "primary": {
+        "hex": "#6B7B8C",
+        "name": "Warm Slate",
+        "usage": "Primary accents, grounding elements",
+        "emotion": "Modern, warm, sophisticated, timeless"
+      },
+      "secondary": {
+        "hex": "#C4A77D",
+        "name": "Warm Brass",
+        "usage": "Highlights, warmth accents, premium feel",
+        "emotion": "Warm, premium, home-like, quality"
+      },
+      "accent": {
+        "hex": "#7C9885",
+        "name": "Sage",
+        "usage": "Natural accent, freshness, life",
+        "max_usage": "Supporting accent, brings nature in"
+      },
+      "background_primary": {
+        "hex": "#FDFBF8",
+        "name": "Warm White"
+      },
+      "background_secondary": {
+        "hex": "#F5F3EE",
+        "name": "Soft Cream"
+      },
+      "background_tertiary": {
+        "hex": "#E8E4DE",
+        "name": "Warm Gray"
+      },
+      "text_primary": {
+        "hex": "#2D2D2D",
+        "name": "Rich Charcoal",
+        "contrast_ratio": "14:1 on Warm White"
+      },
+      "text_secondary": {
+        "hex": "#5A5A5A",
+        "name": "Warm Gray"
+      },
+      "text_muted": {
+        "hex": "#8A8A8A",
+        "name": "Soft Gray"
+      }
+    },
+    
+    "extended_palette": {
+      "success": "#7C9885",
+      "warning": "#D4A574",
+      "error": "#C4847C",
+      "info": "#8B9EC4"
+    },
+    
+    "gradient_rules": {
+      "allowed": false,
+      "type": "None—clean and warm, photography provides visual interest",
+      "forbidden_gradients": ["Tech-looking gradients", "Cold gradients", "All obvious gradients"]
+    },
+    
+    "forbidden_colors": [
+      "Cold tech blues",
+      "Neon colors",
+      "Harsh contrast",
+      "Sterile whites",
+      "Industrial grays"
+    ]
+  },
+  
+  "═══ IMAGERY ═══": "────────────────────────────────────────",
+  
+  "imagery": {
+    "photography_style": {
+      "lighting": "Beautiful interior photography lighting—natural, warm, inviting",
+      "color_treatment": "Warm, magazine-quality, true to life but elevated",
+      "mood": "Aspirational but achievable, warm, lived-in quality",
+      "subjects": ["Beautiful home interiors with smart tech", "Lifestyle moments enabled by tech", "Design-forward smart products in context", "Family life with smart home", "Room vignettes"],
+      "forbidden_subjects": ["Tech-lab aesthetics", "Exposed wires everywhere", "Cold modern spaces", "Tech-forward over style", "Product-only shots"]
+    },
+    "illustration_style": {
+      "approach": "Elegant diagrams if needed, home-style illustrations",
+      "line_weight": "Elegant, refined, thin",
+      "color_usage": "Warm palette only",
+      "style_reference": "Interior design publication quality"
+    },
+    "iconography": {
+      "style": "Elegant, refined line icons—barely there",
+      "stroke_weight": "1.5-2px",
+      "custom_required": false,
+      "icon_subjects": ["Home elements", "Comfort features", "Room icons", "Lifestyle"],
+      "forbidden": ["Tech-y icons", "Cold/industrial icons", "Heavy icons"]
+    },
+    "image_treatment": {
+      "overlays": "None—let beautiful interiors shine",
+      "borders": "None or very subtle rounded",
+      "shapes": "Clean, editorial, generous",
+      "hover_effects": "Very subtle warmth increase, gentle"
+    },
+    "sources": {
+      "preferred": ["Quality interior photography", "Smart home in beautiful settings", "Lifestyle with tech integrated", "Magazine-quality room shots"],
+      "acceptable": ["Quality interior stock (carefully curated)"],
+      "forbidden": ["Tech-forward cold imagery", "Obvious smart home marketing", "Lab-like spaces", "Product catalog shots"]
+    }
+  },
+  
+  "═══ SIGNATURE ELEMENTS ═══": "────────────────────────────────────────",
+  
+  "signature_elements": {
+    "must_include": [
+      {
+        "element": "Room Tag",
+        "description": "Which room this applies to (Living Room, Kitchen, etc.)",
+        "usage": "All content",
+        "frequency": "Every post"
+      },
+      {
+        "element": "Family-Friendly Indicator",
+        "description": "Is this setup family-friendly and easy to use?",
+        "usage": "Guides and recommendations",
+        "frequency": "Where relevant"
+      },
+      {
+        "element": "Design Integration Note",
+        "description": "How this tech can blend into decor",
+        "usage": "Product mentions",
+        "frequency": "Every product recommendation"
+      }
+    ],
+    "optional_flourishes": [
+      {
+        "element": "Before/After Design",
+        "when_to_use": "Room transformations"
+      },
+      {
+        "element": "Product Styling Tips",
+        "when_to_use": "When showing how to hide/integrate tech"
+      }
+    ],
+    "usage_rules": {
+      "max_per_page": "2-3 subtle elements",
+      "placement": "Where they enhance without cluttering",
+      "restraint_philosophy": "Beauty over functionality display"
+    },
+    "custom_ui_elements": {
+      "buttons": "Soft, inviting, rounded, elegant",
+      "cards": "Light, airy, beautiful imagery prominent",
+      "dividers": "Delicate lines or generous space",
+      "loading_states": "Elegant, minimal",
+      "empty_states": "Beautiful, encouraging"
+    }
+  },
+  
+  "═══ VOICE & CONTENT ═══": "────────────────────────────────────────",
+  
+  "voice": {
+    "personality_traits": ["Warm", "Design-conscious", "Helpful", "Lifestyle-focused", "Accessible", "Quality-oriented", "Elegant"],
+    "tone_spectrum": {
+      "formal_casual": "4/10 - Friendly, editorial, magazine-like",
+      "serious_playful": "4/10 - Warm with personality, not stuffy",
+      "technical_accessible": "3/10 - Always lifestyle-first, tech explained simply"
+    },
+    "writing_style": {
+      "sentence_length": "Flowing, editorial quality, varied",
+      "paragraph_length": "Medium, magazine-style, readable",
+      "vocabulary_level": "Accessible, design-aware, never technical jargon"
+    },
+    "perspective": "First person (our home, we've found) and second person (your space, imagine)",
+    "forbidden_phrases": [
+      "Maximum connectivity",
+      "Cutting-edge technology",
+      "Smart home enthusiast",
+      "Tech specs",
+      "IoT integration",
+      "Protocol"
+    ],
+    "encouraged_phrases": [
+      "Your home should feel like home",
+      "Technology that disappears",
+      "Designed for real life",
+      "Beautiful and smart",
+      "Everyone can use it",
+      "Effortless living"
+    ],
+    "cta_voice": {
+      "style": "Elegant invitation, never pushy",
+      "examples": ["See the Look", "Discover How", "Make It Home", "Find Your Style", "Explore Ideas", "Get Inspired"],
+      "forbidden_ctas": ["Tech Up", "Connect Everything", "Get Smart", "Automate Now"]
+    }
+  },
+  
+  "═══ DIFFERENTIATION FROM SMART HOME WIZARDS ═══": "────────────────────────────────────────",
+  
+  "differentiation_from_smarthomewizards": {
+    "connected_haven_is": [
+      "Lifestyle-first (vs tech-first)",
+      "Design-conscious primary concern (vs function-focused)",
+      "Family-oriented (vs enthusiast-oriented)",
+      "Magazine-style presentation (vs how-to guide style)",
+      "Warm aesthetic (vs clean tech aesthetic)",
+      "Room-based organization (vs device-based)",
+      "Interior design audience (vs tech audience)"
+    ],
+    "visual_differences": [
+      "Warm tones (vs cool tech blue)",
+      "Interior photography (vs product photography)",
+      "Lifestyle imagery (vs setup/installation imagery)",
+      "Editorial layout (vs technical guide layout)",
+      "Serif headings (vs sans-serif)",
+      "Magazine spacing (vs efficient tech spacing)"
+    ],
+    "content_differences": [
+      "Room-by-room living (vs device-by-device guides)",
+      "Design integration (vs technical setup)",
+      "Family scenarios (vs tech scenarios)",
+      "Aesthetics emphasis (vs specs emphasis)",
+      "Lifestyle benefits (vs feature benefits)",
+      "Inspiration-first (vs solution-first)"
+    ]
+  },
+  
+  "═══ ANTI-PATTERNS ═══": "────────────────────────────────────────",
+  
+  "anti_patterns": {
+    "layout_forbidden": [
+      "Tech-forward grid layouts",
+      "Product comparison tables as focus",
+      "Dense technical content",
+      "No lifestyle imagery"
+    ],
+    "visual_forbidden": [
+      "Tech-lab aesthetics",
+      "Cold/blue color schemes",
+      "Product-only photography",
+      "Obvious smart home marketing style"
+    ],
+    "typography_forbidden": [
+      "Cold sans-serif throughout",
+      "Technical/system fonts",
+      "Heavy/aggressive fonts"
+    ],
+    "content_forbidden": [
+      "Spec-first descriptions",
+      "Technical jargon unexplained",
+      "Ignoring aesthetics",
+      "Tech-enthusiast tone"
+    ],
+    "imagery_forbidden": [
+      "Lab-like smart homes",
+      "Tech-forward cold spaces",
+      "Product catalog shots",
+      "Wires and tech visible"
+    ],
+    "this_site_specific_forbidden": [
+      "Anything that feels like a tech site",
+      "Device-first over room-first organization",
+      "Ignoring the 'design' in design-conscious",
+      "Forgetting families need simple solutions"
+    ],
+    "immediate_rejection_triggers": [
+      "Looks like a tech review site",
+      "Cold/sterile imagery",
+      "Tech jargon in headlines",
+      "No lifestyle photography"
+    ]
+  },
+  
+  "═══ QUALITY BENCHMARKS ═══": "────────────────────────────────────────",
+  
+  "quality_benchmarks": {
+    "what_cheap_looks_like": [
+      "Generic smart home marketing",
+      "Product shots without context",
+      "Tech specs prominent",
+      "Cold, sterile aesthetic"
+    ],
+    "what_acceptable_looks_like": [
+      "Some lifestyle imagery",
+      "Warm color scheme",
+      "Design mentioned",
+      "But still feels like tech content"
+    ],
+    "what_perfect_looks_like": [
+      "Could be mistaken for interior design magazine",
+      "Tech is invisible, benefits are prominent",
+      "Every image shows beautiful home first",
+      "Design-conscious visitor feels at home"
+    ],
+    "tests": {
+      "screenshot_test": "Does this look like an interior design site?",
+      "swap_test": "Could this be SmartHomeWizards? (Must fail)",
+      "memory_test": "Does visitor remember beautiful homes or tech features?",
+      "ten_second_test": "Is it obvious this is lifestyle-first?"
+    }
+  },
+  
+  "═══ TECHNICAL SPECS ═══": "────────────────────────────────────────",
+  
+  "technical": {
+    "platform": {
+      "cms": "WordPress",
+      "theme": "Blocksy with child theme",
+      "page_builder": "Gutenberg blocks"
+    },
+    "required_plugins": [
+      "RankMath SEO Pro",
+      "LiteSpeed Cache",
+      "Complianz GDPR",
+      "Wordfence Security"
+    ],
+    "performance_targets": {
+      "pagespeed_mobile": ">80",
+      "pagespeed_desktop": ">90",
+      "lcp": "<2.5s",
+      "fid": "<100ms",
+      "cls": "<0.1"
+    }
+  },
+  
+  "═══ SEO FOCUS ═══": "────────────────────────────────────────",
+  
+  "seo": {
+    "primary_keywords": ["smart home design", "beautiful smart home", "smart home for families", "smart home living", "connected home ideas"],
+    "secondary_keywords": ["smart home decor", "smart home room ideas", "family smart home", "smart home aesthetic"],
+    "content_pillars": ["Smart Living Room", "Smart Kitchen", "Smart Bedroom", "Family Smart Home", "Smart Home Design"],
+    "schema_types": ["Article", "HowTo", "FAQPage"]
+  },
+  
+  "═══ EVOLUTION TRACKING ═══": "────────────────────────────────────────",
+  
+  "evolution": {
+    "created": "2025-12-13",
+    "last_updated": "2025-12-13",
+    "version": "1.0.0"
+  }
+}
