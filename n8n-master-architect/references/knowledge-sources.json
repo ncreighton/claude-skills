@@ -1,0 +1,297 @@
+{
+  "version": "1.0.0",
+  "description": "Knowledge source configuration for n8n AI Agent skill",
+  "lastUpdated": "2025-11-28",
+  
+  "context7Sources": {
+    "primary": {
+      "officialDocs": {
+        "libraryId": "/n8n-io/n8n-docs",
+        "description": "Official n8n documentation",
+        "benchmarkScore": 75.2,
+        "snippets": 593,
+        "reputation": "High",
+        "useFor": ["node parameters", "API reference", "best practices", "configuration"]
+      },
+      "mcpBuilder": {
+        "libraryId": "/spences10/mcp-n8n-builder",
+        "description": "MCP server for n8n workflow building",
+        "benchmarkScore": 86.5,
+        "snippets": 104,
+        "reputation": "High",
+        "useFor": ["API client", "workflow CRUD", "programmatic building"]
+      },
+      "fullLlmsTxt": {
+        "libraryId": "/llmstxt/n8n_io_llms-full_txt",
+        "description": "Comprehensive LLM-formatted n8n docs",
+        "benchmarkScore": 46.7,
+        "snippets": 73623,
+        "reputation": "High",
+        "useFor": ["AI integration", "LangChain nodes", "comprehensive reference"]
+      },
+      "masterWorkflows": {
+        "libraryId": "/djeknet/n8n-master-workflows",
+        "description": "6000+ workflow templates",
+        "snippets": 6222,
+        "reputation": "Medium",
+        "useFor": ["workflow examples", "template patterns", "real implementations"]
+      }
+    },
+    "secondary": {
+      "examples": {
+        "libraryId": "/egouilliard/n8n_examples",
+        "description": "AI-focused workflow examples",
+        "snippets": 1405,
+        "reputation": "Medium",
+        "useFor": ["AI workflows", "integration examples"]
+      },
+      "awesomeTemplates": {
+        "libraryId": "/enescingoz/awesome-n8n-templates",
+        "description": "Curated template collection",
+        "benchmarkScore": 76.3,
+        "snippets": 12,
+        "reputation": "High",
+        "useFor": ["quick templates", "common integrations"]
+      },
+      "awesomeN8n": {
+        "libraryId": "/restyler/awesome-n8n",
+        "description": "Top 100 community nodes",
+        "benchmarkScore": 24,
+        "snippets": 93,
+        "reputation": "High",
+        "useFor": ["community nodes", "npm packages"]
+      },
+      "ultimateAI": {
+        "libraryId": "/oxbshw/ultimate-n8n-ai-workflows",
+        "description": "3400+ AI workflow library",
+        "snippets": 8,
+        "reputation": "Medium",
+        "useFor": ["AI patterns", "LLM workflows"]
+      },
+      "freeTemplates": {
+        "libraryId": "/wassupjay/n8n-free-templates",
+        "description": "200+ ready-to-import workflows",
+        "snippets": 14,
+        "reputation": "High",
+        "useFor": ["DevOps", "Finance", "quick starts"]
+      },
+      "recapAI": {
+        "libraryId": "/lucaswalter/n8n-ai-automations",
+        "description": "AI automation templates",
+        "benchmarkScore": 35.6,
+        "snippets": 5,
+        "reputation": "High",
+        "useFor": ["marketing automation", "content repurposing"]
+      },
+      "n8nCli": {
+        "libraryId": "/edenreich/n8n-cli",
+        "description": "CLI for n8n management",
+        "snippets": 47,
+        "reputation": "High",
+        "useFor": ["workflow management", "version control", "CLI operations"]
+      }
+    },
+    "specialized": {
+      "wahaTemplates": {
+        "libraryId": "/devlikeapro/waha-n8n-templates",
+        "description": "WhatsApp automation templates",
+        "snippets": 24,
+        "reputation": "High",
+        "useFor": ["WhatsApp", "messaging automation"]
+      },
+      "helmChart": {
+        "libraryId": "/8gears/n8n-helm-chart",
+        "description": "Kubernetes deployment",
+        "snippets": 30,
+        "reputation": "High",
+        "useFor": ["Kubernetes", "Docker", "deployment"]
+      },
+      "porter": {
+        "libraryId": "/dataprospectors-at/n8n-porter",
+        "description": "Workflow backup/migration tool",
+        "benchmarkScore": 61.7,
+        "snippets": 29,
+        "reputation": "Low",
+        "useFor": ["backup", "migration", "environment management"]
+      }
+    }
+  },
+  
+  "webSearchPatterns": {
+    "communityForum": {
+      "siteQuery": "site:community.n8n.io",
+      "description": "Official n8n community forum",
+      "useFor": ["troubleshooting", "community solutions", "feature discussions"]
+    },
+    "officialBlog": {
+      "siteQuery": "site:n8n.io/blog",
+      "description": "Official n8n blog",
+      "useFor": ["tutorials", "announcements", "best practices"]
+    },
+    "officialTemplates": {
+      "siteQuery": "site:n8n.io/workflows",
+      "description": "Official workflow templates",
+      "useFor": ["verified templates", "integration examples"]
+    },
+    "8nodes": {
+      "siteQuery": "site:8nodes.dev",
+      "description": "AI workflow generator",
+      "useFor": ["AI-generated workflows", "workflow ideas"]
+    }
+  },
+  
+  "youtubeChannels": {
+    "nickSaraev": {
+      "name": "Nick Saraev",
+      "searchQuery": "Nick Saraev n8n",
+      "focus": ["monetization", "AI automations", "selling workflows"],
+      "courses": [
+        "N8N ULTIMATE COURSE 8+ Hours",
+        "N8N FULL COURSE 6 HOURS"
+      ],
+      "bestFor": "Advanced AI automations and building automation business"
+    },
+    "mayankAggarwal": {
+      "name": "Mayank Aggarwal",
+      "searchQuery": "Mayank Aggarwal n8n",
+      "focus": ["zero to hero", "AI agents", "comprehensive learning"],
+      "courses": [
+        "Build AI Agents & Automate Workflows (7.5 Hours)"
+      ],
+      "bestFor": "Complete beginner to advanced progression"
+    },
+    "s3CloudHub": {
+      "name": "S3CloudHub",
+      "searchQuery": "S3CloudHub n8n",
+      "focus": ["full course", "installations", "integrations"],
+      "courses": [
+        "n8n Full Course for Beginners to Advanced"
+      ],
+      "bestFor": "Installation, setup, and core concepts"
+    },
+    "productiveDude": {
+      "name": "Productive Dude",
+      "searchQuery": "Productive Dude n8n",
+      "focus": ["practical workflows", "real-world use cases"],
+      "bestFor": "Quick, practical implementations"
+    },
+    "roboNuggets": {
+      "name": "RoboNuggets",
+      "searchQuery": "RoboNuggets n8n",
+      "focus": ["automation tutorials", "workflow guides"],
+      "bestFor": "Step-by-step tutorials"
+    }
+  },
+  
+  "apiEndpoints": {
+    "baseUrl": "https://docs.n8n.io/api/api-reference/",
+    "authentication": "https://docs.n8n.io/api/authentication/",
+    "pagination": "https://docs.n8n.io/api/pagination/",
+    "playground": "https://docs.n8n.io/api/using-api-playground/"
+  },
+  
+  "retrievalPatterns": {
+    "nodeSpecific": {
+      "description": "When user asks about specific node",
+      "steps": [
+        {
+          "order": 1,
+          "tool": "context7:get-library-docs",
+          "params": {
+            "libraryId": "/n8n-io/n8n-docs",
+            "topic": "{node_name} parameters configuration"
+          }
+        },
+        {
+          "order": 2,
+          "tool": "context7:get-library-docs",
+          "params": {
+            "libraryId": "/djeknet/n8n-master-workflows",
+            "topic": "{node_name} example workflow"
+          }
+        }
+      ]
+    },
+    "integration": {
+      "description": "When user asks about integrating with a service",
+      "steps": [
+        {
+          "order": 1,
+          "tool": "context7:get-library-docs",
+          "params": {
+            "libraryId": "/enescingoz/awesome-n8n-templates",
+            "topic": "{service_name}"
+          }
+        },
+        {
+          "order": 2,
+          "tool": "exa:web_search_exa",
+          "params": {
+            "query": "n8n {service_name} workflow tutorial 2024"
+          }
+        }
+      ]
+    },
+    "aiWorkflow": {
+      "description": "When user asks about AI/LLM workflows",
+      "steps": [
+        {
+          "order": 1,
+          "tool": "context7:get-library-docs",
+          "params": {
+            "libraryId": "/llmstxt/n8n_io_llms-full_txt",
+            "topic": "AI agent {use_case}"
+          }
+        },
+        {
+          "order": 2,
+          "tool": "context7:get-library-docs",
+          "params": {
+            "libraryId": "/oxbshw/ultimate-n8n-ai-workflows",
+            "topic": "{ai_pattern}"
+          }
+        }
+      ]
+    },
+    "troubleshooting": {
+      "description": "When user has an error or problem",
+      "steps": [
+        {
+          "order": 1,
+          "tool": "exa:web_search_exa",
+          "params": {
+            "query": "site:community.n8n.io {error_message}"
+          }
+        },
+        {
+          "order": 2,
+          "tool": "context7:get-library-docs",
+          "params": {
+            "libraryId": "/n8n-io/n8n-docs",
+            "topic": "{problem_area} troubleshooting"
+          }
+        }
+      ]
+    },
+    "communityNodes": {
+      "description": "When user needs functionality not in core nodes",
+      "steps": [
+        {
+          "order": 1,
+          "tool": "context7:get-library-docs",
+          "params": {
+            "libraryId": "/restyler/awesome-n8n",
+            "topic": "{functionality}"
+          }
+        },
+        {
+          "order": 2,
+          "tool": "exa:web_search_exa",
+          "params": {
+            "query": "n8n community node {functionality} npm"
+          }
+        }
+      ]
+    }
+  }
+}
