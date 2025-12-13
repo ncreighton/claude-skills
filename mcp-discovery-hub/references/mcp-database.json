@@ -1,0 +1,489 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2025-11-26",
+    "total_servers": 150,
+    "categories": 12
+  },
+  
+  "categories": {
+    "browser_automation": {
+      "description": "Control web browsers for automation",
+      "servers": [
+        {
+          "name": "browserbase",
+          "package": "@browserbasehq/mcp-server-browserbase",
+          "description": "Cloud browser automation with stealth mode",
+          "features": ["cloud_hosted", "stealth", "session_persistence", "stagehand"],
+          "setup_complexity": "medium",
+          "cost": "freemium",
+          "priority_for_nick": "HIGH",
+          "install": "npx @browserbasehq/mcp-server-browserbase"
+        },
+        {
+          "name": "browser-mcp",
+          "package": "@anthropic/browser-mcp",
+          "description": "Local browser using existing Chrome profile",
+          "features": ["existing_logins", "real_fingerprint", "fast", "private"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "HIGH",
+          "install": "npx @anthropic/browser-mcp"
+        },
+        {
+          "name": "playwright",
+          "package": "@anthropic/mcp-server-playwright",
+          "description": "Full Playwright API for testing and automation",
+          "features": ["multi_browser", "testing", "network_intercept", "mobile"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM",
+          "install": "npx @anthropic/mcp-server-playwright"
+        },
+        {
+          "name": "skyvern",
+          "package": "skyvern-mcp",
+          "description": "AI-vision browser automation with CAPTCHA solving",
+          "features": ["computer_vision", "captcha_solving", "adaptive", "2fa"],
+          "setup_complexity": "medium",
+          "cost": "paid",
+          "priority_for_nick": "MEDIUM",
+          "install": "npx skyvern-mcp"
+        }
+      ]
+    },
+    
+    "content_management": {
+      "description": "CMS and content platforms",
+      "servers": [
+        {
+          "name": "wordpress",
+          "package": "wordpress-mcp",
+          "description": "WordPress REST API integration",
+          "features": ["posts", "pages", "media", "plugins", "themes"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "CRITICAL",
+          "install": "npx wordpress-mcp",
+          "note": "Essential for 17-site management"
+        },
+        {
+          "name": "notion",
+          "package": "notion-mcp",
+          "description": "Notion workspace integration",
+          "features": ["pages", "databases", "blocks", "search"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "HIGH",
+          "install": "npx notion-mcp"
+        },
+        {
+          "name": "ghost",
+          "package": "ghost-mcp",
+          "description": "Ghost CMS integration",
+          "features": ["posts", "members", "newsletters"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "LOW"
+        }
+      ]
+    },
+    
+    "cloud_storage": {
+      "description": "File storage and management",
+      "servers": [
+        {
+          "name": "google-drive",
+          "package": "@anthropic/google-drive-mcp",
+          "description": "Google Drive file management",
+          "features": ["files", "folders", "sharing", "search"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "HIGH",
+          "install": "npx @anthropic/google-drive-mcp"
+        },
+        {
+          "name": "dropbox",
+          "package": "dropbox-mcp",
+          "description": "Dropbox integration",
+          "features": ["files", "folders", "sharing"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "LOW"
+        },
+        {
+          "name": "s3",
+          "package": "aws-s3-mcp",
+          "description": "AWS S3 bucket management",
+          "features": ["upload", "download", "list", "presigned_urls"],
+          "setup_complexity": "medium",
+          "cost": "pay_per_use",
+          "priority_for_nick": "MEDIUM"
+        }
+      ]
+    },
+    
+    "communication": {
+      "description": "Messaging and email",
+      "servers": [
+        {
+          "name": "slack",
+          "package": "@anthropic/slack-mcp",
+          "description": "Slack workspace integration",
+          "features": ["messages", "channels", "files", "reactions"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM",
+          "install": "npx @anthropic/slack-mcp"
+        },
+        {
+          "name": "gmail",
+          "package": "@anthropic/gmail-mcp",
+          "description": "Gmail email management",
+          "features": ["send", "read", "search", "labels"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM"
+        },
+        {
+          "name": "discord",
+          "package": "discord-mcp",
+          "description": "Discord bot integration",
+          "features": ["messages", "channels", "reactions", "embeds"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "LOW"
+        },
+        {
+          "name": "telegram",
+          "package": "telegram-mcp",
+          "description": "Telegram bot integration",
+          "features": ["messages", "groups", "files"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "LOW"
+        }
+      ]
+    },
+    
+    "automation_workflows": {
+      "description": "Workflow automation platforms",
+      "servers": [
+        {
+          "name": "n8n",
+          "package": "n8n-mcp",
+          "description": "n8n workflow automation",
+          "features": ["workflows", "triggers", "400+_integrations"],
+          "setup_complexity": "medium",
+          "cost": "free_self_hosted",
+          "priority_for_nick": "CRITICAL",
+          "install": "npx n8n-mcp",
+          "note": "Alternative to Make.com"
+        },
+        {
+          "name": "zapier",
+          "package": "zapier-mcp",
+          "description": "Zapier automation integration",
+          "features": ["zaps", "triggers", "5000+_apps"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "HIGH"
+        },
+        {
+          "name": "make",
+          "package": "make-mcp",
+          "description": "Make.com scenario management",
+          "features": ["scenarios", "modules", "scheduling"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "CRITICAL",
+          "note": "Zero scenarios built - biggest bottleneck"
+        }
+      ]
+    },
+    
+    "databases": {
+      "description": "Database management",
+      "servers": [
+        {
+          "name": "postgres",
+          "package": "@anthropic/postgres-mcp",
+          "description": "PostgreSQL database access",
+          "features": ["queries", "schema", "transactions"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM"
+        },
+        {
+          "name": "supabase",
+          "package": "supabase-mcp",
+          "description": "Supabase backend platform",
+          "features": ["database", "auth", "storage", "realtime"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "HIGH",
+          "note": "Full backend solution"
+        },
+        {
+          "name": "mongodb",
+          "package": "mongodb-mcp",
+          "description": "MongoDB database access",
+          "features": ["collections", "documents", "aggregation"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "LOW"
+        },
+        {
+          "name": "redis",
+          "package": "redis-mcp",
+          "description": "Redis cache and data store",
+          "features": ["key_value", "pub_sub", "streams"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM"
+        }
+      ]
+    },
+    
+    "vector_memory": {
+      "description": "Semantic memory and RAG",
+      "servers": [
+        {
+          "name": "qdrant",
+          "package": "qdrant-mcp",
+          "description": "Vector database for semantic search",
+          "features": ["vectors", "similarity", "filtering", "clustering"],
+          "setup_complexity": "medium",
+          "cost": "free_self_hosted",
+          "priority_for_nick": "HIGH",
+          "note": "Enables persistent memory across sessions"
+        },
+        {
+          "name": "pinecone",
+          "package": "pinecone-mcp",
+          "description": "Managed vector database",
+          "features": ["vectors", "namespaces", "metadata"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "MEDIUM"
+        },
+        {
+          "name": "chroma",
+          "package": "chroma-mcp",
+          "description": "Embedding database",
+          "features": ["embeddings", "collections", "queries"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM"
+        }
+      ]
+    },
+    
+    "development": {
+      "description": "Code and development tools",
+      "servers": [
+        {
+          "name": "github",
+          "package": "@modelcontextprotocol/server-github",
+          "description": "GitHub repository management",
+          "features": ["repos", "issues", "prs", "actions"],
+          "setup_complexity": "low",
+          "cost": "free",
+          "priority_for_nick": "HIGH",
+          "install": "npx @modelcontextprotocol/server-github"
+        },
+        {
+          "name": "gitlab",
+          "package": "gitlab-mcp",
+          "description": "GitLab integration",
+          "features": ["repos", "pipelines", "merge_requests"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "LOW"
+        },
+        {
+          "name": "docker",
+          "package": "docker-mcp",
+          "description": "Docker container management",
+          "features": ["containers", "images", "compose", "logs"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "HIGH"
+        },
+        {
+          "name": "kubernetes",
+          "package": "@stackloklabs/mkp",
+          "description": "Kubernetes cluster management",
+          "features": ["pods", "deployments", "services"],
+          "setup_complexity": "high",
+          "cost": "free",
+          "priority_for_nick": "LOW"
+        }
+      ]
+    },
+    
+    "search": {
+      "description": "Search and research",
+      "servers": [
+        {
+          "name": "brave-search",
+          "package": "@anthropic/brave-search-mcp",
+          "description": "Privacy-focused web search",
+          "features": ["web_search", "news", "videos"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "HIGH"
+        },
+        {
+          "name": "firecrawl",
+          "package": "@anthropic/firecrawl-mcp",
+          "description": "Advanced web scraping",
+          "features": ["scraping", "crawling", "extraction"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "HIGH"
+        },
+        {
+          "name": "serper",
+          "package": "serper-mcp",
+          "description": "Google search API",
+          "features": ["search", "images", "news"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "MEDIUM"
+        }
+      ]
+    },
+    
+    "media": {
+      "description": "Media and content creation",
+      "servers": [
+        {
+          "name": "minimax",
+          "package": "minimax-mcp",
+          "description": "TTS and image generation",
+          "features": ["tts", "image_gen", "video_gen"],
+          "setup_complexity": "low",
+          "cost": "paid",
+          "priority_for_nick": "MEDIUM"
+        },
+        {
+          "name": "youtube",
+          "package": "youtube-mcp",
+          "description": "YouTube channel management",
+          "features": ["videos", "playlists", "analytics"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM"
+        },
+        {
+          "name": "cloudinary",
+          "package": "cloudinary-mcp",
+          "description": "Media asset management",
+          "features": ["upload", "transform", "deliver"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "MEDIUM"
+        }
+      ]
+    },
+    
+    "scheduling": {
+      "description": "Calendar and scheduling",
+      "servers": [
+        {
+          "name": "google-calendar",
+          "package": "@anthropic/google-calendar-mcp",
+          "description": "Google Calendar integration",
+          "features": ["events", "calendars", "reminders"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM"
+        },
+        {
+          "name": "calendly",
+          "package": "calendly-mcp",
+          "description": "Calendly scheduling",
+          "features": ["bookings", "availability", "webhooks"],
+          "setup_complexity": "low",
+          "cost": "freemium",
+          "priority_for_nick": "MEDIUM"
+        }
+      ]
+    },
+    
+    "ecommerce": {
+      "description": "E-commerce and payments",
+      "servers": [
+        {
+          "name": "stripe",
+          "package": "stripe-mcp",
+          "description": "Stripe payment processing",
+          "features": ["payments", "subscriptions", "invoices"],
+          "setup_complexity": "medium",
+          "cost": "transaction_fees",
+          "priority_for_nick": "MEDIUM"
+        },
+        {
+          "name": "shopify",
+          "package": "shopify-mcp",
+          "description": "Shopify store management",
+          "features": ["products", "orders", "customers"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "LOW"
+        },
+        {
+          "name": "etsy",
+          "package": "etsy-mcp",
+          "description": "Etsy shop management",
+          "features": ["listings", "orders", "reviews"],
+          "setup_complexity": "medium",
+          "cost": "free",
+          "priority_for_nick": "MEDIUM",
+          "note": "For POD business"
+        }
+      ]
+    }
+  },
+  
+  "recommended_stacks": {
+    "publishing_empire": {
+      "description": "For managing 17 WordPress sites",
+      "essential": ["wordpress", "browserbase", "google-drive"],
+      "recommended": ["notion", "n8n", "firecrawl"],
+      "optional": ["slack", "qdrant"]
+    },
+    "kdp_publishing": {
+      "description": "For KDP book publishing",
+      "essential": ["google-drive", "browserbase"],
+      "recommended": ["notion", "cloudinary"],
+      "optional": ["minimax"]
+    },
+    "agency_services": {
+      "description": "For agency business",
+      "essential": ["gmail", "calendly", "stripe"],
+      "recommended": ["slack", "notion", "zapier"],
+      "optional": ["supabase"]
+    },
+    "full_automation": {
+      "description": "Maximum automation capability",
+      "essential": ["n8n", "browserbase", "supabase", "qdrant"],
+      "recommended": ["github", "docker", "slack"],
+      "optional": ["kubernetes"]
+    }
+  },
+  
+  "installation_priority_queue": [
+    {"server": "make", "reason": "Zero scenarios - critical bottleneck"},
+    {"server": "wordpress", "reason": "Control all 17 sites directly"},
+    {"server": "browserbase", "reason": "Cloud browser automation"},
+    {"server": "n8n", "reason": "Self-hosted automation alternative"},
+    {"server": "google-drive", "reason": "Asset management"},
+    {"server": "supabase", "reason": "Persistent data storage"},
+    {"server": "qdrant", "reason": "Semantic memory"},
+    {"server": "github", "reason": "Plugin development"},
+    {"server": "slack", "reason": "Notifications"},
+    {"server": "firecrawl", "reason": "Advanced scraping"}
+  ]
+}
