@@ -1,0 +1,65 @@
+{
+  "sites": [
+    {
+      "name": "Smart Home Wizards",
+      "url": "https://smarthomewizards.com",
+      "brand": "smarthome",
+      "vertical": "tech",
+      "tokens": "references/brand-tokens/smarthome.json"
+    },
+    {
+      "name": "Witchcraft For Beginners",
+      "url": "https://witchcraftforbeginners.com",
+      "brand": "witchcraft",
+      "vertical": "spirituality",
+      "tokens": "references/brand-tokens/witchcraft.json"
+    },
+    {
+      "name": "Mythical Archives",
+      "url": "https://mythicalarchives.com",
+      "brand": "mythology",
+      "vertical": "mythology",
+      "tokens": "references/brand-tokens/mythology.json"
+    },
+    {
+      "name": "AI in Action Hub",
+      "url": "https://aiinactionhub.com",
+      "brand": "ai",
+      "vertical": "tech",
+      "tokens": "references/brand-tokens/ai.json"
+    },
+    {
+      "name": "Family Flourish",
+      "url": "https://family-flourish.com",
+      "brand": "family",
+      "vertical": "family",
+      "tokens": "references/brand-tokens/family.json"
+    },
+    {
+      "name": "Bullet Journals",
+      "url": "https://bulletjournals.net",
+      "brand": "productivity",
+      "vertical": "productivity",
+      "tokens": "references/brand-tokens/productivity.json"
+    }
+  ],
+  "global_settings": {
+    "css_crawl_depth": 2,
+    "wcag_level": "AA",
+    "screenshot_viewports": ["mobile", "desktop"],
+    "image_optimization": {
+      "format": "webp",
+      "quality": 85,
+      "max_width": 1920
+    },
+    "font_subset": {
+      "charset": "latin-ext",
+      "formats": ["woff2"]
+    }
+  },
+  "notifications": {
+    "slack_webhook": "",
+    "email": "",
+    "threshold_high_issues": 5
+  }
+}
