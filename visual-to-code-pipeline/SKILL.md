@@ -1,69 +1,116 @@
-# Visual-to-Code Pipeline
+# VISUAL-TO-CODE PIPELINE SKILL
+## DNA → Design Tokens → v0 Prompts → Code
+### Version 1.0
 
-## The Missing Link: How Claude Actually SEES and IMPLEMENTS Designs
+---
 
-This skill solves the core problem: Claude can't see images, but it CAN generate designs through v0.app and Figma, then implement them precisely.
+## Overview
+
+This skill enables Claude to "see" designs by converting:
+1. **DNA Files** → Site personality, colors, fonts, style
+2. **Design Tokens** → CSS variables, Tailwind config
+3. **v0 Prompts** → Ready-to-paste prompts for v0.dev
+4. **Implementation** → React/HTML code from v0 output
+
+**THE KEY SKILL** for producing unique, non-generic designs.
+
+**Trigger Keywords:** design tokens, v0 prompt, visual reference, generate components, design package, token export, Figma sync, component generation
 
 ---
 
 ## The Pipeline
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                         VISUAL-TO-CODE PIPELINE                                  │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                  │
-│  STEP 1: DNA FILE                                                                │
-│  └── Colors, typography, voice, anti-patterns (JSON)                             │
-│                                                                                  │
-│  STEP 2: DESIGN TOKENS                                                           │
-│  └── CSS Variables + Tailwind Config + Figma Variables                           │
-│      (Claude generates these from DNA)                                           │
-│                                                                                  │
-│  STEP 3: v0.app PROMPTS                                                          │
-│  └── Claude generates detailed prompts for each component                        │
-│      → User pastes into v0.dev → v0 generates visual component                   │
-│      → Export code OR screenshot for reference                                   │
-│                                                                                  │
-│  STEP 4: FIGMA SYNC (Optional but recommended)                                   │
-│  └── Push tokens to Figma via MCP                                                │
-│      → Create component library in Figma                                         │
-│      → Use Figma MCP to extract specs during implementation                      │
-│                                                                                  │
-│  STEP 5: CLAUDE CODE IMPLEMENTATION                                              │
-│  └── Claude Code receives:                                                       │
-│      - CLAUDE.md (design tokens)                                                 │
-│      - v0 exported code (component reference)                                    │
-│      - Figma specs via MCP (exact measurements)                                  │
-│      → Implements EXACTLY what was designed                                      │
-│                                                                                  │
-└─────────────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│                    VISUAL-TO-CODE PIPELINE                      │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  DNA FILE        →    DESIGN TOKENS    →    v0 PROMPT          │
+│  (personality)        (CSS/Tailwind)        (component spec)   │
+│                                                                 │
+│       ↓                    ↓                    ↓               │
+│                                                                 │
+│  Site brain         variables.css      "Generate a hero with   │
+│  Colors, fonts      tailwind.config    these exact colors..."  │
+│  Voice, mood        spacing, shadows                           │
+│                                                                 │
+│                              ↓                                  │
+│                                                                 │
+│                    v0.dev GENERATES CODE                        │
+│                              ↓                                  │
+│                                                                 │
+│                    USER EXPORTS CODE                            │
+│                              ↓                                  │
+│                                                                 │
+│                    CLAUDE IMPLEMENTS                            │
+│                    (as WordPress block/component)               │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Step 1: Design Token Generator
+## Phase 1: DNA File Analysis
 
-From any DNA file, generate these three token formats:
+### DNA File Structure (from creative-command-center)
 
-### CSS Custom Properties
+```yaml
+# Example: witchcraftforbeginners-brain.md
+Site: WitchcraftForBeginners
+Domain: witchcraftforbeginners.com
+Niche: Witchcraft & Spirituality
+
+Personality:
+  Voice: Mystical warmth, welcoming, grounded
+  Tone: Like a wise friend sharing ancient knowledge
+  Mood: Candles, moonlight, aged paper, sacred spaces
+
+Colors:
+  Primary: #4A1C6F (Deep Purple - mystical power)
+  Secondary: #C9A962 (Gold - wisdom, prosperity)
+  Background: #0D0D0D (Near-black - night sky)
+  Accent: #2D1B4E (Dark purple - depth)
+  Text: #E8E0D5 (Warm cream)
+
+Typography:
+  Display: Cinzel (mystical serif, uppercase titles)
+  Body: Lora (elegant serif, readable)
+  Accent: Cormorant Garamond (poetic emphasis)
+
+Anti-Patterns (NEVER do):
+  - Halloween imagery (skulls, orange+purple)
+  - Centered text layouts  
+  - Sans-serif fonts
+  - "Learn More" generic CTAs
+  - Purple-to-blue gradients
+  - Stock photo witches
+  - Pentagram overuse
+```
+
+---
+
+## Phase 2: Design Token Generation
+
+### CSS Variables Output
+
 ```css
+/* variables.css - Generated from DNA */
 :root {
   /* Colors */
   --color-primary: #4A1C6F;
-  --color-secondary: #D4AF37;
-  --color-bg-primary: #1A1A2E;
-  --color-bg-secondary: #0F0F1A;
-  --color-text-primary: #E8E4D9;
-  --color-text-secondary: #B8B0A0;
-  --color-accent: #7B2D8E;
+  --color-secondary: #C9A962;
+  --color-background: #0D0D0D;
+  --color-accent: #2D1B4E;
+  --color-text: #E8E0D5;
+  --color-text-muted: #A89F94;
+  --color-border: rgba(201, 169, 98, 0.3);
   
   /* Typography */
-  --font-heading: 'Cinzel', serif;
+  --font-display: 'Cinzel', serif;
   --font-body: 'Lora', serif;
   --font-accent: 'Cormorant Garamond', serif;
   
-  /* Type Scale */
+  /* Font Sizes */
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
@@ -73,403 +120,333 @@ From any DNA file, generate these three token formats:
   --text-3xl: 1.875rem;
   --text-4xl: 2.25rem;
   --text-5xl: 3rem;
-  --text-hero: 4.209rem;
   
   /* Spacing */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2rem;
-  --space-2xl: 3rem;
-  --space-3xl: 4rem;
-  --space-section: 6rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
   
-  /* Effects */
+  /* Borders */
   --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
   --radius-lg: 1rem;
   --radius-full: 9999px;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.4);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.5);
-  --shadow-glow: 0 0 40px rgba(212, 175, 55, 0.15);
   
-  /* Transitions */
-  --transition-fast: 0.15s ease;
-  --transition-normal: 0.3s ease;
-  --transition-slow: 0.5s ease-out;
-  --transition-reveal: 1.2s ease-out;
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px rgba(201, 169, 98, 0.3);
 }
 ```
 
-### Tailwind Config
+### Tailwind Config Output
+
 ```javascript
-// tailwind.config.js
+// tailwind.config.js - Generated from DNA
 module.exports = {
   theme: {
     extend: {
       colors: {
         primary: '#4A1C6F',
-        secondary: '#D4AF37',
-        'bg-primary': '#1A1A2E',
-        'bg-secondary': '#0F0F1A',
-        'text-primary': '#E8E4D9',
-        'text-secondary': '#B8B0A0',
-        accent: '#7B2D8E',
+        secondary: '#C9A962',
+        background: '#0D0D0D',
+        accent: '#2D1B4E',
+        cream: '#E8E0D5',
+        muted: '#A89F94',
       },
       fontFamily: {
-        heading: ['Cinzel', 'serif'],
+        display: ['Cinzel', 'serif'],
         body: ['Lora', 'serif'],
         accent: ['Cormorant Garamond', 'serif'],
       },
-      fontSize: {
-        'hero': '4.209rem',
-      },
-      spacing: {
-        'section': '6rem',
-      },
       boxShadow: {
-        'glow': '0 0 40px rgba(212, 175, 55, 0.15)',
+        'glow': '0 0 20px rgba(201, 169, 98, 0.3)',
+        'glow-lg': '0 0 40px rgba(201, 169, 98, 0.4)',
       },
-      transitionDuration: {
-        'slow': '500ms',
-        'reveal': '1200ms',
+      backgroundImage: {
+        'gradient-mystical': 'linear-gradient(to bottom, #0D0D0D, #2D1B4E)',
       },
     },
   },
 }
 ```
 
-### Figma Variables Format
-```json
-{
-  "colors": {
-    "primary": { "value": "#4A1C6F", "type": "color" },
-    "secondary": { "value": "#D4AF37", "type": "color" },
-    "bg-primary": { "value": "#1A1A2E", "type": "color" },
-    "bg-secondary": { "value": "#0F0F1A", "type": "color" },
-    "text-primary": { "value": "#E8E4D9", "type": "color" },
-    "text-secondary": { "value": "#B8B0A0", "type": "color" }
-  },
-  "typography": {
-    "heading-font": { "value": "Cinzel", "type": "font" },
-    "body-font": { "value": "Lora", "type": "font" },
-    "hero-size": { "value": "67.34px", "type": "dimension" }
-  },
-  "spacing": {
-    "section-gap": { "value": "96px", "type": "dimension" }
-  }
+---
+
+## Phase 3: v0 Prompt Generation
+
+### Prompt Template
+
+```markdown
+# v0 Component Generation Prompt
+
+## Component: [COMPONENT_NAME]
+## Site: [SITE_NAME]
+
+### Design System (USE THESE EXACT VALUES)
+
+**Colors:**
+- Primary: [HEX] - [description]
+- Secondary: [HEX] - [description]
+- Background: [HEX]
+- Text: [HEX]
+
+**Typography:**
+- Headings: [FONT_NAME] (Google Font)
+- Body: [FONT_NAME] (Google Font)
+
+**Style Rules:**
+- [Specific style requirement]
+- [Specific style requirement]
+
+### ANTI-PATTERNS (NEVER DO)
+❌ [Anti-pattern 1]
+❌ [Anti-pattern 2]
+❌ [Anti-pattern 3]
+
+### Component Specification
+
+[Detailed description of what to build]
+
+### Output Requirements
+- React + Tailwind CSS
+- Mobile-first responsive
+- Include Google Fonts import
+- Use exact hex values from design system
+- Include hover/focus states
+```
+
+### Example: Hero Section Prompt
+
+```markdown
+# v0 Component Generation Prompt
+
+## Component: Hero Section
+## Site: WitchcraftForBeginners
+
+### Design System (USE THESE EXACT VALUES)
+
+**Colors:**
+- Primary: #4A1C6F (deep purple - mystical power)
+- Secondary: #C9A962 (gold - wisdom accents)
+- Background: #0D0D0D (near-black)
+- Text: #E8E0D5 (warm cream)
+
+**Typography:**
+- Headings: Cinzel (Google Font) - uppercase, letter-spacing: 0.1em
+- Body: Lora (Google Font) - elegant, 1.7 line-height
+
+**Style Rules:**
+- Left-aligned text (NOT centered)
+- Subtle gold glow effects on hover
+- Dark atmospheric backgrounds
+- Mystical but sophisticated aesthetic
+- Moon phases, candles, herbs as imagery motifs
+
+### ANTI-PATTERNS (NEVER DO)
+❌ Halloween imagery (skulls, orange+purple combinations)
+❌ Centered text layouts
+❌ Sans-serif fonts
+❌ Generic "Learn More" CTAs
+❌ Purple-to-blue gradients
+❌ Stock photo witches with cauldrons
+❌ Overuse of pentagrams
+
+### Component Specification
+
+Create a full-width hero section for a modern witchcraft education website.
+
+Layout:
+- Full viewport height (100vh)
+- Content left-aligned, 60% width on desktop
+- Image/visual element on right side
+- Responsive: stack on mobile
+
+Content:
+- Pre-headline: Small caps text "Begin Your Magical Journey"
+- Main headline: Large, powerful, mystical
+- Subheadline: Welcoming, warm invitation
+- CTA button: Gold with hover glow effect
+
+Visual Elements:
+- Subtle animated stars or moon particles (optional)
+- Gradient overlay on background
+- Gold accent line or decorative element
+
+### Output Requirements
+- React + Tailwind CSS
+- Mobile-first responsive
+- Include Google Fonts: Cinzel, Lora
+- Use exact hex values: #4A1C6F, #C9A962, #0D0D0D, #E8E0D5
+- Include hover/focus states with gold glow
+```
+
+---
+
+## Phase 4: Implementation
+
+### From v0 Output to WordPress
+
+After user exports code from v0.dev:
+
+```php
+<?php
+/**
+ * Custom Hero Block
+ * Generated from v0.dev → WitchcraftForBeginners DNA
+ */
+
+// Register the block
+add_action('init', function() {
+    register_block_type('wcfb/hero', [
+        'render_callback' => 'wcfb_render_hero',
+        'attributes' => [
+            'preHeadline' => ['type' => 'string', 'default' => 'Begin Your Magical Journey'],
+            'headline' => ['type' => 'string', 'default' => 'Discover Ancient Wisdom'],
+            'subheadline' => ['type' => 'string'],
+            'ctaText' => ['type' => 'string', 'default' => 'Start Your Practice'],
+            'ctaUrl' => ['type' => 'string', 'default' => '/getting-started'],
+        ]
+    ]);
+});
+
+function wcfb_render_hero($attributes) {
+    // v0-generated code adapted for WordPress
+    ob_start();
+    ?>
+    <section class="wcfb-hero" style="
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #0D0D0D, #2D1B4E);
+        color: #E8E0D5;
+        font-family: 'Lora', serif;
+    ">
+        <!-- v0 code inserted here -->
+    </section>
+    <?php
+    return ob_get_clean();
 }
 ```
 
 ---
 
-## Step 2: v0.app Prompt Generator
+## Complete Workflow
 
-Claude generates detailed prompts for v0.dev. User pastes these into v0 to generate visual components.
-
-### v0 Prompt Template
-```
-Create a [COMPONENT_TYPE] with these EXACT specifications:
-
-DESIGN SYSTEM:
-- Background: [HEX] (dark/light)
-- Primary color: [HEX]
-- Secondary/accent: [HEX]
-- Text color: [HEX]
-- Heading font: [FONT_NAME] (serif/sans-serif)
-- Body font: [FONT_NAME]
-
-COMPONENT SPECS:
-- [Detailed description of the component]
-- [Layout requirements]
-- [Spacing requirements]
-- [Animation/interaction requirements]
-
-STYLE REQUIREMENTS:
-- [Specific visual style notes]
-- [What to avoid]
-- [Mood/atmosphere]
-
-MUST INCLUDE:
-- [Required elements]
-
-MUST NOT INCLUDE:
-- [Anti-patterns]
-
-Output as: React component with Tailwind CSS
+### Step 1: Read DNA File
+```bash
+# DNA files location
+/mnt/skills/user/creative-command-center/brains/[site]-brain.md
 ```
 
-### Example: WitchcraftForBeginners Hero Section
-
+### Step 2: Generate Tokens
+```python
+def generate_tokens_from_dna(dna_content: str) -> dict:
+    """Parse DNA file and generate design tokens"""
+    # Extract colors, fonts, spacing
+    # Return CSS variables and Tailwind config
 ```
-Create a full-viewport hero section with these EXACT specifications:
 
-DESIGN SYSTEM:
-- Background: #0F0F1A (very dark navy, almost black)
-- Primary color: #4A1C6F (deep amethyst purple)
-- Secondary/accent: #D4AF37 (warm candlelight gold)
-- Text color: #E8E4D9 (aged parchment cream)
-- Heading font: Cinzel (elegant serif)
-- Body font: Lora (readable serif)
+### Step 3: Generate v0 Prompts
+```python
+def generate_v0_prompt(component: str, dna: dict, tokens: dict) -> str:
+    """Generate a v0.dev-ready prompt for a component"""
+    # Include exact hex codes
+    # Include font names
+    # Include anti-patterns
+    # Include detailed specification
+```
 
-COMPONENT SPECS:
-- Full viewport height (100vh)
-- Content positioned slightly left of center (not perfectly centered)
-- Radial gradient from center: rgba(74, 28, 111, 0.1) to transparent
-- Headline: "Where Ancient Wisdom Meets Modern Seekers"
-  - Font: Cinzel
-  - Size: ~4.2rem / 67px
-  - Color: #D4AF37 (gold)
-  - Letter-spacing: 0.02em
-- Subheadline: "Your trusted guide into authentic witchcraft practice"
-  - Font: Lora
-  - Size: 1.25rem
-  - Color: #E8E4D9
-  - Max-width: 500px
-- CTA Button: "Begin Your Journey"
-  - Background: transparent
-  - Border: 1px solid #D4AF37
-  - Text: #D4AF37
-  - Padding: 1rem 2.5rem
-  - Hover: background fills with rgba(212, 175, 55, 0.1)
-- Moon phase indicator in top-right: simple crescent moon icon, 32px, gold outline
+### Step 4: User Action
+1. Copy prompt to v0.dev
+2. Generate component
+3. Export code
+4. Save to project folder
 
-STYLE REQUIREMENTS:
-- Atmosphere: Candlelit study in an old cottage
-- Feeling: Mysterious but welcoming, wise not spooky
-- Animation: Content fades in slowly (1.2s) as if emerging from shadow
-- Subtle particle effect: tiny gold specks floating slowly upward (optional)
-
-MUST INCLUDE:
-- Generous whitespace
-- Slow, elegant transitions (0.5s minimum)
-- The moon icon
-
-MUST NOT INCLUDE:
-- Stock witch imagery (no pointed hats, cauldrons, Halloween stuff)
-- Sans-serif fonts
-- White or light backgrounds
-- Generic "Learn More" or "Get Started" button text
-- Centered layout (should be slightly asymmetrical)
-- Harsh shadows or bright colors
-
-Output as: React component with Tailwind CSS, include the CSS for custom properties
+### Step 5: Claude Implements
+```python
+def implement_v0_code(v0_code: str, target: str) -> str:
+    """Convert v0 code to WordPress block or plugin"""
+    # Parse React code
+    # Convert to WordPress-compatible
+    # Add block registration
+    # Return ready-to-use PHP
 ```
 
 ---
 
-## Step 3: v0 Workflow
+## Site DNA Files (from creative-command-center)
 
-### For Each Component:
-
-1. **Generate v0 Prompt** (Claude does this)
-   ```
-   Generate a v0.app prompt for the [component] based on [site] DNA.
-   ```
-
-2. **User Executes in v0.dev**
-   - Go to https://v0.dev
-   - Paste the prompt
-   - v0 generates the component
-   - Iterate with follow-up prompts if needed
-
-3. **Export from v0**
-   - Copy the React/HTML code
-   - Take a screenshot for visual reference
-   - Save both to the project folder
-
-4. **Add to Claude Code Project**
-   ```
-   /project-folder/
-   ├── CLAUDE.md (design tokens)
-   ├── BUILD-GUIDE.md (prompts)
-   ├── v0-components/
-   │   ├── hero-section.tsx (v0 export)
-   │   ├── hero-section.png (screenshot)
-   │   ├── navigation.tsx
-   │   ├── navigation.png
-   │   └── ...
-   ```
-
-5. **Claude Code Implements**
-   - Reads CLAUDE.md for tokens
-   - References v0 code for component structure
-   - Implements in WordPress/target platform
+| Site | DNA File | Primary Color | Font |
+|------|----------|---------------|------|
+| WitchcraftForBeginners | witchcraftforbeginners-brain.md | #4A1C6F | Cinzel |
+| SmartHomeWizards | smarthomewizards-brain.md | #00D4FF | Inter |
+| AIinActionHub | aiinactionhub-brain.md | #7C3AED | Space Grotesk |
+| MythicalArchives | mythicalarchives-brain.md | #8B4513 | Playfair Display |
+| Family-Flourish | familyflourish-brain.md | #10B981 | Nunito |
+| BulletJournals | bulletjournals-brain.md | #F59E0B | Caveat |
 
 ---
 
-## Step 4: Figma Integration
+## v0 API Integration (Advanced)
 
-### Push Tokens to Figma
+v0.dev now has Platform API for programmatic access:
 
-Using Figma MCP or Figma API:
+```python
+import requests
 
-```javascript
-// Push design tokens to Figma variables
-const figmaTokens = {
-  "collections": [{
-    "name": "WitchcraftForBeginners",
-    "modes": [{ "name": "Default" }],
-    "variables": [
-      { "name": "color/primary", "value": "#4A1C6F" },
-      { "name": "color/secondary", "value": "#D4AF37" },
-      { "name": "color/bg-primary", "value": "#1A1A2E" },
-      // ... all tokens
-    ]
-  }]
-};
+V0_API_KEY = "v1:Gc9e6pCtq5X2AkIkYhEEBzDL:cEDxU9gxvibKpVjdqkkbEZN4"
 
-// Via Figma REST API
-POST /v1/files/{file_key}/variables
-```
-
-### Create Component Library in Figma
-
-1. Create a new Figma file for the site
-2. Set up the token variables
-3. Build components using the tokens
-4. Use as visual reference during implementation
-
-### Extract Specs via Figma MCP
-
-During Claude Code implementation:
-```
-Use Figma MCP to get the exact specifications for the hero section.
-File: [figma_file_url]
-Node: [hero_section_node_id]
+def v0_generate_component(prompt: str) -> dict:
+    """Generate component using v0 API"""
+    response = requests.post(
+        "https://v0.dev/api/generate",
+        headers={
+            "Authorization": f"Bearer {V0_API_KEY}",
+            "Content-Type": "application/json"
+        },
+        json={
+            "prompt": prompt,
+            "model": "v0-1",
+            "framework": "react",
+            "styling": "tailwind"
+        }
+    )
+    return response.json()
 ```
 
 ---
 
-## Step 5: Claude Code Project Setup
+## Quick Commands
 
-### Project Structure
-```
-C:\Claude Code Projects\witchcraft-for-beginners\
-├── CLAUDE.md                    # Design tokens + rules
-├── BUILD-GUIDE.md               # Step-by-step prompts
-├── .mcp/
-│   └── config.json              # MCP connections
-├── design-reference/
-│   ├── tokens/
-│   │   ├── css-variables.css
-│   │   ├── tailwind.config.js
-│   │   └── figma-variables.json
-│   ├── v0-components/
-│   │   ├── hero.tsx
-│   │   ├── hero.png
-│   │   ├── navigation.tsx
-│   │   └── ...
-│   └── figma-link.md            # Link to Figma file
-└── implementation/
-    └── ... (WordPress files)
-```
+```yaml
+# Generate tokens for a site
+generate_tokens("witchcraftforbeginners")
 
-### CLAUDE.md Addition for v0 Reference
-```markdown
-## Visual References
+# Generate v0 prompt for component
+generate_v0_prompt("hero", "witchcraftforbeginners")
+generate_v0_prompt("navigation", "smarthomewizards")
+generate_v0_prompt("card-grid", "aiinactionhub")
 
-### v0 Component Library
-The following components were generated via v0.dev and represent the exact visual target:
-
-- **Hero Section:** `/design-reference/v0-components/hero.tsx`
-- **Navigation:** `/design-reference/v0-components/navigation.tsx`
-- **Card Grid:** `/design-reference/v0-components/card-grid.tsx`
-
-When implementing, match these components EXACTLY in structure and styling.
-Adapt for WordPress/PHP as needed but maintain visual fidelity.
-
-### Figma File
-Design source: [Figma URL]
-Use Figma MCP to extract exact measurements when needed.
+# Full pipeline
+run_visual_pipeline("witchcraftforbeginners", ["hero", "nav", "cards", "footer"])
 ```
 
 ---
 
-## Command Reference
+## GitHub Repositories
 
-### Generate All Tokens
-```
-Generate design tokens for [SiteName] in all three formats:
-1. CSS custom properties
-2. Tailwind config
-3. Figma variables JSON
-
-Save to /design-reference/tokens/
-```
-
-### Generate v0 Prompts for All Components
-```
-Generate v0.app prompts for [SiteName] components:
-1. Hero section
-2. Navigation header
-3. Card/article grid
-4. Footer
-5. Newsletter signup
-6. [Site-specific components]
-
-Output as markdown file with each prompt clearly separated.
-```
-
-### Create Figma Variables
-```
-Using Figma MCP, create a new variables collection for [SiteName] with all design tokens.
-```
-
-### Full Design Package
-```
-Generate complete design package for [SiteName]:
-1. All design tokens (3 formats)
-2. v0.app prompts for core components
-3. CLAUDE.md with visual reference section
-4. Instructions for user to execute v0 prompts
-
-Save to /mnt/user-data/outputs/[site-slug]-design-package/
-```
+- **creative-command-center**: DNA files for all 16 sites
+- **site-design-packages**: Generated design packages
+- **visual-to-code-pipeline**: This skill and templates
 
 ---
 
-## The Key Insight
-
-**Claude can't see images, but Claude CAN:**
-1. Generate precise prompts that CREATE visuals (v0.dev)
-2. Read code that REPRESENTS visuals (v0 exports)
-3. Extract specs from design tools (Figma MCP)
-4. Implement based on these references
-
-**The workflow is:**
-```
-Claude generates → User executes in v0 → v0 creates visual → 
-Export code → Claude Code implements from code reference
-```
-
-This gives Claude "vision" through a text-to-visual-to-text pipeline.
-
----
-
-## Quick Start
-
-For any new site:
-
-1. **In Claude.ai:**
-   ```
-   Generate complete design package for [SiteName] using Visual-to-Code Pipeline.
-   Include tokens, v0 prompts, and CLAUDE.md updates.
-   ```
-
-2. **User does:**
-   - Takes each v0 prompt to v0.dev
-   - Generates components
-   - Exports code to project folder
-   - Optionally creates Figma file with tokens
-
-3. **In Claude Code:**
-   - Has CLAUDE.md with tokens
-   - Has v0 component code as reference
-   - Implements WordPress version matching the reference
-
----
-
-*Visual-to-Code Pipeline - Giving Claude "Vision" Through Design Tools*
+*Visual-to-Code Pipeline Skill*
+*Version 1.0 | Recovered 2025-12-15*
+*The key to producing unique, non-generic designs*
